@@ -180,6 +180,6 @@ Languages and frameworks change constantly, but the underlying concepts stay the
     26.4 Contributing to Open Source
 
 27. **Next Steps**
-    27.1 Choosing a Specialization (Web, Data, Mobile, Systems, etc.)
+    27.1 Choosing a Specialization 
     27.2 Building Projects & Portfolio
     27.3 Resources for Continued Learning
