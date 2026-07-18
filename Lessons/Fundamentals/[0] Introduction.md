@@ -156,9 +156,10 @@ Languages and frameworks change constantly, but the underlying concepts stay the
     22.2 Agile, Scrum, Kanban Basics
     22.3 Maintenance & Refactoring
 
-23. **Supporting Math Foundations (optional)**
-    23.1 Basic Discrete Math (logic, sets, boolean algebra)
-    23.2 Basic Linear Algebra / Statistics
+23. **Supporting Math Foundations**
+    23.1 Discrete Math
+    23.2 Linear Algebra / Statistics
+    23.3 Calculus
 
 24. **Legal, Ethical & Professional Practice**
     24.1 Licensing (Open Source vs. Proprietary)
