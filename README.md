@@ -5,6 +5,10 @@ A personal, version-controlled collection of notes, ideas, learnings, and refere
  
 ```
 MyNotes/
-├── Lessons/         # Notes and takeaways from courses, books, tutorials, and experiences
-└── README.md
+├── 📁 Topics
+│   ├── 📁 Fundamentals
+│   ├── 📁 Specializations
+│   └── 📁 Syntax
+├── 📝 README.md
+└── 📝 RESOURCES.md
 ```
