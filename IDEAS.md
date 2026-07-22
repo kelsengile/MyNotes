@@ -4,9 +4,22 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
 
 ---
 
-## Log
+## Log:
 
-### YYYY-MM-DD
-**Idea:** 
-**Context:** 
-**Status:** new
+**Idea:**  Lifestyle: Wallet, Schedule, Health
+**Context:** A group of mobile application used to track various qualities of life
+
+**Idea:**  Puzzles
+**Context:** App with a lot of puzzles
+
+**Idea:** Matchmaker 
+**Context:** Sports matchmaker app that ranks players within a specific location
+
+**Idea:**  (Not Named)
+**Context:** a 2D and 3D game that sitches when in high intensity situations
+
+**Idea:**  Trading Bot
+**Context:** Artificial intelligence that trades in foreign exchange markets
+
+**Idea:**  (Not Named)
+**Context:** Gambling platform with luck and skill based systems
