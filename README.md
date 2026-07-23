@@ -10,6 +10,7 @@ MyNotes/
 │   ├── 📁 Specializations
 │   └── 📁 Syntax
 │   └── 📁 Tools
+├── 📝 IDEAS.md
 ├── 📝 README.md
 └── 📝 RESOURCES.md
 ```
