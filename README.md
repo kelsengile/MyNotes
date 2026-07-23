@@ -9,6 +9,7 @@ MyNotes/
 │   ├── 📁 Fundamentals
 │   ├── 📁 Specializations
 │   └── 📁 Syntax
+│   └── 📁 Tools
 ├── 📝 README.md
 └── 📝 RESOURCES.md
 ```
