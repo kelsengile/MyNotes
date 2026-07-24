@@ -14,32 +14,24 @@ Git lets you:
 
 No prior experience needed — just basic comfort using a terminal/command line.
 
-
 ## Table of Contents
 
-### Core Workflow
-1. [Installing Git & First-Time Setup]([1]-Installation-and-Setup.md)
-2. [Git Basics]([2]-Git-Basics.md)
-3. [Checking Status & Viewing History]([3]-Status-and-History.md)
-4. [Branching]([4]-Branching.md)
-5. [Merging & Resolving Conflicts]([5]-Merging-and-Conflicts.md)
-6. [Working with Remotes]([6]-Remotes.md)
-7. [Pushing & Pulling]([7]-Push-and-Pull.md)
-8. [Undoing Changes]([8]-Undoing-Changes.md)
-9. [.gitignore & Housekeeping]([9]-Gitignore.md)
-10. [Common Workflows & Best Practices]([10]-Workflows-and-Best-Practices.md)
-
-### Advanced Topics
-11. [Rebasing & Interactive Rebase]([11]-Rebasing.md)
-12. [Stashing]([12]-Stashing.md)
-13. [Tags]([13]-Tags.md)
-14. [Cherry-Picking]([14]-Cherry-Picking.md)
-15. [Reflog: Recovering Lost Commits]([15]-Reflog.md)
-16. [Submodules]([16]-Submodules.md)
-17. [Hooks]([17]-Hooks.md)
-18. [Blame & Bisect: Finding Bugs]([18]-Blame-and-Bisect.md)
-19. [Rewriting History]([19]-Rewriting-History.md)
-20. [Aliases & Configuration]([20]-Aliases-and-Config.md)
-21. [Pull Requests & Code Review Workflow]([21]-Pull-Requests.md)
-22. [Git Internals: Objects, Refs, and the .git Directory]([22]-Git-Internals.md)
-
+1. [Installing Git & First-Time Setup](1-Installation-and-Setup.md)
+2. [Git Basics](2-Git-Basics.md)
+3. [Checking Status & Viewing History](3-Status-and-History.md)
+4. [Branching](4-Branching.md)
+5. [Merging & Resolving Conflicts](5-Merging-and-Conflicts.md)
+6. [Working with Remotes, Pushing & Pulling](6-Remotes-Push-and-Pull.md)
+7. [Undoing Changes & Rewriting History](7-Undoing-and-Rewriting-History.md)
+8. [.gitignore & Housekeeping](8-Gitignore.md)
+9. [Common Workflows & Best Practices](9-Workflows-and-Best-Practices.md)
+10. [Rebasing & Interactive Rebase](10-Rebasing.md)
+11. [Stashing](11-Stashing.md)
+12. [Tags & Cherry-Picking](12-Tags-and-Cherry-Picking.md)
+13. [Reflog: Recovering Lost Commits](13-Reflog.md)
+14. [Submodules](14-Submodules.md)
+15. [Hooks](15-Hooks.md)
+16. [Blame & Bisect: Finding Bugs](16-Blame-and-Bisect.md)
+17. [Aliases & Configuration](17-Aliases-and-Config.md)
+18. [Pull Requests & Code Review Workflow](18-Pull-Requests.md)
+19. [Git Internals: Objects, Refs, and the .git Directory](19-Git-Internals.md)
