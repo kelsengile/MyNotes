@@ -23,7 +23,7 @@ Libraries:
 
 Databases:
 -----------------------------------------------
-    -
+ 	- MySQL (Server, Workbench, Shell, Router)
 
 Version Control:
 -----------------------------------------------
