@@ -24,7 +24,8 @@ Libraries:
 Databases:
 -----------------------------------------------
  	- MySQL (Server, Workbench, Shell, Router)
-
+	- SQLite (DB Brower [SQLite & SQLiteCipher])
+	
 Version Control:
 -----------------------------------------------
 	- Git
