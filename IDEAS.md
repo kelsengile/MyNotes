@@ -4,7 +4,15 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
 
 ---
 
-## Log:
+### Websites
+### Desktop
+### Mobile
+### Games
+### BlockChain
+### Cloud
+### Cybersecurity
+### Data Science
+### Scripts
 
 **Idea:**  Lifestyle: Wallet, Schedule, Health
 **Context:** A group of mobile application used to track various qualities of life
