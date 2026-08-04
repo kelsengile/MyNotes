@@ -4,15 +4,19 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
 
 ---
 
-### Websites
-### Desktop
-### Mobile
-### Games
-### BlockChain
-### Cloud
-### Cybersecurity
-### Data Science
-### Scripts
+### Websites:
+
+**Idea:**  ArmsDealer
+**Context:** A collection of weapons, equipment, and sevices
+
+**Idea:**  (Not Named)
+**Context:** Gambling platform with luck and skill based systems
+
+### Desktop:
+
+
+
+### Mobile:
 
 **Idea:**  Lifestyle: Wallet, Schedule, Health
 **Context:** A group of mobile application used to track various qualities of life
@@ -23,11 +27,23 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
 **Idea:**  Puzzles
 **Context:** App with a lot of puzzles
 
-**Idea:**  Trading Bot
-**Context:** Artificial intelligence that trades in foreign exchange markets
+### Games:
 
 **Idea:**  (Not Named)
 **Context:** a 2D and 3D game that sitches when in high intensity situations
 
-**Idea:**  (Not Named)
-**Context:** Gambling platform with luck and skill based systems
+### BlockChain:
+
+
+### Cloud:
+
+
+### Cybersecurity:
+
+
+### Data Science:
+
+**Idea:**  Trading Bot
+**Context:** Artificial intelligence that trades in foreign exchange markets
+
+### Scripts:
