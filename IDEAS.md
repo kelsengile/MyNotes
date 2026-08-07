@@ -10,11 +10,12 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
   **Context:** A collection of weapons, equipment, and services
 
 - **Idea:** (Not Named)
-  **Context:** Gambling platform with luck- and skill-based systems
+  **Context:** Gambling platform with luck and skill-based systems
 
 ## Desktop
 
-*(none yet)*
+- **Idea:** Tools
+  **Context:** A collection of desktop tools in one application
 
 ## Mobile
 
@@ -34,7 +35,8 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
 
 ## Blockchain
 
-*(none yet)*
+- **Idea:** Derptastic 
+  **Context:** Derptastic crypto currency
 
 ## Cloud
 
