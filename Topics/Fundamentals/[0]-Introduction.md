@@ -1,6 +1,5 @@
 # Introduction to Programming Fundamentals
 
-## Summary
 This note kicks off the "Programming Fundamentals" section — the core building blocks that show up in almost every language: variables, data types, control flow, functions, and basic problem-solving patterns.
 
 ## Why Fundamentals Matter
