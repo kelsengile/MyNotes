@@ -1,4 +1,4 @@
-# Learning Git
+# Git
 
 Welcome! This is a self-paced course for learning Git, the version control system used by most software teams to track changes to code and collaborate without stepping on each other's work.
 

@@ -1,4 +1,4 @@
-# Introduction to Windows Command Prompt (CMD)
+# Command Prompt (CMD)
 
 Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a command-line interpreter built into Windows that lets you interact with your computer by typing text commands instead of clicking through menus and windows.
 
