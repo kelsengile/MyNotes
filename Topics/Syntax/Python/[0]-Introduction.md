@@ -14,10 +14,6 @@ Python lets you:
 - Work with files, databases, and external APIs
 - Organize code using functions, classes, and modules
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a computer. No programming background required.
-
 ## Table of Contents
 
 1. [Installing Python & First-Time Setup]([1]-Installation-and-Setup.md)

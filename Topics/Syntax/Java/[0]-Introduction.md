@@ -14,9 +14,6 @@ Java lets you:
 - Manage memory automatically through garbage collection
 - Build large, maintainable systems using well-defined structure
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a computer. No programming background required.
 
 ## Table of Contents
 

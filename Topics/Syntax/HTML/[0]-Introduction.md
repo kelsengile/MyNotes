@@ -14,9 +14,6 @@ HTML lets you:
 - Embed media like audio, video, and iframes
 - Build the foundation for any website or web app
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a computer. No programming background required.
 
 ## Table of Contents
 

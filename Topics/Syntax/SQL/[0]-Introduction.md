@@ -13,9 +13,6 @@ SQL lets you:
 - Insert, update, and delete records
 - Enforce rules about what data is allowed (constraints, keys, types)
 - Aggregate and summarize large datasets
-## Who this is for
- 
-No prior experience needed — just basic comfort using a computer. No programming background required.
  
 ## Table of Contents
  

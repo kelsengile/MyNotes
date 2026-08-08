@@ -14,9 +14,6 @@ C# lets you:
 - Manage memory automatically through garbage collection
 - Use modern language features like LINQ, async/await, and pattern matching
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a computer. No programming background required.
 
 ## Table of Contents
 

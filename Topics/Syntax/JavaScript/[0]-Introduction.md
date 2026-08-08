@@ -14,9 +14,6 @@ JavaScript lets you:
 - Work with APIs, data, and asynchronous operations
 - Build full-stack applications from browser to backend
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a computer. No programming background required.
 
 ## Table of Contents
 

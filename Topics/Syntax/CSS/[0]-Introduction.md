@@ -14,9 +14,6 @@ CSS lets you:
 - Organize and reuse styles across a whole site
 - Control positioning, stacking, and visibility of elements
 
-## Who this is for
-
-No prior experience needed — basic familiarity with HTML is helpful but not required.
 
 ## Table of Contents
 

@@ -14,10 +14,6 @@ C lets you:
 - Learn concepts (pointers, memory management) that underpin many other languages
 - Interface directly with system resources and hardware
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a computer. No programming background required.
-
 ## Table of Contents
 
 1. [Installing a Compiler & First-Time Setup]([1]-Installation-and-Setup.md)

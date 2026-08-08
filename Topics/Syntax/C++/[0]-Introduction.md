@@ -14,10 +14,6 @@ C++ lets you:
 - Use a large standard library (STL) for data structures and algorithms
 - Take advantage of both procedural and object-oriented paradigms
 
-## Who this is for
-
-No prior experience needed, though basic familiarity with C concepts (variables, loops, functions) can help. No programming background required.
-
 ## Table of Contents
 
 1. [Installing a Compiler & First-Time Setup]([1]-Installation-and-Setup.md)
