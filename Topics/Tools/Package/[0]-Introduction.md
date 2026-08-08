@@ -11,10 +11,6 @@ Packages let you:
 - Share your own code so other developers can install and use it
 - Keep dependencies consistent across machines and teammates
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a terminal/command line and running a project in at least one programming language.
-
 ## Table of Contents
 
 1. [What Is a Package?]([1]-What-Is-a-Package.md)

@@ -10,10 +10,6 @@ Git lets you:
 - Work on experimental changes ("branches") without breaking your main code
 - Collaborate with others and merge everyone's work together
 
-## Who this is for
-
-No prior experience needed — just basic comfort using a terminal/command line.
-
 ## Table of Contents
 
 1. [Installing Git & First-Time Setup]([1]-Installation-and-Setup.md)
