@@ -23,7 +23,7 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
   **Context:** A group of mobile applications used to track various qualities of life
 
 - **Idea:** Matchmaker
-  **Context:** Sports matchmaker app that ranks players within a specific location
+  **Context:** Sports matchmaker app that matches players ranks them within a specific location
 
 - **Idea:** Puzzles
   **Context:** App with a lot of puzzles
