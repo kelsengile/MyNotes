@@ -40,7 +40,8 @@ A running log of things worth remembering — sparks, half-formed thoughts, "wha
 
 ## Cloud
 
-*(none yet)*
+- **Idea:** Home Cloud
+  **Context:** Personal Cloud Storage System
 
 ## Cybersecurity
 
