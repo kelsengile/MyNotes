@@ -1,4 +1,4 @@
-# Contributing Guidelines
+# Contributing
 
 Thanks for your interest in contributing! This repository is for **educational purposes** and is open for anyone to use or contribute to. To keep things consistent and easy to navigate, please follow the guidelines below.
 
@@ -13,17 +13,28 @@ Thanks for your interest in contributing! This repository is for **educational p
 
 Every file must include the following:
 
-1. **Title** — formatted as:
+1. **Formatting** — introduction and lesson files must be Markdown (`.md`). Exercise files can use whatever file type/extension suits the exercise's syntax (e.g. `.py`, `.js`, `.html`).
+
+2. **Title** — formatted as:
    ```
    Lesson X - (Name of Lesson)
    ```
    Example: `Lesson 1 - Variables And Data Types`
 
-2. **Navigation links** at both the top and bottom of the file, so readers can move through the repository easily:
+   *Introduction files are exempt from this title format.*
+
+3. **Table of Contents** — every introduction file must include a Table of Contents listing the lessons in that topic. Each entry should be structured as:
+   ```
+   1. **[Lesson Name](./[1]-Lesson-Name.md)**
+   ```
+
+4. **Navigation links** — at both the top and bottom of the file, so readers can move through the repository easily:
    ```
    [Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/Introduction.md) | [Next](../path/to/next-file.md)
    ```
    - If there is no previous or next file, replace the link with plain text (e.g. `Previous` with no link) instead of removing it, to keep navigation consistent.
+
+5. **Lesson structure** — each sublesson must have its own header, and sublessons must be separated by a horizontal rule (`---`). Exercises must never be placed inside lesson files — keep them in their own separate exercise files.
 
 ## Content Guidelines
 
@@ -46,4 +57,4 @@ Every file must include the following:
 
 If you spot an error, have a suggestion, or aren't sure how something should be formatted, feel free to open an issue before submitting a pull request.
 
-*Happy learning, and thanks for helping improve this resource!*
+Happy learning, and thanks for helping improve this resource!
