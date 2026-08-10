@@ -2,20 +2,29 @@
 
 Thanks for your interest in contributing! This repository is for **educational purposes** and is open for anyone to use or contribute to. To keep things consistent and easy to navigate, please follow the guidelines below.
 
-## File Naming
-
-- Files are numbered using square brackets, e.g. `[0]`, `[1]`, `[2]`, ...
-- Words within a file name are separated by hyphens (`-`) and written in **PascalCase**.
-  - Example: `[1]-Variables-And-Data-Types.md`
-- `[0]` is always reserved for the **introduction** file of a section/repository.
-
 ## File Structure
 
 Every file must include the following:
 
-1. **Formatting** — introduction and lesson files must be Markdown (`.md`). Exercise files can use whatever file type/extension suits the exercise's syntax (e.g. `.py`, `.js`, `.html`).
+1. **Folder Structure** — every lesson lives inside the folder matching its topic type: Fundamental, Specialization, Syntax, or Tools
 
-2. **Title** — formatted as:
+   If a lesson doesn't fit an existing folder, propose a new one in your pull request rather than placing it in the closest match — see [Questions or Issues](#questions-or-issues).
+
+2. **File Naming**
+   - Introduction and lesson files must be Markdown (`.md`). Exercise files can use whatever file type/extension suits the exercise's syntax (e.g. `.py`, `.js`, `.html`).
+   - Files are numbered using square brackets, e.g. `[0]`, `[1]`, `[2]`, ...
+   - Words within a file name are separated by hyphens (`-`) and written in **PascalCase**.
+     - Example: `[1]-Variables-And-Data-Types.md`
+   - `[0]` is always reserved for the **introduction** file of a section/repository.
+   - Numbering must stay sequential with no gaps — if you insert a lesson in the middle, renumber the following files and update their links (see [Table of Contents](#) and [Navigation links](#)).
+
+3. **Table of Contents** — every introduction file must include a Table of Contents listing the lessons in that topic. Each entry should be structured as:
+   ```
+   1. **[Lesson Name](./[1]-Lesson-Name.md)**
+   ```
+   this is done so that readers can easily browse lessons efficiently.
+
+4. **Lesson Title** — formatted as:
    ```
    Lesson X - (Name of Lesson)
    ```
@@ -23,19 +32,16 @@ Every file must include the following:
 
    *Introduction files are exempt from this title format.*
 
-3. **Table of Contents** — every introduction file must include a Table of Contents listing the lessons in that topic. Each entry should be structured as:
-   ```
-   1. **[Lesson Name](./[1]-Lesson-Name.md)**
-   ```
-
-4. **Navigation links** — at both the very top and bottom of the file, so readers can move through the repository easily:
+5. **Navigation links** — at both the very top and bottom of the file, so readers can move through the repository easily:
    ```
    [Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/Introduction.md) | [Next](../path/to/next-file.md)
    ```  
    *Introduction files are exempt from this title format, and for the final lesson on a topic, there will no longer be a next button*  
-   - If there is no previous or next file, replace the link with plain text (e.g. `Previous` with no link) instead of removing it, to keep navigation consistent.
 
-5. **Lesson structure** — each sublesson must have its own header, and sublessons must be separated by a horizontal rule (`---`). Exercises must never be placed inside lesson files — keep them in their own separate exercise files.
+6. **Lesson structure**
+   - Each sublesson gets its own header (e.g. `## 1.1 What is Programming?`), numbered to match its position in the Table of Contents.
+   - Sublessons are separated by a horizontal rule (`---`) so they're visually distinct when scrolling.
+   - Exercises must never be placed inside lesson files — keep them in their own separate exercise files, linked from the lesson if relevant, so lessons stay focused on explanation and exercises stay focused on practice.
 
 ## Content Guidelines
 
