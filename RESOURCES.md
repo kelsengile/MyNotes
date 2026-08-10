@@ -18,7 +18,7 @@ This document contains a curated list of resources related to this repository. I
 
 **Artificial Intelligence**
 
-&emsp;&emsp;*Claude* - AI assistant by Anthropic, focused on safe conversations, coding, and document/agentic workflows.
+&emsp;&emsp;*Claude* - AI assistant by Anthropic, focused on safe conversations, coding, and document/agentic workflows.  
 &emsp;&emsp;*ChatGPT* - AI assistant by OpenAI, widely used for conversational tasks, coding help, and content generation.
 
 **Community**
