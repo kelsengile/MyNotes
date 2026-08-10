@@ -28,11 +28,11 @@ Every file must include the following:
    1. **[Lesson Name](./[1]-Lesson-Name.md)**
    ```
 
-4. **Navigation links** — at both the top and bottom of the file, so readers can move through the repository easily:
+4. **Navigation links** — at both the very top and bottom of the file, so readers can move through the repository easily:
    ```
    [Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/Introduction.md) | [Next](../path/to/next-file.md)
    ```  
-   *Introduction files are exempt from this title format.*  
+   *Introduction files are exempt from this title format, and for the final lesson on a topic, there will no longer be a next button*  
    - If there is no previous or next file, replace the link with plain text (e.g. `Previous` with no link) instead of removing it, to keep navigation consistent.
 
 5. **Lesson structure** — each sublesson must have its own header, and sublessons must be separated by a horizontal rule (`---`). Exercises must never be placed inside lesson files — keep them in their own separate exercise files.
