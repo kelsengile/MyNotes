@@ -118,6 +118,57 @@ RETURNING book_id, title, price;
 ```
 **Dialect note:** `RETURNING` is supported by PostgreSQL and modern SQLite, but not by MySQL or SQL Server.
 
+## UPSERT: insert, or update if it already exists
+
+Often you want to insert a row, but if a row with that same key already exists, update it instead of failing with a duplicate-key error. This pattern is called an **upsert** (insert + update), and every major database supports it — with different syntax.
+
+### PostgreSQL and SQLite: INSERT ... ON CONFLICT
+```sql
+INSERT INTO authors (author_id, name, country)
+VALUES (1, 'Ursula K. Le Guin', 'United States')
+ON CONFLICT (author_id)
+DO UPDATE SET country = EXCLUDED.country;
+```
+`ON CONFLICT (author_id)` names the column (usually a primary key or unique constraint) that would trigger a duplicate error. `EXCLUDED` refers to the row that *would* have been inserted — letting you reference its values in the update.
+
+To simply do nothing on conflict, rather than updating:
+```sql
+INSERT INTO authors (author_id, name, country)
+VALUES (1, 'Ursula K. Le Guin', 'USA')
+ON CONFLICT (author_id) DO NOTHING;
+```
+
+### MySQL: INSERT ... ON DUPLICATE KEY UPDATE
+```sql
+INSERT INTO authors (author_id, name, country)
+VALUES (1, 'Ursula K. Le Guin', 'United States')
+ON DUPLICATE KEY UPDATE country = VALUES(country);
+```
+Here, `VALUES(country)` refers to the value that was supplied in the `INSERT` (MySQL's equivalent of PostgreSQL's `EXCLUDED`).
+
+### SQL Server: MERGE
+SQL Server uses a more general-purpose statement, `MERGE`, that can insert, update, *and* delete in one go by comparing a source and a target:
+```sql
+MERGE INTO authors AS target
+USING (VALUES (1, 'Ursula K. Le Guin', 'United States')) AS source (author_id, name, country)
+ON target.author_id = source.author_id
+WHEN MATCHED THEN
+    UPDATE SET country = source.country
+WHEN NOT MATCHED THEN
+    INSERT (author_id, name, country) VALUES (source.author_id, source.name, source.country);
+```
+`MERGE` is more verbose but more powerful — it's also available (with different syntax) in PostgreSQL 15+ and Oracle, for cases needing insert/update/delete logic combined in a single statement.
+
+### Why upsert instead of "check, then insert or update"?
+
+Without upsert, application code often does this instead:
+```sql
+-- 1. Check if it exists
+SELECT * FROM authors WHERE author_id = 1;
+-- 2. Based on the result, run either an INSERT or an UPDATE
+```
+This has a race condition: if two processes run this at the same time, both might see "no row exists" and both attempt an `INSERT`, causing one to fail with a duplicate-key error. A database-level upsert handles this atomically, avoiding the gap between checking and acting.
+
 ---
 
 ## Exercises
@@ -129,6 +180,7 @@ Using the `books` table from earlier lessons:
 3. Change the genre of book_id 4 to 'Postmodern Fiction'.
 4. Delete any book priced above $13.
 5. Before running #4, what query would you run to check which rows it will affect?
+6. Using PostgreSQL/SQLite syntax, write an upsert that inserts author_id 9 with name 'Kazuo Ishiguro' and country 'UK', but updates the country if author_id 9 already exists.
 
 ### Answers
 
@@ -148,6 +200,10 @@ DELETE FROM books WHERE price > 13;
 
 -- 5
 SELECT * FROM books WHERE price > 13;
+
+-- 6
+INSERT INTO authors (author_id, name, country)
+VALUES (9, 'Kazuo Ishiguro', 'UK')
+ON CONFLICT (author_id)
+DO UPDATE SET country = EXCLUDED.country;
 ```
-
-

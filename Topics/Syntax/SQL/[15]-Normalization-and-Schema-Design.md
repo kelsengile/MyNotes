@@ -1,8 +1,55 @@
-# Lesson 15: Normalization & Schema Design
+# Lesson 15: ER Modeling, Normalization & Schema Design
 
 ---
 
-Normalization is the process of organizing tables to reduce redundancy and prevent certain kinds of inconsistency. It's less about memorizing rules and more about a way of thinking: *each fact should be stored in exactly one place.*
+Before writing a single `CREATE TABLE` statement, it helps to model your data conceptually first. This lesson covers **entity-relationship (ER) modeling** — the design step that happens before the schema — and then **normalization**, the discipline for organizing tables well once you start building them.
+
+## Entity-Relationship (ER) modeling
+
+An **entity-relationship diagram (ERD)** is a visual way of planning a database's structure before writing SQL. It forces you to think through what the real-world "things" are, what facts you need about them, and how they connect — catching design mistakes on paper (or a whiteboard) instead of after the tables already exist.
+
+### Entities and attributes
+
+An **entity** is a distinct "thing" your database needs to track — usually a noun in your domain: `Author`, `Book`, `Customer`, `Order`. Each entity becomes (in most cases) one table.
+
+An **attribute** is a single fact about an entity — usually a column: `Author` has `name` and `country`; `Book` has `title`, `price`, and `published_year`.
+
+Every entity should have a way to uniquely identify each instance of it — this becomes its primary key (Lesson 13).
+
+### Relationships and cardinality
+
+A **relationship** describes how two entities are connected — `Author` *writes* `Book`. Relationships have a **cardinality**, describing how many instances of one entity can relate to how many of another:
+
+| Cardinality | Meaning | Example |
+|---|---|---|
+| One-to-one (1:1) | One row in A relates to at most one row in B, and vice versa | `User` — `UserProfile` |
+| One-to-many (1:N) | One row in A relates to many rows in B, but each row in B relates to only one row in A | `Author` — `Book` |
+| Many-to-many (M:N) | Many rows in A can relate to many rows in B | `Student` — `Course` |
+
+These map directly onto the foreign-key patterns covered in Lesson 13: 1:N is a plain foreign key on the "many" side; M:N requires a junction table; 1:1 is a foreign key with an added `UNIQUE` constraint.
+
+### A simple ERD, sketched in text
+
+Since drawing tools vary, here's the bookstore schema described in a common ERD shorthand — `||` means "exactly one," `o{` means "zero or many":
+
+```
+AUTHORS ||--o{ BOOKS : "writes"
+CUSTOMERS ||--o{ ORDERS : "places"
+ORDERS ||--o{ ORDER_ITEMS : "contains"
+BOOKS ||--o{ ORDER_ITEMS : "appears in"
+```
+
+Read the first line as: "one author writes zero or many books." This single line already tells you `books` will need an `author_id` foreign key pointing back to `authors` — the ERD and the eventual schema are two views of the same design.
+
+In practice, most people sketch ERDs with an actual diagramming tool (dbdiagram.io, draw.io, Lucidchart, or a GUI database tool's built-in schema visualizer) rather than text notation — but the underlying thinking is identical either way, and pencil-and-paper works fine for learning.
+
+### Why model before building
+
+Sketching entities, attributes, and relationships first — before typing `CREATE TABLE` — surfaces questions early that are expensive to fix later: *Can a book really have only one author, or do I need a junction table for co-authors? Does a customer need to exist before their first order, or can I allow guest checkouts?* Answering these on a whiteboard is far cheaper than migrating a live production schema after the fact.
+
+## Normalization
+
+Once you have an ER model, normalization is the process of organizing the resulting tables to reduce redundancy and prevent certain kinds of inconsistency. It's less about memorizing rules and more about a way of thinking: *each fact should be stored in exactly one place.*
 
 ## The problem: a denormalized table
 
@@ -86,8 +133,8 @@ A common real-world pattern: keep the "source of truth" data normalized (e.g., i
 
 1. **Identify entities** — the "nouns" in your domain (author, book, customer, order).
 2. **Identify attributes** for each entity — facts that belong to exactly that entity.
-3. **Identify relationships** between entities (Lesson 13) — one-to-many, many-to-many, one-to-one.
-4. **Draw it out** — an entity-relationship diagram (ERD), even a rough sketch on paper, catches design problems before you write a single `CREATE TABLE`.
+3. **Identify relationships and cardinality** between entities — one-to-many, many-to-many, one-to-one (see ER modeling, above, and Lesson 13 for how these become foreign keys).
+4. **Draw it out** — an ERD, even a rough sketch on paper, catches design problems before you write a single `CREATE TABLE`.
 5. **Apply normalization**, at least to 3NF, unless you have a specific, deliberate reason to denormalize.
 6. **Add constraints** (Lesson 14) to enforce the rules you've identified.
 
@@ -109,6 +156,8 @@ A common real-world pattern: keep the "source of truth" data normalized (e.g., i
 | 2 | Chidi | Sales | 500000 |
 
 3. Give one realistic scenario where deliberately denormalizing data would be a reasonable choice.
+4. For a food delivery app with `Restaurant`, `Menu Item`, `Customer`, and `Order` entities: identify the cardinality of the relationship between `Restaurant` and `Menu Item`, and between `Order` and `Menu Item`. Which one needs a junction table?
+5. Sketch (in the `||--o{` text notation used in this lesson) the relationship between `Restaurant` and `Menu Item` from exercise 4.
 
 ### Answers
 
@@ -128,7 +177,15 @@ A common real-world pattern: keep the "source of truth" data normalized (e.g., i
    region alongside each sale avoids repeating an expensive join on
    every single dashboard refresh, at the cost of needing to keep that
    duplicated region value in sync if it ever changes.
+
+4. Restaurant to Menu Item is one-to-many (one restaurant has many menu
+   items, but each menu item belongs to exactly one restaurant) — a
+   plain foreign key (menu_item.restaurant_id) is enough, no junction
+   table needed. Order to Menu Item is many-to-many (one order can
+   contain many menu items, and the same menu item can appear on many
+   different orders) — this DOES need a junction table, typically
+   called order_items, to record which items (and quantities) belong
+   to which order.
+
+5. RESTAURANT ||--o{ MENU_ITEM : "offers"
 ```
-
----
-
