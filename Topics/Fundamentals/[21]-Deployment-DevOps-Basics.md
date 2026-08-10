@@ -1,4 +1,6 @@
-# Deployment & DevOps Basics
+[Previous](./[20]-Security-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[22]-Software-Development-Lifecycle.md)
+
+# Lesson 21 - Deployment & DevOps Basics
 
 ## 21.1 Containers Basics (Docker Concepts)
 
@@ -137,6 +139,8 @@ Running containers reliably at scale — across many machines, with automatic re
 - **Efficient resource use** — lighter than VMs, allowing many more containers to run on the same hardware.
 - **Fits microservices architectures** well — each service can be packaged, deployed, and scaled independently (see Section 17.3).
 
+---
+
 ## 21.2 Cloud Basics (Hosting, Servers, Deployment)
 
 ### What "The Cloud" Actually Means
@@ -220,6 +224,8 @@ resource "aws_instance" "web_server" {
 ```
 
 Common tools: **Terraform** (multi-cloud), **AWS CloudFormation** (AWS-specific), **Pulumi** (uses general-purpose programming languages instead of a config DSL).
+
+---
 
 ## 21.3 Build, Deploy, and CI/CD Basics
 
@@ -348,3 +354,5 @@ Monitor logs, metrics, and alerts — rollback if issues appear
 - **Reduced deployment risk** — small, frequent, automated deployments are far less risky than large, infrequent, manual ones.
 - **Consistency** — automated pipelines eliminate "it worked when I deployed it manually" variability between deployments.
 - **Confidence to move fast** — a solid CI/CD pipeline with good test coverage (Section 18) lets teams ship changes frequently without fear of breaking production.
+
+[Previous](./[20]-Security-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[22]-Software-Development-Lifecycle.md)

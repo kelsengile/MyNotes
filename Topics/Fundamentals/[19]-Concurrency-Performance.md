@@ -1,4 +1,6 @@
-# Concurrency & Performance
+[Previous](./[18]-Testing-Quality.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[20]-Security-Basics.md)
+
+# Lesson 19 - Concurrency & Performance
 
 ## 19.1 Processes vs. Threads
 
@@ -64,6 +66,8 @@ Choosing between processes, threads, or async depends heavily on what kind of wo
 
 - **CPU-bound** — the bottleneck is computation (image processing, numerical calculations). Benefits from true parallelism across multiple CPU cores → favors **multiple processes**.
 - **I/O-bound** — the bottleneck is waiting on external operations (network requests, disk reads, database queries). The CPU is mostly idle, waiting → favors **threads or async code**, since many I/O operations can be in flight concurrently without needing multiple CPU cores.
+
+---
 
 ## 19.2 Synchronous vs. Asynchronous Code
 
@@ -150,6 +154,8 @@ const userB = await getUser(2);
 - **Good fit:** I/O-bound work with many concurrent operations — web servers handling many simultaneous requests, network calls, database queries, file I/O.
 - **Poor fit:** CPU-bound work — async doesn't speed up raw computation, since the CPU is still the bottleneck, not waiting; use multiprocessing/parallelism for that instead.
 - Async code has real costs: it requires "async-aware" libraries throughout the call chain, and mixing sync and async code carelessly can introduce subtle bugs (e.g., accidentally blocking the event loop with a synchronous call).
+
+---
 
 ## 19.3 Race Conditions & Deadlocks
 
@@ -252,6 +258,8 @@ def thread_2():
 - **Starvation** — a thread is perpetually denied the resources it needs to proceed, often because other threads are unfairly prioritized ahead of it.
 - **Priority inversion** — a lower-priority thread holds a resource needed by a higher-priority thread, effectively "inverting" the intended priority order.
 
+---
+
 ## 19.4 Basic Performance Optimization
 
 ### Measure Before Optimizing
@@ -342,3 +350,5 @@ for i in range(n):
 3. **Optimize the biggest bottleneck first** — algorithmic fixes usually beat micro-optimizations.
 4. **Re-measure** to confirm the change helped and quantify the improvement.
 5. **Repeat** until the goal is met, then stop — further optimization has diminishing, and eventually negative, returns on effort.
+
+[Previous](./[18]-Testing-Quality.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[20]-Security-Basics.md)

@@ -1,4 +1,6 @@
-# Programmer Mindset & Thinking Skills
+[Previous](./[2]-Computer-Science-Foundations.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Setting-Up-Your-Environment.md)
+
+# Lesson 3 - Programmer Mindset & Thinking Skills
 
 Programming isn't just syntax and tools — it's a way of thinking. Many of the most important skills a programmer develops have little to do with any specific language and everything to do with how they approach problems. This section covers the mental habits and modes of thinking that separate effective programmers from those who merely know a language's syntax.
 
@@ -12,6 +14,8 @@ Computational thinking is the broad mental discipline of framing a problem in a 
 
 This isn't unique to programmers — it's a transferable problem-solving skill — but it's foundational to how programmers approach essentially every task, from writing a function to designing an entire system.
 
+---
+
 ## 3.2 Decomposition
 
 Large problems are rarely solved in one leap. Decomposition means breaking a big, intimidating task into smaller, manageable pieces that can be tackled (and tested) independently.
@@ -20,11 +24,15 @@ For example, "build a to-do app" is overwhelming as a single unit, but decompose
 
 Good decomposition also makes collaboration possible — different people (or different functions/modules) can own different pieces of a decomposed problem.
 
+---
+
 ## 3.3 Pattern Recognition & Abstraction
 
 Experienced programmers constantly notice: "this is similar to a problem I've solved before." Recognizing recurring patterns — a certain type of loop, a common data structure, a familiar bug — lets programmers reuse solutions rather than reinventing them each time. This is part of why design patterns and standard algorithms are taught: they're a shared vocabulary for common patterns.
 
 **Abstraction** is closely related: it's the practice of hiding unnecessary detail behind a simpler interface. When you call a `sort()` function, you don't need to know the sorting algorithm underneath — you just need to know what it does. Abstraction lets programmers reason about systems at a higher level without being overwhelmed by every low-level detail simultaneously.
+
+---
 
 ## 3.4 Algorithmic Thinking vs. Just "Getting Code to Run"
 
@@ -37,6 +45,8 @@ Algorithmic thinking means deliberately considering:
 
 This mindset shift — from "does it run once, successfully" to "do I understand why this works" — is one of the most important developments in a programmer's growth.
 
+---
+
 ## 3.5 Debugging Mindset
 
 Bugs are inevitable, and how a programmer responds to them matters enormously. A strong debugging mindset treats a bug not as a personal failure but as a puzzle with a discoverable cause. It typically involves:
@@ -47,11 +57,15 @@ Bugs are inevitable, and how a programmer responds to them matters enormously. A
 
 Debugging is often described as being more valuable, skill-wise, than writing code in the first place — it's where deep understanding of a system is really built.
 
+---
+
 ## 3.6 Tolerance for Ambiguity & Incomplete Information
 
 Real-world problems are rarely fully specified. Requirements change, documentation is incomplete, and the "right" answer often isn't obvious upfront. Effective programmers get comfortable moving forward productively despite this uncertainty — making reasonable assumptions, building in a way that's adaptable, and asking clarifying questions rather than stalling until every detail is known.
 
 This tolerance for ambiguity is especially important as problems scale up: in a large system, no single person has complete information about everything, and progress still has to happen.
+
+---
 
 ## 3.7 Systems Thinking
 
@@ -64,11 +78,15 @@ Rather than viewing code in isolation, systems thinking asks:
 
 This becomes increasingly important as projects grow from single scripts into multi-part applications with many interacting components.
 
+---
+
 ## 3.8 "Rubber Duck" Reasoning
 
 **Rubber duck debugging** gets its name from the practice of explaining your code, line by line, to an inanimate object (traditionally a rubber duck) as if it needed to understand every detail. The value isn't in the duck — it's in the act of articulating your logic out loud, step by step.
 
 This works because verbalizing forces precision. Vague mental assumptions that "feel" correct often fall apart the moment you have to state them explicitly, which is frequently how the bug gets found — before the "duck" ever needs to respond.
+
+---
 
 ## 3.9 Reading Code (Not Just Writing It)
 
@@ -79,17 +97,23 @@ Programmers spend a disproportionate amount of their time reading code — their
 
 Many beginners under-practice this skill because tutorials focus heavily on writing. But being able to comfortably read unfamiliar, even messy, code is essential for working on real codebases, especially larger or older ones.
 
+---
+
 ## 3.10 Embracing Failure & Iteration
 
 Code rarely works correctly on the first attempt, and that's normal, not a sign of inadequacy. Effective programmers treat failed attempts — bugs, crashes, wrong output, rejected pull requests — as expected steps in a process, not as verdicts on their ability.
 
 This ties closely to an **iterative** approach: write something, test it, learn from what went wrong, adjust, repeat. Trying to write "perfect" code in one pass, without iteration, is rarely realistic for anything beyond trivial problems.
 
+---
+
 ## 3.11 Curiosity-Driven Learning
 
 Technology changes constantly — new languages, frameworks, tools, and best practices emerge continuously. Programmers who thrive long-term tend to be driven by genuine curiosity: wanting to know *why* something works the way it does, poking at unfamiliar tools just to see what they do, reading about how things work under the hood even when it's not strictly required for the task at hand.
 
 This curiosity is what turns "I learned enough to finish this task" into deeper, more transferable expertise over time.
+
+---
 
 ## 3.12 Managing Frustration & Cognitive Load
 
@@ -102,11 +126,15 @@ Skills that help manage this include:
 
 Learning to work *with* frustration, rather than being derailed by it, is a skill that improves with deliberate practice, not just time.
 
+---
+
 ## 3.13 Knowing When to Ask for Help vs. Struggle Through
 
 There's genuine value in struggling with a problem — it builds understanding and resilience. But there's a point of diminishing returns, where continued struggle becomes unproductive and asking for help (a colleague, a forum, documentation, an AI assistant) is the better use of time and energy.
 
 Judging that line is itself a skill, and it improves with experience. A rough heuristic many programmers use: if you've been stuck for a while without any new information or progress, it's usually time to seek outside input — but only *after* you've made a genuine attempt and can clearly articulate what you've tried.
+
+---
 
 ## 3.14 Trade-off Thinking
 
@@ -118,8 +146,12 @@ Very few decisions in programming are purely "right" or "wrong" — most involve
 
 Good programmers develop the habit of explicitly weighing these trade-offs based on context, rather than reflexively reaching for "best practices" without considering whether they actually apply to the situation at hand.
 
+---
+
 ## 3.15 Growth Mindset in a Fast-Changing Field
 
 Because the tools and languages of programming change constantly, a **growth mindset** — the belief that skills and understanding can be developed through effort, rather than being fixed traits — is especially valuable. It means treating not-knowing-yet as a temporary state rather than a permanent limitation, and viewing the need to constantly learn new things not as exhausting, but as a normal, even enjoyable, part of the field.
 
 This mindset also affects how programmers handle feedback and code review: viewing critique of code as a chance to improve, rather than as a personal judgment, tends to accelerate growth substantially.
+
+[Previous](./[2]-Computer-Science-Foundations.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Setting-Up-Your-Environment.md)

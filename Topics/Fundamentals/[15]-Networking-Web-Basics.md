@@ -1,4 +1,6 @@
-# Networking & Web Basics
+[Previous](./[14]-Working-with-Files-Data.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Algorithms-Problem-Solving.md)
+
+# Lesson 15 - Networking & Web Basics
 
 ## 15.1 How the Internet Works (IP, DNS, TCP/UDP)
 
@@ -75,6 +77,8 @@ A **port** is a number (0–65535) that identifies a specific process/service on
 | 443 | HTTPS |
 | 3306 | MySQL |
 | 5432 | PostgreSQL |
+
+---
 
 ## 15.2 HTTP/HTTPS Fundamentals
 
@@ -158,6 +162,8 @@ HTTP itself is **stateless** — each request is independent, with no memory of 
 - **Sessions** — server-side storage referenced by a session ID cookie.
 - **Tokens** (e.g., JWTs) — self-contained, signed tokens sent in headers, often used for stateless authentication in APIs.
 
+---
+
 ## 15.3 Client-Server Model
 
 The client-server model is the dominant architecture for how applications communicate over a network.
@@ -202,6 +208,8 @@ The client-server model is the dominant architecture for how applications commun
 | Rendering (web) | Client-Side Rendering (CSR) — JS builds the page in the browser | Server-Side Rendering (SSR) — HTML is generated on the server and sent ready-to-display |
 
 **Important security principle:** never trust client-side validation alone — a malicious user can bypass JavaScript checks entirely (e.g., via browser dev tools or direct API calls), so all critical validation and authorization must also be enforced on the server.
+
+---
 
 ## 15.4 REST & API Design Basics
 
@@ -318,3 +326,5 @@ Responses often include metadata:
 - **Rate limit** public APIs to prevent abuse, and clearly communicate limits via headers (`X-RateLimit-Remaining`) and `429` status codes.
 - **Document the API** (e.g., via OpenAPI/Swagger) so consumers know what to expect without reading the server's source code.
 - Validate all input server-side, regardless of any client-side validation.
+
+[Previous](./[14]-Working-with-Files-Data.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Algorithms-Problem-Solving.md)

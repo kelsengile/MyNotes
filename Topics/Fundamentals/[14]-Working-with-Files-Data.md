@@ -1,4 +1,6 @@
-# Working with Files & Data
+[Previous](./[13]-Text-Processing.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Networking-Web-Basics.md)
+
+# Lesson 14 - Working with Files & Data
 
 ## 14.1 Reading and Writing Files
 
@@ -127,6 +129,8 @@ except PermissionError:
 - Use buffered/streamed reads for large files instead of loading everything into memory.
 - Use atomic writes for critical data: write to a temporary file, then rename/move it into place, so a crash mid-write doesn't corrupt the original file.
 - Watch out for newline differences across operating systems (`\n` vs `\r\n`); most languages' text mode handles this automatically, but binary mode does not.
+
+---
 
 ## 14.2 Working with JSON/CSV/XML
 
@@ -266,6 +270,8 @@ ET.ElementTree(new_root).write("out.xml")
 | Comments | Not supported | Not supported | Supported (`<!-- -->`) |
 | Best for | APIs, config, nested data | Spreadsheets, tabular exports | Legacy/enterprise systems, documents |
 | File size | Moderate | Compact | Verbose |
+
+---
 
 ## 14.3 Databases (SQL Basics, NoSQL Intro)
 
@@ -420,3 +426,5 @@ Many real-world systems use **both**: a relational database for core transaction
 - Understand your consistency requirements before choosing NoSQL — "eventual consistency" is fine for a social media feed but risky for a bank balance.
 - Use migrations (versioned scripts) to evolve database schemas in a tracked, repeatable way rather than making ad hoc changes.
 - Back up data regularly and test restoring from backups — a backup you've never restored is not a reliable backup.
+
+[Previous](./[13]-Text-Processing.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Networking-Web-Basics.md)

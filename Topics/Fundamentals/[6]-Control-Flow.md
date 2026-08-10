@@ -1,4 +1,6 @@
-# Control Flow
+[Previous](./[5]-Core-Syntax-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[7]-Data-Structures.md)
+
+# Lesson 6 - Control Flow
 
 Control flow statements determine the order in which a program's instructions are executed. Instead of running line by line from top to bottom, control flow lets a program make decisions, repeat actions, and skip or exit sections of code based on conditions.
 
@@ -412,3 +414,5 @@ def find_pair(matrix, target):
 - Avoid overusing labeled breaks/flags — if nested loop logic becomes complex, consider extracting it into a well-named function.
 - Always double check loop-ending conditions when using `continue` in `while` loops to prevent infinite loops.
 - Keep nesting shallow (generally no more than 2–3 levels) for readability; deeply nested loops are a common refactoring target.
+
+[Previous](./[5]-Core-Syntax-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[7]-Data-Structures.md)

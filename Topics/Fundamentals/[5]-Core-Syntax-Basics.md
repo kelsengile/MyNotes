@@ -1,4 +1,6 @@
-# Core Syntax & Basics
+[Previous](./[4]-Setting-Up-Your-Environment.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Control-Flow.md)
+
+# Lesson 5 - Core Syntax & Basics
 
 Every programming language has its own specific syntax, but underneath the surface-level differences, a common set of fundamental building blocks shows up almost everywhere. This section covers those universal basics.
 
@@ -32,6 +34,8 @@ Most languages share similar rules and conventions:
 - Descriptive names (`total_price` rather than `x`) make code easier to read and maintain
 - Common naming conventions include `camelCase` (JavaScript, Java), `snake_case` (Python, Ruby), and `PascalCase` (often for classes/types across many languages)
 
+---
+
 ## 5.2 Type Systems (Static vs. Dynamic, Strong vs. Weak)
 
 A language's **type system** governs how it handles the data types of variables — when types are checked, and how strictly they're enforced. There are two related but distinct spectrums here.
@@ -56,6 +60,8 @@ This is about **how strictly** a language enforces type rules, especially around
 - **Weakly typed** languages are more permissive, automatically converting between types in ways that can sometimes produce surprising results (e.g., JavaScript's `"5" + 1` produces the string `"51"`, while `"5" - 1` produces the number `4`).
 
 These two spectrums are independent — a language can be, for example, dynamically *and* strongly typed (Python), or dynamically *and* weakly typed (JavaScript), or statically *and* strongly typed (Java, Rust).
+
+---
 
 ## 5.3 Operators (Arithmetic, Comparison, Logical, Bitwise)
 
@@ -104,6 +110,8 @@ Operate directly on the individual bits of a number's binary representation — 
 | `<<` | Left shift — shifts bits left, effectively multiplying by 2 per shift |
 | `>>` | Right shift — shifts bits right, effectively dividing by 2 per shift |
 
+---
+
 ## 5.4 Input and Output
 
 **Input/Output (I/O)** refers to how a program receives data from the outside world and how it sends data back out.
@@ -128,6 +136,8 @@ Beyond simple console I/O, programs commonly handle:
 - **File I/O** — reading from and writing to files on disk
 - **Network I/O** — sending and receiving data over the internet (e.g., API requests)
 - **Standard streams** — `stdin` (input), `stdout` (normal output), and `stderr` (error output), a convention inherited from Unix that many languages and command-line tools still follow
+
+---
 
 ## 5.5 Comments and Code Style
 
@@ -162,3 +172,5 @@ Tools called **linters** and **formatters** (e.g., ESLint, Prettier, Black) auto
 
 ### Why This Matters
 Code is read far more often than it's written — by teammates, by future maintainers, and by your own future self returning to old code. Clear naming, thoughtful comments, and consistent style aren't cosmetic extras; they directly affect how quickly a codebase can be understood, debugged, and safely modified.
+
+[Previous](./[4]-Setting-Up-Your-Environment.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Control-Flow.md)

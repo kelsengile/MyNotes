@@ -1,4 +1,6 @@
-# Error Handling & Debugging
+[Previous](./[11]-Functional-Programming-Concepts.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Text-Processing.md)
+
+# Lesson 12 - Error Handling & Debugging
 
 ## 12.1 Common Bug Types
 
@@ -14,6 +16,8 @@ Understanding the different categories of bugs helps you know where to look and 
 - **Memory-related bugs** — Memory leaks, dangling pointers, buffer overflows, and use-after-free errors, common in lower-level languages like C and C++.
 - **Integration/environment bugs** — Code works locally but fails in another environment due to differing dependencies, configuration, or system resources.
 - **Edge-case bugs** — Failures triggered only by unusual or extreme inputs (empty strings, very large numbers, unexpected encodings) that weren't considered during development.
+
+---
 
 ## 12.2 Try/Catch, Exceptions, and Error Codes
 
@@ -89,6 +93,8 @@ if err != nil {
 
 Some modern languages use a hybrid: Rust's `Result` and `Option` types, or Swift's `Result` type, encode success/failure into the type system itself, forcing the caller to handle both cases explicitly without traditional exceptions.
 
+---
+
 ## 12.3 Debugging Tools and Techniques
 
 ### Techniques
@@ -117,6 +123,8 @@ Some modern languages use a hybrid: Rust's `Result` and `Option` types, or Swift
 - **Unit and integration tests** — Writing tests that isolate the failing behavior helps confirm a fix and prevents regressions.
 - **Network inspectors** — Tools like Postman, curl, or browser Network tabs to debug API/HTTP-related issues.
 - **Remote debugging** — Attaching a debugger to a process running on a different machine or container (common in production/staging environments).
+
+---
 
 ## 12.4 Logging
 
@@ -156,3 +164,5 @@ Most logging frameworks support a hierarchy of severity levels:
 | Best for | Diagnosing a known, reproducible issue | Understanding system behavior over time, catching unknown issues |
 
 Together, thoughtful error handling, the right debugging tools, and disciplined logging form the backbone of building software that fails gracefully and is easy to diagnose when things go wrong.
+
+[Previous](./[11]-Functional-Programming-Concepts.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Text-Processing.md)

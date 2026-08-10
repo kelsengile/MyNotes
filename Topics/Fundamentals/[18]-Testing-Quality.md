@@ -1,4 +1,6 @@
-# Testing & Quality
+[Previous](./[17]-Software-Design-Architecture.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-Concurrency-Performance.md)
+
+# Lesson 18 - Testing & Quality
 
 ## 18.1 Unit Testing
 
@@ -120,6 +122,8 @@ A thorough unit test suite covers not just the "happy path" but also:
 - Invalid/unexpected input (wrong types, `null`/`None`, malformed data).
 - Error conditions (does the function raise the right exception under the right circumstances?).
 
+---
+
 ## 18.2 Integration & End-to-End Testing
 
 Unit tests verify components in isolation; **integration** and **end-to-end (E2E)** tests verify that components work correctly *together*.
@@ -206,6 +210,8 @@ test("user can sign up and see the welcome page", async ({ page }) => {
 - Write **integration tests** where components meet real infrastructure (database queries, external APIs) — these are the areas most likely to break in ways unit tests can't catch.
 - Write **E2E tests** sparingly, for the handful of critical flows that must never break (e.g., "a user can complete checkout").
 
+---
+
 ## 18.3 Test-Driven Development (TDD)
 
 TDD is a software development approach where tests are written **before** the implementation code, driving the design of the code itself.
@@ -268,6 +274,8 @@ def calculate_total(price, discount, is_percentage=False):
 - **BDD (Behavior-Driven Development)** — extends TDD by writing tests in a more human-readable, business-facing format (e.g., Given/When/Then via tools like Cucumber), bridging communication between developers and non-technical stakeholders.
 - **Continuous Integration (CI)** — running the full automated test suite automatically on every code change (e.g., via GitHub Actions, Jenkins, CircleCI), catching regressions before they reach production.
 
+---
+
 ## 18.4 Code Reviews
 
 A code review is the process of having one or more other developers examine proposed code changes before they're merged into the shared codebase.
@@ -320,3 +328,5 @@ A code review is the process of having one or more other developers examine prop
 - **Automate what can be automated** — let linters and formatters handle style so human reviewers can focus on logic, design, and correctness instead of nitpicking whitespace.
 - **Establish clear conventions** (style guides, architectural decisions) upfront, so reviews focus on substance rather than re-litigating preferences on every PR.
 - **Everyone gets reviewed** — including senior developers — to reinforce that review is a normal part of the process, not a sign of distrust.
+
+[Previous](./[17]-Software-Design-Architecture.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-Concurrency-Performance.md)

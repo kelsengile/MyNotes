@@ -1,4 +1,6 @@
-# Setting Up Your Environment
+[Previous](./[3]-Programmer-Mindset-Thinking-Skills.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Core-Syntax-Basics.md)
+
+# Lesson 4 - Setting Up Your Environment
 
 Before writing meaningful code, it helps to have a working, comfortable development environment. This section covers the core tools nearly every programmer relies on, regardless of language or specialty.
 
@@ -21,6 +23,8 @@ Key features worth setting up early:
 - **Integrated terminal** — running commands without leaving the editor
 - **Debugger integration** — stepping through code line-by-line to inspect what's happening
 
+---
+
 ## 4.2 Command Line Basics
 
 The **command line** (also called a terminal, shell, or console) is a text-based interface for interacting with your computer — running programs, managing files, and automating tasks — without relying on a graphical interface.
@@ -42,6 +46,8 @@ Core commands to know (Unix-style, used on macOS/Linux, and available on Windows
 | `cat <file>` | Print a file's contents |
 
 Windows has its own native command line (Command Prompt / PowerShell) with somewhat different syntax, though many developers on Windows use **WSL (Windows Subsystem for Linux)** to get a Unix-style environment for consistency with the tools most commonly documented and used industry-wide.
+
+---
 
 ## 4.3 Version Control (Git & GitHub Basics)
 
@@ -78,6 +84,8 @@ git merge <branch>        # merge a branch into the current one
 
 Git and GitHub together form the backbone of collaborative software development — nearly every professional team and most open-source projects rely on this workflow.
 
+---
+
 ## 4.4 Package Managers & Dependencies
 
 Most programs don't build everything from scratch — they rely on **dependencies**: external libraries or packages written by others that provide pre-built functionality (parsing JSON, making HTTP requests, handling dates, etc.).
@@ -96,6 +104,8 @@ Common package managers by language/ecosystem:
 Dependencies are typically declared in a manifest file (e.g., `package.json` for Node.js, `requirements.txt` or `pyproject.toml` for Python), which lists exactly which packages — and often which versions — a project needs. This makes it possible for another developer (or a server) to install the exact same set of dependencies and get a working, reproducible environment.
 
 A related concept is **semantic versioning (semver)** — a common convention of labeling versions as `MAJOR.MINOR.PATCH` (e.g., `2.4.1`), where increases in each number signal the type of change (breaking, new feature, bug fix, respectively).
+
+---
 
 ## 4.5 Environment Variables & Configuration
 
@@ -119,3 +129,5 @@ A common practice is to store environment variables for local development in a `
 
 ### Why This Matters
 Getting comfortable with environment variables and configuration early helps avoid a very common beginner mistake: hard-coding sensitive values (like API keys) directly into source code, which is both a security risk and makes it harder to run the same code in different environments (a developer's laptop vs. a live production server) without editing the code itself.
+
+[Previous](./[3]-Programmer-Mindset-Thinking-Skills.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Core-Syntax-Basics.md)

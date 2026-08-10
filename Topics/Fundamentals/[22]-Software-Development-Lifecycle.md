@@ -1,4 +1,6 @@
-# Software Development Lifecycle
+[Previous](./[21]-Deployment-DevOps-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[23]-Supporting-Math-Foundations-optional.md)
+
+# Lesson 22 - Software Development Lifecycle
 
 ## 22.1 Requirements & Planning
 
@@ -70,6 +72,8 @@ Once requirements are reasonably understood, planning translates them into an ac
 ### Documentation Artifacts
 
 Depending on project size and methodology, planning may produce: a **Product Requirements Document (PRD)**, a **backlog** of prioritized work items, **technical design documents** for significant features, and **architecture decision records (ADRs)** capturing the reasoning behind significant technical choices for future reference.
+
+---
 
 ## 22.2 Agile, Scrum, Kanban Basics
 
@@ -162,6 +166,8 @@ Many teams use a hybrid ("Scrumban"), borrowing Scrum's planning cadence with Ka
 - **Backlog grooming/refinement** — periodically reviewing and refining upcoming backlog items (clarifying requirements, adding estimates, breaking down large items) so they're ready to be worked on when their turn comes.
 - **Definition of Done** — an agreed-upon checklist (code reviewed, tested, documented, deployed to staging, etc.) that must be satisfied before a work item is considered truly complete — preventing "done" from meaning different things to different people.
 - **Retrospectives as continuous improvement** — treating the *process itself* as something to iterate on, not just the product, is a defining and often underappreciated aspect of Agile practice.
+
+---
 
 ## 22.3 Maintenance & Refactoring
 
@@ -265,3 +271,5 @@ The industry's general wisdom (echoed famously in Joel Spolsky's essay on the to
 - **Keep dependencies updated** regularly, in small increments, rather than facing a painful, high-risk "big bang" upgrade after years of neglect.
 - **Maintain documentation** alongside code changes, so it doesn't silently drift out of sync with what the system actually does.
 - **Revisit and update tests** as behavior legitimately changes, keeping the test suite a reliable, trustworthy safety net rather than a source of noisy false failures.
+
+[Previous](./[21]-Deployment-DevOps-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[23]-Supporting-Math-Foundations-optional.md)

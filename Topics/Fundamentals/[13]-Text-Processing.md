@@ -1,4 +1,6 @@
-# Text Processing
+[Previous](./[12]-Error-Handling-Debugging.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Working-with-Files-Data.md)
+
+# Lesson 13 - Text Processing
 
 ## 13.1 Regular Expressions (Regex)
 
@@ -116,6 +118,8 @@ sed 's/foo/bar/g' file.txt       # replace all "foo" with "bar"
 - **Use raw strings** in Python (`r"..."`) to avoid double-escaping backslashes.
 - **Compile once, reuse** — if a regex is used repeatedly (e.g., in a loop), compile it once (`re.compile()` in Python) rather than recompiling on every iteration.
 
+---
+
 ## 13.2 String Parsing & Manipulation Patterns
 
 Beyond regex, most text-processing tasks rely on a common toolbox of string operations and parsing strategies.
@@ -229,3 +233,5 @@ def parse_quoted_csv_line(line):
 - **Mind encoding** — always be explicit about text encoding (UTF-8, etc.) when reading/writing files to avoid `UnicodeDecodeError`s or mojibake.
 - **Immutable strings** — in languages where strings are immutable (Python, Java, JavaScript), be aware that manipulation creates new strings; use builders (`StringBuilder`, list + `join`) for heavy concatenation in loops.
 - **Separate parsing from processing** — parse raw text into a structured representation (dict, object, list) first, then operate on that structure, rather than repeatedly re-parsing the same string.
+
+[Previous](./[12]-Error-Handling-Debugging.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Working-with-Files-Data.md)

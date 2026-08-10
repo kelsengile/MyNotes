@@ -1,4 +1,6 @@
-# Legal, Ethical & Professional Practice
+[Previous](./[23]-Supporting-Math-Foundations-optional.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[25]-Best-Practices.md)
+
+# Lesson 24 - Legal, Ethical & Professional Practice
 
 > **Note:** This section provides general, educational information about legal and professional concepts relevant to software development. It is not legal advice. Specific licensing, IP, or compliance questions should be directed to a qualified attorney, especially for decisions with real commercial or legal consequences.
 
@@ -59,6 +61,8 @@ Common considerations:
 - **License compatibility matters** — combining code under incompatible licenses (e.g., some copyleft variants aren't compatible with each other) can create legal complications; when in doubt, consult legal counsel for anything commercially significant.
 - **"No license" does not mean "public domain"** — code without an explicit license is, by default, **fully copyright-protected** with no usage rights granted; the absence of a license file is far more restrictive than people often assume.
 
+---
+
 ## 24.2 Intellectual Property Basics
 
 Intellectual property (IP) law protects creations of the mind. Several distinct IP categories are relevant to software.
@@ -97,6 +101,8 @@ Confidential business information (algorithms, processes, formulas, internal too
 - **Using AI-generated code** — the copyright status of AI-generated code is a legally evolving and, as of this writing, not fully settled area across jurisdictions; teams should be aware this is an active area of legal development and may want specific guidance depending on jurisdiction and use case.
 - **Contributing to open source** — contributing code to a project typically requires agreeing to license your contribution under that project's chosen license (sometimes formalized via a Contributor License Agreement, or CLA).
 - **Attribution requirements** — even permissive licenses like MIT require preserving the original copyright/license notice — a commonly overlooked but real legal obligation, not just a courtesy.
+
+---
 
 ## 24.3 Accessibility (a11y) Basics
 
@@ -173,6 +179,8 @@ WCAG defines three conformance levels (**A**, **AA**, **AAA**, in increasing str
 - **Automated tools** (axe, Lighthouse, WAVE) catch a meaningful subset of issues (missing alt text, insufficient contrast, missing form labels) but cannot catch everything — many accessibility problems are contextual and require human judgment.
 - **Manual testing:** navigating the interface using only a keyboard (Tab, Enter, arrow keys, no mouse), and testing with an actual screen reader (VoiceOver on macOS/iOS, NVDA or JAWS on Windows, TalkBack on Android).
 - **Involve users with disabilities** in testing where possible — the most reliable way to surface real usability issues that automated tools and simulated testing miss.
+
+---
 
 ## 24.4 Internationalization/Localization (i18n)
 
@@ -268,3 +276,5 @@ Always use **Unicode (UTF-8)** consistently throughout an application — from d
 - **Test with pseudo-localization** — a technique that expands and alters visible strings (e.g., adding padding characters, accenting characters) to catch layout/text-length issues even before real translations are available.
 - **Separate translation work from code changes** — use a dedicated translation management workflow/platform so translators (often non-engineers) can work independently of the engineering release cycle.
 - **Account for text expansion in UI design** — leave sufficient flexible space in layouts rather than designing tightly around the original language's text length.
+
+[Previous](./[23]-Supporting-Math-Foundations-optional.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[25]-Best-Practices.md)

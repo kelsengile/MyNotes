@@ -1,4 +1,6 @@
-# Next Steps
+[Previous](./[26]-Soft-Skills-Career-Development.md) | [Table of Contents](./[0]-Introduction.md) | Next
+
+# Lesson 27 - Next Steps
 
 You've covered the fundamentals — now the challenge shifts from "learning to code" to "becoming the kind of developer someone wants to hire or work with." This lesson covers how to choose a direction, prove your skills through projects, and keep learning after the structured part of the course ends.
 
@@ -98,3 +100,5 @@ Learning doesn't stop after a course — the field moves fast, and continued gro
 - **Specializing** gives you depth and direction — sample a few areas before committing, and expect the choice to evolve.
 - **Projects** are your proof of skill — a few polished, well-documented projects beat many unfinished ones.
 - **Continued learning** is a habit, not an event — build, read, and teach consistently rather than relying on one-off courses.
+
+[Previous](./[26]-Soft-Skills-Career-Development.md) | [Table of Contents](./[0]-Introduction.md) | Next

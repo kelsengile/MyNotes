@@ -1,4 +1,6 @@
-# Data Structures
+[Previous](./[6]-Control-Flow.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Functions-Program-Structure.md)
+
+# Lesson 7 - Data Structures
 
 Data structures are ways of organizing and storing data so it can be accessed and modified efficiently. Choosing the right structure affects the performance and clarity of a program — different structures trade off speed of lookup, insertion, deletion, and memory usage differently.
 
@@ -495,3 +497,5 @@ def bfs(graph, start):
 | Frequent insert/delete at arbitrary positions                | Linked List                     |
 | Hierarchical data (file systems, DOM, org charts)                | Tree                          |
 | Networked / interconnected data (routes, relationships)             | Graph                     |
+
+[Previous](./[6]-Control-Flow.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Functions-Program-Structure.md)

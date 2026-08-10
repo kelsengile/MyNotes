@@ -1,4 +1,6 @@
-# Soft Skills & Career Development
+[Previous](./[25]-Best-Practices.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[27]-Next-Steps.md)
+
+# Lesson 26 - Soft Skills & Career Development
 
 Technical skill gets your code working — soft skills get *you* working effectively with other people, projects, and systems. This lesson covers four practical skills that compound over a career: reading docs efficiently, explaining technical ideas clearly, estimating and managing your time, and contributing to open source.
 
@@ -116,3 +118,5 @@ Open source contribution builds real-world experience, public portfolio work, an
 - **Technical communication** succeeds when it's tailored to the audience and leads with the conclusion.
 - **Estimation improves with decomposition and tracking**, not with trying harder to "guess right."
 - **Open source contribution** is one of the fastest ways to build real, visible experience — start small and follow the project's norms.
+
+[Previous](./[25]-Best-Practices.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[27]-Next-Steps.md)

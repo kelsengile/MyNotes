@@ -1,4 +1,6 @@
-# Functional Programming Concepts
+[Previous](./[10]-Object-Oriented-Programming.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Error-Handling-Debugging.md)
+
+# Lesson 11 - Functional Programming Concepts
 
 Functional programming (FP) is a paradigm that treats computation as the evaluation of functions and favors immutable data and expressions over changing state and explicit sequences of commands. Many modern languages aren't purely functional but borrow FP concepts heavily (Python, JavaScript, Java, C#, Kotlin), while others are built around FP as a core philosophy (Haskell, Elixir, Clojure, F#).
 
@@ -385,3 +387,5 @@ A common, practical pattern: use objects to model state and organize a system's 
 - Reach for OOP when a problem is centered on entities with identity, encapsulated state, and behavior that naturally belongs together.
 - Reach for FP-style code when a problem is centered on transforming data through a pipeline of steps.
 - Don't treat this as an either/or decision at the language level — treat it as a set of tools to apply at the level of individual design decisions within a codebase.
+
+[Previous](./[10]-Object-Oriented-Programming.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Error-Handling-Debugging.md)

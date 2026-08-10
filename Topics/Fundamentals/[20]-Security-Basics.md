@@ -1,4 +1,6 @@
-# Security Basics
+[Previous](./[19]-Concurrency-Performance.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[21]-Deployment-DevOps-Basics.md)
+
+# Lesson 20 - Security Basics
 
 ## 20.1 Common Vulnerabilities (Injection, XSS, etc.)
 
@@ -94,6 +96,8 @@ GET /api/orders/1002   → belongs to a DIFFERENT user
 
 Relying on outdated libraries/frameworks with publicly disclosed vulnerabilities (findable via tools like `npm audit`, `pip-audit`, Dependabot, or the CVE database) — a common and easily preventable attack vector.
 
+---
+
 ## 20.2 Input Validation & Sanitization
 
 Nearly every vulnerability class above stems from a single root problem: **trusting input that shouldn't be trusted**. Rigorous input handling is one of the highest-leverage security practices available.
@@ -150,6 +154,8 @@ When users are legitimately allowed to submit formatted content (e.g., a comment
 ### General Principle: Validate at Every Trust Boundary
 
 Treat data as untrusted every time it crosses a boundary from a less-trusted context into a more-trusted one — not just at the initial entry point. Data coming from a database, another internal service, or a third-party API should still be handled carefully if it originated (even indirectly) from user input.
+
+---
 
 ## 20.3 Authentication vs. Authorization
 
@@ -219,6 +225,8 @@ if not can_delete_post(current_user, post):
 - Confusing "the user is logged in" (authentication) with "the user is allowed to do this specific action" (authorization) — these are separate checks, and both are required.
 - Performing authorization checks only in the UI (hiding a button) without enforcing them on the server — a user can still call the underlying API directly.
 - Trusting client-supplied role/permission data instead of re-verifying it server-side on every request.
+
+---
 
 ## 20.4 Secure Coding Habits
 
@@ -302,3 +310,5 @@ Before/while building a feature, briefly consider: *What could go wrong here? Wh
 ### A Note on Learning More
 
 Security is a deep, continuously evolving field. Resources like the **OWASP Top 10**, **OWASP Cheat Sheet Series**, and language/framework-specific security guides are excellent starting points for going beyond these fundamentals as needed for a specific project or role.
+
+[Previous](./[19]-Concurrency-Performance.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[21]-Deployment-DevOps-Basics.md)

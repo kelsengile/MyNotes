@@ -1,4 +1,6 @@
-# Object-Oriented Programming
+[Previous](./[9]-Memory-Management.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Functional-Programming-Concepts.md)
+
+# Lesson 10 - Object-Oriented Programming
 
 Object-oriented programming (OOP) is a paradigm that organizes code around **objects** — bundles of data (state) and behavior (methods) — rather than around functions and logic alone. It aims to model real-world entities and their interactions, and to make large codebases more modular, reusable, and maintainable.
 
@@ -685,3 +687,5 @@ This last example also demonstrates **dependency injection** — a common techni
 ### 10.7.6 Why SOLID Matters
 
 Together, these principles aim to produce code that is easier to extend with new features, easier to test in isolation (since dependencies can be swapped for mocks/stubs), and more resilient to the ripple effects of change — with each class having a clear, focused purpose and interacting with others through stable abstractions rather than tightly coupled implementation details.
+
+[Previous](./[9]-Memory-Management.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Functional-Programming-Concepts.md)

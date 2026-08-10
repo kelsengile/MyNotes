@@ -1,4 +1,6 @@
-# Introduction to Programming
+[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Computer-Science-Foundations.md)
+
+# Lesson 1 - Introduction to Programming
 
 ## 1.1 What is Programming?
 
@@ -112,3 +114,5 @@ There's no single "best" programming language — the right choice depends on th
 
 ### A Practical Takeaway
 For someone just starting out, the specific language matters less than learning the underlying *concepts* — variables, control flow, functions, and how programs execute. Those concepts transfer across nearly every language. Python is a common starting point today due to its readability and gentle learning curve, but the goal should be understanding how programming works, not mastering one language in isolation.
+
+[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Computer-Science-Foundations.md)

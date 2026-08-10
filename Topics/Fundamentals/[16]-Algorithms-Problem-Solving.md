@@ -1,4 +1,6 @@
-# Algorithms & Problem Solving
+[Previous](./[15]-Networking-Web-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Software-Design-Architecture.md)
+
+# Lesson 16 - Algorithms & Problem Solving
 
 ## 16.1 Time and Space Complexity (Big O)
 
@@ -84,6 +86,8 @@ def duplicate_array(arr):   # O(n) space — creates a new array proportional to
 ```
 
 There's often a **time-space trade-off**: using more memory (e.g., a hash map for lookups) can reduce time complexity, and vice versa.
+
+---
 
 ## 16.2 Sorting Algorithms
 
@@ -187,6 +191,8 @@ For special cases, sorts that don't compare elements pairwise can beat `O(n log 
 
 - Most language standard libraries (Python's `sorted()`, Java's `Collections.sort()`) use **hybrid algorithms** (e.g., Timsort — a mix of merge sort and insertion sort) tuned for real-world data.
 - For small arrays (roughly n < 20), simple `O(n²)` sorts can outperform `O(n log n)` sorts due to lower constant overhead — this is why hybrid sorts often fall back to insertion sort for small partitions.
+
+---
 
 ## 16.3 Searching Algorithms
 
@@ -300,6 +306,8 @@ def dfs(graph, start, visited=None, order=None):
 | Shortest path in unweighted graph | BFS |
 | Explore all paths / detect cycles | DFS |
 
+---
+
 ## 16.4 Recursion & Divide-and-Conquer
 
 ### Recursion Basics
@@ -409,6 +417,8 @@ def fib_memo(n, cache={}):
     return cache[n]
 ```
 
+---
+
 ## 16.5 Problem-Solving Strategies
 
 Beyond knowing individual algorithms, developing a systematic approach to unfamiliar problems is what separates effective problem-solvers.
@@ -465,3 +475,5 @@ If a brute-force `O(n²)` approach is too slow for the given constraints, that's
 - After solving a problem, **review alternative approaches** and their trade-offs, even if your first solution worked.
 - Revisit problems after time has passed to check whether the pattern-recognition has become more automatic.
 - When stuck for a long time, look at the underlying concept (not just the answer) and re-derive the solution yourself — this builds transferable understanding better than copying code.
+
+[Previous](./[15]-Networking-Web-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Software-Design-Architecture.md)

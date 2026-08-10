@@ -1,4 +1,6 @@
-# Software Design & Architecture
+[Previous](./[16]-Algorithms-Problem-Solving.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Testing-Quality.md)
+
+# Lesson 17 - Software Design & Architecture
 
 ## 17.1 Design Patterns (Singleton, Factory, Observer, etc.)
 
@@ -154,6 +156,8 @@ ContextualSorter(lambda d: sorted(d, reverse=True)).sort([3, 1, 2])
 
 **Word of caution:** patterns are tools for specific recurring problems, not goals in themselves. Forcing a pattern where a simple function or class would do is a common form of over-engineering — sometimes called "pattern fever."
 
+---
+
 ## 17.2 Modular Design & Separation of Concerns
 
 ### Separation of Concerns (SoC)
@@ -223,6 +227,8 @@ Modular design is closely tied to SOLID, a set of five object-oriented design pr
 | L | Liskov Substitution | Subtypes must be substitutable for their base types |
 | I | Interface Segregation | Prefer many small, specific interfaces over one large one |
 | D | Dependency Inversion | Depend on abstractions, not concrete implementations |
+
+---
 
 ## 17.3 Basic System Design Concepts
 
@@ -300,6 +306,8 @@ This decoupling improves responsiveness (the client doesn't wait for slow work t
 5. Decide where to apply caching, replication, sharding, or async processing.
 6. Iterate — refine based on the specific constraints of the problem (read-heavy vs. write-heavy, strict consistency vs. eventual consistency, etc.).
 
+---
+
 ## 17.4 APIs, Libraries, and Frameworks
 
 These three terms are often used loosely, but they represent distinct ways of reusing and structuring code.
@@ -375,3 +383,5 @@ app.run()  # the framework's event loop drives execution, not your code directly
 - **Isolate third-party dependencies** behind your own interface/wrapper where feasible, so swapping a library later doesn't ripple through the whole codebase (this echoes the Dependency Inversion principle from SOLID).
 - **Evaluate maintenance health** before adopting a dependency — check for active maintenance, security advisories, and community size, especially for anything handling sensitive data.
 - **Understand licensing** — libraries and frameworks carry licenses (MIT, Apache 2.0, GPL, etc.) that affect how you're permitted to use, modify, and distribute code built with them.
+
+[Previous](./[16]-Algorithms-Problem-Solving.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Testing-Quality.md)

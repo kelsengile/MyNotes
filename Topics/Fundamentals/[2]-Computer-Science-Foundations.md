@@ -1,4 +1,6 @@
-# Computer Science Foundations
+[Previous](./[1]-Introduction-to-Programming.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Programmer-Mindset-Thinking-Skills.md)
+
+# Lesson 2 - Computer Science Foundations
 
 ## 2.1 Number Systems (Binary, Hex, Octal)
 
@@ -119,3 +121,5 @@ On Unix-like systems (Linux, macOS), permissions are typically expressed for thr
 
 ### Why This Matters
 Understanding processes, file systems, and permissions helps explain everyday programming concerns: why a program crashes with "permission denied," how multiple programs can run "at once" on one CPU core, why file paths differ between operating systems, and how to reason about concurrency and resource sharing in software you write.
+
+[Previous](./[1]-Introduction-to-Programming.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Programmer-Mindset-Thinking-Skills.md)

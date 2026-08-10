@@ -1,4 +1,6 @@
-# Memory Management
+[Previous](./[8]-Functions-Program-Structure.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Object-Oriented-Programming.md)
+
+# Lesson 9 - Memory Management
 
 Memory management is how a program acquires, uses, and releases the memory it needs to run. Understanding it helps explain program performance, why certain bugs occur, and why languages differ in how they handle variables, objects, and data lifetimes.
 
@@ -355,3 +357,5 @@ Common tools used to catch these issues during development:
 - Avoid returning pointers/references to local (stack) variables.
 - Prefer higher-level, safer abstractions (smart pointers, containers, garbage-collected languages) unless manual control is specifically required.
 - In garbage-collected languages, be mindful of long-lived references (global state, caches, subscriptions/listeners) that can prevent otherwise-unused objects from being collected.
+
+[Previous](./[8]-Functions-Program-Structure.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Object-Oriented-Programming.md)

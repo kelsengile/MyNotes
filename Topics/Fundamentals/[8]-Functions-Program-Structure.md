@@ -1,4 +1,6 @@
-# Functions & Program Structure
+[Previous](./[7]-Data-Structures.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Memory-Management.md)
+
+# Lesson 8 - Functions & Program Structure
 
 Functions are reusable, named blocks of code that perform a specific task. They are the primary tool for organizing a program into manageable, testable, and reusable pieces, and they underpin how data and control flow through larger programs.
 
@@ -539,3 +541,5 @@ def checkout(cart_items):
 ### 8.6.5 Referential Transparency
 
 An expression is **referentially transparent** if it can be replaced with its resulting value without changing the program's behavior. Pure function calls have this property — `add(2, 3)` can always be replaced with `5` — which is part of what makes pure functions easy to reason about and optimize.
+
+[Previous](./[7]-Data-Structures.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Memory-Management.md)

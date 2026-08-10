@@ -1,4 +1,6 @@
-# Best Practices
+[Previous](./[24]-Legal-Ethical-Professional-Practice.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[26]-Soft-Skills-Career-Development.md)
+
+# Lesson 25 - Best Practices
 
 Writing code that *works* is only half the job. Professional software also needs to be easy to read, easy to change, and easy to hand off to someone else (including your future self). This lesson covers four foundational habits that separate maintainable codebases from messy ones.
 
@@ -151,3 +153,5 @@ Documentation bridges the gap between "the code works" and "someone else (or fut
 - **Readable, DRY code** is easier to maintain, test, and extend.
 - **Documentation** should explain the *why*, stay close to the code, and be kept up to date.
 - **Technical debt** is inevitable — the goal isn't to avoid it entirely, but to manage it deliberately.
+
+[Previous](./[24]-Legal-Ethical-Professional-Practice.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[26]-Soft-Skills-Career-Development.md)

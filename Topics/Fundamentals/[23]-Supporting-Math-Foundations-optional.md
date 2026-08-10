@@ -1,4 +1,6 @@
-# Supporting Math Foundations
+[Previous](./[22]-Software-Development-Lifecycle.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[24]-Legal-Ethical-Professional-Practice.md)
+
+# Lesson 23 - Supporting Math Foundations
 
 Mathematics underpins much of computer science and software engineering — not as an academic formality, but as the toolkit behind algorithms, data structures, machine learning, graphics, cryptography, and performance analysis. This section covers the branches most directly relevant to programming and problem-solving.
 
@@ -102,6 +104,8 @@ The **Master Theorem** provides a general method for solving many divide-and-con
 - **Prime numbers** — numbers divisible only by 1 and themselves; central to cryptographic algorithms like RSA.
 - **GCD/LCM (Greatest Common Divisor / Least Common Multiple)** — used in scheduling problems, fraction simplification, and various algorithmic optimizations.
 
+---
+
 ## 23.2 Linear Algebra / Statistics
 
 ### Linear Algebra
@@ -190,6 +194,8 @@ statistics.stdev(data)      # ~2.14
 - **Performance analysis** — interpreting benchmark results (average, median, percentiles like p95/p99 latency — see Section 19.4) requires statistical literacy to draw valid conclusions.
 - **Monitoring/alerting** — distinguishing a genuine anomaly in system metrics from normal statistical noise.
 
+---
+
 ## 23.3 Calculus
 
 Calculus studies rates of change and accumulation. It's less directly visible in everyday application coding than discrete math or basic statistics, but it's foundational to machine learning, physics simulations, graphics, and optimization.
@@ -253,3 +259,5 @@ Most day-to-day application/web development doesn't require actively *doing* cal
 - **Calculus** provides the tools for optimization — finding the best possible parameters/configuration given some objective to minimize or maximize.
 
 Together, these four areas form the mathematical foundation beneath most of modern computing — from the correctness of a sorting algorithm, to the accuracy of a fraud-detection model, to the physics of a video game character jumping across the screen.
+
+[Previous](./[22]-Software-Development-Lifecycle.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[24]-Legal-Ethical-Professional-Practice.md)
