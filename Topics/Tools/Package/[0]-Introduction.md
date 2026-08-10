@@ -1,4 +1,4 @@
-# Learning Packages
+# Packages
 
 Welcome! This is a self-paced course for learning packages and dependency management — the systems that let developers reuse, share, and install code instead of writing everything from scratch.
 
