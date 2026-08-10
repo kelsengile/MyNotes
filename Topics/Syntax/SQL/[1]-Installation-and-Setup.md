@@ -1,10 +1,14 @@
-# Lesson 1: Installing a Database & First-Time Setup
+[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-SQL-Basics.md)
+
+# Lesson 1 - Installing a Database & First-Time Setup
 
 ---
 
 ## Why start here?
 
 SQL is a language, not a program. To practice it, you need a **database engine** — software that actually stores your data and understands SQL commands. This lesson gets one running on your computer.
+
+---
 
 ## Choosing a database for learning
 
@@ -16,6 +20,8 @@ There are many relational database systems. For this course, we recommend **SQLi
 - Everything you learn transfers almost directly to PostgreSQL, MySQL, and SQL Server later (Lesson 25 covers the differences)
 
 Later lessons will note where PostgreSQL, MySQL, or SQL Server behave differently.
+
+---
 
 ## Option A: SQLite (recommended for this course)
 
@@ -63,6 +69,8 @@ SELECT * FROM greeting;
 
 To exit: type `.quit` and press Enter.
 
+---
+
 ## Option B: A GUI tool (optional but helpful)
 
 Typing commands is great for learning, but a graphical tool makes it easier to browse tables and see results in a grid. Popular free options:
@@ -73,9 +81,13 @@ Typing commands is great for learning, but a graphical tool makes it easier to b
 
 Any of these can open the `practice.db` file you just created.
 
+---
+
 ## Option C: Practice online, no installation
 
 If you'd rather not install anything yet, sites like SQLite's own "Try SQLite" playground, or sites such as DB Fiddle and SQL Fiddle, let you run SQL directly in the browser. This is a fine way to follow along with the early lessons.
+
+---
 
 ## Useful SQLite command-line shortcuts
 
@@ -95,29 +107,12 @@ Turn on friendlier output now — it'll make every later lesson easier to read:
 .mode column
 ```
 
+---
+
 ## Looking ahead
 
 Once you have PostgreSQL, MySQL, or SQL Server installed (later, if you want a "real" server-based database), the SQL commands you learn here will work almost unchanged. Lesson 25 walks through exactly what's different between the major systems.
 
 ---
 
-## Exercises
-
-1. Install SQLite (or confirm it's already installed) and check the version.
-2. Create a database file called `myfirst.db`.
-3. Inside it, create a table called `notes` with a single text column called `content`.
-4. Insert one row into `notes` with any message you like.
-5. Query the table to see your row.
-
-### Answers
-
-```sql
--- 3
-CREATE TABLE notes (content TEXT);
-
--- 4
-INSERT INTO notes VALUES ('This is my first row!');
-
--- 5
-SELECT * FROM notes;
-```
+[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-SQL-Basics.md)

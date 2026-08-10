@@ -1,8 +1,13 @@
-# Lesson 14: Constraints & Data Integrity
+[Previous](./[13]-Keys-and-Relationships.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Normalization-and-Schema-Design.md)
+
+
+# Lesson 14 - Constraints & Data Integrity
 
 ---
 
 Constraints are rules attached to columns or tables that the database enforces automatically, rejecting any insert or update that would violate them. They're the difference between "data that's technically stored" and "data you can actually trust."
+
+---
 
 ## NOT NULL
 
@@ -17,6 +22,8 @@ CREATE TABLE customers (
 -- Fails: email is required
 INSERT INTO customers (customer_id) VALUES (1);
 ```
+
+---
 
 ## UNIQUE
 
@@ -38,6 +45,8 @@ CREATE TABLE enrollments (
 );
 ```
 This allows a student to enroll in many courses, and a course to have many students, but blocks the *same* student from enrolling in the *same* course twice.
+
+---
 
 ## CHECK
 
@@ -65,6 +74,8 @@ CREATE TABLE bookings (
 
 **Dialect note:** MySQL only started *enforcing* `CHECK` constraints in version 8.0.16 (2019) — earlier versions parsed but silently ignored them.
 
+---
+
 ## DEFAULT
 
 Not strictly an integrity constraint, but closely related — provides a fallback value when none is given:
@@ -76,6 +87,8 @@ CREATE TABLE orders (
 );
 ```
 
+---
+
 ## PRIMARY KEY and FOREIGN KEY
 
 Covered in depth in Lesson 13 — both are constraints too. To recap briefly:
@@ -86,6 +99,8 @@ CREATE TABLE books (
     FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
 ```
+
+---
 
 ## Naming constraints
 
@@ -100,6 +115,8 @@ CREATE TABLE books (
 ```
 Without a name, the database auto-generates one (often something unmemorable like `books_price_check`).
 
+---
+
 ## Adding constraints to an existing table
 
 ```sql
@@ -107,6 +124,8 @@ ALTER TABLE books ADD CONSTRAINT chk_price_positive CHECK (price > 0);
 ALTER TABLE customers ADD CONSTRAINT uq_email UNIQUE (email);
 ```
 **Dialect note:** SQLite has very limited `ALTER TABLE` support for adding constraints after the fact — in practice, you usually need to create a new table with the constraint, copy the data over, drop the old table, and rename the new one.
+
+---
 
 ## Dropping constraints
 
@@ -118,6 +137,8 @@ ALTER TABLE books DROP CONSTRAINT chk_price_positive;
 ALTER TABLE books DROP CHECK chk_price_positive;
 ```
 
+---
+
 ## What happens when a constraint is violated?
 
 The statement is rejected entirely, and (inside a transaction — Lesson 18) any partial changes from that statement are rolled back. The database raises an error identifying which constraint was violated, which you (or your application) can catch and handle.
@@ -125,6 +146,8 @@ The statement is rejected entirely, and (inside a transaction — Lesson 18) any
 ```
 ERROR: duplicate key value violates unique constraint "customers_email_key"
 ```
+
+---
 
 ## Why enforce integrity in the database, not just the application?
 
@@ -135,35 +158,4 @@ It's tempting to think "I'll just validate this in my app code." But database-le
 
 ---
 
-## Exercises
-
-1. Create a `products` table with `price` that must be greater than 0, and `sku` that must be unique.
-2. Create a `users` table where `username` is required (`NOT NULL`) and unique, and `status` defaults to `'active'`.
-3. Add a `CHECK` constraint to an existing `employees` table ensuring `salary >= 0`.
-4. Why can a `UNIQUE` column still contain more than one `NULL` value?
-
-### Answers
-
-```sql
--- 1
-CREATE TABLE products (
-    product_id INTEGER PRIMARY KEY,
-    sku TEXT UNIQUE,
-    price DECIMAL(10,2) CHECK (price > 0)
-);
-
--- 2
-CREATE TABLE users (
-    user_id INTEGER PRIMARY KEY,
-    username TEXT NOT NULL UNIQUE,
-    status TEXT DEFAULT 'active'
-);
-
--- 3
-ALTER TABLE employees ADD CONSTRAINT chk_salary CHECK (salary >= 0);
-
--- 4
--- Because NULL represents "unknown," and two unknowns are never considered
--- equal to each other under SQL's three-valued logic — so a uniqueness
--- check never treats two NULLs as duplicates.
-```
+[Previous](./[13]-Keys-and-Relationships.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Normalization-and-Schema-Design.md)

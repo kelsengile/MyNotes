@@ -1,12 +1,18 @@
-# Lesson 4: Data Types & Table Design
+[Previous](./[3]-Filtering-and-Sorting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Creating-Tables.md)
+
+# Lesson 4 - Data Types & Table Design
 
 ---
 
 Before creating tables in the next lesson, it helps to understand what data types are available and how to think about table design. Data types tell the database what kind of value a column holds, which affects storage, validation, and what operations make sense.
 
+---
+
 ## Why types matter
 
 If a column is defined to hold numbers, the database prevents you from accidentally storing text like `"twelve"` in it, and it can sort and do math on the values correctly. Types are a form of built-in data validation.
+
+---
 
 ## Common data type categories
 
@@ -51,9 +57,13 @@ Always store dates using an actual date/time type, not as text — this lets the
 - `JSON` / `JSONB` — structured JSON documents (PostgreSQL's `JSONB` is indexed and efficient; MySQL and SQLite also support JSON columns)
 - `UUID` — universally unique identifiers, often used as primary keys in distributed systems
 
+---
+
 ## SQLite's flexible typing
 
 Unlike most databases, SQLite uses "type affinity" rather than strict types — you can technically insert text into an integer column. This makes SQLite forgiving for learning, but it's not representative of how PostgreSQL, MySQL, or SQL Server behave, which enforce types strictly. Don't rely on SQLite's flexibility once you move to a "real" server database.
+
+---
 
 ## Designing a table: thinking in entities
 
@@ -64,6 +74,8 @@ For our bookstore:
 - **Book**: title, price, publish year, genre, and a link to its author
 
 Each entity typically becomes one table. Each attribute typically becomes one column.
+
+---
 
 ## Choosing appropriate types, column by column
 
@@ -76,9 +88,13 @@ Each entity typically becomes one table. Each attribute typically becomes one co
 | `in_stock` | `BOOLEAN` | True/false flag |
 | `created_at` | `TIMESTAMP` | Date and time |
 
+---
+
 ## One fact, one column
 
 A good rule of thumb: each column should hold one atomic piece of information. Avoid cramming multiple values into a single column, like storing `"Le Guin, Ursula (USA)"` as one text field — that makes filtering and sorting painful. Split it into `first_name`, `last_name`, `country` instead. This idea is developed fully in Lesson 15 (Normalization).
+
+---
 
 ## Nullable vs required columns
 
@@ -86,25 +102,4 @@ When designing a table, decide for each column: is it okay for this value to be 
 
 ---
 
-## Exercises
-
-For each scenario, choose an appropriate SQL data type:
-
-1. A person's date of birth.
-2. A product's price in dollars and cents.
-3. Whether a user's email has been verified.
-4. A long-form blog post's body text.
-5. A US ZIP code (which can have leading zeros, like `02134`).
-
-### Answers
-
-```
-1. DATE
-2. DECIMAL(10,2) — not FLOAT/REAL, to avoid rounding errors with money
-3. BOOLEAN
-4. TEXT
-5. VARCHAR(10) or CHAR(5) — NOT an integer type, since leading zeros
-   would be lost and it's not used for arithmetic
-```
-
-
+[Previous](./[3]-Filtering-and-Sorting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Creating-Tables.md)

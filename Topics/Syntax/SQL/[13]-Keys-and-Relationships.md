@@ -1,8 +1,14 @@
-# Lesson 13: Keys & Relationships — Primary and Foreign Keys
+[Previous](./[12]-Subqueries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Constraints-and-Data-Integrity.md)
+
+# Lesson 13 - Keys & Relationships — Primary and Foreign Keys
+
+
 
 ---
 
 Keys are how relational databases keep data connected and consistent. This lesson explains what they are conceptually; Lesson 14 covers how to enforce them with more constraint types.
+
+---
 
 ## Primary keys
 
@@ -56,6 +62,8 @@ CREATE TABLE enrollments (
 ```
 This says a student can't enroll in the same course twice, but can enroll in many different courses, and many students can take the same course.
 
+---
+
 ## Foreign keys
 
 A **foreign key** is a column (or set of columns) in one table that references the primary key of another table, establishing a relationship between them.
@@ -81,6 +89,8 @@ INSERT INTO books (book_id, title, author_id) VALUES (99, 'Ghost Book', 999);
 PRAGMA foreign_keys = ON;
 ```
 PostgreSQL, MySQL (with InnoDB), and SQL Server enforce foreign keys by default.
+
+---
 
 ## Relationship types
 
@@ -113,6 +123,8 @@ CREATE TABLE user_profiles (
 );
 ```
 
+---
+
 ## ON DELETE and ON UPDATE behavior
 
 When a referenced row is deleted or its key changes, you can tell the database what to do to dependent rows:
@@ -136,43 +148,12 @@ CREATE TABLE books (
 
 Choosing the right behavior matters: `CASCADE` on `authors → books` would silently delete every book by an author when that author is deleted — often *not* what you want, so `RESTRICT` or `SET NULL` is usually safer for this relationship.
 
+---
+
 ## Why keys matter
 
 Keys are the mechanism that makes joins meaningful (Lesson 11), prevents duplicate or orphaned data, and is foundational to normalization (Lesson 15). Without them, a "relational" database is really just a collection of unrelated spreadsheets.
 
 ---
 
-## Exercises
-
-1. Write a `CREATE TABLE` for a `reviews` table with a composite primary key on `(book_id, customer_id)`, ensuring each customer can only review a given book once.
-2. Add a foreign key from `reviews.book_id` to `books.book_id`.
-3. Design a many-to-many relationship between `students` and `courses`.
-4. When would `ON DELETE SET NULL` be more appropriate than `ON DELETE CASCADE`?
-
-### Answers
-
-```sql
--- 1 & 2
-CREATE TABLE reviews (
-    book_id INTEGER,
-    customer_id INTEGER,
-    rating INTEGER,
-    PRIMARY KEY (book_id, customer_id),
-    FOREIGN KEY (book_id) REFERENCES books(book_id)
-);
-
--- 3
-CREATE TABLE student_courses (
-    student_id INTEGER,
-    course_id INTEGER,
-    PRIMARY KEY (student_id, course_id),
-    FOREIGN KEY (student_id) REFERENCES students(student_id),
-    FOREIGN KEY (course_id) REFERENCES courses(course_id)
-);
-
--- 4
--- SET NULL is better when the dependent row should still exist after the
--- parent is gone — e.g., if an "assigned_employee" is deleted, you might
--- want a task to remain but become unassigned (SET NULL), rather than
--- deleting the task entirely (CASCADE).
-```
+[Previous](./[12]-Subqueries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Constraints-and-Data-Integrity.md)

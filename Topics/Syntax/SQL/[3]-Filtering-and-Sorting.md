@@ -1,8 +1,12 @@
-# Lesson 3: Filtering & Sorting Data
+[Previous](./[2]-SQL-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Data-Types-and-Table-Design.md)
+
+# Lesson 3 - Filtering & Sorting Data
 
 ---
 
 This lesson builds on `WHERE` from Lesson 2, adding more powerful ways to filter, plus how to control the order and quantity of results. It uses the same `books` / `authors` tables from Lesson 2.
+
+---
 
 ## Combining conditions: AND, OR, NOT
 
@@ -35,6 +39,8 @@ SELECT * FROM books WHERE genre = 'Fantasy' OR genre = 'Science Fiction' AND pri
 SELECT * FROM books WHERE genre = 'Fantasy' OR (genre = 'Science Fiction' AND price < 10);
 ```
 
+---
+
 ## IN: matching a list of values
 
 Instead of chaining `OR` conditions on the same column, use `IN`:
@@ -48,6 +54,8 @@ WHERE genre IN ('Fantasy', 'Science Fiction', 'Magical Realism');
 SELECT title FROM books WHERE genre NOT IN ('Fantasy');
 ```
 
+---
+
 ## BETWEEN: matching a range
 
 ```sql
@@ -56,6 +64,8 @@ FROM books
 WHERE published_year BETWEEN 1970 AND 2000;
 ```
 `BETWEEN` is inclusive on both ends — it includes 1970 and 2000.
+
+---
 
 ## LIKE: pattern matching text
 
@@ -70,6 +80,8 @@ SELECT title FROM books WHERE title LIKE '%of%';         -- contains "of" anywhe
 ```
 `LIKE` is case-insensitive in SQLite and MySQL by default, but case-sensitive in PostgreSQL (use `ILIKE` there for case-insensitive matching).
 
+---
+
 ## IS NULL: checking for missing values
 
 `NULL` (covered fully in Lesson 7) represents missing data and needs special handling — you can't use `= NULL`.
@@ -77,6 +89,8 @@ SELECT title FROM books WHERE title LIKE '%of%';         -- contains "of" anywhe
 SELECT title FROM books WHERE author_id IS NULL;
 SELECT title FROM books WHERE author_id IS NOT NULL;
 ```
+
+---
 
 ## ORDER BY: sorting results
 
@@ -97,6 +111,8 @@ You can also order by column position (less readable, but valid):
 SELECT title, price FROM books ORDER BY 2 DESC;
 ```
 
+---
+
 ## LIMIT and OFFSET: controlling how many rows come back
 
 ```sql
@@ -110,6 +126,8 @@ This pattern returns "page 2" of 3-row pages.
 
 **Dialect note:** SQLite, PostgreSQL, and MySQL all support `LIMIT`/`OFFSET`. SQL Server traditionally uses `TOP` or `OFFSET ... FETCH NEXT ... ROWS ONLY` instead (see Lesson 25).
 
+---
+
 ## DISTINCT: removing duplicate rows
 
 ```sql
@@ -120,6 +138,8 @@ This returns each unique genre once, even if many books share it. `DISTINCT` app
 SELECT DISTINCT genre, published_year FROM books;
 ```
 This only collapses rows where *both* genre and year match exactly.
+
+---
 
 ## Putting it together
 
@@ -143,34 +163,4 @@ LIMIT 2;
 
 ---
 
-## Exercises
-
-1. Find all books with a price between $9 and $11, inclusive.
-2. Find all books whose title contains the word "of".
-3. List all distinct genres in the `books` table.
-4. Get the 2 cheapest books, showing title and price, cheapest first.
-5. Find books that are either 'Fantasy' or published before 1970, ordered by year ascending.
-
-### Answers
-
-```sql
--- 1
-SELECT * FROM books WHERE price BETWEEN 9 AND 11;
-
--- 2
-SELECT title FROM books WHERE title LIKE '%of%';
-
--- 3
-SELECT DISTINCT genre FROM books;
-
--- 4
-SELECT title, price FROM books ORDER BY price ASC LIMIT 2;
-
--- 5
-SELECT * FROM books
-WHERE genre = 'Fantasy' OR published_year < 1970
-ORDER BY published_year ASC;
-```
-
-
-
+[Previous](./[2]-SQL-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Data-Types-and-Table-Design.md)

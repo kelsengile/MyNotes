@@ -1,8 +1,13 @@
-# Lesson 25: SQL Dialects — PostgreSQL, MySQL, SQLite & SQL Server
+[Previous](./[24]-Importing-and-Exporting-Data.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[26]-Query-Optimization.md)
+
+# Lesson 25 - SQL Dialects — PostgreSQL, MySQL, SQLite & SQL Server
+
 
 ---
 
 Throughout this course, dialect notes have flagged differences as they came up. This lesson consolidates them into one reference, and introduces each database's overall character and best use cases.
+
+---
 
 ## The four databases at a glance
 
@@ -12,6 +17,8 @@ Throughout this course, dialect notes have flagged differences as they came up. 
 | License | Open source | Open source (with a paid enterprise tier) | Public domain | Commercial (Microsoft) |
 | Best known for | Standards compliance, extensibility, advanced features | Speed, huge ecosystem, web hosting ubiquity | Zero-config, embedded use, mobile apps | Enterprise/Windows integration, tooling |
 | Typical use case | Complex applications, analytics, geospatial data | Web applications, WordPress, general-purpose apps | Mobile apps, local caches, small tools, prototyping | Enterprise software, .NET applications |
+
+---
 
 ## Where dialects diverge — a consolidated reference
 
@@ -97,9 +104,13 @@ SELECT DATE('now'), DATETIME('now');
 - SQLite: JSON functions available as a built-in extension (`json_extract`, etc.)
 - SQL Server: `JSON` stored as text with `OPENJSON`/`JSON_VALUE` functions, no dedicated JSON storage type
 
+---
+
 ## Why does this variation exist?
 
 SQL is governed by an ANSI/ISO standard, but the standard leaves many behaviors unspecified or optional, and vendors have historically added proprietary extensions before the standard caught up (or instead of ever adopting it). The core `SELECT`/`FROM`/`WHERE`/`JOIN`/`GROUP BY` grammar you learned in earlier lessons is close to universal — most divergence shows up in edge cases, procedural extensions, and administrative commands.
+
+---
 
 ## Practical advice for working across dialects
 
@@ -107,6 +118,8 @@ SQL is governed by an ANSI/ISO standard, but the standard leaves many behaviors 
 - When you must use a vendor-specific feature (like PostgreSQL's `JSONB` or SQL Server's `MERGE`), document that dependency clearly
 - Always check the specific documentation for your database version when working with dates, string functions, or anything beyond the SQL basics — assuming another dialect's behavior is one of the most common sources of bugs when switching databases
 - ORMs (Object-Relational Mappers) in application frameworks can abstract away some — but rarely all — of these differences; complex queries often still need dialect-specific tuning
+
+---
 
 ## Choosing a database for a new project (a rough guide)
 
@@ -117,31 +130,4 @@ SQL is governed by an ANSI/ISO standard, but the standard leaves many behaviors 
 
 ---
 
-## Exercises
-
-1. Write the same "top 5 rows" query in PostgreSQL/SQLite syntax and in SQL Server's `TOP` syntax.
-2. Which of the four databases in this lesson has no user/permission system, and why?
-3. Name one SQL feature that MySQL only recently gained, that PostgreSQL and SQLite have supported for a long time.
-4. If you were building a small offline note-taking mobile app, which database would you likely choose, and why?
-
-### Answers
-
-```sql
--- 1
-SELECT * FROM books LIMIT 5;                 -- PostgreSQL / SQLite
-SELECT TOP 5 * FROM books;                   -- SQL Server
-
--- 2
--- SQLite. It's an embedded, file-based database with no separate server
--- process, so there's no concept of a "connection" to authenticate —
--- access control is handled at the operating-system/file-permission level.
-
--- 3
--- INTERSECT and EXCEPT (only added to MySQL in version 8.0.31, in 2022) —
--- both had been standard in PostgreSQL and SQLite for a long time before that.
-
--- 4
--- SQLite — it requires no separate server process, stores the entire
--- database as a single file, and is specifically designed for embedded
--- use in mobile and desktop applications.
-```
+[Previous](./[24]-Importing-and-Exporting-Data.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[26]-Query-Optimization.md)

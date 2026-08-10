@@ -1,8 +1,12 @@
-# Lesson 8: String, Date & Math Functions and CASE Expressions
+[Previous](./[7]-Handling-NULLs.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Aggregate-Functions-and-Group-By.md)
+
+# Lesson 8 - String, Date & Math Functions and CASE Expressions
 
 ---
 
 Built-in functions let you transform and compute values inside a query, instead of pulling raw data and processing it elsewhere. Function names and behavior vary more between database systems than almost anything else in SQL — this lesson shows common patterns, with dialect notes.
+
+---
 
 ## String functions
 
@@ -25,6 +29,8 @@ SELECT TRIM('  hello  ');   -- 'hello'
 SELECT SUBSTR('Kafka on the Shore', 1, 5);   -- 'Kafka'
 ```
 
+---
+
 ## Math functions
 
 | Function | Purpose |
@@ -42,6 +48,8 @@ SELECT title, ROUND(price, 1) AS rounded_price FROM books;
 SELECT ABS(-5);        -- 5
 SELECT CEIL(4.1);      -- 5
 ```
+
+---
 
 ## Date and time functions
 
@@ -84,6 +92,8 @@ SELECT DATEADD(day, 7, order_date) FROM orders;
 
 Because of this variation, always check your specific database's documentation when working with dates — it's the area of SQL with the least standardization.
 
+---
+
 ## Type conversion: CAST
 
 `CAST` converts a value from one type to another, and is standard across all major databases:
@@ -93,6 +103,8 @@ SELECT CAST('42' AS INTEGER);
 SELECT CAST(price AS INTEGER) FROM books;   -- truncates decimals
 ```
 Shorthand in PostgreSQL and SQLite: `price::INTEGER`.
+
+---
 
 ## CASE expressions: conditional logic inside a query
 
@@ -139,32 +151,4 @@ FROM books;
 
 ---
 
-## Exercises
-
-1. Select every book's title in uppercase.
-2. Select each book's title concatenated with its price, like `"Kafka on the Shore - $12.50"`.
-3. Write a query that labels each book `'Classic'` if published before 1980, `'Modern'` if 1980–2010, and `'Contemporary'` otherwise.
-4. Round every book's price down to the nearest whole dollar.
-
-### Answers
-
-```sql
--- 1
-SELECT UPPER(title) FROM books;
-
--- 2 (SQLite/Postgres syntax)
-SELECT title || ' - $' || price FROM books;
-
--- 3
-SELECT title,
-    CASE
-        WHEN published_year < 1980 THEN 'Classic'
-        WHEN published_year BETWEEN 1980 AND 2010 THEN 'Modern'
-        ELSE 'Contemporary'
-    END AS era
-FROM books;
-
--- 4
-SELECT title, FLOOR(price) FROM books;
-```
-
+[Previous](./[7]-Handling-NULLs.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Aggregate-Functions-and-Group-By.md)

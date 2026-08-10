@@ -1,8 +1,12 @@
-# Lesson 16: Views
+[Previous](./[15]-Normalization-and-Schema-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Indexes-and-Performance.md)
+
+# Lesson 16 - Views
 
 ---
 
 A **view** is a saved query that behaves like a virtual table — you can `SELECT` from it just like a real table, but it doesn't store data itself; it re-runs its underlying query every time you use it.
+
+---
 
 ## Creating a view
 
@@ -19,6 +23,8 @@ SELECT * FROM expensive_books;
 SELECT title FROM expensive_books WHERE genre = 'Magical Realism';
 ```
 Behind the scenes, the database expands this into the original query with your additional filter combined — there's no separately-stored data.
+
+---
 
 ## Why use views?
 
@@ -46,6 +52,8 @@ If the underlying tables' structure changes, a view can be updated to match whil
 ### 4. Reusability and consistency
 Encoding business logic (like "what counts as an active customer") once, in a view, avoids every analyst or application reinventing — and possibly getting subtly wrong — that same logic repeatedly.
 
+---
+
 ## Updating through a view
 
 Some views are **updatable** — you can `INSERT`, `UPDATE`, or `DELETE` through them, and the change is applied to the underlying table:
@@ -54,6 +62,8 @@ UPDATE expensive_books SET price = 14.99 WHERE title = 'Kafka on the Shore';
 ```
 
 A view is generally updatable only if it's "simple" — no aggregates (`GROUP BY`, `SUM`, etc.), no `DISTINCT`, no joins across multiple tables, and it maps cleanly to one underlying table's rows and columns. Complex views (most joins, aggregates) are typically read-only.
+
+---
 
 ## Dropping and replacing a view
 
@@ -65,6 +75,8 @@ CREATE OR REPLACE VIEW expensive_books AS
 SELECT title, price FROM books WHERE price > 12;
 ```
 **Dialect note:** `CREATE OR REPLACE VIEW` works in PostgreSQL and MySQL. Older SQLite doesn't support `OR REPLACE` for views — you must `DROP VIEW` first, then `CREATE VIEW` again.
+
+---
 
 ## Materialized views
 
@@ -83,38 +95,12 @@ REFRESH MATERIALIZED VIEW genre_stats;
 
 **Dialect note:** Materialized views are natively supported in PostgreSQL and Oracle. MySQL has no built-in materialized view feature (people simulate them with a real table plus a scheduled event). SQLite has no materialized views at all — you'd manage a regular table manually instead. SQL Server calls the equivalent concept an "indexed view."
 
+---
+
 ## Views vs CTEs (preview of Lesson 19)
 
 Both let you name and reuse a piece of query logic — the key difference is persistence. A view is saved permanently in the database schema and can be used across many different queries and sessions. A CTE (`WITH ... AS (...)`) exists only for the duration of a single query.
 
 ---
 
-## Exercises
-
-1. Create a view `cheap_scifi` showing title and price for books that are Science Fiction and under $10.
-2. Query the view to find just the titles.
-3. Create a view joining `books` and `authors` to show title, author name, and country together.
-4. In one sentence, explain the main practical difference between a regular view and a materialized view.
-
-### Answers
-
-```sql
--- 1
-CREATE VIEW cheap_scifi AS
-SELECT title, price FROM books
-WHERE genre = 'Science Fiction' AND price < 10;
-
--- 2
-SELECT title FROM cheap_scifi;
-
--- 3
-CREATE VIEW book_authors_view AS
-SELECT b.title, a.name AS author_name, a.country
-FROM books b
-JOIN authors a ON b.author_id = a.author_id;
-
--- 4
--- A regular view recomputes its query every time it's accessed (always
--- fresh, but potentially slow); a materialized view stores the result
--- physically and must be manually refreshed (fast, but can go stale).
-```
+[Previous](./[15]-Normalization-and-Schema-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Indexes-and-Performance.md)

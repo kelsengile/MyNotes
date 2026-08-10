@@ -1,10 +1,14 @@
-# Lesson 18: Transactions & ACID Properties
+[Previous](./[17]-Indexes-and-Performance.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-CTEs-and-Recursive-Queries.md)
+
+# Lesson 18 - Transactions & ACID Properties
 
 ---
 
 ## What a transaction is
 
 A **transaction** groups multiple SQL statements into a single, all-or-nothing unit of work. Either every statement in the transaction succeeds and is saved, or (if anything goes wrong) none of them are — the database is left exactly as if the transaction never happened.
+
+---
 
 ## The classic example: transferring money
 
@@ -18,6 +22,8 @@ COMMIT;
 ```
 
 If the database crashed *between* the two `UPDATE` statements without transactions, account 1 would lose $100 that account 2 never received — money would simply vanish. Wrapping both statements in a transaction guarantees that either both happen, or neither does.
+
+---
 
 ## BEGIN, COMMIT, ROLLBACK
 
@@ -37,9 +43,13 @@ ROLLBACK;                       -- undo — as if nothing happened
 
 **Dialect note:** PostgreSQL and SQLite use `BEGIN`; MySQL and SQL Server typically use `START TRANSACTION` (MySQL also accepts `BEGIN`). SQL Server uses `COMMIT TRANSACTION` / `ROLLBACK TRANSACTION` in full form.
 
+---
+
 ## Autocommit mode
 
 By default, most databases run in **autocommit** mode — every individual statement is its own implicit transaction, committed immediately. Explicit `BEGIN`/`COMMIT` blocks let you group several statements together instead.
+
+---
 
 ## The ACID properties
 
@@ -56,6 +66,8 @@ Concurrent transactions don't interfere with each other's intermediate, uncommit
 
 ### Durability
 Once a transaction is committed, it's permanent — it survives a crash, a power failure, or a restart immediately afterward, typically because it's been written to disk, not just held in memory.
+
+---
 
 ## Isolation levels
 
@@ -79,6 +91,8 @@ Higher isolation levels give stronger guarantees but reduce how much work can ha
 - **Non-repeatable read**: reading the same row twice in one transaction and getting different values, because another transaction committed a change in between
 - **Phantom read**: re-running the same query twice in one transaction and getting a *different set of rows*, because another transaction inserted or deleted matching rows in between
 
+---
+
 ## SAVEPOINT: partial rollback within a transaction
 
 ```sql
@@ -93,9 +107,13 @@ ROLLBACK TO SAVEPOINT after_fantasy;
 COMMIT;   -- keeps the Fantasy price change, discards the Sci-Fi one
 ```
 
+---
+
 ## Deadlocks
 
 When two transactions each hold a lock the other needs, they can wait on each other forever — a **deadlock**. Most databases detect this automatically and abort one of the transactions (raising an error) so the other can proceed. Application code that uses transactions should generally be prepared to catch this error and retry.
+
+---
 
 ## When to use explicit transactions
 
@@ -105,30 +123,4 @@ When two transactions each hold a lock the other needs, they can wait on each ot
 
 ---
 
-## Exercises
-
-1. Write a transaction that transfers 50 units of inventory from `warehouse_a` to `warehouse_b` in a `stock` table, using `BEGIN`/`COMMIT`.
-2. What SQL statement would undo an in-progress transaction before it's committed?
-3. Which ACID property specifically guarantees that a committed transaction survives a server crash immediately afterward?
-4. Name one anomaly that "Read Committed" isolation still allows, but "Repeatable Read" prevents.
-
-### Answers
-
-```sql
--- 1
-BEGIN;
-UPDATE stock SET quantity = quantity - 50 WHERE location = 'warehouse_a';
-UPDATE stock SET quantity = quantity + 50 WHERE location = 'warehouse_b';
-COMMIT;
-
--- 2
-ROLLBACK;
-
--- 3
--- Durability.
-
--- 4
--- A non-repeatable read: under Read Committed, re-reading the same row
--- twice within one transaction can return different values if another
--- transaction commits a change in between; Repeatable Read prevents this.
-```
+[Previous](./[17]-Indexes-and-Performance.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-CTEs-and-Recursive-Queries.md)

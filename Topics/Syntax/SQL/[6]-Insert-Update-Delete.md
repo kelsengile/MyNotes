@@ -1,8 +1,12 @@
-# Lesson 6: Inserting, Updating & Deleting Data
+[Previous](./[5]-Creating-Tables.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[7]-Handling-NULLs.md)
+
+# Lesson 6 - Inserting, Updating & Deleting Data
 
 ---
 
 `INSERT`, `UPDATE`, and `DELETE` are the core **DML** (Data Manipulation Language) statements — they change the data inside your tables, not the table structure itself.
+
+---
 
 ## INSERT: adding rows
 
@@ -41,6 +45,8 @@ SELECT title, price FROM books WHERE published_year < 1970;
 ```
 This copies rows straight from a `SELECT` into another table.
 
+---
+
 ## UPDATE: changing existing rows
 
 ```sql
@@ -70,6 +76,8 @@ WHERE genre = 'Science Fiction';
 ```
 This raises the price of every science fiction book by 5%.
 
+---
+
 ## DELETE: removing rows
 
 ```sql
@@ -84,6 +92,8 @@ DELETE FROM books;
 ```
 This still leaves the (now empty) table structure intact — unlike `DROP TABLE`, which removes the table itself.
 
+---
+
 ## A safety habit: SELECT before you UPDATE or DELETE
 
 Before running an `UPDATE` or `DELETE` with a `WHERE` clause you're not 100% sure about, run the equivalent `SELECT` first to see exactly which rows would be affected:
@@ -95,6 +105,8 @@ SELECT * FROM books WHERE genre = 'Fantasy' AND price < 5;
 DELETE FROM books WHERE genre = 'Fantasy' AND price < 5;
 ```
 This habit prevents the single most common and painful SQL mistake.
+
+---
 
 ## Transactions: an early preview
 
@@ -109,6 +121,8 @@ COMMIT;     -- make it permanent
 ```
 Transactions are covered in full in Lesson 18 — but it's worth knowing this safety net exists even at this early stage.
 
+---
+
 ## RETURNING (PostgreSQL, SQLite 3.35+)
 
 Some databases let you see the affected rows immediately, without a separate `SELECT`:
@@ -117,6 +131,8 @@ UPDATE books SET price = 9.99 WHERE book_id = 1
 RETURNING book_id, title, price;
 ```
 **Dialect note:** `RETURNING` is supported by PostgreSQL and modern SQLite, but not by MySQL or SQL Server.
+
+---
 
 ## UPSERT: insert, or update if it already exists
 
@@ -171,39 +187,4 @@ This has a race condition: if two processes run this at the same time, both migh
 
 ---
 
-## Exercises
-
-Using the `books` table from earlier lessons:
-
-1. Insert a new book: "The Wind-Up Bird Chronicle", by author_id 2, price 13.50, published 1994, genre 'Magical Realism'.
-2. Raise the price of all books published before 1980 by $1.
-3. Change the genre of book_id 4 to 'Postmodern Fiction'.
-4. Delete any book priced above $13.
-5. Before running #4, what query would you run to check which rows it will affect?
-6. Using PostgreSQL/SQLite syntax, write an upsert that inserts author_id 9 with name 'Kazuo Ishiguro' and country 'UK', but updates the country if author_id 9 already exists.
-
-### Answers
-
-```sql
--- 1
-INSERT INTO books (book_id, title, author_id, price, published_year, genre)
-VALUES (7, 'The Wind-Up Bird Chronicle', 2, 13.50, 1994, 'Magical Realism');
-
--- 2
-UPDATE books SET price = price + 1 WHERE published_year < 1980;
-
--- 3
-UPDATE books SET genre = 'Postmodern Fiction' WHERE book_id = 4;
-
--- 4
-DELETE FROM books WHERE price > 13;
-
--- 5
-SELECT * FROM books WHERE price > 13;
-
--- 6
-INSERT INTO authors (author_id, name, country)
-VALUES (9, 'Kazuo Ishiguro', 'UK')
-ON CONFLICT (author_id)
-DO UPDATE SET country = EXCLUDED.country;
-```
+[Previous](./[5]-Creating-Tables.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[7]-Handling-NULLs.md)

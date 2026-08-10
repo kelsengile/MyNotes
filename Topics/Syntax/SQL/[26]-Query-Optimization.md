@@ -1,8 +1,12 @@
-# Lesson 26: Query Optimization & Execution Plans
+[Previous](./[25]-SQL-Dialects.md) | [Table of Contents](./[0]-Introduction.md)
+
+# Lesson 26 - Query Optimization & Execution Plans
 
 ---
 
 This final lesson ties together Lesson 17 (Indexes) with a deeper look at how databases actually execute queries, and how to diagnose and fix slow ones.
+
+---
 
 ## How a query actually runs
 
@@ -13,6 +17,8 @@ When you submit a `SELECT`, the database doesn't run it literally in the order y
 3. **Executes** the cheapest plan it found
 
 This is why understanding execution plans matters — the optimizer's choices, not your query's literal wording, determine actual performance.
+
+---
 
 ## EXPLAIN: seeing the plan
 
@@ -31,6 +37,8 @@ EXPLAIN ANALYZE SELECT * FROM books WHERE genre = 'Fantasy';
 -- SQLite
 EXPLAIN QUERY PLAN SELECT * FROM books WHERE genre = 'Fantasy';
 ```
+
+---
 
 ## Reading a plan: key things to look for
 
@@ -53,6 +61,8 @@ ANALYZE books;          -- PostgreSQL, SQLite
 ANALYZE TABLE books;    -- MySQL
 ```
 
+---
+
 ## Common causes of slow queries, and their fixes
 
 | Problem | Fix |
@@ -65,6 +75,8 @@ ANALYZE TABLE books;    -- MySQL
 | Large `OFFSET` for pagination | The database must still scan and discard all skipped rows; use "keyset pagination" (`WHERE id > last_seen_id ORDER BY id LIMIT n`) instead for deep pages |
 | Outdated table statistics | Run `ANALYZE` |
 | Overly broad `JOIN` before filtering | Filter early (in `WHERE`, or push filters into subqueries/CTEs) so less data flows into expensive joins |
+
+---
 
 ## N+1 query problems
 
@@ -81,6 +93,8 @@ FROM books b
 JOIN authors a ON b.author_id = a.author_id;
 ```
 This isn't a SQL syntax issue — it's a pattern to watch for in how application code *calls* SQL, and it's one of the single most common real-world performance problems in database-backed applications.
+
+---
 
 ## Query rewriting techniques
 
@@ -109,6 +123,8 @@ SELECT * FROM expensive_books b JOIN authors a ON b.author_id = a.author_id;
 ```
 Good optimizers often push the filter down automatically regardless of how you write it — but on complex, multi-join queries, explicit filtering can still help, and is always worth checking with `EXPLAIN`.
 
+---
+
 ## A practical optimization workflow
 
 1. **Measure first** — don't guess; use `EXPLAIN ANALYZE` to find the actual slow part of a query
@@ -120,43 +136,12 @@ Good optimizers often push the filter down automatically regardless of how you w
 
 ---
 
-## Exercises
-
-1. What command shows a query's execution plan *and* real timing/row-count statistics in PostgreSQL?
-2. Why can a large `OFFSET` become slow for deep pagination, and what's a common alternative approach?
-3. Describe the "N+1 query problem" and how to fix it.
-4. A query filtering `WHERE UPPER(email) = 'USER@EXAMPLE.COM'` isn't using an existing index on `email`. Why might that be, and what are two ways to fix it?
-
-### Answers
-
-```
-1. EXPLAIN ANALYZE
-
-2. A large OFFSET still requires the database to scan through and discard
-   every skipped row before returning results, which gets slower as the
-   offset grows. Keyset pagination — filtering with
-   WHERE id > last_seen_id ORDER BY id LIMIT n — avoids this by jumping
-   directly to the right starting point using an index.
-
-3. Running one query to fetch a list, then one additional query per row
-   to fetch related data, instead of a single query that joins everything
-   at once. Fix: replace the per-row queries with a single JOIN (or a
-   single query using WHERE ... IN with all needed IDs at once).
-
-4. Applying UPPER() to the column means the database is comparing a
-   transformed value that generally isn't what a plain index on `email`
-   stores, so the plain index can't be used directly. Fixes: (a) store
-   and compare emails in a normalized case already, avoiding the need
-   for UPPER() at query time, or (b) create a functional/expression
-   index specifically on UPPER(email), if the database supports it
-   (e.g., PostgreSQL's CREATE INDEX ON users (UPPER(email))).
-```
-
----
-
 ## You've completed the course! 🎉
 
 You've gone from installing a database to reading query execution plans — covering querying, schema design, integrity, performance, and the practical differences between major database systems along the way.
 
 From here, the best way to keep building SQL skill is to use it: work with a real dataset that interests you, rebuild a small app's data layer, or explore your chosen database's documentation for the deeper corners of features only touched on here (window functions, JSON, full-text search, and query planning all go much further than a single lesson can cover).
 
+---
+
+[Previous](./[25]-SQL-Dialects.md) | [Table of Contents](./[0]-Introduction.md) 

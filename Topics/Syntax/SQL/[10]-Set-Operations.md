@@ -1,8 +1,14 @@
-# Lesson 10: Set Operations — UNION, INTERSECT & EXCEPT
+[Previous](./[9]-Aggregate-Functions-and-Group-By.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Joins.md)
+
+# Lesson 10 - Set Operations — UNION, INTERSECT & EXCEPT
+
+
 
 ---
 
 Set operations combine the *results* of two separate `SELECT` queries, stacking or comparing rows rather than combining columns (that's what joins do — Lesson 11).
+
+---
 
 ## The requirement: compatible columns
 
@@ -11,6 +17,8 @@ For any set operation, both queries must return:
 - Columns in a compatible data type order (types don't need to match exactly, but need to be comparable)
 
 The column names in the final result come from the **first** query.
+
+---
 
 ## Sample setup
 
@@ -28,6 +36,8 @@ INSERT INTO award_winners VALUES
     ('Norwegian Wood', 1987);
 ```
 
+---
+
 ## UNION: combine rows, remove duplicates
 
 ```sql
@@ -37,6 +47,8 @@ SELECT title, year FROM award_winners;
 ```
 Returns every distinct row that appears in *either* query. Because `UNION` removes duplicates, it does extra work sorting/de-duplicating — if you know there won't be duplicates, or don't care, `UNION ALL` is faster.
 
+---
+
 ## UNION ALL: combine rows, keep duplicates
 
 ```sql
@@ -45,6 +57,8 @@ UNION ALL
 SELECT title, year FROM award_winners;
 ```
 This returns every row from both queries, including 'Norwegian Wood' and 'Half of a Yellow Sun' *twice* since they appear in both tables. `UNION ALL` is almost always faster than `UNION` and should be your default whenever duplicates are acceptable or impossible.
+
+---
 
 ## INTERSECT: only rows in both
 
@@ -57,6 +71,8 @@ Returns only rows that appear in *both* result sets — here, 'Half of a Yellow 
 
 **Dialect note:** `INTERSECT` is supported in PostgreSQL, SQLite, and SQL Server. MySQL only added `INTERSECT` in version 8.0.31+ — in older MySQL, you'd simulate it with an `INNER JOIN` or `WHERE ... IN (subquery)` instead.
 
+---
+
 ## EXCEPT (aka MINUS): rows in the first, not the second
 
 ```sql
@@ -68,6 +84,8 @@ Returns rows from the first query that *don't* appear in the second — here, ju
 
 **Dialect note:** PostgreSQL, SQLite, and SQL Server use `EXCEPT`. Oracle uses `MINUS` (same behavior, different keyword). MySQL didn't support either until 8.0.31+.
 
+---
+
 ## Ordering the combined result
 
 `ORDER BY` applies to the *entire combined result*, and goes at the very end (only one `ORDER BY` is allowed per set operation):
@@ -78,6 +96,8 @@ SELECT title, year FROM award_winners
 ORDER BY year;
 ```
 
+---
+
 ## A practical use: combining data from similarly-shaped tables
 
 Set operations are especially useful when the same kind of data is split across tables — for example, current-year and archived records:
@@ -87,6 +107,8 @@ UNION ALL
 SELECT customer_id, name FROM archived_customers;
 ```
 
+---
+
 ## Set operations vs JOIN: when to use which
 
 - Use a **JOIN** when you want to combine *columns* from two related tables into wider rows (e.g., books with their author's name attached).
@@ -94,37 +116,4 @@ SELECT customer_id, name FROM archived_customers;
 
 ---
 
-## Exercises
-
-Using `fiction_bestsellers` and `award_winners` from this lesson:
-
-1. List all titles that are either a bestseller or an award winner, without duplicates.
-2. List all titles that are both a bestseller and an award winner.
-3. List titles that are award winners but *not* bestsellers.
-4. Why might you prefer `UNION ALL` over `UNION` in a query you know has no overlapping rows?
-
-### Answers
-
-```sql
--- 1
-SELECT title, year FROM fiction_bestsellers
-UNION
-SELECT title, year FROM award_winners;
-
--- 2
-SELECT title, year FROM fiction_bestsellers
-INTERSECT
-SELECT title, year FROM award_winners;
-
--- 3
-SELECT title, year FROM award_winners
-EXCEPT
-SELECT title, year FROM fiction_bestsellers;
-
--- 4
--- UNION ALL skips the extra step of scanning and removing duplicate rows,
--- so it's faster. If you already know there's no overlap, UNION's
--- de-duplication work is wasted effort.
-```
-
-
+[Previous](./[9]-Aggregate-Functions-and-Group-By.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Joins.md)

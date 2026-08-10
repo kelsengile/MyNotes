@@ -1,8 +1,12 @@
-# Lesson 23: User Permissions & Security
+[Previous](./[22]-Triggers.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[24]-Importing-and-Exporting-Data.md)
+
+# Lesson 23 - User Permissions & Security
 
 ---
 
 This lesson applies to server-based databases (PostgreSQL, MySQL, SQL Server). **SQLite has no user/permission system** — a SQLite database is just a file, and access control means controlling who can access that file at the operating-system level.
+
+---
 
 ## Users and roles
 
@@ -13,6 +17,8 @@ A **user** (sometimes called a "login") is an account that can connect to the da
 CREATE USER analyst WITH PASSWORD 'a_strong_password';   -- PostgreSQL syntax
 CREATE USER 'analyst'@'localhost' IDENTIFIED BY 'a_strong_password';  -- MySQL syntax
 ```
+
+---
 
 ## GRANT: giving permissions
 
@@ -43,12 +49,16 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public TO analyst; -- every table in a sche
 GRANT SELECT (title, price) ON books TO analyst;     -- specific columns only (some databases)
 ```
 
+---
+
 ## REVOKE: taking permissions away
 
 ```sql
 REVOKE INSERT ON books FROM analyst;
 REVOKE ALL PRIVILEGES ON books FROM analyst;
 ```
+
+---
 
 ## Roles as permission groups
 
@@ -62,6 +72,8 @@ GRANT read_only TO new_hire;
 ```
 This way, changing what "read-only access" means updates every user in that role at once, rather than requiring individual updates.
 
+---
+
 ## The principle of least privilege
 
 A core security principle: every user or application should have the *minimum* permissions necessary to do its job, and nothing more.
@@ -72,6 +84,8 @@ A core security principle: every user or application should have the *minimum* p
 
 This limits the damage from a compromised application, a buggy script, or an accidental mistake — a `DELETE FROM users;` typo is far less catastrophic if that connection only has `SELECT` rights.
 
+---
+
 ## Using views to restrict access (recap of Lesson 16)
 
 Views can expose a limited slice of a table's columns or rows, letting you grant broad `SELECT` access to a view without ever exposing sensitive underlying columns directly:
@@ -81,6 +95,8 @@ SELECT author_id, name FROM authors;  -- omits any hypothetical private fields
 
 GRANT SELECT ON public_authors TO analyst;
 ```
+
+---
 
 ## Row-level security (PostgreSQL, SQL Server)
 
@@ -93,6 +109,8 @@ CREATE POLICY salesperson_own_orders ON orders
     FOR SELECT
     USING (salesperson_id = current_user_id());
 ```
+
+---
 
 ## SQL injection: the most important security concept for SQL
 
@@ -117,6 +135,8 @@ cursor.execute("SELECT * FROM users WHERE username = %s", (user_input,))
 ```
 Every mainstream database driver, in every language, supports parameterized queries — there's essentially never a good reason to concatenate raw strings into SQL.
 
+---
+
 ## Encryption
 
 - **Encryption at rest** protects stored data if the underlying disk/backups are stolen
@@ -127,34 +147,4 @@ Passwords specifically should never be stored as plain text — always store a s
 
 ---
 
-## Exercises
-
-1. Write SQL to create a role `readonly_role` that can `SELECT` from every table in the `public` schema (PostgreSQL syntax).
-2. Grant a user `intern` only `SELECT` and `INSERT` access on the `books` table — nothing else.
-3. Explain, in your own words, why `"SELECT * FROM books WHERE title = '" + user_input + "'"` is dangerous.
-4. Name one advantage of granting permissions through roles rather than directly to individual users.
-
-### Answers
-
-```sql
--- 1
-CREATE ROLE readonly_role;
-GRANT SELECT ON ALL TABLES IN SCHEMA public TO readonly_role;
-
--- 2
-GRANT SELECT, INSERT ON books TO intern;
-
--- 3
--- Because it builds the SQL query by directly concatenating untrusted
--- input, an attacker can inject text that changes the query's actual
--- meaning (e.g., closing the quote early and adding "OR '1'='1'"),
--- potentially exposing or modifying data far beyond what was intended.
--- Parameterized queries prevent this by keeping user input as pure data.
-
--- 4
--- Updating a role's permissions automatically updates every user
--- assigned to that role, rather than requiring you to track down and
--- update each individual user's permissions one by one — much easier
--- to keep consistent and audit as an organization grows.
-```
-
+[Previous](./[22]-Triggers.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[24]-Importing-and-Exporting-Data.md)

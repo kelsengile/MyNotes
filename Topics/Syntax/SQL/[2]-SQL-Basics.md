@@ -1,4 +1,8 @@
-# Lesson 2: SQL Basics — SELECT, FROM, WHERE
+[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Filtering-and-Sorting.md)
+
+
+# Lesson 2 - SQL Basics — SELECT, FROM, WHERE
+
 
 ---
 
@@ -39,6 +43,8 @@ INSERT INTO books VALUES
 
 We'll keep building on this `authors` / `books` schema throughout the course.
 
+---
+
 ## The anatomy of a query
 
 The most common SQL statement is `SELECT`. At minimum, it needs two things: **what columns you want**, and **which table to get them from**.
@@ -49,6 +55,8 @@ FROM table_name;
 ```
 
 Every SQL statement ends with a semicolon `;`. Some tools don't strictly require it for the last statement, but it's good habit to always include one.
+
+---
 
 ## SELECT: choosing columns
 
@@ -84,9 +92,13 @@ SELECT title, price, price * 1.1 AS price_with_tax
 FROM books;
 ```
 
+---
+
 ## FROM: choosing the table
 
 `FROM` tells the database where the columns come from. A query always needs exactly one `FROM` clause pointing at a table (or, as you'll see in Lesson 11, multiple tables joined together).
+
+---
 
 ## WHERE: filtering rows
 
@@ -115,6 +127,8 @@ SELECT * FROM books WHERE genre = 'Fantasy';
 SELECT * FROM books WHERE published_year > 2000;
 ```
 
+---
+
 ## Query clause order
 
 SQL statements are written in a fixed order, even though the database doesn't necessarily *execute* them in that order (more on that in later lessons):
@@ -127,6 +141,8 @@ WHERE ...
 
 Getting this order wrong is one of the most common beginner errors — `WHERE` always comes after `FROM`, never before `SELECT`.
 
+---
+
 ## Comments
 
 You can annotate your SQL with comments, which the database ignores:
@@ -136,35 +152,12 @@ SELECT * FROM books; /* this is a
                          multi-line comment */
 ```
 
+---
+
 ## A note on case sensitivity
 
 SQL keywords (`SELECT`, `FROM`, `WHERE`) are traditionally written in uppercase by convention, but SQL doesn't require it — `select * from books;` works identically. Table and column names, however, may or may not be case-sensitive depending on the database system (SQLite is flexible; PostgreSQL lowercases unquoted identifiers). Sticking to lowercase table/column names avoids most headaches.
 
 ---
 
-## Exercises
-
-Using the `books` and `authors` tables:
-
-1. Select just the `title` and `genre` columns from `books`.
-2. Select all books published after 1980.
-3. Select the title and price of books priced under $10, aliasing `price` as `cheap_price`.
-4. Select all columns from `authors` where the country is `'Japan'`.
-
-### Answers
-
-```sql
--- 1
-SELECT title, genre FROM books;
-
--- 2
-SELECT * FROM books WHERE published_year > 1980;
-
--- 3
-SELECT title, price AS cheap_price FROM books WHERE price < 10;
-
--- 4
-SELECT * FROM authors WHERE country = 'Japan';
-```
-
-
+[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Filtering-and-Sorting.md)

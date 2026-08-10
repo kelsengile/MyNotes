@@ -1,8 +1,14 @@
-# Lesson 15: ER Modeling, Normalization & Schema Design
+[Previous](./[14]-Constraints-and-Data-Integrity.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Views.md)
+
+# Lesson 15 - ER Modeling, Normalization & Schema Design
+
+
 
 ---
 
 Before writing a single `CREATE TABLE` statement, it helps to model your data conceptually first. This lesson covers **entity-relationship (ER) modeling** — the design step that happens before the schema — and then **normalization**, the discipline for organizing tables well once you start building them.
+
+---
 
 ## Entity-Relationship (ER) modeling
 
@@ -47,9 +53,13 @@ In practice, most people sketch ERDs with an actual diagramming tool (dbdiagram.
 
 Sketching entities, attributes, and relationships first — before typing `CREATE TABLE` — surfaces questions early that are expensive to fix later: *Can a book really have only one author, or do I need a junction table for co-authors? Does a customer need to exist before their first order, or can I allow guest checkouts?* Answering these on a whiteboard is far cheaper than migrating a live production schema after the fact.
 
+---
+
 ## Normalization
 
 Once you have an ER model, normalization is the process of organizing the resulting tables to reduce redundancy and prevent certain kinds of inconsistency. It's less about memorizing rules and more about a way of thinking: *each fact should be stored in exactly one place.*
+
+---
 
 ## The problem: a denormalized table
 
@@ -67,6 +77,8 @@ Le Guin's name and country are duplicated across every one of her books. This ca
 - **Deletion anomaly**: if you delete her only remaining book, you lose all record of the author entirely, even though that wasn't your intent.
 
 Splitting into `authors` and `books` tables (as we've done throughout this course) — with a foreign key connecting them — solves all three: the author's country is stored once, authors can exist without books, and deleting a book doesn't erase the author.
+
+---
 
 ## Normal forms
 
@@ -119,6 +131,8 @@ Fix: move country info (`country_code`) into a separate `countries` table, refer
 
 Further normal forms exist (BCNF, 4NF, 5NF) for edge cases involving more complex dependency patterns, but 3NF is where most real-world schema design stops — it eliminates the vast majority of practical redundancy problems.
 
+---
+
 ## Denormalization: sometimes on purpose
 
 Normalization optimizes for data integrity and minimal redundancy — but every join has a performance cost (Lesson 26). For read-heavy systems like reporting dashboards or analytics warehouses, it's common to deliberately **denormalize**: duplicate some data back into wider tables to avoid expensive joins at query time.
@@ -128,6 +142,8 @@ This is a genuine trade-off, not a mistake:
 - **Denormalized**: faster to read, but risk of the same update/insertion/deletion anomalies normalization was designed to prevent
 
 A common real-world pattern: keep the "source of truth" data normalized (e.g., in the main application database), but periodically copy it into a denormalized form for reporting (e.g., in a data warehouse), where read speed matters more than write consistency.
+
+---
 
 ## Practical schema design process
 
@@ -140,52 +156,4 @@ A common real-world pattern: keep the "source of truth" data normalized (e.g., i
 
 ---
 
-## Exercises
-
-1. This table violates 1NF. Redesign it:
-
-| order_id | customer_name | products |
-|---|---|---|
-| 1 | Amara | "Pen, Notebook, Eraser" |
-
-2. This table violates 3NF (`department_budget` depends on `department`, not on `employee_id`). Redesign it:
-
-| employee_id | name | department | department_budget |
-|---|---|---|---|
-| 1 | Beto | Sales | 500000 |
-| 2 | Chidi | Sales | 500000 |
-
-3. Give one realistic scenario where deliberately denormalizing data would be a reasonable choice.
-4. For a food delivery app with `Restaurant`, `Menu Item`, `Customer`, and `Order` entities: identify the cardinality of the relationship between `Restaurant` and `Menu Item`, and between `Order` and `Menu Item`. Which one needs a junction table?
-5. Sketch (in the `||--o{` text notation used in this lesson) the relationship between `Restaurant` and `Menu Item` from exercise 4.
-
-### Answers
-
-```
-1. Split into two tables:
-   orders(order_id, customer_name)
-   order_items(order_id, product)
-   — with one row per product per order in order_items.
-
-2. Split into two tables:
-   employees(employee_id, name, department)
-   departments(department, budget)
-   — department_budget now lives in exactly one place.
-
-3. A reporting dashboard that needs to show "total sales by region" for
-   millions of rows, run many times a day — pre-joining and storing
-   region alongside each sale avoids repeating an expensive join on
-   every single dashboard refresh, at the cost of needing to keep that
-   duplicated region value in sync if it ever changes.
-
-4. Restaurant to Menu Item is one-to-many (one restaurant has many menu
-   items, but each menu item belongs to exactly one restaurant) — a
-   plain foreign key (menu_item.restaurant_id) is enough, no junction
-   table needed. Order to Menu Item is many-to-many (one order can
-   contain many menu items, and the same menu item can appear on many
-   different orders) — this DOES need a junction table, typically
-   called order_items, to record which items (and quantities) belong
-   to which order.
-
-5. RESTAURANT ||--o{ MENU_ITEM : "offers"
-```
+[Previous](./[14]-Constraints-and-Data-Integrity.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Views.md)

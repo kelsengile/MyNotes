@@ -1,8 +1,14 @@
-# Lesson 11: Joins — INNER, LEFT, RIGHT & FULL
+[Previous](./[10]-Set-Operations.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Subqueries.md)
+
+# Lesson 11 - Joins — INNER, LEFT, RIGHT & FULL
+
+
 
 ---
 
 Joins combine columns from two or more tables into a single result, based on a relationship between them (usually a key). This is the single most important skill in SQL — real databases split data across many tables (Lesson 15 explains why), and joins are how you bring it back together.
+
+---
 
 ## Sample setup
 
@@ -31,6 +37,8 @@ INSERT INTO orders VALUES
 ```
 Notice order 4 references a customer that doesn't exist — a realistic (if messy) scenario, useful for illustrating join behavior. (Lesson 13 shows how foreign keys prevent this from happening.)
 
+---
+
 ## INNER JOIN: only matching rows
 
 `INNER JOIN` (often just written `JOIN`) returns rows where the join condition matches in *both* tables. Non-matching rows on either side are dropped.
@@ -50,6 +58,8 @@ JOIN table_b AS b ON a.key = b.key;
 ```
 - `AS a` / `AS b` are table aliases — shorthand names that make column references shorter and disambiguate columns that exist in both tables
 - `ON` specifies the condition that links rows together
+
+---
 
 ## LEFT JOIN (LEFT OUTER JOIN): all rows from the left, matched or not
 
@@ -71,6 +81,8 @@ WHERE c.customer_id IS NULL;
 ```
 This finds "orphaned" orders — a very common real-world data integrity check.
 
+---
+
 ## RIGHT JOIN (RIGHT OUTER JOIN): all rows from the right, matched or not
 
 The mirror image of `LEFT JOIN` — every row from the right table, matched data from the left where available:
@@ -84,6 +96,8 @@ This includes Chidi (customer_id 3), who has no orders — `o.order_id` is `NULL
 **Dialect note:** `RIGHT JOIN` is supported by PostgreSQL, MySQL, and SQL Server. **SQLite did not support `RIGHT JOIN` until version 3.39 (2022)** — in older SQLite, you'd rewrite it as a `LEFT JOIN` by swapping the table order.
 
 In practice, most people avoid `RIGHT JOIN` entirely and just swap table order to use `LEFT JOIN` instead, since it reads more naturally.
+
+---
 
 ## FULL JOIN (FULL OUTER JOIN): everything, matched or not
 
@@ -102,6 +116,8 @@ UNION
 SELECT c.name, o.order_id FROM customers c RIGHT JOIN orders o ON c.customer_id = o.customer_id;
 ```
 
+---
+
 ## Visual summary
 
 ```
@@ -110,6 +126,8 @@ LEFT JOIN:   everything on the left, plus the overlap
 RIGHT JOIN:  everything on the right, plus the overlap
 FULL JOIN:   everything from both sides
 ```
+
+---
 
 ## Joining more than two tables
 
@@ -121,6 +139,8 @@ JOIN customers c ON o.customer_id = c.customer_id
 JOIN books b ON o.book_id = b.book_id;
 ```
 
+---
+
 ## CROSS JOIN: every combination
 
 Returns the Cartesian product — every row from table A paired with every row from table B, with no matching condition:
@@ -128,6 +148,8 @@ Returns the Cartesian product — every row from table A paired with every row f
 SELECT c.name, b.title FROM customers c CROSS JOIN books b;
 ```
 If `customers` has 3 rows and `books` has 6, this returns 18 rows. Rarely used directly, except for generating combinations (e.g., all possible size/color pairs for a product).
+
+---
 
 ## Self joins
 
@@ -140,37 +162,4 @@ JOIN employees e2 ON e1.manager_id = e2.employee_id;
 
 ---
 
-## Exercises
-
-1. List every order along with the customer's name, only for orders with a valid customer.
-2. List every customer along with their orders, including customers who have never ordered anything.
-3. Find any orders that reference a customer who doesn't exist.
-4. Join `orders`, `customers`, and `books` to show customer name, book title, and order date together.
-
-### Answers
-
-```sql
--- 1
-SELECT o.order_id, c.name
-FROM orders o
-JOIN customers c ON o.customer_id = c.customer_id;
-
--- 2
-SELECT c.name, o.order_id
-FROM customers c
-LEFT JOIN orders o ON c.customer_id = o.customer_id;
-
--- 3
-SELECT o.*
-FROM orders o
-LEFT JOIN customers c ON o.customer_id = c.customer_id
-WHERE c.customer_id IS NULL;
-
--- 4
-SELECT c.name, b.title, o.order_date
-FROM orders o
-JOIN customers c ON o.customer_id = c.customer_id
-JOIN books b ON o.book_id = b.book_id;
-```
-
-
+[Previous](./[10]-Set-Operations.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Subqueries.md)

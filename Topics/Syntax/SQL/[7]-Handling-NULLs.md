@@ -1,4 +1,6 @@
-# Lesson 7: Handling NULLs
+[Previous](./[6]-Insert-Update-Delete.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Functions-and-CASE-Expressions.md)
+
+# Lesson 7 - Handling NULLs
 
 ---
 
@@ -10,6 +12,8 @@
 INSERT INTO books (book_id, title, author_id, price, published_year, genre)
 VALUES (8, 'Untitled Manuscript', NULL, 15.00, NULL, NULL);
 ```
+
+---
 
 ## Why NULL = NULL doesn't work
 
@@ -26,12 +30,16 @@ SELECT * FROM books WHERE author_id IS NULL;
 SELECT * FROM books WHERE author_id IS NOT NULL;
 ```
 
+---
+
 ## NULL in calculations
 
 Any arithmetic involving `NULL` produces `NULL`:
 ```sql
 SELECT price + NULL AS result;  -- result is NULL, not price
 ```
+
+---
 
 ## NULL in AND / OR logic
 
@@ -50,6 +58,8 @@ SELECT * FROM books WHERE author_id = 1;
 SELECT * FROM books WHERE NOT (author_id = 1);   -- NOT UNKNOWN is still UNKNOWN!
 ```
 
+---
+
 ## COALESCE: substituting a default value
 
 `COALESCE` returns the first non-NULL value from a list of arguments — the standard way to provide a fallback:
@@ -65,6 +75,8 @@ FROM books;
 SELECT COALESCE(nickname, first_name, 'Anonymous') FROM users;
 ```
 
+---
+
 ## NULLIF: turning a value into NULL conditionally
 
 `NULLIF(a, b)` returns `NULL` if `a` equals `b`, otherwise returns `a`. Useful for avoiding divide-by-zero errors:
@@ -73,6 +85,8 @@ SELECT total_sales / NULLIF(total_orders, 0) AS avg_order_value
 FROM stats;
 ```
 If `total_orders` is 0, this returns `NULL` instead of throwing a division error.
+
+---
 
 ## NULLs and aggregate functions
 
@@ -83,6 +97,8 @@ SELECT COUNT(published_year) FROM books; -- counts only non-NULL values
 SELECT COUNT(*) FROM books;              -- counts ALL rows, NULL or not
 ```
 This distinction between `COUNT(column)` and `COUNT(*)` trips up a lot of beginners.
+
+---
 
 ## NULLs and sorting
 
@@ -98,36 +114,12 @@ ORDER BY published_year ASC NULLS LAST;
 ```
 **Dialect note:** `NULLS FIRST`/`NULLS LAST` isn't supported in MySQL or SQL Server; you'd typically use a `CASE` expression as a workaround there.
 
+---
+
 ## NULLs and UNIQUE constraints
 
 A `UNIQUE` constraint (Lesson 14) generally allows multiple `NULL` values in the same column, since `NULL` is never considered equal to another `NULL` — even under a uniqueness check. This behavior is consistent across PostgreSQL, SQLite, and MySQL.
 
 ---
 
-## Exercises
-
-1. Find all books where `author_id` is missing.
-2. Select every book's genre, replacing any missing genre with the text `'Unknown'`.
-3. Why does `WHERE published_year != 2002` exclude rows where `published_year` is `NULL`, and how would you include them too?
-4. What's the difference between `COUNT(*)` and `COUNT(genre)` on a table where some `genre` values are `NULL`?
-
-### Answers
-
-```sql
--- 1
-SELECT * FROM books WHERE author_id IS NULL;
-
--- 2
-SELECT title, COALESCE(genre, 'Unknown') AS genre FROM books;
-
--- 3
--- NULL is never "not equal" to anything either — comparisons with NULL
--- always evaluate to UNKNOWN, so those rows are dropped. To include them:
-SELECT * FROM books WHERE published_year != 2002 OR published_year IS NULL;
-
--- 4
--- COUNT(*) counts every row regardless of NULLs.
--- COUNT(genre) counts only rows where genre is NOT NULL.
-```
-
-
+[Previous](./[6]-Insert-Update-Delete.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Functions-and-CASE-Expressions.md)

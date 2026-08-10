@@ -1,4 +1,6 @@
-# Lesson 21: Stored Procedures & Functions
+[Previous](./[20]-Window-Functions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[22]-Triggers.md)
+
+# Lesson 21 - Stored Procedures & Functions
 
 ---
 
@@ -20,6 +22,8 @@ This is the area of SQL with the **most variation between databases** — there'
 
 Because SQLite doesn't support this feature, the examples below use PostgreSQL and MySQL syntax — if you've been following along in SQLite, you'll need a different database (or an online sandbox) to try these directly.
 
+---
+
 ## A simple function (PostgreSQL)
 
 ```sql
@@ -37,6 +41,8 @@ SELECT title, price, price_with_tax(price) AS total_price
 FROM books;
 ```
 
+---
+
 ## A simple function (MySQL)
 
 ```sql
@@ -52,6 +58,8 @@ END //
 DELIMITER ;
 ```
 (The `DELIMITER` switch is a MySQL-specific quirk — it temporarily changes the statement terminator so the semicolons *inside* the function body don't end the `CREATE FUNCTION` statement early.)
+
+---
 
 ## A stored procedure (PostgreSQL)
 
@@ -73,6 +81,8 @@ Calling it:
 ```sql
 CALL apply_discount('Fantasy', 15);
 ```
+
+---
 
 ## Procedural control flow
 
@@ -100,6 +110,8 @@ FOR r IN SELECT * FROM books LOOP
 END LOOP;
 ```
 
+---
+
 ## Parameters: IN, OUT, INOUT
 
 - `IN` parameters (the default) pass a value into the procedure
@@ -116,6 +128,8 @@ END;
 $$;
 ```
 
+---
+
 ## Why use stored procedures/functions?
 
 - **Encapsulation** — complex, multi-step business logic lives in one place, in the database, rather than duplicated across every application that touches the data
@@ -123,11 +137,15 @@ $$;
 - **Security** — you can grant permission to `CALL` a procedure without granting direct access to the underlying tables it touches (ties into Lesson 23)
 - **Consistency** — every caller gets the same validated behavior, rather than each application re-implementing (and possibly getting subtly wrong) the same logic
 
+---
+
 ## Trade-offs and criticisms
 
 - Procedural SQL dialects are non-standard and largely non-portable between databases — heavy use locks you into one vendor
 - Business logic split between application code and stored procedures can become harder to test, version-control, and reason about compared to keeping it entirely in application code
 - Many modern teams deliberately keep the database "thin" (just tables, constraints, and maybe views) and put procedural logic in the application layer instead — this is a genuine, debated trade-off in database design philosophy, not a settled question
+
+---
 
 ## Dropping procedures/functions
 
@@ -139,39 +157,4 @@ DROP PROCEDURE apply_discount(TEXT, DECIMAL);
 
 ---
 
-## Exercises
-
-1. In words, describe the difference between a stored function and a stored procedure.
-2. Write a PostgreSQL function `discounted_price(price DECIMAL, pct DECIMAL)` that returns the price after applying a percentage discount.
-3. Why is SQLite not a good fit for learning stored procedures?
-4. Name one advantage and one disadvantage of putting business logic in stored procedures rather than application code.
-
-### Answers
-
-```sql
--- 1
--- A function returns a single value and can be used inside a SELECT
--- expression, like a built-in function. A procedure performs one or more
--- actions (often with side effects like UPDATEs), is invoked separately
--- with CALL, and doesn't need to return anything.
-
--- 2
-CREATE FUNCTION discounted_price(price DECIMAL, pct DECIMAL)
-RETURNS DECIMAL AS $$
-BEGIN
-    RETURN price * (1 - pct / 100);
-END;
-$$ LANGUAGE plpgsql;
-
--- 3
--- SQLite has no support for stored procedures or functions at all — it's
--- designed to be a lightweight, embedded, file-based database without a
--- separate server process to host procedural logic.
-
--- 4
--- Advantage: logic lives in one place and is enforced consistently for
--- every application/user that touches the database.
--- Disadvantage: procedural SQL is non-portable across database vendors,
--- and can be harder to version-control and test than application code.
-```
-
+[Previous](./[20]-Window-Functions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[22]-Triggers.md)

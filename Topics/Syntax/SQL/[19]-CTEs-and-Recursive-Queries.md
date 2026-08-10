@@ -1,4 +1,7 @@
-# Lesson 19: Common Table Expressions (CTEs) & Recursive Queries
+[Previous](./[18]-Transactions-and-ACID.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[20]-Window-Functions.md)
+
+# Lesson 19 - Common Table Expressions (CTEs) & Recursive Queries
+
 
 ---
 
@@ -14,6 +17,8 @@ SELECT genre, COUNT(*) AS count
 FROM cheap_books
 GROUP BY genre;
 ```
+
+---
 
 ## Why use a CTE instead of a subquery?
 
@@ -37,6 +42,8 @@ GROUP BY genre;
 ```
 As logic gets more nested, CTEs stay readable while stacked subqueries quickly become hard to follow.
 
+---
+
 ## Multiple CTEs in one query
 
 Separate multiple CTEs with commas — later CTEs can reference earlier ones:
@@ -52,6 +59,8 @@ FROM scifi_books, scifi_avg
 WHERE scifi_books.price > scifi_avg.avg_price;
 ```
 
+---
+
 ## Referencing a CTE more than once
 
 A CTE can be referenced multiple times within the same query, without the underlying query being re-run and rewritten each time:
@@ -63,6 +72,8 @@ SELECT g1.genre, g1.total
 FROM genre_totals g1
 WHERE g1.total = (SELECT MAX(total) FROM genre_totals);
 ```
+
+---
 
 ## Recursive CTEs
 
@@ -129,11 +140,15 @@ SELECT n FROM counter;
 ```
 This produces the numbers 1 through 10 — useful for generating date ranges, filling gaps in data, or building calendars.
 
+---
+
 ## Avoiding infinite recursion
 
 A recursive CTE without a stopping condition will run forever (or until it hits a database-imposed row/depth limit). Always ensure the recursive case eventually stops matching new rows — in the examples above, that happens naturally once no more employees or numbers satisfy the join/filter condition.
 
 **Dialect note:** `WITH RECURSIVE` is the standard syntax (PostgreSQL, SQLite, MySQL 8.0+). SQL Server uses `WITH cte_name AS (...)` *without* the word `RECURSIVE` — the recursion is implicit if the CTE references itself.
+
+---
 
 ## CTEs in INSERT/UPDATE/DELETE
 
@@ -147,49 +162,4 @@ DELETE FROM books WHERE book_id IN (SELECT book_id FROM overpriced);
 
 ---
 
-## Exercises
-
-1. Rewrite this subquery as a CTE:
-   ```sql
-   SELECT * FROM (SELECT genre, AVG(price) AS avg_price FROM books GROUP BY genre) sub WHERE avg_price > 9;
-   ```
-2. Write a CTE that finds the most expensive book per genre (hint: combine with a second CTE for genre max prices).
-3. Write a recursive CTE that generates the numbers 1 through 5.
-4. Using the `employees` table above, write a recursive CTE that finds everyone who (directly or indirectly) reports to Femi (employee_id 2).
-
-### Answers
-
-```sql
--- 1
-WITH genre_avg AS (
-    SELECT genre, AVG(price) AS avg_price FROM books GROUP BY genre
-)
-SELECT * FROM genre_avg WHERE avg_price > 9;
-
--- 2
-WITH genre_max AS (
-    SELECT genre, MAX(price) AS max_price FROM books GROUP BY genre
-)
-SELECT b.title, b.genre, b.price
-FROM books b
-JOIN genre_max gm ON b.genre = gm.genre AND b.price = gm.max_price;
-
--- 3
-WITH RECURSIVE counter AS (
-    SELECT 1 AS n
-    UNION ALL
-    SELECT n + 1 FROM counter WHERE n < 5
-)
-SELECT n FROM counter;
-
--- 4
-WITH RECURSIVE reports AS (
-    SELECT employee_id, name, manager_id FROM employees WHERE manager_id = 2
-    UNION ALL
-    SELECT e.employee_id, e.name, e.manager_id
-    FROM employees e
-    JOIN reports r ON e.manager_id = r.employee_id
-)
-SELECT * FROM reports;
-```
-
+[Previous](./[18]-Transactions-and-ACID.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[20]-Window-Functions.md)

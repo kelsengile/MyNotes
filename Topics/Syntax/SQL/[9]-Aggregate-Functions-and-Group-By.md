@@ -1,8 +1,12 @@
-# Lesson 9: Aggregate Functions & GROUP BY
+[Previous](./[8]-Functions-and-CASE-Expressions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Set-Operations.md)
+
+# Lesson 9 - Aggregate Functions & GROUP BY
 
 ---
 
 Aggregate functions summarize many rows into a single value — "how many," "what's the average," "what's the total." Combined with `GROUP BY`, they let you summarize data *per category* instead of across the whole table.
+
+---
 
 ## The five core aggregate functions
 
@@ -20,6 +24,8 @@ SELECT COUNT(*) FROM books;
 SELECT AVG(price) FROM books;
 SELECT MIN(published_year), MAX(published_year) FROM books;
 ```
+
+---
 
 ## GROUP BY: aggregating per category
 
@@ -39,6 +45,8 @@ FROM books
 GROUP BY genre;
 ```
 
+---
+
 ## The golden rule of GROUP BY
 
 Every column in `SELECT` that isn't wrapped in an aggregate function **must** appear in `GROUP BY`. This query is invalid in most databases (SQLite is a notable, permissive exception, but relying on that is bad practice):
@@ -50,6 +58,8 @@ GROUP BY genre;
 -- title isn't aggregated and isn't in GROUP BY — which title would it show?
 ```
 
+---
+
 ## Grouping by multiple columns
 
 ```sql
@@ -58,6 +68,8 @@ FROM books
 GROUP BY genre, published_year;
 ```
 Each unique *combination* of genre and year becomes its own group.
+
+---
 
 ## HAVING: filtering groups
 
@@ -76,6 +88,8 @@ This is invalid — you cannot use an aggregate function in `WHERE`:
 SELECT genre, COUNT(*) FROM books WHERE COUNT(*) > 1 GROUP BY genre;
 ```
 
+---
+
 ## Clause execution order (conceptual)
 
 SQL is *written* in this order:
@@ -91,6 +105,8 @@ This explains several rules that otherwise seem arbitrary:
 - `HAVING` can reference an aggregate, because it runs after grouping
 - Column aliases defined in `SELECT` generally can't be used in `WHERE` (it runs first) but often *can* be used in `ORDER BY` (it runs last)
 
+---
+
 ## Combining WHERE and HAVING
 
 ```sql
@@ -102,6 +118,8 @@ HAVING AVG(price) > 9;
 ```
 Here, `WHERE` removes individual books published in or before 1970 *before* grouping; `HAVING` then removes entire genre-groups whose average price doesn't clear $9.
 
+---
+
 ## COUNT(DISTINCT ...)
 
 Counts unique values rather than every row:
@@ -109,6 +127,8 @@ Counts unique values rather than every row:
 SELECT COUNT(DISTINCT genre) FROM books;
 SELECT COUNT(DISTINCT author_id) FROM books;
 ```
+
+---
 
 ## A full example
 
@@ -127,34 +147,4 @@ ORDER BY avg_price DESC;
 
 ---
 
-## Exercises
-
-1. Count how many books exist per genre.
-2. Find the average price per genre, rounded to 2 decimal places.
-3. Find genres that have more than one book.
-4. Find the earliest and latest `published_year` for each genre.
-5. Count the number of distinct authors in the `books` table.
-
-### Answers
-
-```sql
--- 1
-SELECT genre, COUNT(*) AS book_count FROM books GROUP BY genre;
-
--- 2
-SELECT genre, ROUND(AVG(price), 2) AS avg_price FROM books GROUP BY genre;
-
--- 3
-SELECT genre, COUNT(*) AS book_count
-FROM books GROUP BY genre HAVING COUNT(*) > 1;
-
--- 4
-SELECT genre, MIN(published_year) AS earliest, MAX(published_year) AS latest
-FROM books GROUP BY genre;
-
--- 5
-SELECT COUNT(DISTINCT author_id) FROM books;
-```
-
-
-
+[Previous](./[8]-Functions-and-CASE-Expressions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Set-Operations.md)

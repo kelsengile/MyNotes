@@ -1,8 +1,12 @@
-# Lesson 5: Creating Tables — CREATE, ALTER, DROP
+[Previous](./[4]-Data-Types-and-Table-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Insert-Update-Delete.md)
+
+# Lesson 5 - Creating Tables — CREATE, ALTER, DROP
 
 ---
 
 These commands belong to a subset of SQL called **DDL** — Data Definition Language — statements that define or change the *structure* of your database, as opposed to **DML** (Data Manipulation Language, Lesson 6) which works with the data itself.
+
+---
 
 ## CREATE TABLE
 
@@ -32,6 +36,8 @@ CREATE TABLE IF NOT EXISTS customers (
 );
 ```
 
+---
+
 ## ALTER TABLE
 
 `ALTER TABLE` changes the structure of an existing table without losing its data.
@@ -59,6 +65,8 @@ ALTER TABLE clients DROP COLUMN phone_number;
 
 **Dialect note:** Older versions of SQLite (before 3.35) couldn't drop columns directly — you had to recreate the table. Modern SQLite, PostgreSQL, MySQL, and SQL Server all support `DROP COLUMN` directly. Changing a column's data type after creation also varies significantly by dialect — PostgreSQL uses `ALTER COLUMN ... TYPE`, MySQL uses `MODIFY COLUMN`, and SQLite doesn't support it at all without rebuilding the table.
 
+---
+
 ## DROP TABLE
 
 Permanently deletes a table and all its data:
@@ -70,6 +78,8 @@ This cannot be undone (barring backups or, in some transactional contexts, a rol
 DROP TABLE IF EXISTS clients;
 ```
 
+---
+
 ## TRUNCATE TABLE
 
 Removes all *rows* from a table but keeps the table structure — faster than `DELETE FROM table` for clearing large tables, and typically resets auto-increment counters.
@@ -77,6 +87,8 @@ Removes all *rows* from a table but keeps the table structure — faster than `D
 TRUNCATE TABLE clients;
 ```
 **Dialect note:** SQLite doesn't have `TRUNCATE` — use `DELETE FROM clients;` instead, which achieves the same practical result for a learning context.
+
+---
 
 ## A full example: building the bookstore schema properly
 
@@ -105,6 +117,8 @@ CREATE TABLE books (
 
 Note the `FOREIGN KEY` line — it tells the database that `books.author_id` refers to `authors.author_id`. Foreign keys are covered fully in Lesson 13.
 
+---
+
 ## Viewing a table's structure
 
 - SQLite: `.schema books`
@@ -114,37 +128,4 @@ Note the `FOREIGN KEY` line — it tells the database that `books.author_id` ref
 
 ---
 
-## Exercises
-
-1. Create a table `employees` with columns: `employee_id` (integer primary key), `name` (required text), `department` (text), `salary` (decimal), `hire_date` (date, defaulting to today).
-2. Add a `email` text column to `employees`.
-3. Rename the `department` column to `team`.
-4. Drop the `email` column you just added.
-5. Delete the entire `employees` table safely (no error if it doesn't exist).
-
-### Answers
-
-```sql
--- 1
-CREATE TABLE employees (
-    employee_id INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
-    department TEXT,
-    salary DECIMAL(10,2),
-    hire_date DATE DEFAULT CURRENT_DATE
-);
-
--- 2
-ALTER TABLE employees ADD COLUMN email TEXT;
-
--- 3
-ALTER TABLE employees RENAME COLUMN department TO team;
-
--- 4
-ALTER TABLE employees DROP COLUMN email;
-
--- 5
-DROP TABLE IF EXISTS employees;
-```
-
-
+[Previous](./[4]-Data-Types-and-Table-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Insert-Update-Delete.md)

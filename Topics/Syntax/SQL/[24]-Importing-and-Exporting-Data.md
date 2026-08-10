@@ -1,8 +1,13 @@
-# Lesson 24: Importing & Exporting Data
+[Previous](./[23]-Permissions-and-Security.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[25]-SQL-Dialects.md)
+
+
+# Lesson 24 - Importing & Exporting Data
 
 ---
 
 Real-world data rarely starts out already inside your database — it usually arrives as a CSV export, a JSON API response, or a file from another system. This lesson covers moving data in and out.
+
+---
 
 ## Importing CSV data
 
@@ -45,6 +50,8 @@ WITH (
 );
 ```
 
+---
+
 ## Exporting to CSV
 
 ### SQLite
@@ -77,6 +84,8 @@ LINES TERMINATED BY '\n';
 ### Using a GUI tool or command-line client generically
 
 Most database GUI tools (DBeaver, TablePlus, pgAdmin) offer an "Export results" button after running a query, which sidesteps needing to remember dialect-specific syntax — often the simplest option day-to-day.
+
+---
 
 ## Working with JSON
 
@@ -113,6 +122,8 @@ SELECT json_build_object('title', title, 'price', price) FROM books;
 SELECT JSON_OBJECT('title', title, 'price', price) FROM books;
 ```
 
+---
+
 ## Dump and restore (full database backups)
 
 ### PostgreSQL
@@ -134,6 +145,8 @@ sqlite3 practice.db .dump > backup.sql
 sqlite3 new_database.db < backup.sql
 ```
 
+---
+
 ## Practical import checklist
 
 Before importing external data:
@@ -145,35 +158,4 @@ Before importing external data:
 
 ---
 
-## Exercises
-
-1. Write the SQLite commands to export the `books` table to a CSV file called `books.csv`, including headers.
-2. Write a PostgreSQL `COPY` statement to import `authors.csv` (with a header row) into the `authors` table.
-3. In PostgreSQL, given a `JSONB` column `payload` containing `{"genre": "Fantasy"}`, write a query to extract `genre` as plain text.
-4. Why is it good practice to import messy external data into a staging table first, rather than directly into your production table?
-
-### Answers
-
-```sql
--- 1 (SQLite CLI commands)
-.headers on
-.mode csv
-.output books.csv
-SELECT * FROM books;
-.output stdout
-
--- 2
-COPY authors (author_id, name, country)
-FROM '/path/to/authors.csv'
-DELIMITER ','
-CSV HEADER;
-
--- 3
-SELECT payload->>'genre' AS genre FROM events;
-
--- 4
--- A staging table lets you validate, clean, and de-duplicate the data
--- (checking types, required fields, foreign key validity, etc.) before
--- it ever touches production tables — preventing malformed or partial
--- import data from corrupting data that live applications already depend on.
-```
+[Previous](./[23]-Permissions-and-Security.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[25]-SQL-Dialects.md)
