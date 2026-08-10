@@ -1,6 +1,8 @@
-# Contributing
+# Contributing Guidelines
 
 Thanks for your interest in contributing! This repository is for **educational purposes** and is open for anyone to use or contribute to. To keep things consistent and easy to navigate, please follow the guidelines below.
+
+---
 
 ## File Structure
 
@@ -43,6 +45,8 @@ Every file must include the following:
    - Sublessons are separated by a horizontal rule (`---`) so they're visually distinct when scrolling.
    - Exercises must never be placed inside lesson files — keep them in their own separate exercise files, linked from the lesson if relevant, so lessons stay focused on explanation and exercises stay focused on practice.
 
+---
+
 ## Content Guidelines
 
 - Only contribute **meaningful and correct** information. Double-check technical accuracy before submitting.
@@ -52,6 +56,8 @@ Every file must include the following:
 - Avoid duplicate content — check the Table of Contents and existing files before adding a new lesson to make sure the topic isn't already covered.
 - Cite external sources if you reference specific facts, data, or quotes that aren't common knowledge.
 
+---
+
 ## Submitting Changes
 
 1. Fork the repository.
@@ -60,8 +66,10 @@ Every file must include the following:
 4. Update the Table of Contents file to include any new lessons, and fix the Previous/Next links of adjacent files if you insert a lesson in the middle of the sequence.
 5. Open a pull request with a short description of what you added or changed.
 
+---
+
 ## Questions or Issues
 
 If you spot an error, have a suggestion, or aren't sure how something should be formatted, feel free to open an issue before submitting a pull request.
 
-Happy learning, and thanks for helping improve this resource!
+*Happy learning, and thanks for helping improve this resource!*
