@@ -21,7 +21,7 @@ Every file must include the following:
 
 2. **Navigation links** at both the top and bottom of the file, so readers can move through the repository easily:
    ```
-   [Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/toc.md) | [Next](../path/to/next-file.md)
+   [Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/Introduction.md) | [Next](../path/to/next-file.md)
    ```
    - If there is no previous or next file, replace the link with plain text (e.g. `Previous` with no link) instead of removing it, to keep navigation consistent.
 
@@ -46,4 +46,4 @@ Every file must include the following:
 
 If you spot an error, have a suggestion, or aren't sure how something should be formatted, feel free to open an issue before submitting a pull request.
 
-Happy learning, and thanks for helping improve this resource!
+*Happy learning, and thanks for helping improve this resource!*
