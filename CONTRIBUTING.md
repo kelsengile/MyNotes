@@ -1,4 +1,4 @@
-# Contributing
+# Contributing Guidelines
 
 Thanks for your interest in contributing! This repository is for **educational purposes** and is open for anyone to use or contribute to. To keep things consistent and easy to navigate, please follow the guidelines below.
 
