@@ -1,10 +1,16 @@
-# [4] Dependencies & Dependency Trees
+[Previous](./[3]-Installing-Updating-And-Removing-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Versioning-And-Semantic-Versioning.md)
 
-## What Is a Dependency?
+---
+
+# Lesson 4 - Dependencies And Dependency Trees
+
+## 4.1 What Is a Dependency?
 
 A **dependency** is a package that another package or project needs in order to work. If your project uses a package called `web-framework`, then `web-framework` is your **direct dependency**.
 
-## Transitive (Indirect) Dependencies
+---
+
+## 4.2 Transitive (Indirect) Dependencies
 
 If `web-framework` itself relies on a package called `http-parser`, then `http-parser` is a **transitive dependency** of your project — you didn't install it directly, but you need it anyway because something you installed depends on it.
 
@@ -18,7 +24,9 @@ your-project
 
 This branching structure is called a **dependency tree**. In real projects, a handful of direct dependencies can easily expand into hundreds of transitive ones.
 
-## Viewing a Dependency Tree
+---
+
+## 4.3 Viewing a Dependency Tree
 
 Most package managers can print the tree for you:
 
@@ -32,7 +40,9 @@ pipdeptree             # third-party tool for a full Python dependency tree
 cargo tree
 ```
 
-## Why Dependency Trees Get Complicated
+---
+
+## 4.4 Why Dependency Trees Get Complicated
 
 Two different packages in your tree might depend on **different versions** of the same package. For example:
 
@@ -44,7 +54,9 @@ your-project
 
 The package manager has to figure out how to satisfy both — sometimes by installing two separate copies of `utils` (npm often does this), and sometimes by failing with a conflict error if the ecosystem doesn't support multiple versions side by side (more on resolving this in file [14]).
 
-## Dependency Depth and "Dependency Bloat"
+---
+
+## 4.5 Dependency Depth and "Dependency Bloat"
 
 Because dependencies pull in their own dependencies, installing one package can result in dozens or hundreds of packages being downloaded. This is sometimes called **dependency bloat**, and it has real costs:
 
@@ -53,7 +65,9 @@ Because dependencies pull in their own dependencies, installing one package can 
 - Harder-to-audit codebases
 - More potential for version conflicts
 
-## Peer Dependencies
+---
+
+## 4.6 Peer Dependencies
 
 Some ecosystems (notably npm) have a concept of a **peer dependency** — a package that expects *you* (not itself) to install a compatible version of another package. This is common for plugins that need to match the version of the tool they plug into (e.g. a React component library expects your project to already have React installed).
 
@@ -65,21 +79,12 @@ Some ecosystems (notably npm) have a concept of a **peer dependency** — a pack
 }
 ```
 
-## Optional Dependencies
+---
+
+## 4.7 Optional Dependencies
 
 Some dependencies are only needed for certain features and can be skipped if unused, letting the core package stay lightweight. These are usually marked explicitly in the manifest (e.g. npm's `optionalDependencies`).
 
-## Try It Yourself
-
-In an existing project (or one you just created), run the "view tree" command for your language and look for:
-
-- How deep the tree goes
-- Whether any package appears more than once with different versions
-- Roughly how many total packages are installed vs. how many you added directly
-
-## Up Next
-
-Next, you'll learn how packages are versioned and what those version numbers actually mean.
-
 ---
-⬅ [3] [Installing, Updating & Removing Packages](./%5B3%5D-Installing-Updating-and-Removing-Packages.md) | ➡ [5] [Versioning & Semantic Versioning](./%5B5%5D-Versioning-and-Semantic-Versioning.md)
+
+[Previous](./[3]-Installing-Updating-And-Removing-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Versioning-And-Semantic-Versioning.md)
