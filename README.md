@@ -12,7 +12,7 @@ MyNotes/
 │   ├── 📁 Specializations
 │   └── 📁 Syntax
 │   └── 📁 Tools
-├── 📝 .gitignore
+├── 🚫 .gitignore
 ├── 📝 IDEAS.md
 ├── 📝 README.md
 └── 📝 RESOURCES.md
