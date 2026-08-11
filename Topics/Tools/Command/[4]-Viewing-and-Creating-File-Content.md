@@ -1,6 +1,8 @@
-# Lesson 4: Viewing and Creating File Content
+[Previous](./[3]-Managing-Files-And-Folders.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Redirection-And-Piping.md)
 
-## Viewing a text file
+# Lesson 4 - Viewing and Creating File Content
+
+## 4.1 Viewing a text file
 
 ```
 type notes.txt
@@ -13,7 +15,9 @@ type notes.txt | more
 ```
 Press `Space` to go to the next page, `Enter` for the next line, `Q` to quit.
 
-## Creating a file with text in it
+---
+
+## 4.2 Creating a file with text in it
 
 ```
 echo Hello, world! > note.txt
@@ -25,21 +29,27 @@ To **add** a line without erasing what's already there, use `>>`:
 echo Another line >> note.txt
 ```
 
-## Creating an empty file
+---
+
+## 4.3 Creating an empty file
 
 ```
 type nul > empty.txt
 ```
 `nul` is a special "nothing" device — this trick creates a zero-byte file.
 
-## Combining several files into one
+---
+
+## 4.4 Combining several files into one
 
 ```
 copy file1.txt + file2.txt combined.txt
 ```
 Concatenates `file1.txt` and `file2.txt` into `combined.txt`.
 
-## A quick note on text editors
+---
+
+## 4.5 A quick note on text editors
 
 CMD isn't meant for heavy editing. For anything beyond a line or two, open the file in Notepad straight from CMD:
 ```
@@ -47,9 +57,6 @@ notepad notes.txt
 ```
 If `notes.txt` doesn't exist yet, Notepad will offer to create it.
 
-## Try it yourself
+---
 
-1. Create `note.txt` with one line using `echo ... > note.txt`.
-2. Append a second line using `>>`.
-3. View the result with `type note.txt`.
-4. Open the same file in Notepad directly from CMD.
+[Previous](./[3]-Managing-Files-And-Folders.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Redirection-And-Piping.md)

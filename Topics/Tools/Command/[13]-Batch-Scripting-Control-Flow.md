@@ -1,6 +1,8 @@
-# Lesson 13: Batch Scripting — Control Flow
+[Previous](./[12]-Batch-Scripting-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Tips-Tricks-And-Shortcuts.md)
 
-## Conditional logic with `if`
+# Lesson 13 - Batch Scripting Control Flow
+
+## 13.1 Conditional logic with if
 
 ```bat
 @echo off
@@ -28,7 +30,9 @@ if exist "C:\MyFolder\" (
 )
 ```
 
-## Chaining commands with `&&` and `||`
+---
+
+## 13.2 Chaining commands with && and ||
 
 - `command1 && command2` — run `command2` only if `command1` succeeded.
 - `command1 || command2` — run `command2` only if `command1` failed.
@@ -37,7 +41,9 @@ if exist "C:\MyFolder\" (
 ping -n 1 google.com >nul && echo Internet is up || echo Internet is down
 ```
 
-## Loops with `for`
+---
+
+## 13.3 Loops with for
 
 Loop over files:
 ```bat
@@ -56,7 +62,9 @@ Loop over lines in a file:
 for /f "tokens=*" %%line in (names.txt) do echo Name: %%line
 ```
 
-## Labels and `goto`
+---
+
+## 13.4 Labels and goto
 
 ```bat
 @echo off
@@ -71,7 +79,9 @@ echo Done!
 ```
 `:loop` is a label — a marker you can jump back to. `goto loop` jumps to it. `set /a` performs arithmetic (plain `set` treats everything as text).
 
-## Putting it together: a simple menu script
+---
+
+## 13.5 Putting it together: a simple menu script
 
 ```bat
 @echo off
@@ -88,9 +98,6 @@ if %choice%==3 exit
 goto menu
 ```
 
-## Try it yourself
+---
 
-1. Write a script that checks if a file called `data.txt` exists, and creates it with `echo` if it doesn't.
-2. Write a `for /l` loop that counts from 1 to 10.
-3. Build the menu script above and add a fourth option of your choosing.
-
+[Previous](./[12]-Batch-Scripting-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Tips-Tricks-And-Shortcuts.md)

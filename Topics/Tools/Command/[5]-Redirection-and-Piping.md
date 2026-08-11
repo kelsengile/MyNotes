@@ -1,8 +1,10 @@
-# Lesson 5: Redirection and Piping
+[Previous](./[4]-Viewing-And-Creating-File-Content.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Environment-Variables-And-PATH.md)
+
+# Lesson 5 - Redirection and Piping
 
 CMD commands normally read from the keyboard and write to the screen. Redirection and piping let you change where input comes from and where output goes.
 
-## The redirection operators
+## 5.1 The redirection operators
 
 | Operator | Meaning |
 |----------|---------|
@@ -11,7 +13,9 @@ CMD commands normally read from the keyboard and write to the screen. Redirectio
 | `<` | Read input from a file instead of the keyboard |
 | `\|` | Send the output of one command into the input of another (a "pipe") |
 
-## Examples
+---
+
+## 5.2 Examples
 
 Save a directory listing to a file:
 ```
@@ -28,7 +32,9 @@ Feed a list of names into `sort` from a file:
 sort < names.txt
 ```
 
-## Piping between commands
+---
+
+## 5.3 Piping between commands
 
 ```
 dir | sort
@@ -45,14 +51,18 @@ tasklist | find "chrome"
 ```
 Lists running processes, then filters down to anything with "chrome" in the name — useful for checking if a program is running.
 
-## Discarding output
+---
+
+## 5.4 Discarding output
 
 Sometimes you want to run a command but throw away its output (for example, in a script). Redirect to the special `nul` device:
 ```
 ping 8.8.8.8 > nul
 ```
 
-## Combining redirection and piping
+---
+
+## 5.5 Combining redirection and piping
 
 You can chain these together:
 ```
@@ -60,9 +70,6 @@ dir /s | find "Documents" > results.txt
 ```
 Lists everything recursively, filters for lines mentioning "Documents", and saves the result to `results.txt`.
 
-## Try it yourself
+---
 
-1. Run `dir > mylist.txt`, then open `mylist.txt` with `type`.
-2. Run `dir | find ".md"` in a folder that has some Markdown files.
-3. Run `tasklist | find "svchost"` to see how many `svchost` processes are running.
-
+[Previous](./[4]-Viewing-And-Creating-File-Content.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Environment-Variables-And-PATH.md)

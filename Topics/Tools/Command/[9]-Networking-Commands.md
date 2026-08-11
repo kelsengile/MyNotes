@@ -1,6 +1,8 @@
-# Lesson 9: Networking Commands
+[Previous](./[8]-Process-And-Task-Management.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Disk-And-Drive-Management.md)
 
-## Viewing your network configuration
+# Lesson 9 - Networking Commands
+
+## 9.1 Viewing your network configuration
 
 ```
 ipconfig
@@ -12,7 +14,9 @@ ipconfig /all
 ```
 Adds MAC addresses, DNS servers, DHCP details, and more.
 
-## Renewing your IP address
+---
+
+## 9.2 Renewing your IP address
 
 If your internet connection is misbehaving, these two in sequence are a classic fix:
 ```
@@ -20,14 +24,18 @@ ipconfig /release
 ipconfig /renew
 ```
 
-## Flushing the DNS cache
+---
+
+## 9.3 Flushing the DNS cache
 
 ```
 ipconfig /flushdns
 ```
 Clears cached DNS lookups — useful if a website recently changed servers and your computer is still using an old address.
 
-## Testing if a host is reachable
+---
+
+## 9.4 Testing if a host is reachable
 
 ```
 ping google.com
@@ -39,14 +47,18 @@ ping -t google.com
 ```
 Pings continuously until you stop it with `Ctrl + C` — handy for watching a connection over time.
 
-## Tracing the path to a host
+---
+
+## 9.5 Tracing the path to a host
 
 ```
 tracert google.com
 ```
 Shows every network hop (router) between you and the destination, with timing for each — useful for spotting *where* a connection is slow or failing.
 
-## Viewing active connections
+---
+
+## 9.6 Viewing active connections
 
 ```
 netstat
@@ -58,17 +70,15 @@ netstat -an
 ```
 Shows all connections and listening ports, with addresses/ports shown as numbers rather than resolved names (faster, and useful for checking what's listening on your machine).
 
-## Looking up a domain's IP address
+---
+
+## 9.7 Looking up a domain's IP address
 
 ```
 nslookup google.com
 ```
 Shows the IP address(es) a domain name resolves to.
 
-## Try it yourself
+---
 
-1. Run `ipconfig` and identify your IP address.
-2. Run `ping google.com` and check your latency.
-3. Run `tracert google.com` and count how many hops it takes.
-4. Run `nslookup google.com` and compare the IP to what `ping` showed.
-
+[Previous](./[8]-Process-And-Task-Management.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Disk-And-Drive-Management.md)
