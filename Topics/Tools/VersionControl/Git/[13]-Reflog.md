@@ -1,12 +1,16 @@
-# 13. Reflog: Recovering Lost Commits
+[Previous](./[12]-Tags-and-Cherry-Picking.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Submodules.md)
 
-## What Is the Reflog?
+# Lesson 13 - Reflog - Recovering Lost Commits
+
+## 13.1 What Is the Reflog?
 
 The reflog ("reference log") is a local, chronological record of everywhere `HEAD` (and branch tips) have pointed in your repository — every commit, checkout, reset, rebase, and merge. It's your safety net for "I think I just destroyed my work."
 
 Importantly: the reflog is **local only** — it's not pushed to remotes and not cloned by others. It's specific to your machine's copy of the repo.
 
-## Viewing the Reflog
+---
+
+## 13.2 Viewing the Reflog
 
 ```bash
 git reflog
@@ -26,7 +30,9 @@ Each entry shows: the commit hash, `HEAD@{N}` (how many steps back in time), and
 git reflog show feature-branch
 ```
 
-## Recovering a "Lost" Commit
+---
+
+## 13.3 Recovering a "Lost" Commit
 
 ### Scenario: You ran `git reset --hard` and lost commits
 
@@ -61,7 +67,9 @@ git reflog
 git reset --hard HEAD@{5}
 ```
 
-## Using `HEAD@{N}` Directly
+---
+
+## 13.4 Using `HEAD@{N}` Directly
 
 You can reference reflog entries directly in most commands:
 
@@ -76,7 +84,9 @@ git show HEAD@{yesterday}
 git show main@{2.weeks.ago}
 ```
 
-## Finding Dangling Commits
+---
+
+## 13.5 Finding Dangling Commits
 
 If a commit isn't referenced by any branch, tag, or reflog entry, it becomes a "dangling" (unreachable) object, eventually cleaned up by `git gc`. You can find dangling commits before that happens:
 
@@ -84,7 +94,9 @@ If a commit isn't referenced by any branch, tag, or reflog entry, it becomes a "
 git fsck --lost-found
 ```
 
-## Reflog Expiration
+---
+
+## 13.6 Reflog Expiration
 
 By default, reflog entries expire after 90 days (unreachable ones after 30) — controlled by:
 ```bash
@@ -92,15 +104,22 @@ git config gc.reflogExpire
 git config gc.reflogExpireUnreachable
 ```
 
-## What the Reflog Can't Save You From
+---
+
+## 13.7 What the Reflog Can't Save You From
 
 - It won't help if you `git clone` a fresh copy — the reflog isn't part of a clone.
 - It only tracks *local* ref movements — a `git push --force` that overwrites a remote branch isn't recorded on the remote's side unless the remote has its own hooks/backups.
 - It eventually expires (default: 90 days for reachable entries).
 
-## Summary
+---
+
+## 13.8 Summary
 
 - The reflog records every place `HEAD` and branches have pointed to locally — a built-in undo history.
 - `git reflog` to view it, then `git reset --hard <hash>` or `git checkout <hash>` to recover.
 - It's local-only and does expire, so it's a safety net, not a permanent backup.
 
+---
+
+[Previous](./[12]-Tags-and-Cherry-Picking.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Submodules.md)

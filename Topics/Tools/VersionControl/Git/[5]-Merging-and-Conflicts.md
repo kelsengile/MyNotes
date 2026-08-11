@@ -1,10 +1,14 @@
-# 5. Merging & Resolving Conflicts
+[Previous](./[4]-Branching.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Remotes-Push-and-Pull.md)
 
-## What Is a Merge?
+# Lesson 5 - Merging And Resolving Conflicts
+
+## 5.1 What Is a Merge?
 
 Merging combines the changes from one branch into another. Git has two main strategies for this, chosen automatically based on the branch history.
 
-## Fast-Forward Merge
+---
+
+## 5.2 Fast-Forward Merge
 
 If the target branch hasn't diverged (no new commits since the feature branch was created), Git simply moves the pointer forward — no new commit is created.
 
@@ -26,7 +30,9 @@ To force a merge commit even when a fast-forward is possible:
 git merge --no-ff feature
 ```
 
-## Three-Way Merge
+---
+
+## 5.3 Three-Way Merge
 
 If both branches have new commits, Git creates a new **merge commit** with two parents.
 
@@ -43,7 +49,9 @@ git merge feature
 
 Git opens your editor for a merge commit message (auto-generated, usually fine to accept as-is).
 
-## Merge Conflicts
+---
+
+## 5.4 Merge Conflicts
 
 A conflict happens when the same lines were changed differently on both branches, and Git can't decide which version is correct.
 
@@ -99,7 +107,9 @@ git merge --abort
 ```
 This restores everything to the state before you ran `git merge`.
 
-## Using a Merge Tool
+---
+
+## 5.5 Using a Merge Tool
 
 For complex conflicts, a visual tool is often easier than manual editing:
 
@@ -112,17 +122,23 @@ git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 ```
 
-## Tips to Avoid Conflicts
+---
+
+## 5.6 Tips to Avoid Conflicts
 
 - Pull/merge frequently so branches don't diverge too far.
 - Keep feature branches short-lived.
 - Communicate with teammates about who's touching which files.
 - Break large changes into smaller, focused commits and PRs.
 
-## Summary
+---
+
+## 5.7 Summary
 
 - Fast-forward merges just move a pointer; three-way merges create a merge commit.
 - Conflicts appear as `<<<<<<<` / `=======` / `>>>>>>>` markers in the file — edit, stage, then commit.
 - `git merge --abort` bails out cleanly if a merge goes sideways.
 
+---
 
+[Previous](./[4]-Branching.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Remotes-Push-and-Pull.md)

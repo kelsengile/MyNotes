@@ -1,6 +1,8 @@
-# 16. Blame & Bisect: Finding Bugs
+[Previous](./[15]-Hooks.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Aliases-and-Config.md)
 
-## Part 1: `git blame`
+# Lesson 16 - Blame And Bisect - Finding Bugs
+
+## 16.1 Part 1: `git blame`
 
 ### What Is `git blame`?
 
@@ -49,7 +51,9 @@ Or maintain a permanent ignore list:
 git config blame.ignoreRevsFile .git-blame-ignore-revs
 ```
 
-## Part 2: `git bisect`
+---
+
+## 16.2 Part 2: `git bisect`
 
 ### What Is `git bisect`?
 
@@ -114,16 +118,23 @@ git bisect log > bisect-log.txt
 git bisect replay bisect-log.txt
 ```
 
-## Combining Blame and Bisect
+---
+
+## 16.3 Combining Blame and Bisect
 
 A typical debugging flow:
 1. Use `git bisect` to identify the exact commit that introduced a regression.
 2. Use `git show <commit>` or `git blame` on the affected file to understand what changed and why.
 3. Reach out to the author (found via blame) if more context is needed, or `git revert`/fix directly.
 
-## Summary
+---
+
+## 16.4 Summary
 
 - `git blame` shows who last changed each line of a file and when — great for context, not for "fault."
 - `git bisect` binary-searches commit history to pinpoint exactly which commit introduced a bug.
 - `git bisect run` automates the whole process if you have a scriptable pass/fail test.
 
+---
+
+[Previous](./[15]-Hooks.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Aliases-and-Config.md)

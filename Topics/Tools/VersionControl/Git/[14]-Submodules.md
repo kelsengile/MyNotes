@@ -1,12 +1,16 @@
-# 14. Submodules
+[Previous](./[13]-Reflog.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Hooks.md)
 
-## What Is a Submodule?
+# Lesson 14 - Submodules
+
+## 14.1 What Is a Submodule?
 
 A submodule lets you embed one Git repository inside another as a subdirectory, while keeping its own independent history and commits. Common use case: a project depends on a shared library that's itself a separate Git repo.
 
 The parent repo doesn't store the submodule's files directly — it stores a pointer to a specific commit in the submodule's repo.
 
-## Adding a Submodule
+---
+
+## 14.2 Adding a Submodule
 
 ```bash
 git submodule add https://github.com/user/library.git libs/library
@@ -29,7 +33,9 @@ git commit -m "Add library as a submodule"
 	url = https://github.com/user/library.git
 ```
 
-## Cloning a Repo That Has Submodules
+---
+
+## 14.3 Cloning a Repo That Has Submodules
 
 Submodules are **not** cloned automatically by default.
 
@@ -50,7 +56,9 @@ If you already cloned without submodules:
 git submodule update --init --recursive
 ```
 
-## Updating a Submodule
+---
+
+## 14.4 Updating a Submodule
 
 To pull the latest changes from the submodule's own remote:
 
@@ -67,7 +75,9 @@ Or update all submodules to the commit currently recorded in `.gitmodules`/the p
 git submodule update --remote
 ```
 
-## Checking Submodule Status
+---
+
+## 14.5 Checking Submodule Status
 
 ```bash
 git submodule status
@@ -77,7 +87,9 @@ git submodule status
 ```
 A leading `-` means the submodule isn't initialized; a leading `+` means the checked-out commit differs from what's recorded in the parent repo.
 
-## Working Inside a Submodule
+---
+
+## 14.6 Working Inside a Submodule
 
 A submodule is a full, independent Git repo — you can `cd` into it and run normal Git commands (`branch`, `commit`, `push`, etc.) as if it were standalone.
 
@@ -91,7 +103,9 @@ git add libs/library     # record the new commit pointer in the parent repo
 git commit -m "Point to library's my-fix branch changes"
 ```
 
-## Removing a Submodule
+---
+
+## 14.7 Removing a Submodule
 
 ```bash
 git submodule deinit -f libs/library
@@ -100,7 +114,9 @@ rm -rf .git/modules/libs/library
 git commit -m "Remove library submodule"
 ```
 
-## Submodules vs. Alternatives
+---
+
+## 14.8 Submodules vs. Alternatives
 
 Submodules are notoriously tricky for teams — common alternatives include:
 
@@ -108,16 +124,22 @@ Submodules are notoriously tricky for teams — common alternatives include:
 - **Package managers** (npm, pip, Cargo, etc.) — often a better fit when the dependency is versioned and published, rather than needing direct source access.
 - **Monorepos** — avoiding the split entirely by keeping everything in one repository.
 
-## Common Pitfalls
+---
+
+## 14.9 Common Pitfalls
 
 - Forgetting `--recurse-submodules` when cloning leaves submodule folders empty.
 - Forgetting to `git add` the submodule path after updating it inside the submodule — the parent repo won't know about the new commit.
 - Detached HEAD is the default state inside a submodule after `update` — create/checkout a branch before committing new work there.
 
-## Summary
+---
+
+## 14.10 Summary
 
 - Submodules embed a separate Git repo at a specific commit inside your project.
 - Cloning requires `--recurse-submodules` or a separate `submodule update --init`.
 - The parent repo only tracks *which commit* the submodule is at — updating that pointer requires an explicit `add` + `commit` in the parent repo.
 
+---
 
+[Previous](./[13]-Reflog.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Hooks.md)

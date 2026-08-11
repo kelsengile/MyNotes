@@ -1,10 +1,14 @@
-# 1. Installing Git & First-Time Setup
+[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Git-Basics.md)
 
-## What is Git?
+# Lesson 1 - Installing Git And First-Time Setup
+
+## 1.1 What is Git?
 
 Git is a distributed version control system that tracks changes to files over time, letting you and others collaborate on a project without overwriting each other's work.
 
-## Installing Git
+---
+
+## 1.2 Installing Git
 
 ### Windows
 Download the installer from [git-scm.com](https://git-scm.com/) and run it. This also installs **Git Bash**, a terminal for running Git commands.
@@ -29,13 +33,17 @@ sudo apt install git
 sudo dnf install git
 ```
 
-## Verifying Installation
+---
+
+## 1.3 Verifying Installation
 
 ```bash
 git --version
 ```
 
-## First-Time Setup
+---
+
+## 1.4 First-Time Setup
 
 Before making any commits, tell Git who you are. This information is attached to every commit you make.
 
@@ -79,7 +87,9 @@ Configuration is stored in three possible levels, from lowest to highest priorit
 | Global | `--global` | `~/.gitconfig` |
 | Local (per-repo) | `--local` (default) | `.git/config` |
 
-## SSH Keys (Optional but Recommended)
+---
+
+## 1.5 SSH Keys (Optional but Recommended)
 
 For pushing to remotes like GitHub/GitLab without typing a password every time:
 
@@ -94,10 +104,14 @@ Test the connection:
 ssh -T git@github.com
 ```
 
-## Summary
+---
+
+## 1.6 Summary
 
 - Install Git via your OS package manager or the official installer.
 - Set `user.name` and `user.email` — Git won't let you commit meaningfully without them.
 - Optionally configure your default editor, default branch name, and SSH keys.
 
+---
 
+[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Git-Basics.md)

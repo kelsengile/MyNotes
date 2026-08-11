@@ -1,6 +1,8 @@
-# 15. Hooks
+[Previous](./[14]-Submodules.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Blame-and-Bisect.md)
 
-## What Are Git Hooks?
+# Lesson 15 - Hooks
+
+## 15.1 What Are Git Hooks?
 
 Hooks are scripts that Git automatically runs at certain points in the Git workflow — before or after commits, pushes, merges, and more. They let you automate checks, formatting, notifications, or enforce rules.
 
@@ -19,7 +21,9 @@ pre-rebase.sample
 ...
 ```
 
-## Enabling a Hook
+---
+
+## 15.2 Enabling a Hook
 
 Remove the `.sample` suffix and make it executable:
 
@@ -30,7 +34,9 @@ chmod +x .git/hooks/pre-commit
 
 Hooks can be written in any language (bash, Python, Node, etc.) as long as the file has the correct shebang line and is executable.
 
-## Common Client-Side Hooks
+---
+
+## 15.3 Common Client-Side Hooks
 
 | Hook | Runs |
 |---|---|
@@ -42,7 +48,9 @@ Hooks can be written in any language (bash, Python, Node, etc.) as long as the f
 | `post-checkout` | After switching branches — e.g. auto-install dependencies |
 | `post-merge` | After a merge completes |
 
-## Example: `pre-commit` Hook (Linting)
+---
+
+## 15.4 Example: `pre-commit` Hook (Linting)
 
 ```bash
 #!/bin/sh
@@ -55,7 +63,9 @@ fi
 ```
 Exiting non-zero blocks the commit; exiting 0 allows it to proceed.
 
-## Example: `commit-msg` Hook (Enforcing Format)
+---
+
+## 15.5 Example: `commit-msg` Hook (Enforcing Format)
 
 ```bash
 #!/bin/sh
@@ -69,7 +79,9 @@ if ! echo "$commit_msg" | grep -qE "$pattern"; then
 fi
 ```
 
-## Example: `pre-push` Hook (Running Tests)
+---
+
+## 15.6 Example: `pre-push` Hook (Running Tests)
 
 ```bash
 #!/bin/sh
@@ -81,7 +93,9 @@ if [ $? -ne 0 ]; then
 fi
 ```
 
-## Server-Side Hooks
+---
+
+## 15.7 Server-Side Hooks
 
 These run on the remote server hosting the repository (relevant for self-hosted Git servers; hosted platforms like GitHub/GitLab expose similar functionality via their own webhook/Actions systems instead of raw server-side hooks):
 
@@ -91,7 +105,9 @@ These run on the remote server hosting the repository (relevant for self-hosted 
 | `update` | Once per branch being pushed — fine-grained per-branch rejection |
 | `post-receive` | After the push completes — trigger deployments, notifications |
 
-## Sharing Hooks with a Team
+---
+
+## 15.8 Sharing Hooks with a Team
 
 Since `.git/hooks/` isn't committed, teams typically use one of:
 
@@ -105,7 +121,9 @@ Since `.git/hooks/` isn't committed, teams typically use one of:
 
 3. **Pre-commit framework** (Python-based, language-agnostic), configured via a `.pre-commit-config.yaml` file.
 
-## Bypassing Hooks
+---
+
+## 15.9 Bypassing Hooks
 
 For emergencies (use sparingly):
 ```bash
@@ -113,10 +131,14 @@ git commit --no-verify -m "Emergency fix"
 git push --no-verify
 ```
 
-## Summary
+---
+
+## 15.10 Summary
 
 - Hooks are scripts triggered automatically at specific points in Git's workflow (commit, push, merge, etc.).
 - They live in `.git/hooks/` by default and aren't tracked — share them via `core.hooksPath` or tools like Husky.
 - Common uses: linting before commit, validating commit message format, running tests before push, triggering deployments after a server-side push.
 
+---
 
+[Previous](./[14]-Submodules.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Blame-and-Bisect.md)

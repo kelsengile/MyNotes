@@ -1,6 +1,8 @@
-# 3. Checking Status & Viewing History
+[Previous](./[2]-Git-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Branching.md)
 
-## `git status`
+# Lesson 3 - Checking Status And Viewing History
+
+## 3.1 `git status`
 
 Shows the current state of your working directory and staging area: what's modified, what's staged, and what's untracked.
 
@@ -36,7 +38,9 @@ M  index.html
 - First column = staged state, second column = working directory state.
 - `M` = modified, `A` = added, `D` = deleted, `??` = untracked.
 
-## `git diff`
+---
+
+## 3.2 `git diff`
 
 Shows the actual line-by-line changes.
 
@@ -47,7 +51,9 @@ git diff HEAD           # all changes (working dir vs last commit)
 git diff file.txt       # diff for one specific file
 ```
 
-## `git log`
+---
+
+## 3.3 `git log`
 
 Shows commit history.
 
@@ -82,7 +88,9 @@ git log --pretty=format:"%h - %an, %ar : %s"
 ```
 Common placeholders: `%h` short hash, `%an` author name, `%ar` relative date, `%s` subject.
 
-## `git show`
+---
+
+## 3.4 `git show`
 
 Shows the details and diff of a single commit.
 
@@ -92,7 +100,9 @@ git show HEAD          # the most recent commit
 git show HEAD~2        # two commits before the most recent
 ```
 
-## Referring to Commits
+---
+
+## 3.5 Referring to Commits
 
 | Reference | Meaning |
 |---|---|
@@ -102,11 +112,15 @@ git show HEAD~2        # two commits before the most recent
 | `a1b2c3d` | A specific commit hash (short form) |
 | `main` | The tip of the `main` branch |
 
-## Summary
+---
+
+## 3.6 Summary
 
 - `git status` — what's changed right now, staged vs. unstaged.
 - `git diff` — line-by-line changes; add `--staged` to see staged changes.
 - `git log` — the commit history; `--oneline --graph` is a great daily-driver combo.
 - `git show` — details of one specific commit.
 
+---
 
+[Previous](./[2]-Git-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Branching.md)
