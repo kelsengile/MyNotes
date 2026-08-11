@@ -13,19 +13,19 @@ Packages let you:
 
 ## Table of Contents
 
-1. [What Is a Package?]([1]-What-Is-a-Package.md)
-2. [Package Managers]([2]-Package-Managers.md)
-3. [Installing, Updating & Removing Packages]([3]-Installing-Updating-and-Removing-Packages.md)
-4. [Dependencies & Dependency Trees]([4]-Dependencies-and-Dependency-Trees.md)
-5. [Versioning & Semantic Versioning]([5]-Versioning-and-Semantic-Versioning.md)
-6. [Lockfiles & Reproducible Installs]([6]-Lockfiles-and-Reproducible-Installs.md)
-7. [Local vs. Global vs. Project-Level Packages]([7]-Local-vs-Global-vs-Project-Level-Packages.md)
-8. [Package Registries]([8]-Package-Registries.md)
-9. [Creating Your Own Package]([9]-Creating-Your-Own-Package.md)
-10. [Publishing Packages]([10]-Publishing-Packages.md)
-11. [Monorepos & Workspaces]([11]-Monorepos-and-Workspaces.md)
-12. [Private & Internal Registries]([12]-Private-and-Internal-Registries.md)
-13. [Package Security & Supply-Chain Risks]([13]-Package-Security-and-Supply-Chain-Risks.md)
-14. [Dependency Conflicts & Troubleshooting]([14]-Dependency-Conflicts-and-Troubleshooting.md)
-15. [License Compliance]([15]-License-Compliance.md)
-16. [Optimizing Install Size & Build Performance]([16]-Optimizing-Install-Size-and-Build-Performance.md)
+1. **[What Is A Package?](./[1]-What-Is-A-Package.md)**
+2. **[Package Managers](./[2]-Package-Managers.md)**
+3. **[Installing, Updating And Removing Packages](./[3]-Installing-Updating-And-Removing-Packages.md)**
+4. **[Dependencies And Dependency Trees](./[4]-Dependencies-And-Dependency-Trees.md)**
+5. **[Versioning And Semantic Versioning](./[5]-Versioning-And-Semantic-Versioning.md)**
+6. **[Lockfiles And Reproducible Installs](./[6]-Lockfiles-And-Reproducible-Installs.md)**
+7. **[Local Vs. Global Vs. Project-Level Packages](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md)**
+8. **[Package Registries](./[8]-Package-Registries.md)**
+9. **[Creating Your Own Package](./[9]-Creating-Your-Own-Package.md)**
+10. **[Publishing Packages](./[10]-Publishing-Packages.md)**
+11. **[Monorepos And Workspaces](./[11]-Monorepos-And-Workspaces.md)**
+12. **[Private And Internal Registries](./[12]-Private-And-Internal-Registries.md)**
+13. **[Package Security And Supply-Chain Risks](./[13]-Package-Security-And-Supply-Chain-Risks.md)**
+14. **[Dependency Conflicts And Troubleshooting](./[14]-Dependency-Conflicts-And-Troubleshooting.md)**
+15. **[License Compliance](./[15]-License-Compliance.md)**
+16. **[Optimizing Install Size And Build Performance](./[16]-Optimizing-Install-Size-And-Build-Performance.md)**

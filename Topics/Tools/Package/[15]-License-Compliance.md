@@ -1,10 +1,16 @@
-# [15] License Compliance
+[Previous](./[14]-Dependency-Conflicts-And-Troubleshooting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Optimizing-Install-Size-And-Build-Performance.md)
 
-## Why Licenses Matter
+---
+
+# Lesson 15 - License Compliance
+
+## 15.1 Why Licenses Matter
 
 Every package you install was written by someone else, and its **license** determines what you're legally allowed to do with it — use it commercially, modify it, redistribute it, or combine it with your own code. Ignoring licensing isn't just a legal formality; using a package in a way its license doesn't allow can create real legal risk for you or your company.
 
-## Common Open-Source Licenses
+---
+
+## 15.2 Common Open-Source Licenses
 
 | License | Summary |
 |---|---|
@@ -17,7 +23,9 @@ Every package you install was written by someone else, and its **license** deter
 | **Unlicense / Public Domain** | No restrictions at all |
 | **Proprietary / All Rights Reserved** | No usage rights granted beyond what's explicitly stated (or none, if unstated) |
 
-## Permissive vs. Copyleft
+---
+
+## 15.3 Permissive vs. Copyleft
 
 The most important distinction to understand:
 
@@ -26,7 +34,9 @@ The most important distinction to understand:
 
 For a company shipping proprietary software, accidentally depending on a strong copyleft package can be a serious legal issue.
 
-## Checking a Package's License
+---
+
+## 15.4 Checking a Package's License
 
 Most manifest files declare a license directly:
 
@@ -43,7 +53,9 @@ license = "MIT"
 
 You can also check a project's `LICENSE` file in its repository, or its listing on the registry (npm, PyPI, and crates.io all display license info on package pages).
 
-## Auditing Licenses Across Your Dependency Tree
+---
+
+## 15.5 Auditing Licenses Across Your Dependency Tree
 
 Because a single install can pull in hundreds of transitive dependencies, manually checking every license isn't practical — tools exist to automate it:
 
@@ -55,17 +67,12 @@ cargo license                       # Rust (third-party tool)
 
 These can flag anything with a copyleft or unrecognized license so you can review it before shipping.
 
-## Some Packages Have No License at All
+---
+
+## 15.6 Some Packages Have No License at All
 
 If a package (or its own transitive dependencies) has no license file or declaration, that's a legal gray area — in most jurisdictions, no license means no explicit permission is granted, even if the code is publicly visible on a registry. This is worth flagging rather than assuming it's safe to use.
 
-## Try It Yourself
-
-Run a license-checking tool (or manually check a few manifest files) on a project you work on, and see whether any dependencies use a copyleft license you weren't aware of.
-
-## Up Next
-
-Finally, learn how to **optimize install size and build performance** as your dependency tree grows.
-
 ---
-⬅ [14] [Dependency Conflicts & Troubleshooting](./%5B14%5D-Dependency-Conflicts-and-Troubleshooting.md) | ➡ [16] [Optimizing Install Size & Build Performance](./%5B16%5D-Optimizing-Install-Size-and-Build-Performance.md)
+
+[Previous](./[14]-Dependency-Conflicts-And-Troubleshooting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Optimizing-Install-Size-And-Build-Performance.md)
