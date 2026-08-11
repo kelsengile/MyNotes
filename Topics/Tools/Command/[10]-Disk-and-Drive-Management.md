@@ -1,8 +1,10 @@
-# Lesson 10: Disk and Drive Management
+[Previous](./[9]-Networking-Commands.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-User-And-Permissions-Basics.md)
+
+# Lesson 10 - Disk and Drive Management
 
 > Several commands in this lesson can affect data on your disk. Read each explanation before running anything, and always know which drive letter you're targeting.
 
-## Checking a disk for errors
+## 10.1 Checking a disk for errors
 
 ```
 chkdsk C:
@@ -14,7 +16,9 @@ chkdsk C: /f
 ```
 Also **fixes** errors it finds. If the drive is currently in use (which `C:` usually is), Windows will ask to schedule the check for the next restart.
 
-## Viewing disk space
+---
+
+## 10.2 Viewing disk space
 
 ```
 wmic logicaldisk get size,freespace,caption
@@ -27,14 +31,18 @@ dir C:\
 ```
 The last line of `dir` output shows bytes free on that drive.
 
-## Formatting a drive
+---
+
+## 10.3 Formatting a drive
 
 ```
 format D:
 ```
 **Erases everything** on drive `D:` and prepares it with a fresh file system. CMD will ask for confirmation before proceeding. Never run this against a drive you're not certain about — there is no undo.
 
-## Diskpart — advanced partition management
+---
+
+## 10.4 Diskpart — advanced partition management
 
 ```
 diskpart
@@ -47,9 +55,6 @@ Opens a separate, more powerful tool for partitioning disks. Once inside, common
 
 `diskpart` operates directly on partitions and can destroy data instantly if misused — it's meant for experienced users, and is mentioned here mainly so you recognize it if you encounter it in guides.
 
-## Try it yourself
+---
 
-1. Run `chkdsk C:` (without `/f`) to see a read-only report.
-2. Run `wmic logicaldisk get size,freespace,caption` and note your free space.
-3. Open `diskpart`, run `list disk`, then type `exit` to leave safely without changing anything.
-
+[Previous](./[9]-Networking-Commands.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-User-And-Permissions-Basics.md)

@@ -1,6 +1,8 @@
-# Lesson 8: Process and Task Management
+[Previous](./[7]-System-Information-Commands.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Networking-Commands.md)
 
-## Listing running processes
+# Lesson 8 - Process and Task Management
+
+## 8.1 Listing running processes
 
 ```
 tasklist
@@ -13,7 +15,9 @@ tasklist | find "chrome"
 ```
 Shows only processes with "chrome" in the name.
 
-## Ending a process
+---
+
+## 8.2 Ending a process
 
 ```
 taskkill /im notepad.exe
@@ -31,22 +35,23 @@ taskkill /f /im notepad.exe
 ```
 `/f` forces termination. Use this as a last resort — unsaved work in that program will be lost.
 
-## Why use CMD instead of Task Manager?
+---
+
+## 8.3 Why use CMD instead of Task Manager?
 
 - You can filter and search process lists with `find`.
 - You can kill processes by name across a whole fleet of machines via scripts.
 - It's scriptable — you can automate "if this program is running, close it" logic in a batch file.
 
-## Checking if something is running (for use in scripts)
+---
+
+## 8.4 Checking if something is running (for use in scripts)
 
 ```
 tasklist | find /i "spotify.exe" > nul && echo Running || echo Not running
 ```
 This checks for Spotify, throws away the visible output, and just prints Running or Not running based on whether it was found. (The `&&` / `||` syntax is covered more in Lesson 13.)
 
-## Try it yourself
+---
 
-1. Open Notepad, then run `tasklist | find "notepad"` to see it listed.
-2. Find its PID.
-3. Close it with `taskkill /pid <the PID you found>`.
-4. Run `tasklist | find "notepad"` again to confirm it's gone.
+[Previous](./[7]-System-Information-Commands.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Networking-Commands.md)

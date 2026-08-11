@@ -1,13 +1,17 @@
-# Lesson 2: Navigating the File System
+[Previous](./[1]-Getting-Started.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Managing-Files-And-Folders.md)
 
-## Checking where you are
+# Lesson 2 - Navigating the File System
+
+## 2.1 Checking where you are
 
 ```
 cd
 ```
 Prints the current directory (folder).
 
-## Listing what's in a folder
+---
+
+## 2.2 Listing what's in a folder
 
 ```
 dir
@@ -19,7 +23,9 @@ Useful switches:
 - `dir /s` — list contents of all subfolders as well
 - `dir /b` — "bare" format, just names, good for scripting
 
-## Changing directories
+---
+
+## 2.3 Changing directories
 
 ```
 cd Documents
@@ -41,7 +47,9 @@ cd \Users\YourName\Downloads
 ```
 An **absolute path** — jumps directly there regardless of where you currently are.
 
-## Switching drives
+---
+
+## 2.4 Switching drives
 
 CMD treats each drive letter as its own workspace. Typing `cd D:` while on `C:` does *not* switch you to D: — it just remembers a path for later. To actually switch drives, type the drive letter and a colon by itself:
 
@@ -49,15 +57,14 @@ CMD treats each drive letter as its own workspace. Typing `cd D:` while on `C:` 
 D:
 ```
 
-## Path basics
+---
+
+## 2.5 Path basics
 
 - Paths use backslashes: `C:\Users\YourName\Documents`
 - If a folder name has spaces, wrap it in quotes: `cd "Program Files"`
 - `.` means "current folder", `..` means "parent folder"
 
-## Try it yourself
+---
 
-1. Run `cd` to see your starting location.
-2. Run `dir` to see what's there.
-3. Navigate into a subfolder, then use `cd ..` to go back.
-4. Try `dir /b` and compare the output to a plain `dir`.
+[Previous](./[1]-Getting-Started.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Managing-Files-And-Folders.md)
