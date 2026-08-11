@@ -1,8 +1,10 @@
-# 7. Undoing Changes & Rewriting History
+[Previous](./[6]-Remotes-Push-and-Pull.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Gitignore.md)
+
+# Lesson 7 - Undoing Changes And Rewriting History
 
 Git gives you many ways to "undo" things, depending on exactly what you want to undo and whether it's already been committed or pushed.
 
-## Undoing Uncommitted Changes
+## 7.1 Undoing Uncommitted Changes
 
 ### Discard changes in the working directory
 ```bash
@@ -29,7 +31,9 @@ git clean -f      # actually delete untracked files
 git clean -fd     # also delete untracked directories
 ```
 
-## Undoing Commits
+---
+
+## 7.2 Undoing Commits
 
 ### `git commit --amend`
 
@@ -72,7 +76,9 @@ git revert HEAD          # revert the most recent commit
 git revert HEAD~2..HEAD  # revert a range of commits
 ```
 
-## `reset` vs. `revert` — Which to Use?
+---
+
+## 7.3 `reset` vs. `revert` — Which to Use?
 
 | | `reset` | `revert` |
 |---|---|---|
@@ -82,10 +88,12 @@ git revert HEAD~2..HEAD  # revert a range of commits
 
 **Rule of thumb: never rewrite history that others may have already pulled.**
 
-## Rewriting History (Advanced)
+---
+
+## 7.4 Rewriting History (Advanced)
 
 ### `git commit --amend` on older commits — use interactive rebase instead
-See [Rebasing & Interactive Rebase]([10]-Rebasing.md) for reordering, squashing, editing, and dropping past commits.
+See [Rebasing & Interactive Rebase](./[10]-Rebasing.md) for reordering, squashing, editing, and dropping past commits.
 
 ### `git filter-branch` / `git filter-repo`
 
@@ -96,11 +104,15 @@ git filter-repo --path secrets.txt --invert-paths
 ```
 ⚠️ This rewrites every commit hash downstream. Never do this on shared history without coordinating with your team.
 
-## Recovering "Lost" Work
+---
 
-If you `reset --hard` or delete a branch by mistake, the commits often aren't actually gone right away — see [Reflog: Recovering Lost Commits]([13]-Reflog.md).
+## 7.5 Recovering "Lost" Work
 
-## Summary
+If you `reset --hard` or delete a branch by mistake, the commits often aren't actually gone right away — see [Reflog: Recovering Lost Commits](./[13]-Reflog.md).
+
+---
+
+## 7.6 Summary
 
 - Undo *uncommitted* changes with `restore`/`checkout`/`clean`.
 - Undo the *last* commit's message or contents with `commit --amend`.
@@ -108,4 +120,6 @@ If you `reset --hard` or delete a branch by mistake, the commits often aren't ac
 - Use `revert` to safely undo already-shared commits by adding a new counteracting commit.
 - Large-scale history rewrites need `filter-repo` and team coordination.
 
+---
 
+[Previous](./[6]-Remotes-Push-and-Pull.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Gitignore.md)

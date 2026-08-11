@@ -1,6 +1,8 @@
-# 18. Pull Requests & Code Review Workflow
+[Previous](./[17]-Aliases-and-Config.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-Git-Internals.md)
 
-## What Is a Pull Request?
+# Lesson 18 - Pull Requests And Code Review Workflow
+
+## 18.1 What Is a Pull Request?
 
 A Pull Request (PR) — called a Merge Request (MR) on GitLab — is a request to merge changes from one branch into another, opened on a hosting platform (GitHub, GitLab, Bitbucket). It's not a native Git concept — Git itself only knows about branches and commits — but it's the standard collaboration layer built on top of Git by these platforms.
 
@@ -10,7 +12,9 @@ A PR provides a space to:
 - Run automated checks (CI: tests, linting, builds).
 - Discuss and iterate before merging.
 
-## Typical PR Workflow
+---
+
+## 18.2 Typical PR Workflow
 
 ```bash
 git switch main
@@ -26,7 +30,9 @@ Then, on the hosting platform:
 3. Request reviewers.
 4. Wait for CI checks and review feedback.
 
-## Writing a Good PR Description
+---
+
+## 18.3 Writing a Good PR Description
 
 A useful PR description typically includes:
 - **What** changed and **why** (the problem being solved).
@@ -34,7 +40,9 @@ A useful PR description typically includes:
 - Any **screenshots** for UI changes.
 - Links to related issues/tickets (e.g. `Closes #123`).
 
-## Responding to Review Feedback
+---
+
+## 18.4 Responding to Review Feedback
 
 ```bash
 # make requested changes
@@ -54,7 +62,9 @@ Many teams prefer a clean final history. You can either:
   git push --force-with-lease
   ```
 
-## Merge Strategies on Hosting Platforms
+---
+
+## 18.5 Merge Strategies on Hosting Platforms
 
 | Strategy | Result |
 |---|---|
@@ -64,7 +74,9 @@ Many teams prefer a clean final history. You can either:
 
 Choice usually depends on team preference for history granularity vs. cleanliness.
 
-## Keeping a PR Up to Date with `main`
+---
+
+## 18.6 Keeping a PR Up to Date with `main`
 
 If `main` has moved on since you branched:
 
@@ -76,7 +88,9 @@ git push
 ```
 (Use `--force-with-lease` after a rebase, since it rewrites your branch's history.)
 
-## Code Review Best Practices
+---
+
+## 18.7 Code Review Best Practices
 
 ### As a Reviewer
 - Review for correctness, readability, and maintainability — not just style (let linters handle style).
@@ -90,11 +104,15 @@ git push
 - Respond to every comment, even if just to say "Done" or explain why you didn't change something.
 - Don't take feedback personally — it's about the code, not you.
 
-## Draft Pull Requests
+---
+
+## 18.8 Draft Pull Requests
 
 Most platforms support marking a PR as a "Draft" — signals it's a work in progress, not ready for full review, while still allowing early feedback and running CI.
 
-## Linking Issues
+---
+
+## 18.9 Linking Issues
 
 Most platforms auto-close linked issues when the PR merges, using keywords in the description:
 ```
@@ -103,9 +121,15 @@ Fixes #17
 Resolves #8
 ```
 
-## Summary
+---
+
+## 18.10 Summary
 
 - PRs/MRs are a platform-level collaboration workflow built on top of Git branches — not a native Git feature.
 - Small, well-described PRs with clear commit history get reviewed faster and more thoroughly.
 - Merge strategy (merge commit / squash / rebase) determines how the final history looks — pick one convention per team.
 - Keep your branch updated with the target branch via merge or rebase before merging.
+
+---
+
+[Previous](./[17]-Aliases-and-Config.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-Git-Internals.md)

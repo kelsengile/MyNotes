@@ -1,6 +1,8 @@
-# 9. Common Workflows & Best Practices
+[Previous](./[8]-Gitignore.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Rebasing.md)
 
-## Popular Branching Models
+# Lesson 9 - Common Workflows And Best Practices
+
+## 9.1 Popular Branching Models
 
 ### Feature Branch Workflow
 
@@ -35,36 +37,46 @@ Everyone commits frequently (often multiple times a day) to a single `main`/`tru
 
 A simplified feature-branch model: `main` is deployable at all times, branches are created for any change, opened as a Pull Request, reviewed, and merged — then immediately deployed.
 
-## Commit Best Practices
+---
+
+## 9.2 Commit Best Practices
 
 - **Commit often, in logical chunks.** Each commit should represent one coherent change, not "end of day save."
 - **Write clear messages** in the imperative mood ("Add", "Fix", "Remove" — not "Added", "Fixing").
 - **Don't commit generated files, secrets, or dependencies** — use `.gitignore`.
 - **Keep commits buildable.** Ideally, every commit should leave the project in a working state (helps `bisect` and `revert`).
 
-## Pull Request / Code Review Best Practices
+---
+
+## 9.3 Pull Request / Code Review Best Practices
 
 - Keep PRs small and focused — easier to review, easier to revert if something goes wrong.
 - Write a description explaining *why*, not just *what*.
 - Rebase or squash messy work-in-progress commits before requesting review.
 - Respond to review comments with follow-up commits, then squash-merge if your team prefers linear history.
 
-See [Pull Requests & Code Review Workflow]([18]-Pull-Requests.md) for more detail.
+See [Pull Requests & Code Review Workflow](./[18]-Pull-Requests.md) for more detail.
 
-## Handling Merge Conflicts Gracefully
+---
+
+## 9.4 Handling Merge Conflicts Gracefully
 
 - Pull/rebase from `main` frequently to avoid large divergences.
 - Communicate about files likely to conflict (e.g. shared config files).
 - When conflicts do happen, resolve deliberately — don't just accept "theirs" or "ours" blindly without understanding the change.
 
-## Protecting Important Branches
+---
+
+## 9.5 Protecting Important Branches
 
 On hosting platforms (GitHub, GitLab), configure branch protection rules for `main`:
 - Require pull request review before merging.
 - Require status checks (CI) to pass.
 - Disallow force-pushes and direct pushes.
 
-## Semantic / Conventional Commits (Optional Convention)
+---
+
+## 9.6 Semantic / Conventional Commits (Optional Convention)
 
 Some teams adopt a structured commit message format to enable automated changelog generation:
 
@@ -76,19 +88,26 @@ chore: bump dependency versions
 refactor: extract validation logic into helper
 ```
 
-## General Tips
+---
+
+## 9.7 General Tips
 
 - **Never force-push to shared branches** without team agreement — use `--force-with-lease` if you must.
-- **Tag releases** so you can always find and reproduce a specific shipped version (see [Tags & Cherry-Picking]([12]-Tags-and-Cherry-Picking.md)).
+- **Tag releases** so you can always find and reproduce a specific shipped version (see [Tags & Cherry-Picking](./[12]-Tags-and-Cherry-Picking.md)).
 - **Use `.gitattributes`** for consistent line endings across OSes:
   ```
   * text=auto
   ```
-- **Automate checks** with hooks or CI so broken code never reaches `main` (see [Hooks]([15]-Hooks.md)).
+- **Automate checks** with hooks or CI so broken code never reaches `main` (see [Hooks](./[15]-Hooks.md)).
 
-## Summary
+---
+
+## 9.8 Summary
 
 - Choose a branching model that matches your release cadence: Feature Branch/GitHub Flow for continuous delivery, Git Flow for scheduled releases, trunk-based for high-frequency integration.
 - Small, focused, well-described commits and PRs make history useful instead of noisy.
 - Protect `main`, review before merging, and never rewrite shared history without care.
 
+---
+
+[Previous](./[8]-Gitignore.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Rebasing.md)

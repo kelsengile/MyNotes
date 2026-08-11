@@ -1,6 +1,8 @@
-# 19. Git Internals: Objects, Refs, and the .git Directory
+[Previous](./[18]-Pull-Requests.md) | [Table of Contents](./[0]-Introduction.md)
 
-## The `.git` Directory
+# Lesson 19 - Git Internals - Objects, Refs, And The .git Directory
+
+## 19.1 The `.git` Directory
 
 Every Git repository's entire history and metadata lives inside `.git/`:
 
@@ -27,7 +29,9 @@ index
 | `index` | The staging area |
 | `hooks/` | Scripts triggered at various Git events |
 
-## Git's Object Model
+---
+
+## 19.2 Git's Object Model
 
 Git is fundamentally a content-addressable filesystem: everything is stored as an object, identified by the SHA-1 (or SHA-256, in newer repos) hash of its content.
 
@@ -78,7 +82,9 @@ git cat-file -p 8f3a2b1
 040000 tree 1a2b3c4...    scripts
 ```
 
-## How a Commit Is Actually Created
+---
+
+## 19.3 How a Commit Is Actually Created
 
 When you run `git commit`:
 1. Git creates a **blob** for each changed file's content (if it doesn't already exist).
@@ -88,7 +94,9 @@ When you run `git commit`:
 
 Because objects are addressed by content hash, **identical content is only ever stored once** — this is why Git is so efficient even with many similar file versions across history.
 
-## Refs
+---
+
+## 19.4 Refs
 
 A "ref" is simply a human-readable name pointing to a commit hash.
 
@@ -114,7 +122,9 @@ ref: refs/heads/main
 ```
 In detached HEAD state, it instead contains a raw commit hash directly.
 
-## Packfiles
+---
+
+## 19.5 Packfiles
 
 Loose objects (one file per object in `.git/objects/`) are periodically compressed into **packfiles** by `git gc`, which deduplicates and delta-compresses similar objects for space efficiency. This is why cloned/fetched repos transfer as compact `.pack` files rather than thousands of individual object files.
 
@@ -123,7 +133,9 @@ git gc
 ls .git/objects/pack/
 ```
 
-## The Index (Staging Area)
+---
+
+## 19.6 The Index (Staging Area)
 
 `.git/index` is a binary file listing every staged file, along with its mode, hash, and metadata — effectively a snapshot of what the *next* commit's tree will look like.
 
@@ -135,7 +147,9 @@ git ls-files --stage
 100644 9d8e7f6... 0    style.css
 ```
 
-## Low-Level ("Plumbing") vs. High-Level ("Porcelain") Commands
+---
+
+## 19.7 Low-Level ("Plumbing") vs. High-Level ("Porcelain") Commands
 
 Commands like `commit`, `branch`, `merge`, `log` are **porcelain** — user-facing, friendly. Underneath, they call **plumbing** commands that manipulate objects and refs directly:
 
@@ -149,7 +163,9 @@ git update-ref refs/heads/main <hash>  # point a branch at a commit
 
 Understanding these makes it much easier to reason about what higher-level commands like `reset`, `rebase`, and `merge` are actually doing under the hood.
 
-## Why This Matters
+---
+
+## 19.8 Why This Matters
 
 Understanding internals demystifies commands that otherwise feel like magic:
 - `git reset --hard` just moves a ref and updates the working directory/index to match that commit's tree.
@@ -157,7 +173,9 @@ Understanding internals demystifies commands that otherwise feel like magic:
 - A "detached HEAD" is simply `HEAD` holding a raw hash instead of a symbolic ref.
 - Rebasing works by replaying commits — creating brand-new commit objects with new parents (hence new hashes) — one at a time.
 
-## Summary
+---
+
+## 19.9 Summary
 
 - Git stores everything as content-addressed objects: blobs (file content), trees (directory structure), commits (snapshots + history), and tags.
 - Refs are just named pointers to commits, stored as simple files under `refs/`.
@@ -166,3 +184,7 @@ Understanding internals demystifies commands that otherwise feel like magic:
 - Nearly every high-level Git command is ultimately just object creation plus ref updates.
 
 *This concludes the Git lessons series.*
+
+---
+
+[Previous](./[18]-Pull-Requests.md) | [Table of Contents](./[0]-Introduction.md)

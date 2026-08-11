@@ -1,6 +1,8 @@
-# 12. Tags & Cherry-Picking
+[Previous](./[11]-Stashing.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Reflog.md)
 
-## Part 1: Tags
+# Lesson 12 - Tags And Cherry-Picking
+
+## 12.1 Part 1: Tags
 
 ### What Is a Tag?
 
@@ -58,7 +60,7 @@ git push origin --delete v1.0.0         # delete on remote
 ```bash
 git checkout v1.0.0
 ```
-This puts you in detached HEAD state (see [Branching]([4]-Branching.md)) — create a branch if you need to make changes from this point.
+This puts you in detached HEAD state (see [Branching](./[4]-Branching.md)) — create a branch if you need to make changes from this point.
 
 ### Signed Tags
 
@@ -70,7 +72,7 @@ git tag -v v1.0.0     # verify
 
 ---
 
-## Part 2: Cherry-Picking
+## 12.2 Part 2: Cherry-Picking
 
 ### What Is Cherry-Picking?
 
@@ -123,10 +125,14 @@ git cherry-pick --abort
 
 Because cherry-picking creates a *new* commit (with a new hash), the same logical change can appear twice in history (once on each branch) — this is expected and generally harmless, though tools like `git log --graph` may show it as separate, unrelated commits.
 
-## Summary
+---
+
+## 12.3 Summary
 
 - **Tags** mark specific, fixed points in history — annotated tags are recommended for releases and aren't pushed by default.
 - **Cherry-pick** copies a specific commit's changes onto another branch as a new commit, useful for hotfixes and selective backports.
 - Both tools let you be surgical about which changes travel where, without needing a full merge.
 
+---
 
+[Previous](./[11]-Stashing.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Reflog.md)

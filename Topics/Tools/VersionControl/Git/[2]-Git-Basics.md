@@ -1,6 +1,8 @@
-# 2. Git Basics
+[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Status-and-History.md)
 
-## The Three (Four) Areas of Git
+# Lesson 2 - Git Basics
+
+## 2.1 The Three (Four) Areas of Git
 
 Understanding these areas is the key to understanding almost every Git command:
 
@@ -13,7 +15,9 @@ Understanding these areas is the key to understanding almost every Git command:
 Working Directory  --git add-->  Staging Area  --git commit-->  Repository  --git push-->  Remote
 ```
 
-## Creating a Repository
+---
+
+## 2.2 Creating a Repository
 
 ### Starting a new repo
 ```bash
@@ -31,7 +35,9 @@ git clone https://github.com/user/repo.git
 
 This downloads the full history and checks out the default branch.
 
-## The Basic Workflow
+---
+
+## 2.3 The Basic Workflow
 
 1. Edit files in your working directory.
 2. Stage the changes you want to commit.
@@ -67,7 +73,9 @@ Skip staging and commit all tracked, modified files directly (does NOT include n
 git commit -am "Message"
 ```
 
-## Writing Good Commit Messages
+---
+
+## 2.4 Writing Good Commit Messages
 
 - Keep the first line under ~50 characters, written in the imperative mood: "Fix bug" not "Fixed bug" or "Fixes bug".
 - Add a blank line, then a longer explanation if needed.
@@ -80,12 +88,16 @@ the final page when the page size didn't evenly divide
 the total count.
 ```
 
-## Tracked vs. Untracked Files
+---
+
+## 2.5 Tracked vs. Untracked Files
 
 - **Untracked**: files Git doesn't know about yet (new files you haven't `git add`ed).
 - **Tracked**: files Git is watching for changes — these can be *unmodified*, *modified*, or *staged*.
 
-## A Minimal Example Session
+---
+
+## 2.6 A Minimal Example Session
 
 ```bash
 git init
@@ -94,10 +106,15 @@ git add README.md
 git commit -m "Initial commit"
 ```
 
-## Summary
+---
+
+## 2.7 Summary
 
 - Git tracks snapshots, not diffs, though it displays changes as diffs.
 - Everything flows: working directory → staging area → repository.
 - `git init` starts a new repo; `git clone` copies an existing one.
 - `git add` stages, `git commit` saves a permanent snapshot.
 
+---
+
+[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Status-and-History.md)

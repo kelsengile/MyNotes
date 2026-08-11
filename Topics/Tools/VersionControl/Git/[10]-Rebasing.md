@@ -1,6 +1,8 @@
-# 10. Rebasing & Interactive Rebase
+[Previous](./[9]-Workflows-and-Best-Practices.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Stashing.md)
 
-## What Is Rebasing?
+# Lesson 10 - Rebasing And Interactive Rebase
+
+## 10.1 What Is Rebasing?
 
 Rebasing takes the commits from one branch and re-applies them on top of another branch, creating a linear history instead of a merge commit.
 
@@ -21,7 +23,9 @@ git switch feature
 git rebase main
 ```
 
-## Rebase vs. Merge
+---
+
+## 10.2 Rebase vs. Merge
 
 | | Merge | Rebase |
 |---|---|---|
@@ -32,7 +36,9 @@ git rebase main
 
 **Golden rule of rebasing: never rebase commits that have already been pushed and that others may have based work on.**
 
-## Basic Rebase Workflow
+---
+
+## 10.3 Basic Rebase Workflow
 
 ```bash
 git switch feature-branch
@@ -53,7 +59,9 @@ git rebase --abort
 git rebase --skip
 ```
 
-## Interactive Rebase
+---
+
+## 10.4 Interactive Rebase
 
 Interactive rebase lets you edit, reorder, squash, or drop commits before they're finalized.
 
@@ -110,7 +118,9 @@ reword a1b2c3d Add login form
 drop e4f5g6h Unwanted debug commit
 ```
 
-## Rebasing onto a Different Base (`--onto`)
+---
+
+## 10.5 Rebasing onto a Different Base (`--onto`)
 
 Useful for moving a chunk of commits from one branch base to another:
 
@@ -118,7 +128,9 @@ Useful for moving a chunk of commits from one branch base to another:
 git rebase --onto main feature-old-base feature-branch
 ```
 
-## After Rebasing a Pushed Branch
+---
+
+## 10.6 After Rebasing a Pushed Branch
 
 If you must rebase a branch that's already pushed (e.g. your own personal feature branch), you'll need to force-push:
 
@@ -126,11 +138,15 @@ If you must rebase a branch that's already pushed (e.g. your own personal featur
 git push --force-with-lease
 ```
 
-## Summary
+---
+
+## 10.7 Summary
 
 - Rebase re-applies commits on a new base, producing linear history — but changes commit hashes.
 - Interactive rebase (`-i`) lets you squash, reword, reorder, edit, or drop commits.
 - Never rebase shared/pushed commits others have built on top of.
 - `--continue`, `--abort`, and `--skip` control an in-progress rebase.
 
+---
 
+[Previous](./[9]-Workflows-and-Best-Practices.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Stashing.md)

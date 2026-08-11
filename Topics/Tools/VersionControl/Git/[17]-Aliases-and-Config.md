@@ -1,8 +1,10 @@
-# 17. Aliases & Configuration
+[Previous](./[16]-Blame-and-Bisect.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Pull-Requests.md)
 
-## Configuration Recap
+# Lesson 17 - Aliases And Configuration
 
-As covered in [Installing Git & First-Time Setup]([1]-Installation-and-Setup.md), Git config exists at three levels:
+## 17.1 Configuration Recap
+
+As covered in [Installing Git & First-Time Setup](./[1]-Installation-and-Setup.md), Git config exists at three levels:
 
 ```bash
 git config --system   # /etc/gitconfig — all users on the machine
@@ -12,7 +14,9 @@ git config --local      # .git/config — this repo only (default if no flag giv
 
 Local overrides global, global overrides system.
 
-## Viewing and Editing Config
+---
+
+## 17.2 Viewing and Editing Config
 
 ```bash
 git config --list                  # all settings, with origin file
@@ -21,7 +25,9 @@ git config user.name                # read one value
 git config --global --edit           # open ~/.gitconfig directly in your editor
 ```
 
-## Creating Aliases
+---
+
+## 17.3 Creating Aliases
 
 Aliases are shortcuts for commands you type often, defined under `[alias]` in a config file.
 
@@ -59,7 +65,9 @@ Prefixing with `!` lets an alias run any shell command, not just Git subcommands
     save = "!git add -A && git commit -m 'WIP'"
 ```
 
-## Useful Config Options Beyond Aliases
+---
+
+## 17.4 Useful Config Options Beyond Aliases
 
 ### Default push behavior
 ```bash
@@ -112,7 +120,9 @@ git config --global merge.tool vscode
 git config --global diff.tool vscode
 ```
 
-## Per-Repository Config (Overrides Global)
+---
+
+## 17.5 Per-Repository Config (Overrides Global)
 
 Useful, for example, if you use a different email for work vs. personal projects:
 
@@ -136,16 +146,24 @@ In `~/.gitconfig`:
 ```
 Any repo inside `~/work/` automatically picks up the work email.
 
-## Environment Variables
+---
+
+## 17.6 Environment Variables
 
 Git also respects several environment variables that can override config temporarily, e.g.:
 ```bash
 GIT_AUTHOR_NAME="Temp Name" git commit -m "One-off commit"
 ```
 
-## Summary
+---
+
+## 17.7 Summary
 
 - Config exists at system/global/local levels, with local taking priority.
 - Aliases (`git config --global alias.x ...`) turn long or frequent commands into short ones — `!`-prefixed aliases can run full shell commands.
 - Common quality-of-life settings: `pull.rebase`, `push.autoSetupRemote`, `core.autocrlf`, `credential.helper`.
 - Conditional includes let different folders (e.g. work vs. personal) automatically use different identities.
+
+---
+
+[Previous](./[16]-Blame-and-Bisect.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Pull-Requests.md)
