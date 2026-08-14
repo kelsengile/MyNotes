@@ -1,4 +1,4 @@
-[Previous](./[8]-Gitignore.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Rebasing.md)
+[Previous](./[8]-Gitignore.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[10]-Rebasing.md)
 
 # Lesson 9 - Common Workflows And Best Practices
 
@@ -93,7 +93,7 @@ refactor: extract validation logic into helper
 ## 9.7 General Tips
 
 - **Never force-push to shared branches** without team agreement — use `--force-with-lease` if you must.
-- **Tag releases** so you can always find and reproduce a specific shipped version (see [Tags & Cherry-Picking](./[12]-Tags-and-Cherry-Picking.md)).
+- **Tag releases** so you can always find and reproduce a specific shipped version (see [Tags & Cherry-Picking](./[12]-Tags-And-Cherry-Picking.md)).
 - **Use `.gitattributes`** for consistent line endings across OSes:
   ```
   * text=auto
@@ -110,4 +110,4 @@ refactor: extract validation logic into helper
 
 ---
 
-[Previous](./[8]-Gitignore.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Rebasing.md)
+[Previous](./[8]-Gitignore.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[10]-Rebasing.md)

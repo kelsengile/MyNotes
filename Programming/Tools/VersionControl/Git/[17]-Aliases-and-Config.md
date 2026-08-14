@@ -1,10 +1,10 @@
-[Previous](./[16]-Blame-and-Bisect.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Pull-Requests.md)
+[Previous](./[16]-Blame-And-Bisect.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[18]-Pull-Requests.md)
 
 # Lesson 17 - Aliases And Configuration
 
 ## 17.1 Configuration Recap
 
-As covered in [Installing Git & First-Time Setup](./[1]-Installation-and-Setup.md), Git config exists at three levels:
+As covered in [Installing Git & First-Time Setup](./[1]-Installation-And-Setup.md), Git config exists at three levels:
 
 ```bash
 git config --system   # /etc/gitconfig — all users on the machine
@@ -166,4 +166,4 @@ GIT_AUTHOR_NAME="Temp Name" git commit -m "One-off commit"
 
 ---
 
-[Previous](./[16]-Blame-and-Bisect.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Pull-Requests.md)
+[Previous](./[16]-Blame-And-Bisect.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[18]-Pull-Requests.md)

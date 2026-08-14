@@ -60,18 +60,19 @@ Every lesson file (excluding introduction files) must include navigation links a
 - **The last file in a Topic** omits `Next`, keeping only `Previous` and `Table of Contents`.
 - Links must always point to the correct, currently-valid files — double check these after any renumbering.
 
-**Table of Contents (Introduction Files)**
+**Table of Contents**
 
 Every introduction file must include a Table of Contents listing the lessons in that Topic. Headers may be used to visually group related lessons, but the lesson numbering itself continues straight through and never resets at a header:
 
 ```
-### Getting Started
-1. **[Lesson Name](./[1]-Lesson-Name.md)**  
-2. **[Lesson Name](./[2]-Lesson-Name.md)**  
+Example:
+**(Lesson Goup Name 1)**
+   1. **[Lesson Name](./[1]-Lesson-Name.md)**  
+   2. **[Lesson Name](./[2]-Lesson-Name.md)**  
 
-### Next Group
-3. **[Lesson Name](./[3]-Lesson-Name.md)**  
-4. **[Lesson Name](./[4]-Lesson-Name.md)**  
+**(Lesson Goup Name 2)**
+   3. **[Lesson Name](./[3]-Lesson-Name.md)**  
+   4. **[Lesson Name](./[4]-Lesson-Name.md)**  
 ```
 
 - Add two trailing spaces at the end of each line so the list renders as a stacked list on GitHub.

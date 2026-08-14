@@ -1,4 +1,4 @@
-[Previous](./[11]-Stashing.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Reflog.md)
+[Previous](./[11]-Stashing.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[13]-Reflog.md)
 
 # Lesson 12 - Tags And Cherry-Picking
 
@@ -135,4 +135,4 @@ Because cherry-picking creates a *new* commit (with a new hash), the same logica
 
 ---
 
-[Previous](./[11]-Stashing.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Reflog.md)
+[Previous](./[11]-Stashing.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[13]-Reflog.md)

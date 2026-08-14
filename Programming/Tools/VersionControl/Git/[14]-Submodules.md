@@ -1,4 +1,4 @@
-[Previous](./[13]-Reflog.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Hooks.md)
+[Previous](./[13]-Reflog.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[15]-Hooks.md)
 
 # Lesson 14 - Submodules
 
@@ -142,4 +142,4 @@ Submodules are notoriously tricky for teams — common alternatives include:
 
 ---
 
-[Previous](./[13]-Reflog.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Hooks.md)
+[Previous](./[13]-Reflog.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[15]-Hooks.md)

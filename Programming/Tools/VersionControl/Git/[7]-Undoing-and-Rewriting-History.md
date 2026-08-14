@@ -1,4 +1,4 @@
-[Previous](./[6]-Remotes-Push-and-Pull.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Gitignore.md)
+[Previous](./[6]-Remotes-Push-And-Pull.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[8]-Gitignore.md)
 
 # Lesson 7 - Undoing Changes And Rewriting History
 
@@ -122,4 +122,4 @@ If you `reset --hard` or delete a branch by mistake, the commits often aren't ac
 
 ---
 
-[Previous](./[6]-Remotes-Push-and-Pull.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Gitignore.md)
+[Previous](./[6]-Remotes-Push-And-Pull.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[8]-Gitignore.md)

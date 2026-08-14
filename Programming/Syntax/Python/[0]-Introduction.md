@@ -17,119 +17,119 @@ Python lets you:
 
 ## Table of Contents
 
-### 📁 [[1]-Getting-Started]([1]-Getting-Started/[1.1]-Installation-and-Setup.md)  
-1.1. [Installing Python & First-Time Setup]([1]-Getting-Started/[1.1]-Installation-and-Setup.md)  
-1.2. [Running Code: Scripts, the REPL & Notebooks]([1]-Getting-Started/[1.2]-Running-Python-Code.md)  
-1.3. [Virtual Environments & Package Management (pip, venv, poetry, conda)]([1]-Getting-Started/[1.3]-Virtual-Environments-and-Pip.md)  
+**Getting Started**  
+    1. **[Installing Python & First-Time Setup](./[1]-Installation-and-Setup.md)**  
+    2. **[Running Code: Scripts, the REPL & Notebooks](./[2]-Running-Python-Code.md)**  
+    3. **[Virtual Environments & Package Management (pip, venv, poetry, conda)](./[3]-Virtual-Environments-and-Pip.md)**  
 
-### 📁 [[2]-Core-Syntax]([2]-Core-Syntax/[2.1]-Variables-and-Data-Types.md)  
-2.1. [Variables & Basic Data Types]([2]-Core-Syntax/[2.1]-Variables-and-Data-Types.md)  
-2.2. [Numbers, Strings & Booleans]([2]-Core-Syntax/[2.2]-Numbers-Strings-and-Booleans.md)  
-2.3. [Operators & Expressions (arithmetic, comparison, logical, bitwise, identity, membership)]([2]-Core-Syntax/[2.3]-Operators-and-Expressions.md)  
-2.4. [Conditionals: if, elif, else]([2]-Core-Syntax/[2.4]-Conditionals.md)  
-2.5. [Loops: for & while, break, continue, pass]([2]-Core-Syntax/[2.5]-Loops.md)  
-2.6. [Functions & Scope (*args, **kwargs, lambda, LEGB rule)]([2]-Core-Syntax/[2.6]-Functions-and-Scope.md)  
-2.7. [String Formatting & Manipulation (f-strings, slicing, methods)]([2]-Core-Syntax/[2.7]-String-Formatting.md)  
-2.8. [Error Handling: try, except, else, finally, custom exceptions]([2]-Core-Syntax/[2.8]-Error-Handling.md)  
+**Core Syntax**  
+    4. **[Variables & Basic Data Types](./[4]-Variables-and-Data-Types.md)**  
+    5. **[Numbers, Strings & Booleans](./[5]-Numbers-Strings-and-Booleans.md)**  
+    6. **[Operators & Expressions (arithmetic, comparison, logical, bitwise, identity, membership)](./[6]-Operators-and-Expressions.md)**  
+    7. **[Conditionals: if, elif, else](./[7]-Conditionals.md)**  
+    8. **[Loops: for & while, break, continue, pass](./[8]-Loops.md)**  
+    9. **[Functions & Scope (*args, **kwargs, lambda, LEGB rule)](./[9]-Functions-and-Scope.md)**  
+    10. **[String Formatting & Manipulation (f-strings, slicing, methods)](./[10]-String-Formatting.md)**  
+    11. **[Error Handling: try, except, else, finally, custom exceptions](./[11]-Error-Handling.md)**  
 
-### 📁 [[3]-Data-Structures]([3]-Data-Structures/[3.1]-Lists-Tuples-and-Sets.md)  
-3.1. [Lists, Tuples & Sets]([3]-Data-Structures/[3.1]-Lists-Tuples-and-Sets.md)  
-3.2. [Dictionaries]([3]-Data-Structures/[3.2]-Dictionaries.md)  
-3.3. [Comprehensions: List, Dict & Set]([3]-Data-Structures/[3.3]-Comprehensions.md)  
-3.4. [Collections Module (Counter, defaultdict, namedtuple, deque, OrderedDict)]([3]-Data-Structures/[3.4]-Collections-Module.md)  
+**Data Structures**  
+    12. **[Lists, Tuples & Sets](./[12]-Lists-Tuples-and-Sets.md)**  
+    13. **[Dictionaries](./[13]-Dictionaries.md)**  
+    14. **[Comprehensions: List, Dict & Set](./[14]-Comprehensions.md)**  
+    15. **[Collections Module (Counter, defaultdict, namedtuple, deque, OrderedDict)](./[15]-Collections-Module.md)**  
 
-### 📁 [[4]-Object-Oriented-Programming]([4]-Object-Oriented-Programming/[4.1]-OOP-Classes-and-Objects.md)  
-4.1. [Classes & Objects]([4]-Object-Oriented-Programming/[4.1]-OOP-Classes-and-Objects.md)  
-4.2. [Inheritance & Polymorphism (incl. multiple inheritance, MRO)]([4]-Object-Oriented-Programming/[4.2]-Inheritance-and-Polymorphism.md)  
-4.3. [Encapsulation & Abstraction]([4]-Object-Oriented-Programming/[4.3]-Encapsulation-and-Abstraction.md)  
-4.4. [Magic/Dunder Methods (`__str__`, `__eq__`, `__len__`, etc.)]([4]-Object-Oriented-Programming/[4.4]-Magic-Methods.md)  
-4.5. [Class Methods, Static Methods & Properties]([4]-Object-Oriented-Programming/[4.5]-Class-and-Static-Methods.md)  
-4.6. [Abstract Base Classes (ABC module)]([4]-Object-Oriented-Programming/[4.6]-Abstract-Base-Classes.md)  
-4.7. [Dataclasses]([4]-Object-Oriented-Programming/[4.7]-Dataclasses.md)  
+**Object-Oriented Programming**  
+    16. **[Classes & Objects](./[16]-OOP-Classes-and-Objects.md)**  
+    17. **[Inheritance & Polymorphism (incl. multiple inheritance, MRO)](./[17]-Inheritance-and-Polymorphism.md)**  
+    18. **[Encapsulation & Abstraction](./[18]-Encapsulation-and-Abstraction.md)**  
+    19. **[Magic/Dunder Methods (`__str__`, `__eq__`, `__len__`, etc.)](./[19]-Magic-Methods.md)**  
+    20. **[Class Methods, Static Methods & Properties](./[20]-Class-and-Static-Methods.md)**  
+    21. **[Abstract Base Classes (ABC module)](./[21]-Abstract-Base-Classes.md)**  
+    22. **[Dataclasses](./[22]-Dataclasses.md)**  
 
-### 📁 [[5]-Advanced-Language-Features]([5]-Advanced-Language-Features/[5.1]-Iterators-and-Generators.md)  
-5.1. [Iterators & Generators (yield, iter, next)]([5]-Advanced-Language-Features/[5.1]-Iterators-and-Generators.md)  
-5.2. [Decorators]([5]-Advanced-Language-Features/[5.2]-Decorators.md)  
-5.3. [Context Managers (`with`, `__enter__`/`__exit__`)]([5]-Advanced-Language-Features/[5.3]-Context-Managers.md)  
-5.4. [Closures]([5]-Advanced-Language-Features/[5.4]-Closures.md)  
-5.5. [Type Hints & Static Typing (typing module, mypy)]([5]-Advanced-Language-Features/[5.5]-Type-Hints.md)  
-5.6. [Metaclasses]([5]-Advanced-Language-Features/[5.6]-Metaclasses.md)  
-5.7. [Descriptors]([5]-Advanced-Language-Features/[5.7]-Descriptors.md)  
-5.8. [Functional Programming (map, filter, reduce, functools, itertools)]([5]-Advanced-Language-Features/[5.8]-Functional-Programming.md)  
-5.9. [Memory Management & Garbage Collection]([5]-Advanced-Language-Features/[5.9]-Memory-Management.md)  
+**Advanced Language Features**  
+    23. **[Iterators & Generators (yield, iter, next)](./[23]-Iterators-and-Generators.md)**  
+    24. **[Decorators](./[24]-Decorators.md)**  
+    25. **[Context Managers (`with`, `__enter__`/`__exit__`)](./[25]-Context-Managers.md)**  
+    26. **[Closures](./[26]-Closures.md)**  
+    27. **[Type Hints & Static Typing (typing module, mypy)](./[27]-Type-Hints.md)**  
+    28. **[Metaclasses](./[28]-Metaclasses.md)**  
+    29. **[Descriptors](./[29]-Descriptors.md)**  
+    30. **[Functional Programming (map, filter, reduce, functools, itertools)](./[30]-Functional-Programming.md)**  
+    31. **[Memory Management & Garbage Collection](./[31]-Memory-Management.md)**  
 
-### 📁 [[6]-Standard-Library]([6]-Standard-Library/[6.1]-Working-with-Files.md)  
-6.1. [Working with Files (open, read/write, pathlib)]([6]-Standard-Library/[6.1]-Working-with-Files.md)  
-6.2. [Modules & Packages]([6]-Standard-Library/[6.2]-Modules-and-Packages.md)  
-6.3. [Working with Dates & Times (datetime, time)]([6]-Standard-Library/[6.3]-Dates-and-Times.md)  
-6.4. [Regular Expressions (re module)]([6]-Standard-Library/[6.4]-Regular-Expressions.md)  
-6.5. [Data Serialization (json, csv, pickle)]([6]-Standard-Library/[6.5]-Data-Serialization.md)  
-6.6. [Logging]([6]-Standard-Library/[6.6]-Logging.md)  
-6.7. [Command-Line Tools (argparse, sys.argv)]([6]-Standard-Library/[6.7]-CLI-Tools.md)  
-6.8. [System & OS Operations (os, sys, shutil, subprocess)]([6]-Standard-Library/[6.8]-System-and-OS-Operations.md)  
-6.9. [Math, Random & Statistics]([6]-Standard-Library/[6.9]-Math-Random-Statistics.md)  
+**Standard Library**  
+    32. **[Working with Files (open, read/write, pathlib)](./[32]-Working-with-Files.md)**  
+    33. **[Modules & Packages](./[33]-Modules-and-Packages.md)**  
+    34. **[Working with Dates & Times (datetime, time)](./[34]-Dates-and-Times.md)**  
+    35. **[Regular Expressions (re module)](./[35]-Regular-Expressions.md)**  
+    36. **[Data Serialization (json, csv, pickle)](./[36]-Data-Serialization.md)**  
+    37. **[Logging](./[37]-Logging.md)**  
+    38. **[Command-Line Tools (argparse, sys.argv)](./[38]-CLI-Tools.md)**  
+    39. **[System & OS Operations (os, sys, shutil, subprocess)](./[39]-System-and-OS-Operations.md)**  
+    40. **[Math, Random & Statistics](./[40]-Math-Random-Statistics.md)**  
 
-### 📁 [[7]-Data-Science-and-Numerical-Computing]([7]-Data-Science-and-Numerical-Computing/[7.1]-NumPy.md)  
-7.1. [NumPy: Arrays, Broadcasting & Vectorization]([7]-Data-Science-and-Numerical-Computing/[7.1]-NumPy.md)  
-7.2. [Pandas: DataFrames, Series & Data Wrangling]([7]-Data-Science-and-Numerical-Computing/[7.2]-Pandas.md)  
-7.3. [Data Visualization: Matplotlib, Seaborn & Plotly]([7]-Data-Science-and-Numerical-Computing/[7.3]-Data-Visualization.md)  
-7.4. [SciPy: Scientific Computing]([7]-Data-Science-and-Numerical-Computing/[7.4]-SciPy.md)  
-7.5. [Statsmodels]([7]-Data-Science-and-Numerical-Computing/[7.5]-Statsmodels.md)  
+**Data Science & Numerical Computing**  
+    41. **[NumPy: Arrays, Broadcasting & Vectorization](./[41]-NumPy.md)**  
+    42. **[Pandas: DataFrames, Series & Data Wrangling](./[42]-Pandas.md)**  
+    43. **[Data Visualization: Matplotlib, Seaborn & Plotly](./[43]-Data-Visualization.md)**  
+    44. **[SciPy: Scientific Computing](./[44]-SciPy.md)**  
+    45. **[Statsmodels](./[45]-Statsmodels.md)**  
 
-### 📁 [[8]-Machine-Learning-and-AI]([8]-Machine-Learning-and-AI/[8.1]-scikit-learn.md)  
-8.1. [scikit-learn]([8]-Machine-Learning-and-AI/[8.1]-scikit-learn.md)  
-8.2. [TensorFlow & Keras]([8]-Machine-Learning-and-AI/[8.2]-TensorFlow-and-Keras.md)  
-8.3. [PyTorch]([8]-Machine-Learning-and-AI/[8.3]-PyTorch.md)  
-8.4. [XGBoost & LightGBM]([8]-Machine-Learning-and-AI/[8.4]-XGBoost-and-LightGBM.md)  
-8.5. [Hugging Face Transformers]([8]-Machine-Learning-and-AI/[8.5]-Hugging-Face-Transformers.md)  
-8.6. [Natural Language Processing: NLTK & spaCy]([8]-Machine-Learning-and-AI/[8.6]-NLTK-and-spaCy.md)  
-8.7. [Computer Vision: OpenCV]([8]-Machine-Learning-and-AI/[8.7]-OpenCV.md)  
+**Machine Learning & AI**  
+    46. **[scikit-learn](./[46]-scikit-learn.md)**  
+    47. **[TensorFlow & Keras](./[47]-TensorFlow-and-Keras.md)**  
+    48. **[PyTorch](./[48]-PyTorch.md)**  
+    49. **[XGBoost & LightGBM](./[49]-XGBoost-and-LightGBM.md)**  
+    50. **[Hugging Face Transformers](./[50]-Hugging-Face-Transformers.md)**  
+    51. **[Natural Language Processing: NLTK & spaCy](./[51]-NLTK-and-spaCy.md)**  
+    52. **[Computer Vision: OpenCV](./[52]-OpenCV.md)**  
 
-### 📁 [[9]-Web-Development]([9]-Web-Development/[9.1]-Flask.md)  
-9.1. [Flask]([9]-Web-Development/[9.1]-Flask.md)  
-9.2. [Django]([9]-Web-Development/[9.2]-Django.md)  
-9.3. [FastAPI]([9]-Web-Development/[9.3]-FastAPI.md)  
-9.4. [Working with APIs & JSON (requests library)]([9]-Web-Development/[9.4]-APIs-and-JSON.md)  
-9.5. [Web Scraping: BeautifulSoup & Scrapy]([9]-Web-Development/[9.5]-Web-Scraping.md)  
-9.6. [Templating with Jinja2]([9]-Web-Development/[9.6]-Jinja2-Templating.md)  
+**Web Development**  
+    53. **[Flask](./[53]-Flask.md)**  
+    54. **[Django](./[54]-Django.md)**  
+    55. **[FastAPI](./[55]-FastAPI.md)**  
+    56. **[Working with APIs & JSON (requests library)](./[56]-APIs-and-JSON.md)**  
+    57. **[Web Scraping: BeautifulSoup & Scrapy](./[57]-Web-Scraping.md)**  
+    58. **[Templating with Jinja2](./[58]-Jinja2-Templating.md)**  
 
-### 📁 [[10]-Databases]([10]-Databases/[10.1]-SQLite3.md)  
-10.1. [Working with Databases: SQLite3]([10]-Databases/[10.1]-SQLite3.md)  
-10.2. [SQLAlchemy (ORM)]([10]-Databases/[10.2]-SQLAlchemy.md)  
-10.3. [Connecting to PostgreSQL & MySQL (psycopg2, PyMySQL)]([10]-Databases/[10.3]-PostgreSQL-and-MySQL.md)  
-10.4. [MongoDB with PyMongo]([10]-Databases/[10.4]-MongoDB-PyMongo.md)  
+**Databases**  
+    59. **[Working with Databases: SQLite3](./[59]-SQLite3.md)**  
+    60. **[SQLAlchemy (ORM)](./[60]-SQLAlchemy.md)**  
+    61. **[Connecting to PostgreSQL & MySQL (psycopg2, PyMySQL)](./[61]-PostgreSQL-and-MySQL.md)**  
+    62. **[MongoDB with PyMongo](./[62]-MongoDB-PyMongo.md)**  
 
-### 📁 [[11]-Automation-and-Scripting]([11]-Automation-and-Scripting/[11.1]-Selenium.md)  
-11.1. [Browser Automation with Selenium]([11]-Automation-and-Scripting/[11.1]-Selenium.md)  
-11.2. [Desktop Automation with PyAutoGUI]([11]-Automation-and-Scripting/[11.2]-PyAutoGUI.md)  
-11.3. [Excel Automation: openpyxl & xlrd]([11]-Automation-and-Scripting/[11.3]-Excel-Automation.md)  
-11.4. [Task Scheduling: schedule & APScheduler]([11]-Automation-and-Scripting/[11.4]-Task-Scheduling.md)  
+**Automation & Scripting**  
+    63. **[Browser Automation with Selenium](./[63]-Selenium.md)**  
+    64. **[Desktop Automation with PyAutoGUI](./[64]-PyAutoGUI.md)**  
+    65. **[Excel Automation: openpyxl & xlrd](./[65]-Excel-Automation.md)**  
+    66. **[Task Scheduling: schedule & APScheduler](./[66]-Task-Scheduling.md)**  
 
-### 📁 [[12]-GUI-Development]([12]-GUI-Development/[12.1]-Tkinter.md)  
-12.1. [Tkinter]([12]-GUI-Development/[12.1]-Tkinter.md)  
-12.2. [PyQt & PySide]([12]-GUI-Development/[12.2]-PyQt-and-PySide.md)  
-12.3. [Kivy]([12]-GUI-Development/[12.3]-Kivy.md)  
+**GUI Development**  
+    67. **[Tkinter](./[67]-Tkinter.md)**  
+    68. **[PyQt & PySide](./[68]-PyQt-and-PySide.md)**  
+    69. **[Kivy](./[69]-Kivy.md)**  
 
-### 📁 [[13]-Concurrency]([13]-Concurrency/[13.1]-Threading.md)  
-13.1. [Threading]([13]-Concurrency/[13.1]-Threading.md)  
-13.2. [Multiprocessing]([13]-Concurrency/[13.2]-Multiprocessing.md)  
-13.3. [Asyncio & concurrent.futures]([13]-Concurrency/[13.3]-Asyncio.md)  
+**Concurrency**  
+    70. **[Threading](./[70]-Threading.md)**  
+    71. **[Multiprocessing](./[71]-Multiprocessing.md)**  
+    72. **[Asyncio & concurrent.futures](./[72]-Asyncio.md)**  
 
-### 📁 [[14]-Testing-and-Code-Quality]([14]-Testing-and-Code-Quality/[14.1]-Testing.md)  
-14.1. [Testing: unittest, pytest & doctest]([14]-Testing-and-Code-Quality/[14.1]-Testing.md)  
-14.2. [Mocking (unittest.mock)]([14]-Testing-and-Code-Quality/[14.2]-Mocking.md)  
-14.3. [Linters & Formatters: flake8, pylint, black, isort]([14]-Testing-and-Code-Quality/[14.3]-Linters-and-Formatters.md)  
-14.4. [Code Coverage (coverage.py)]([14]-Testing-and-Code-Quality/[14.4]-Code-Coverage.md)  
+**Testing & Code Quality**  
+    73. **[Testing: unittest, pytest & doctest](./[73]-Testing.md)**  
+    74. **[Mocking (unittest.mock)](./[74]-Mocking.md)**  
+    75. **[Linters & Formatters: flake8, pylint, black, isort](./[75]-Linters-and-Formatters.md)**  
+    76. **[Code Coverage (coverage.py)](./[76]-Code-Coverage.md)**  
 
-### 📁 [[15]-Packaging-and-Deployment]([15]-Packaging-and-Deployment/[15.1]-Packaging-and-Distribution.md)  
-15.1. [Packaging & Distributing Your Code (setuptools, wheel, twine)]([15]-Packaging-and-Deployment/[15.1]-Packaging-and-Distribution.md)  
-15.2. [Docker Basics for Python Apps]([15]-Packaging-and-Deployment/[15.2]-Docker-Basics.md)  
-15.3. [CI/CD Basics (GitHub Actions)]([15]-Packaging-and-Deployment/[15.3]-CICD-Basics.md)  
+**Packaging & Deployment**  
+    77. **[Packaging & Distributing Your Code (setuptools, wheel, twine)](./[77]-Packaging-and-Distribution.md)**  
+    78. **[Docker Basics for Python Apps](./[78]-Docker-Basics.md)**  
+    79. **[CI/CD Basics (GitHub Actions)](./[79]-CICD-Basics.md)**  
 
-### 📁 [[16]-Performance-and-Optimization]([16]-Performance-and-Optimization/[16.1]-Profiling.md)  
-16.1. [Profiling: cProfile & timeit]([16]-Performance-and-Optimization/[16.1]-Profiling.md)  
-16.2. [Cython]([16]-Performance-and-Optimization/[16.2]-Cython.md)  
-16.3. [Numba (JIT Compilation)]([16]-Performance-and-Optimization/[16.3]-Numba.md)  
+**Performance & Optimization**  
+    80. **[Profiling: cProfile & timeit](./[80]-Profiling.md)**  
+    81. **[Cython](./[81]-Cython.md)**  
+    82. **[Numba (JIT Compilation)](./[82]-Numba.md)** 
 
-### 📁 [[17]-Best-Practices]([17]-Best-Practices/[17.1]-Best-Practices-and-Style.md)  
-17.1. [Pythonic Style & PEP 8]([17]-Best-Practices/[17.1]-Best-Practices-and-Style.md)
+**Best Practices**  
+    83. **[Pythonic Style & PEP 8](./[83]-Best-Practices-and-Style.md)**

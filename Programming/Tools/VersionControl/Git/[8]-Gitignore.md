@@ -1,4 +1,4 @@
-[Previous](./[7]-Undoing-and-Rewriting-History.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Workflows-and-Best-Practices.md)
+[Previous](./[7]-Undoing-And-Rewriting-History.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[9]-Workflows-And-Best-Practices.md)
 
 # Lesson 8 - .gitignore And Housekeeping
 
@@ -146,4 +146,4 @@ git count-objects -vH
 
 ---
 
-[Previous](./[7]-Undoing-and-Rewriting-History.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Workflows-and-Best-Practices.md)
+[Previous](./[7]-Undoing-And-Rewriting-History.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[9]-Workflows-And-Best-Practices.md)

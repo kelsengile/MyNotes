@@ -1,4 +1,4 @@
-[Previous](./[4]-Viewing-And-Creating-File-Content.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Environment-Variables-And-PATH.md)
+[Previous](./[4]-Viewing-And-Creating-File-Content.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[6]-Environment-Variables-And-PATH.md)
 
 # Lesson 5 - Redirection and Piping
 
@@ -72,4 +72,4 @@ Lists everything recursively, filters for lines mentioning "Documents", and save
 
 ---
 
-[Previous](./[4]-Viewing-And-Creating-File-Content.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Environment-Variables-And-PATH.md)
+[Previous](./[4]-Viewing-And-Creating-File-Content.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[6]-Environment-Variables-And-PATH.md)

@@ -1,4 +1,4 @@
-[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Package-Managers.md)
+[Previous](./[0]-Introduction-to-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[2]-Package-Managers.md)
 
 ---
 
@@ -78,4 +78,4 @@ You could copy code from another project instead of installing it as a package, 
 
 ---
 
-[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Package-Managers.md)
+[Previous](./[0]-Introduction-to-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[2]-Package-Managers.md)

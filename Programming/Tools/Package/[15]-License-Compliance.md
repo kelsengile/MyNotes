@@ -1,4 +1,4 @@
-[Previous](./[14]-Dependency-Conflicts-And-Troubleshooting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Optimizing-Install-Size-And-Build-Performance.md)
+[Previous](./[14]-Dependency-Conflicts-And-Troubleshooting.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[16]-Optimizing-Install-Size-And-Build-Performance.md)
 
 ---
 
@@ -75,4 +75,4 @@ If a package (or its own transitive dependencies) has no license file or declara
 
 ---
 
-[Previous](./[14]-Dependency-Conflicts-And-Troubleshooting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Optimizing-Install-Size-And-Build-Performance.md)
+[Previous](./[14]-Dependency-Conflicts-And-Troubleshooting.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[16]-Optimizing-Install-Size-And-Build-Performance.md)

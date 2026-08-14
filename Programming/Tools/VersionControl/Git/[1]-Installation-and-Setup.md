@@ -1,4 +1,4 @@
-[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Git-Basics.md)
+[Previous](./[0]-Introduction-to-Git.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[2]-Git-Basics.md)
 
 # Lesson 1 - Installing Git And First-Time Setup
 
@@ -114,4 +114,4 @@ ssh -T git@github.com
 
 ---
 
-[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-Git-Basics.md)
+[Previous](./[0]-Introduction-to-Git.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[2]-Git-Basics.md)

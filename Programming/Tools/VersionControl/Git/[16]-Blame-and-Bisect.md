@@ -1,4 +1,4 @@
-[Previous](./[15]-Hooks.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Aliases-and-Config.md)
+[Previous](./[15]-Hooks.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[17]-Aliases-And-Config.md)
 
 # Lesson 16 - Blame And Bisect - Finding Bugs
 
@@ -137,4 +137,4 @@ A typical debugging flow:
 
 ---
 
-[Previous](./[15]-Hooks.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Aliases-and-Config.md)
+[Previous](./[15]-Hooks.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[17]-Aliases-And-Config.md)

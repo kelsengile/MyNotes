@@ -1,4 +1,4 @@
-[Previous](./[8]-Package-Registries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Publishing-Packages.md)
+[Previous](./[8]-Package-Registries.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[10]-Publishing-Packages.md)
 
 ---
 
@@ -130,4 +130,4 @@ A license tells others what they're legally allowed to do with your code. Common
 
 ---
 
-[Previous](./[8]-Package-Registries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Publishing-Packages.md)
+[Previous](./[8]-Package-Registries.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[10]-Publishing-Packages.md)

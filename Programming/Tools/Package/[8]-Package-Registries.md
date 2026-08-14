@@ -1,4 +1,4 @@
-[Previous](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Creating-Your-Own-Package.md)
+[Previous](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[9]-Creating-Your-Own-Package.md)
 
 ---
 
@@ -82,4 +82,4 @@ Anyone can publish to most public registries, which is part of what makes ecosys
 
 ---
 
-[Previous](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Creating-Your-Own-Package.md)
+[Previous](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[9]-Creating-Your-Own-Package.md)

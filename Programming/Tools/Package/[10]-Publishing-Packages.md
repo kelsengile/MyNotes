@@ -1,4 +1,4 @@
-[Previous](./[9]-Creating-Your-Own-Package.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Monorepos-And-Workspaces.md)
+[Previous](./[9]-Creating-Your-Own-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[11]-Monorepos-And-Workspaces.md)
 
 ---
 
@@ -89,4 +89,4 @@ Registries display your README, license, and keywords on your package's page —
 
 ---
 
-[Previous](./[9]-Creating-Your-Own-Package.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Monorepos-And-Workspaces.md)
+[Previous](./[9]-Creating-Your-Own-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[11]-Monorepos-And-Workspaces.md)

@@ -1,4 +1,4 @@
-[Previous](./[17]-Aliases-and-Config.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-Git-Internals.md)
+[Previous](./[17]-Aliases-And-Config.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[19]-Git-Internals.md)
 
 # Lesson 18 - Pull Requests And Code Review Workflow
 
@@ -132,4 +132,4 @@ Resolves #8
 
 ---
 
-[Previous](./[17]-Aliases-and-Config.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-Git-Internals.md)
+[Previous](./[17]-Aliases-And-Config.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[19]-Git-Internals.md)

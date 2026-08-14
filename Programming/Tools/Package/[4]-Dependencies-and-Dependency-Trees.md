@@ -1,4 +1,4 @@
-[Previous](./[3]-Installing-Updating-And-Removing-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Versioning-And-Semantic-Versioning.md)
+[Previous](./[3]-Installing-Updating-And-Removing-Packages.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[5]-Versioning-And-Semantic-Versioning.md)
 
 ---
 
@@ -87,4 +87,4 @@ Some dependencies are only needed for certain features and can be skipped if unu
 
 ---
 
-[Previous](./[3]-Installing-Updating-And-Removing-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Versioning-And-Semantic-Versioning.md)
+[Previous](./[3]-Installing-Updating-And-Removing-Packages.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[5]-Versioning-And-Semantic-Versioning.md)

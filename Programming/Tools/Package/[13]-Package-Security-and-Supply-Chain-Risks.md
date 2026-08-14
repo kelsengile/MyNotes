@@ -1,4 +1,4 @@
-[Previous](./[12]-Private-And-Internal-Registries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Dependency-Conflicts-And-Troubleshooting.md)
+[Previous](./[12]-Private-And-Internal-Registries.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[14]-Dependency-Conflicts-And-Troubleshooting.md)
 
 ---
 
@@ -62,4 +62,4 @@ In 2016, a developer unpublished a tiny npm package called `left-pad` that many 
 
 ---
 
-[Previous](./[12]-Private-And-Internal-Registries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Dependency-Conflicts-And-Troubleshooting.md)
+[Previous](./[12]-Private-And-Internal-Registries.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[14]-Dependency-Conflicts-And-Troubleshooting.md)

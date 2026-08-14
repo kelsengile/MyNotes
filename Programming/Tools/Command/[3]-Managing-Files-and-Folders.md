@@ -1,4 +1,4 @@
-[Previous](./[2]-Navigating-The-File-System.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Viewing-And-Creating-File-Content.md)
+[Previous](./[2]-Navigating-The-File-System.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[4]-Viewing-And-Creating-File-Content.md)
 
 # Lesson 3 - Managing Files and Folders
 
@@ -96,4 +96,4 @@ del /p *.tmp
 
 ---
 
-[Previous](./[2]-Navigating-The-File-System.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Viewing-And-Creating-File-Content.md)
+[Previous](./[2]-Navigating-The-File-System.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[4]-Viewing-And-Creating-File-Content.md)

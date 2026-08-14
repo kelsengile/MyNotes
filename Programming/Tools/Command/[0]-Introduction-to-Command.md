@@ -15,20 +15,20 @@ Each lesson is a standalone Markdown file. They're numbered so you can work thro
 
 ## Table of Contents
 
-1. **[Getting Started](./[1]-Getting-Started.md)** 
-2. **[Navigating The File System](./[2]-Navigating-The-File-System.md)** 
-3. **[Managing Files And Folders](./[3]-Managing-Files-And-Folders.md)** 
-4. **[Viewing And Creating File Content](./[4]-Viewing-And-Creating-File-Content.md)** 
-5. **[Redirection And Piping](./[5]-Redirection-And-Piping.md)** 
-6. **[Environment Variables And PATH](./[6]-Environment-Variables-And-PATH.md)**
-7. **[System Information Commands](./[7]-System-Information-Commands.md)** 
-8. **[Process And Task Management](./[8]-Process-And-Task-Management.md)** 
-9. **[Networking Commands](./[9]-Networking-Commands.md)** 
-10. **[Disk And Drive Management](./[10]-Disk-And-Drive-Management.md)** 
-11. **[User And Permissions Basics](./[11]-User-And-Permissions-Basics.md)** 
-12. **[Batch Scripting Basics](./[12]-Batch-Scripting-Basics.md)** 
-13. **[Batch Scripting Control Flow](./[13]-Batch-Scripting-Control-Flow.md)** 
-14. **[Tips Tricks And Shortcuts](./[14]-Tips-Tricks-And-Shortcuts.md)** 
+1. **[Getting Started](./[1]-Getting-Started.md)**  
+2. **[Navigating The File System](./[2]-Navigating-The-File-System.md)**  
+3. **[Managing Files And Folders](./[3]-Managing-Files-And-Folders.md)**  
+4. **[Viewing And Creating File Content](./[4]-Viewing-And-Creating-File-Content.md)**  
+5. **[Redirection And Piping](./[5]-Redirection-And-Piping.md)**  
+6. **[Environment Variables And PATH](./[6]-Environment-Variables-And-PATH.md)**  
+7. **[System Information Commands](./[7]-System-Information-Commands.md)**  
+8. **[Process And Task Management](./[8]-Process-And-Task-Management.md)**  
+9. **[Networking Commands](./[9]-Networking-Commands.md)**  
+10. **[Disk And Drive Management](./[10]-Disk-And-Drive-Management.md)**  
+11. **[User And Permissions Basics](./[11]-User-And-Permissions-Basics.md)**  
+12. **[Batch Scripting Basics](./[12]-Batch-Scripting-Basics.md)**  
+13. **[Batch Scripting Control Flow](./[13]-Batch-Scripting-Control-Flow.md)**  
+14. **[Tips Tricks And Shortcuts](./[14]-Tips-Tricks-And-Shortcuts.md)**  
 
 ## Before you begin
 

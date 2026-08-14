@@ -1,4 +1,4 @@
-[Previous](./[15]-License-Compliance.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[15]-License-Compliance.md) | [Table of Contents](./[0]-Introduction-to-Package.md)
 
 ---
 
@@ -95,8 +95,8 @@ For applications (especially front-end ones), not every dependency needs to be l
 
 ## Series Complete 🎉
 
-You've now covered the full lifecycle of working with packages — from what they are, to installing and managing them, creating and publishing your own, and keeping them secure, license-compliant, and performant. Head back to the [Introduction](./[0]-Introduction.md) to review the full Table of Contents.
+You've now covered the full lifecycle of working with packages — from what they are, to installing and managing them, creating and publishing your own, and keeping them secure, license-compliant, and performant. Head back to the [Introduction](./[0]-Introduction-to-Package.md) to review the full Table of Contents.
 
 ---
 
-[Previous](./[15]-License-Compliance.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[15]-License-Compliance.md) | [Table of Contents](./[0]-Introduction-to-Package.md)

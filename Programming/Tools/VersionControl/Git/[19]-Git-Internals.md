@@ -1,4 +1,4 @@
-[Previous](./[18]-Pull-Requests.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[18]-Pull-Requests.md) | [Table of Contents](./[0]-Introduction-to-Git.md)
 
 # Lesson 19 - Git Internals - Objects, Refs, And The .git Directory
 
@@ -187,4 +187,4 @@ Understanding internals demystifies commands that otherwise feel like magic:
 
 ---
 
-[Previous](./[18]-Pull-Requests.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[18]-Pull-Requests.md) | [Table of Contents](./[0]-Introduction-to-Git.md)

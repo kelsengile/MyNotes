@@ -1,4 +1,4 @@
-[Previous](./[3]-Status-and-History.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Merging-and-Conflicts.md)
+[Previous](./[3]-Status-And-History.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[5]-Merging-And-Conflicts.md)
 
 # Lesson 4 - Branching
 
@@ -140,4 +140,4 @@ git switch -c rescue-branch
 
 ---
 
-[Previous](./[3]-Status-and-History.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Merging-and-Conflicts.md)
+[Previous](./[3]-Status-And-History.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[5]-Merging-And-Conflicts.md)

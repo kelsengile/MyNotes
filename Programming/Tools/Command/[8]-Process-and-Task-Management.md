@@ -1,4 +1,4 @@
-[Previous](./[7]-System-Information-Commands.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Networking-Commands.md)
+[Previous](./[7]-System-Information-Commands.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[9]-Networking-Commands.md)
 
 # Lesson 8 - Process and Task Management
 
@@ -54,4 +54,4 @@ This checks for Spotify, throws away the visible output, and just prints Running
 
 ---
 
-[Previous](./[7]-System-Information-Commands.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Networking-Commands.md)
+[Previous](./[7]-System-Information-Commands.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[9]-Networking-Commands.md)

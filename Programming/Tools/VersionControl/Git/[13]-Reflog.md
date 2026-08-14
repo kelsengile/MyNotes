@@ -1,4 +1,4 @@
-[Previous](./[12]-Tags-and-Cherry-Picking.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Submodules.md)
+[Previous](./[12]-Tags-And-Cherry-Picking.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[14]-Submodules.md)
 
 # Lesson 13 - Reflog - Recovering Lost Commits
 
@@ -122,4 +122,4 @@ git config gc.reflogExpireUnreachable
 
 ---
 
-[Previous](./[12]-Tags-and-Cherry-Picking.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Submodules.md)
+[Previous](./[12]-Tags-And-Cherry-Picking.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[14]-Submodules.md)

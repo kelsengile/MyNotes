@@ -1,4 +1,4 @@
-[Previous](./[8]-Process-And-Task-Management.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Disk-And-Drive-Management.md)
+[Previous](./[8]-Process-And-Task-Management.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[10]-Disk-And-Drive-Management.md)
 
 # Lesson 9 - Networking Commands
 
@@ -81,4 +81,4 @@ Shows the IP address(es) a domain name resolves to.
 
 ---
 
-[Previous](./[8]-Process-And-Task-Management.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Disk-And-Drive-Management.md)
+[Previous](./[8]-Process-And-Task-Management.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[10]-Disk-And-Drive-Management.md)

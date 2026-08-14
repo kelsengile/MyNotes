@@ -1,4 +1,4 @@
-[Previous](./[10]-Publishing-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Private-And-Internal-Registries.md)
+[Previous](./[10]-Publishing-Packages.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[12]-Private-And-Internal-Registries.md)
 
 ---
 
@@ -86,4 +86,4 @@ Each package in a monorepo still gets published independently, with its own vers
 
 ---
 
-[Previous](./[10]-Publishing-Packages.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Private-And-Internal-Registries.md)
+[Previous](./[10]-Publishing-Packages.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[12]-Private-And-Internal-Registries.md)

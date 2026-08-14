@@ -1,4 +1,4 @@
-[Previous](./[12]-Batch-Scripting-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Tips-Tricks-And-Shortcuts.md)
+[Previous](./[12]-Batch-Scripting-Basics.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[14]-Tips-Tricks-And-Shortcuts.md)
 
 # Lesson 13 - Batch Scripting Control Flow
 
@@ -100,4 +100,4 @@ goto menu
 
 ---
 
-[Previous](./[12]-Batch-Scripting-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Tips-Tricks-And-Shortcuts.md)
+[Previous](./[12]-Batch-Scripting-Basics.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[14]-Tips-Tricks-And-Shortcuts.md)

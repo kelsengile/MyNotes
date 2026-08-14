@@ -1,4 +1,4 @@
-[Previous](./[13]-Batch-Scripting-Control-Flow.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[13]-Batch-Scripting-Control-Flow.md) | [Table of Contents](./[0]-Introduction-to-Command.md)
 
 # Lesson 14 - Tips, Tricks, and Shortcuts
 
@@ -85,4 +85,4 @@ You've now covered navigation, file management, redirection, environment variabl
 
 ---
 
-[Previous](./[13]-Batch-Scripting-Control-Flow.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[13]-Batch-Scripting-Control-Flow.md) | [Table of Contents](./[0]-Introduction-to-Command.md)

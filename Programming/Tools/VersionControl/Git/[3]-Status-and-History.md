@@ -1,4 +1,4 @@
-[Previous](./[2]-Git-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Branching.md)
+[Previous](./[2]-Git-Basics.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[4]-Branching.md)
 
 # Lesson 3 - Checking Status And Viewing History
 
@@ -123,4 +123,4 @@ git show HEAD~2        # two commits before the most recent
 
 ---
 
-[Previous](./[2]-Git-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Branching.md)
+[Previous](./[2]-Git-Basics.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[4]-Branching.md)
