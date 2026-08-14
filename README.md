@@ -7,18 +7,13 @@ This repository is written for educational purposes and is open for anyone to re
  
 ```
 MyNotes/
-├── 📁 Topics
-│   ├── 📁 Creative
-│   ├── 📁 Econimics
-│   └── 📁 Programming
-│       ├── 📁 Fundamentals
-│       ├── 📁 Specializations
-│       ├── 📁 Syntax
-│       └── 📁 Tools
-├── ⚙️ .gitignore
-├── 📝 CONTRIBUTING.md
+├── 📁 Programmming
+│   ├── 📁 Fundamentals
+│   ├── 📁 Specializations
+│   └── 📁 Syntax
+│   └── 📁 Tools
+├── 🚫 .gitignore
 ├── 📝 IDEAS.md
-├── 📄 LICENSE
 ├── 📝 README.md
 └── 📝 RESOURCES.md
 ```
