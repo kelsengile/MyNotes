@@ -41,7 +41,7 @@ Thanks for your interest in contributing! This repository is for **educational p
 Every lesson file (excluding introduction files) must open with a title formatted as:
 
 ```
-Lesson X - (Name of Lesson)
+# Lesson X - (Name of Lesson)
 ```
 
 Example: `Lesson 1 - Variables And Data Types`
