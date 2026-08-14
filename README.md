@@ -13,7 +13,9 @@ MyNotes/
 │   └── 📁 Syntax
 │   └── 📁 Tools
 ├── 🚫 .gitignore
+├── 📝 CONTRIBUTING.md
 ├── 📝 IDEAS.md
+├── 📝 LICENSE
 ├── 📝 README.md
 └── 📝 RESOURCES.md
 ```
