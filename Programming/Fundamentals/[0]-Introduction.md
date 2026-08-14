@@ -1,5 +1,3 @@
-Previous | [Table of Contents](./[0]-Introduction.md) | [Next](./[1]-Introduction-to-Programming.md)
-
 # Introduction to Programming Fundamentals
 
 This note kicks off the "Programming Fundamentals" section — the core building blocks that show up in almost every language: variables, data types, control flow, functions, and basic problem-solving patterns.

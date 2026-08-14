@@ -3,91 +3,88 @@
 Thanks for your interest in contributing! This repository is for **educational purposes** and is open for anyone to use or contribute to. To keep things consistent and easy to navigate, please follow the guidelines below.
 
 ---
- 
+
 **Folder Structure**
- 
+
 1. **File Hierarchy** — `Sector -> Topic -> Lesson`
    - **Sectors** are the top-level, fixed categories: `Fundamentals`, `Specialization`, `Syntax`, `Tools`.
    - **Topics** are subfolders that group lessons sharing a common subject.
-   - **Lessons** are folders containing the `.md` files with the actual content shown to users.
+   - **Lessons** are the `.md` files with the actual content shown to users, placed directly inside their Topic folder.
 2. **Folder Naming**
    - Sector and Topic folders use plain text names — no numbering, no required casing.
-   - Lesson folders are named `[0]-Lesson-Folder-Name` — a bracketed number followed by the name in **PascalCase**, with words separated by hyphens.
    - If a lesson doesn't cleanly fit an existing Sector/Topic, don't force it into the closest match — propose a new folder in your pull request instead. See [Questions or Issues](#questions-or-issues).
 
-
 **File Structure**
- 
+
 1. **File Types**
    - Introduction and lesson files must be Markdown (`.md`).
    - Exercise files may use whatever file type/extension fits the exercise's syntax (e.g. `.py`, `.js`, `.html`).
 2. **Introduction Files**
-   - Every lesson begins with a `[0]-Introduction-to-(Lesson-Name).md` file.
-   - This file contains a Table of Contents section linking to the folders and lesson files inside it.
+   - Every Topic begins with a `[0]-Introduction-to-(Topic-Name).md` file.
+   - This file contains a Table of Contents section linking to every lesson file inside the Topic.
    - Introduction files carry no navigation links — the Table of Contents *is* their navigation.
-3. **Lesson Folders & Files**
-   - Lesson folders are named `[1]-(Lesson-Folder-Name)`.
-   - Files inside a lesson folder are named `[1.1]-(Lesson-File-Name).md`, matching their folder's number.
-   - Numbering must stay sequential with no gaps. If you insert a file in the middle, renumber all following files/folders and update every affected navigation link and Table of Contents entry.
-
+3. **Lesson Files**
+   - Lesson files are numbered sequentially starting at `[1]`, directly following the `[0]` introduction file: `[1]`, `[2]`, `[3]`, ... up to `[x]`, the last lesson in the Topic.
+   - Numbering must stay sequential with no gaps, regardless of how lessons are grouped under headers in the Table of Contents.
+   - If you insert a file in the middle, renumber all following files and update every affected navigation link and Table of Contents entry.
 
 **File Naming**
- 
-- Numbers are always in square brackets: `[0]`, `[1]`, `[1.1]`, `[1.2]`, ...
+
+- Numbers are always in square brackets: `[0]`, `[1]`, `[2]`, ...
 - `[0]` is always reserved for an **introduction** file.
 - Words within a file name are separated by hyphens (`-`), with each word capitalized (PascalCase).
-  - Example: `[1.1]-Variables-And-Data-Types.md`
-- Keep numbering sequential and consistent between the folder number and the files inside it (folder `[1]` contains files `[1.1]`, `[1.2]`, etc.).
-
+  - Example: `[1]-Variables-And-Data-Types.md`
+- Keep numbering sequential across the entire Topic folder — it does not reset or nest.
 
 **Lesson Title Format**
- 
+
 Every lesson file (excluding introduction files) must open with a title formatted as:
- 
+
 ```
-Lesson X.X - (Name of Lesson)
+Lesson X - (Name of Lesson)
 ```
- 
-Example: `Lesson 1.1 - Variables And Data Types`
- 
+
+Example: `Lesson 1 - Variables And Data Types`
+
 - Introduction files are exempt from this title format — they use their own heading (e.g. `# Introduction to Variables`).
 
-
 **Navigation Links**
- 
+
 Every lesson file (excluding introduction files) must include navigation links at both the **very top** and **very bottom** of the file:
- 
+
 ```
 [Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/[0]-Introduction.md) | [Next](../path/to/next-file.md)
 ```
- 
+
 - **Introduction files** are exempt — their Table of Contents section serves as navigation.
-- **The last file in a lesson folder** omits `Next`, keeping only `Previous` and `Table of Contents`.
+- **The last file in a Topic** omits `Next`, keeping only `Previous` and `Table of Contents`.
 - Links must always point to the correct, currently-valid files — double check these after any renumbering.
 
-
 **Table of Contents (Introduction Files)**
- 
-Every introduction file must include a Table of Contents listing the lessons in that topic, formatted as:
- 
-```
-1. **[Lesson Name](./[1.1]-Lesson-Name.md)**  
-2. **[Lesson Name](./[1.2]-Lesson-Name.md)**  
-```
- 
-- Add two trailing spaces at the end of each line so the list renders as a stacked list on GitHub.
-- Entries must be numbered in the same order the lessons appear, and kept in sync with actual file names/numbers.
 
+Every introduction file must include a Table of Contents listing the lessons in that Topic. Headers may be used to visually group related lessons, but the lesson numbering itself continues straight through and never resets at a header:
+
+```
+### Getting Started
+1. **[Lesson Name](./[1]-Lesson-Name.md)**  
+2. **[Lesson Name](./[2]-Lesson-Name.md)**  
+
+### Next Group
+3. **[Lesson Name](./[3]-Lesson-Name.md)**  
+4. **[Lesson Name](./[4]-Lesson-Name.md)**  
+```
+
+- Add two trailing spaces at the end of each line so the list renders as a stacked list on GitHub.
+- Entries must be numbered in the same order the lessons appear, and kept in sync with actual file names/numbers, even across headers.
 
 **Sub-Lesson Structure**
- 
-- Each sub-lesson within a lesson file gets its own header, numbered to match its position (e.g. `## 1.1.1 What is a Variable?`).
+
+- Each sub-lesson within a lesson file gets its own header, numbered to match its lesson's number (e.g. lesson `[3]` → `## 3.1 What is a Variable?`).
 - Sub-lessons are separated from one another by a horizontal rule (`---`) so they're visually distinct when scrolling.
 - Keep explanations focused on teaching the concept — save hands-on practice for exercise files (see below).
 
-
 **Exercises**
- 
+
 - Exercises must **never** be placed inside lesson files.
 - Keep exercises in their own separate files, using an extension appropriate to the exercise's syntax (e.g. `.py`, `.js`, `.html`).
 - Link to the exercise file from the relevant lesson if applicable, so lessons stay focused on explanation and exercises stay focused on practice.
