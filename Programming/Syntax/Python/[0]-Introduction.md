@@ -15,10 +15,6 @@ Python lets you:
 - Organize code using functions, classes, and modules
 - Build GUIs, test and package software, and optimize performance
 
-## How This Course Is Organized
-
-Topics are grouped into folders by application area. Each folder has its own numbered lessons (e.g. `1.1`, `1.2`, `1.3` inside folder `1`). Start with **[1]-Getting-Started** and **[2]-Core-Syntax**, then branch into whichever areas interest you (web dev, data science, automation, etc.) — they don't need to be done in strict order after the fundamentals.
-
 ## Table of Contents
 
 ### 📁 [[1]-Getting-Started]([1]-Getting-Started/[1.1]-Installation-and-Setup.md)  
