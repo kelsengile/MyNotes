@@ -8,12 +8,17 @@ This repository is written for educational purposes and is open for anyone to re
 ```
 MyNotes/
 ├── 📁 Topics
-│   ├── 📁 Fundamentals
-│   ├── 📁 Specializations
-│   └── 📁 Syntax
-│   └── 📁 Tools
-├── 🚫 .gitignore
+│   ├── 📁 Creative
+│   ├── 📁 Econimics
+│   └── 📁 Programming
+│       ├── 📁 Fundamentals
+│       ├── 📁 Specializations
+│       ├── 📁 Syntax
+│       └── 📁 Tools
+├── ⚙️ .gitignore
+├── 📝 CONTRIBUTING.md
 ├── 📝 IDEAS.md
+├── 📄 LICENSE
 ├── 📝 README.md
 └── 📝 RESOURCES.md
 ```
