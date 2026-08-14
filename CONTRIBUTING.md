@@ -24,7 +24,7 @@ Every file must include the following:
    ```
    1. **[Lesson Name](./[1]-Lesson-Name.md)**
    ```
-   this is done so that readers can easily browse lessons efficiently.
+   this is done so that readers can easily browse lessons efficiently. Also add 2 spaces at the end of each line in a Table of Contents so that it is stacked correctly on GitHub.
 
 4. **Lesson Title** — formatted as:
    ```
