@@ -6,13 +6,14 @@ Thanks for your interest in contributing! This repository is for **educational p
 
 **Folder Structure**
 
-1. **File Hierarchy** — `Sector -> Topic -> Lesson`
+1. **File Hierarchy** — `Sector -> Topic -> Lessons`
    - **Sectors** are the top-level, fixed categories: `Fundamentals`, `Specialization`, `Syntax`, `Tools`.
    - **Topics** are subfolders that group lessons sharing a common subject.
    - **Lessons** are the `.md` files with the actual content shown to users, placed directly inside their Topic folder.
 2. **Folder Naming**
    - Sector and Topic folders use plain text names — no numbering, no required casing.
    - If a lesson doesn't cleanly fit an existing Sector/Topic, don't force it into the closest match — propose a new folder in your pull request instead. See [Questions or Issues](#questions-or-issues).
+   - All files belonging to a Topic — introduction, lessons, and exercises alike — live directly inside that Topic folder. Do not create additional subfolders within a Topic.
 
 **File Structure**
 
@@ -35,6 +36,7 @@ Thanks for your interest in contributing! This repository is for **educational p
 - Words within a file name are separated by hyphens (`-`), with each word capitalized (PascalCase).
   - Example: `[1]-Variables-And-Data-Types.md`
 - Keep numbering sequential across the entire Topic folder — it does not reset or nest.
+- The number in a lesson's title (`# Lesson X`) must match the number in its file name and the number used for that lesson in the Introduction file's Table of Contents.
 
 **Lesson Title Format**
 
@@ -47,13 +49,28 @@ Every lesson file (excluding introduction files) must open with a title formatte
 Example: `Lesson 1 - Variables And Data Types`
 
 - Introduction files are exempt from this title format — they use their own heading (e.g. `# Introduction to Variables`).
+- If the lesson is listed under a header in its Introduction file's Table of Contents, that same group name must appear in italics directly above the lesson title:
+
+```
+*(Lesson Group Name)*
+
+# Lesson X - (Name of Lesson)
+```
+
+Example:
+
+```
+*Basics*
+
+# Lesson 1 - Variables And Data Types
+```
 
 **Navigation Links**
 
 Every lesson file (excluding introduction files) must include navigation links at both the **very top** and **very bottom** of the file:
 
 ```
-[Previous](../path/to/previous-file.md) | [Table of Contents](../path/to/[0]-Introduction.md) | [Next](../path/to/next-file.md)
+[Previous](./[X]-Previous-File.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[X]-Next-File.md)
 ```
 
 - **Introduction files** are exempt — their Table of Contents section serves as navigation.
