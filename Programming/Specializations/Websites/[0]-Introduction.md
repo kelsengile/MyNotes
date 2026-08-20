@@ -18,6 +18,8 @@ Web Development lets you:
 - Deploy a project so anyone in the world can visit it, with automated pipelines behind it
 - Write code that's accessible, performant, installable, and secure by default
 
+> **Note:** HTML, CSS, and JavaScript fundamentals are covered in their own dedicated folders. This course picks up from there and covers everything else needed to build and deploy a real website.
+
 ## Table of Contents
 
 **Getting Started**  
@@ -25,74 +27,51 @@ Web Development lets you:
     2. **[Your Development Environment (editor, dev tools, live server)](./[2]-Development-Environment.md)**  
     3. **[Anatomy of a Web Project (files, folders, entry points)](./[3]-Anatomy-of-a-Web-Project.md)**  
 
-**HTML Fundamentals**  
-    4. **[HTML Document Structure & Syntax](./[4]-HTML-Document-Structure.md)**  
-    5. **[Text, Headings & Semantic Elements](./[5]-Text-and-Semantic-Elements.md)**  
-    6. **[Links, Images & Media](./[6]-Links-Images-and-Media.md)**  
-    7. **[Lists, Tables & Forms](./[7]-Lists-Tables-and-Forms.md)**  
-
-**CSS Fundamentals**  
-    8. **[CSS Syntax & Selectors](./[8]-CSS-Syntax-and-Selectors.md)**  
-    9. **[The Box Model & Layout Basics](./[9]-The-Box-Model.md)**  
-    10. **[Flexbox & Grid](./[10]-Flexbox-and-Grid.md)**  
-    11. **[Responsive Design & Media Queries](./[11]-Responsive-Design.md)**  
-    12. **[Colors, Typography & Visual Styling](./[12]-Colors-and-Typography.md)**  
-    13. **[CSS Animations & Transitions](./[13]-CSS-Animations-and-Transitions.md)**  
-
-**JavaScript Fundamentals**  
-    14. **[Variables, Data Types & Operators](./[14]-Variables-and-Data-Types.md)**  
-    15. **[Control Flow (Conditionals & Loops)](./[15]-Control-Flow.md)**  
-    16. **[Functions & Scope](./[16]-Functions-and-Scope.md)**  
-    17. **[Arrays & Objects](./[17]-Arrays-and-Objects.md)**  
-    18. **[The DOM: Selecting & Manipulating Elements](./[18]-The-DOM.md)**  
-    19. **[Events & Event Handling](./[19]-Events-and-Event-Handling.md)**  
-    20. **[Browser Storage: Cookies, LocalStorage & SessionStorage](./[20]-Browser-Storage.md)**  
-
 **Intermediate JavaScript**  
-    21. **[Asynchronous JavaScript (Callbacks, Promises, Async/Await)](./[21]-Asynchronous-JavaScript.md)**  
-    22. **[Fetching Data with the Fetch API](./[22]-Fetch-API.md)**  
-    23. **[ES Modules & Code Organization](./[23]-ES-Modules.md)**  
-    24. **[Error Handling & Debugging in the Browser](./[24]-Error-Handling-and-Debugging.md)**  
-    25. **[TypeScript Basics](./[25]-TypeScript-Basics.md)**  
+    4. **[Asynchronous JavaScript (Callbacks, Promises, Async/Await)](./[4]-Asynchronous-JavaScript.md)**  
+    5. **[Fetching Data with the Fetch API](./[5]-Fetch-API.md)**  
+    6. **[ES Modules & Code Organization](./[6]-ES-Modules.md)**  
+    7. **[Error Handling & Debugging in the Browser](./[7]-Error-Handling-and-Debugging.md)**  
+    8. **[TypeScript Basics](./[8]-TypeScript-Basics.md)**  
 
 **Styling at Scale**  
-    26. **[CSS Preprocessors (Sass/SCSS)](./[26]-CSS-Preprocessors.md)**  
-    27. **[CSS Architecture & Naming Conventions (BEM)](./[27]-CSS-Architecture-and-BEM.md)**  
-    28. **[CSS Frameworks (Bootstrap, Tailwind)](./[28]-CSS-Frameworks.md)**  
+    9. **[CSS Preprocessors (Sass/SCSS)](./[9]-CSS-Preprocessors.md)**  
+    10. **[CSS Architecture & Naming Conventions (BEM)](./[10]-CSS-Architecture-and-BEM.md)**  
+    11. **[CSS Frameworks (Bootstrap, Tailwind)](./[11]-CSS-Frameworks.md)**  
 
 **Tooling & Build Systems**  
-    29. **[Package Managers (npm, yarn)](./[29]-Package-Managers.md)**  
-    30. **[Module Bundlers (Vite, Webpack)](./[30]-Module-Bundlers.md)**  
-    31. **[Version Control with Git & GitHub for Web Projects](./[31]-Version-Control-with-Git.md)**  
-    32. **[Linting & Code Formatting (ESLint, Prettier)](./[32]-Linting-and-Formatting.md)**  
-    33. **[Testing JavaScript (Unit & End-to-End Testing)](./[33]-Testing-JavaScript.md)**  
+    12. **[Package Managers (npm, yarn)](./[12]-Package-Managers.md)**  
+    13. **[Module Bundlers (Vite, Webpack)](./[13]-Module-Bundlers.md)**  
+    14. **[Version Control with Git & GitHub for Web Projects](./[14]-Version-Control-with-Git.md)**  
+    15. **[Linting & Code Formatting (ESLint, Prettier)](./[15]-Linting-and-Formatting.md)**  
+    16. **[Testing JavaScript (Unit & End-to-End Testing)](./[16]-Testing-JavaScript.md)**  
 
 **Front-End Frameworks**  
-    34. **[Introduction to Component-Based UI](./[34]-Component-Based-UI.md)**  
-    35. **[React Fundamentals (Components, Props, State)](./[35]-React-Fundamentals.md)**  
-    36. **[Client-Side Routing](./[36]-Client-Side-Routing.md)**  
-    37. **[State Management (Context, Redux)](./[37]-State-Management.md)**  
+    17. **[Introduction to Component-Based UI](./[17]-Component-Based-UI.md)**  
+    18. **[React Fundamentals (Components, Props, State)](./[18]-React-Fundamentals.md)**  
+    19. **[Client-Side Routing](./[19]-Client-Side-Routing.md)**  
+    20. **[State Management (Context, Redux)](./[20]-State-Management.md)**  
 
 **Back-End Basics**  
-    38. **[Introduction to Servers & Node.js](./[38]-Servers-and-Node.md)**  
-    39. **[Building a Simple REST API](./[39]-Building-a-REST-API.md)**  
-    40. **[Working with Databases (SQL vs NoSQL basics)](./[40]-Working-with-Databases.md)**  
-    41. **[Real-Time Communication with WebSockets](./[41]-WebSockets-and-Realtime-Communication.md)**  
+    21. **[Introduction to Servers & Node.js](./[21]-Servers-and-Node.md)**  
+    22. **[Building a Simple REST API](./[22]-Building-a-REST-API.md)**  
+    23. **[Working with Databases (SQL vs NoSQL basics)](./[23]-Working-with-Databases.md)**  
+    24. **[Real-Time Communication with WebSockets](./[24]-WebSockets-and-Realtime-Communication.md)**  
 
 **Full-Stack Concepts**  
-    42. **[Authentication & Sessions](./[42]-Authentication-and-Sessions.md)**  
-    43. **[Connecting Front-End to Back-End (API Integration)](./[43]-Connecting-Frontend-to-Backend.md)**  
-    44. **[Environment Variables & Configuration](./[44]-Environment-Variables.md)**  
+    25. **[Authentication & Sessions](./[25]-Authentication-and-Sessions.md)**  
+    26. **[Connecting Front-End to Back-End (API Integration)](./[26]-Connecting-Frontend-to-Backend.md)**  
+    27. **[Environment Variables & Configuration](./[27]-Environment-Variables.md)**  
 
 **Deployment & Production**  
-    45. **[Hosting & Deploying a Website](./[45]-Hosting-and-Deploying.md)**  
-    46. **[Domains, DNS & HTTPS](./[46]-Domains-DNS-and-HTTPS.md)**  
-    47. **[CI/CD for Web Projects](./[47]-CI-CD-for-Web-Projects.md)**  
-    48. **[Performance Optimization Basics](./[48]-Performance-Optimization.md)**  
-    49. **[Progressive Web Apps](./[49]-Progressive-Web-Apps.md)**  
+    28. **[Hosting & Deploying a Website](./[28]-Hosting-and-Deploying.md)**  
+    29. **[Domains, DNS & HTTPS](./[29]-Domains-DNS-and-HTTPS.md)**  
+    30. **[CI/CD for Web Projects](./[30]-CI-CD-for-Web-Projects.md)**  
+    31. **[Performance Optimization Basics](./[31]-Performance-Optimization.md)**  
+    32. **[Progressive Web Apps](./[32]-Progressive-Web-Apps.md)**  
 
 **Best Practices**  
-    50. **[Web Accessibility (a11y)](./[50]-Web-Accessibility.md)**  
-    51. **[SEO Fundamentals](./[51]-SEO-Fundamentals.md)**  
-    52. **[Browser Compatibility & Progressive Enhancement](./[52]-Browser-Compatibility.md)**  
-    53. **[Security Basics for Web Developers (CORS, CSRF, XSS)](./[53]-Security-Basics.md)**
+    33. **[Web Accessibility (a11y)](./[33]-Web-Accessibility.md)**  
+    34. **[SEO Fundamentals](./[34]-SEO-Fundamentals.md)**  
+    35. **[Browser Compatibility & Progressive Enhancement](./[35]-Browser-Compatibility.md)**  
+    36. **[Security Basics for Web Developers (CORS, CSRF, XSS)](./[36]-Security-Basics.md)**
