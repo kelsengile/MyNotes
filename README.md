@@ -3,22 +3,9 @@ A personal, version-controlled collection of notes, ideas, learnings, and refere
 
 This repository is written for educational purposes and is open for anyone to read, use, or contribute to. It's organized as a set of structured lessons rather than loose scratch notes, so topics can be followed start to finish or used as a reference to jump into directly.
 
-**Structure**
+**Navigation**
  
-```
-MyNotes/
-├── 📁 Programmming
-│   ├── 📁 Fundamentals
-│   ├── 📁 Specializations
-│   └── 📁 Syntax
-│   └── 📁 Tools
-├── 🚫 .gitignore
-├── 📝 CONTRIBUTING.md
-├── 📝 IDEAS.md
-├── 📝 LICENSE
-├── 📝 README.md
-└── 📝 RESOURCES.md
-```
+
 
 **Contributing**
  
