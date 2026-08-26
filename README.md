@@ -12,11 +12,13 @@ This repository is written for educational purposes and is open for anyone to re
 <td valign="top" width="50%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-<tr><th colspan="1" align="center">Fundamentals</th></tr>
+<tr><th colspan="3" align="center">Fundamentals</th></tr>
 <tr>
-<td align="center" width="100%">
+<td width="33%"></td>
+<td align="center" width="33%">
 <a href="./Programming/Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/book-open.svg" width="40" title="Fundamentals"/><br>Introduction</a>
 </td>
+<td width="33%"></td>
 </tr>
 </table>
 
@@ -73,10 +75,7 @@ This repository is written for educational purposes and is open for anyone to re
 <td align="center" width="25%"><a href="./Programming/Syntax/SQL/%5B0%5D-Introduction-to-SQL.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="SQL"/><br>SQL</a></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/><br>TypeScript</a></td>
-<td width="25%"></td>
-<td width="25%"></td>
-<td width="25%"></td>
+<td align="center" width="100%" colspan="4"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/><br>TypeScript</a></td>
 </tr>
 </table>
 
@@ -96,9 +95,7 @@ This repository is written for educational purposes and is open for anyone to re
 <td align="center" width="33%"><a href="./Programming/Tools/VersionControl/Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/><br>Git</a></td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Linux/Introduction_to_Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Operating System"/><br>Operating System</a></td>
-<td width="33%"></td>
-<td width="33%"></td>
+<td align="center" width="100%" colspan="3"><a href="./Programming/Tools/OperatingSystem/Introduction_to_OperatingSystems.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Operating System"/><br>Operating System</a></td>
 </tr>
 </table>
 
