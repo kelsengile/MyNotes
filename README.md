@@ -8,15 +8,20 @@ This repository is written for educational purposes and is open for anyone to re
 ## Structure
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr>
+<td valign="top" width="50%">
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="1" align="center">Fundamentals</th></tr>
 <tr>
 <td align="center" width="100%">
-<a href="./Programming/Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="Fundamentals"/><br>Introduction</a>
+<a href="./Programming/Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/book-open.svg" width="40" title="Fundamentals"/><br>Introduction</a>
 </td>
 </tr>
 </table>
 
-<br>
+</td>
+<td valign="top" width="50%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="3" align="center">Specializations</th></tr>
@@ -37,7 +42,15 @@ This repository is written for educational purposes and is open for anyone to re
 </tr>
 </table>
 
+</td>
+</tr>
+</table>
+
 <br>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr>
+<td valign="top" width="55%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="4" align="center">Syntax</th></tr>
@@ -67,7 +80,8 @@ This repository is written for educational purposes and is open for anyone to re
 </tr>
 </table>
 
-<br>
+</td>
+<td valign="top" width="45%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="3" align="center">Tools</th></tr>
@@ -81,16 +95,14 @@ This repository is written for educational purposes and is open for anyone to re
 <td align="center" width="33%"><a href="./Programming/Tools/Package/%5B0%5D-Introduction-to-Package.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="40" title="Package"/><br>Package</a></td>
 <td align="center" width="33%"><a href="./Programming/Tools/VersionControl/Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/><br>Git</a></td>
 </tr>
+<tr>
+<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Linux/Introduction_to_Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Operating System"/><br>Operating System</a></td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
 </table>
 
-<br>
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-<tr><th colspan="3" align="center">Operating System</th></tr>
-<tr>
-<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Linux/Introduction_to_Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Linux"/><br>Linux</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/MacOS/Introduction_to_MacOS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="40" title="MacOS"/><br>MacOS</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Windows/Introduction_to_Windows.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" title="Windows"/><br>Windows</a></td>
+</td>
 </tr>
 </table>
 
