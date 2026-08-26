@@ -5,8 +5,6 @@ This repository is written for educational purposes and is open for anyone to re
 
 ---
 
-## Structure
-
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr>
 <td valign="top" width="50%">
