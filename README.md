@@ -91,7 +91,7 @@ This repository is written for educational purposes and is open for anyone to re
 <tr>
 <td align="center" width="33%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="IDE"/><br>IDE</a></td>
 <td align="center" width="33%"><a href="./Programming/Tools/Package/%5B0%5D-Introduction-to-Package.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="40" title="Package"/><br>Package</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/VersionControl/Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/><br>Git</a></td>
+<td align="center" width="33%"><a href="./Programming/Tools/VersionControl/Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Version Control"/><br>Version Control</a></td>
 </tr>
 <tr>
 <td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Linux/Introduction_to_Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Operating System"/><br>Operating System</a></td>
