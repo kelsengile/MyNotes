@@ -53,6 +53,7 @@ MyNotes/
   - Example: `[1]-Variables-And-Data-Types.md`
 - Keep numbering sequential across the entire Topic folder — it does not reset or nest.
 - The number in a lesson's title (`# Lesson X`) must match the number in its file name and the number used for that lesson in the Introduction file's Table of Contents.
+- Make sure redirect text links are the same as file names to ensure compatability with github
 
 **Lesson Title Format**
 
