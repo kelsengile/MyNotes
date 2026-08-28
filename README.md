@@ -13,7 +13,7 @@ This repository is written for educational purposes and is open for anyone to re
 <tr><th colspan="1" align="center">Fundamentals</th></tr>
 <tr>
 <td align="center" width="100%">
-<a href="./Programming/Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/book-open.svg" width="40" title="Fundamentals"/><br>Introduction</a>
+<a href="./Programming/Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="40" title="Fundamentals"/><br>Introduction</a>
 </td>
 </tr>
 </table>
@@ -24,7 +24,7 @@ This repository is written for educational purposes and is open for anyone to re
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="3" align="center">Specializations</th></tr>
 <tr>
-<td align="center" width="33%"><a href="./Programming/Specializations/BlockChain/%5B0%5D-Introduction-to-BlockChain.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" width="40" title="BlockChain"/><br>BlockChain</a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/BlockChain/%5B0%5D-Introduction-to-BlockChain.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f517.svg" width="40" title="BlockChain"/><br>BlockChain</a></td>
 <td align="center" width="33%"><a href="./Programming/Specializations/Cloud/%5B0%5D-Introduction.-to-Cloud-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" title="Cloud"/><br>Cloud</a></td>
 <td align="center" width="33%"><a href="./Programming/Specializations/Cybersecurity/%5B0%5D-Introduction-to-Cybersecurity.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="40" title="Cybersecurity"/><br>Cybersecurity</a></td>
 </tr>
@@ -67,7 +67,7 @@ This repository is written for educational purposes and is open for anyone to re
 <tr>
 <td align="center" width="25%"><a href="./Programming/Syntax/PHP/%5B0%5D-Introduction-to-PHP.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" title="PHP"/><br>PHP</a></td>
 <td align="center" width="25%"><a href="./Programming/Syntax/Python/%5B0%5D-Introduction-to-Python.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python"/><br>Python</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/Rust/%5B0%5D-Introduction-to-Rust.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="40" title="Rust"/><br>Rust</a></td>
+<td align="center" width="25%"><a href="./Programming/Syntax/Rust/%5B0%5D-Introduction-to-Rust.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="40" title="Rust"/><br>Rust</a></td>
 <td align="center" width="25%"><a href="./Programming/Syntax/SQL/%5B0%5D-Introduction-to-SQL.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="SQL"/><br>SQL</a></td>
 </tr>
 <tr>
