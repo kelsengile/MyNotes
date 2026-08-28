@@ -12,7 +12,7 @@ Git lets you:
 
 ## Table of Contents
 
-1. **[Installing Git & First-Time Setup](./[1]-Installation-And-Setup.md)**  
+1. **[Installing Git & First-Time Setup](./[1]-Installation-and-Setup.md)**  
 2. **[Git Basics](./[2]-Git-Basics.md)**  
 3. **[Checking Status & Viewing History](./[3]-Status-And-History.md)**  
 4. **[Branching](./[4]-Branching.md)**  
