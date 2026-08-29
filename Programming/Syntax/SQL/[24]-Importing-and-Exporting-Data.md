@@ -1,4 +1,4 @@
-[Previous](./[23]-Permissions-and-Security.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[25]-SQL-Dialects.md)
+[Previous](./[23]-Permissions-and-Security.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[25]-SQL-Dialects.md)
 
 
 # Lesson 24 - Importing & Exporting Data
@@ -158,4 +158,4 @@ Before importing external data:
 
 ---
 
-[Previous](./[23]-Permissions-and-Security.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[25]-SQL-Dialects.md)
+[Previous](./[23]-Permissions-and-Security.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[25]-SQL-Dialects.md)

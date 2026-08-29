@@ -1,4 +1,4 @@
-[Previous](./[5]-Control-Flow.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[7]-Structs-Arrays-and-Mappings.md)
+[Previous](./%5B5%5D-Control-Flow%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[7]-Structs-Arrays-and-Mappings.md)
 
 *Core Syntax*
 
@@ -64,4 +64,4 @@ function getBalanceInfo() public view returns (uint256 balance, bool isPositive)
 }
 ```
 
-[Previous](./[5]-Control-Flow.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[7]-Structs-Arrays-and-Mappings.md)
+[Previous](./%5B5%5D-Control-Flow%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[7]-Structs-Arrays-and-Mappings.md)

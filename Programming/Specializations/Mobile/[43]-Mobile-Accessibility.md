@@ -1,4 +1,4 @@
-[Previous](./[42]-In-App-Purchases-and-Monetization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[44]-Performance-Optimization.md)
+[Previous](./[42]-In-App-Purchases-and-Monetization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B44%5D-Performance-Optimization%20%281%29.md)
 
 *Best Practices*
 
@@ -49,4 +49,4 @@ Elements smaller than this should have their tappable area padded out even if th
 
 Both platforms include built-in accessibility auditing tools — **Xcode's Accessibility Inspector** and **Android Studio's Accessibility Scanner** — which flag missing labels, low contrast, and undersized touch targets automatically. The most reliable check, though, is manually navigating your own app with the screen reader turned on.
 
-[Previous](./[42]-In-App-Purchases-and-Monetization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[44]-Performance-Optimization.md)
+[Previous](./[42]-In-App-Purchases-and-Monetization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B44%5D-Performance-Optimization%20%281%29.md)

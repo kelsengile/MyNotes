@@ -1,4 +1,4 @@
-[Previous](./[12]-Subqueries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Constraints-and-Data-Integrity.md)
+[Previous](./[12]-Subqueries.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[14]-Constraints-and-Data-Integrity.md)
 
 # Lesson 13 - Keys & Relationships — Primary and Foreign Keys
 
@@ -156,4 +156,4 @@ Keys are the mechanism that makes joins meaningful (Lesson 11), prevents duplica
 
 ---
 
-[Previous](./[12]-Subqueries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[14]-Constraints-and-Data-Integrity.md)
+[Previous](./[12]-Subqueries.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[14]-Constraints-and-Data-Integrity.md)

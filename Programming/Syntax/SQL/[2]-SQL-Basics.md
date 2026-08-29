@@ -1,4 +1,4 @@
-[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Filtering-and-Sorting.md)
+[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[3]-Filtering-and-Sorting.md)
 
 
 # Lesson 2 - SQL Basics — SELECT, FROM, WHERE
@@ -160,4 +160,4 @@ SQL keywords (`SELECT`, `FROM`, `WHERE`) are traditionally written in uppercase 
 
 ---
 
-[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[3]-Filtering-and-Sorting.md)
+[Previous](./[1]-Installation-and-Setup.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[3]-Filtering-and-Sorting.md)

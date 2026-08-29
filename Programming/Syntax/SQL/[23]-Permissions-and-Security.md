@@ -1,4 +1,4 @@
-[Previous](./[22]-Triggers.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[24]-Importing-and-Exporting-Data.md)
+[Previous](./[22]-Triggers.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[24]-Importing-and-Exporting-Data.md)
 
 # Lesson 23 - User Permissions & Security
 
@@ -147,4 +147,4 @@ Passwords specifically should never be stored as plain text — always store a s
 
 ---
 
-[Previous](./[22]-Triggers.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[24]-Importing-and-Exporting-Data.md)
+[Previous](./[22]-Triggers.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[24]-Importing-and-Exporting-Data.md)

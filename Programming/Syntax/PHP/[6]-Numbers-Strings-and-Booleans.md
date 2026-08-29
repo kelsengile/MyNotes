@@ -1,4 +1,4 @@
-[Previous](./[5]-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[7]-Operators-and-Expressions.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B7%5D-Operators-and-Expressions%20%281%29.md)
 
 *Core Syntax*
 
@@ -73,4 +73,4 @@ if ("0") {
 
 ---
 
-[Previous](./[5]-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[7]-Operators-and-Expressions.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B7%5D-Operators-and-Expressions%20%281%29.md)

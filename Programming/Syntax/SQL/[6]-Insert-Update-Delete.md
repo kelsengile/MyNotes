@@ -1,4 +1,4 @@
-[Previous](./[5]-Creating-Tables.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[7]-Handling-NULLs.md)
+[Previous](./[5]-Creating-Tables.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[7]-Handling-NULLs.md)
 
 # Lesson 6 - Inserting, Updating & Deleting Data
 
@@ -187,4 +187,4 @@ This has a race condition: if two processes run this at the same time, both migh
 
 ---
 
-[Previous](./[5]-Creating-Tables.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[7]-Handling-NULLs.md)
+[Previous](./[5]-Creating-Tables.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[7]-Handling-NULLs.md)

@@ -1,4 +1,4 @@
-[Previous](./[41]-Cost-Optimization-Strategies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md)
+[Previous](./[41]-Cost-Optimization-Strategies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md)
 
 *Cost & Optimization*
 
@@ -36,4 +36,4 @@ These governance tools scale the discipline of good practices (least privilege, 
 
 ---
 
-[Previous](./[41]-Cost-Optimization-Strategies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md)
+[Previous](./[41]-Cost-Optimization-Strategies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md)

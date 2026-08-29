@@ -1,4 +1,4 @@
-[Previous](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[6]-Cloud-Networking-Basics.md)
+[Previous](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[6]-Cloud-Networking-Basics.md)
 
 *Core Concepts*
 
@@ -32,4 +32,4 @@ The **principle of least privilege** means granting only the minimum permissions
 
 ---
 
-[Previous](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[6]-Cloud-Networking-Basics.md)
+[Previous](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[6]-Cloud-Networking-Basics.md)

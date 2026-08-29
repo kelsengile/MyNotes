@@ -1,4 +1,4 @@
-[Previous](./[5]-Redirection-And-Piping.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[7]-System-Information-Commands.md)
+[Previous](./%5B5%5D-Redirection-and-Piping.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[7]-System-Information-Commands.md)
 
 # Lesson 6 - Environment Variables and PATH
 
@@ -74,4 +74,4 @@ This appends `C:\MyTools` to your permanent PATH. **Be careful** — a mistake h
 
 ---
 
-[Previous](./[5]-Redirection-And-Piping.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[7]-System-Information-Commands.md)
+[Previous](./%5B5%5D-Redirection-and-Piping.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[7]-System-Information-Commands.md)

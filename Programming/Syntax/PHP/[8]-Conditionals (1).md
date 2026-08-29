@@ -1,4 +1,4 @@
-[Previous](./[7]-Operators-and-Expressions.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[9]-Loops.md)
+[Previous](./%5B7%5D-Operators-and-Expressions%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B9%5D-Loops%20%281%29.md)
 
 *Core Syntax*
 
@@ -82,4 +82,4 @@ For handling `null` specifically, prefer the null coalescing operator (`??`) fro
 
 ---
 
-[Previous](./[7]-Operators-and-Expressions.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[9]-Loops.md)
+[Previous](./%5B7%5D-Operators-and-Expressions%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B9%5D-Loops%20%281%29.md)

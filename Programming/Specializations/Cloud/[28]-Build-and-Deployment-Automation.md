@@ -1,4 +1,4 @@
-[Previous](./[27]-CI-CD-Pipelines-in-the-Cloud.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[29]-Blue-Green-and-Canary-Deployments.md)
+[Previous](./[27]-CI-CD-Pipelines-in-the-Cloud.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[29]-Blue-Green-and-Canary-Deployments.md)
 
 *CI/CD & DevOps*
 
@@ -32,4 +32,4 @@ This "build once, deploy everywhere" approach is a cornerstone of reliable, repr
 
 ---
 
-[Previous](./[27]-CI-CD-Pipelines-in-the-Cloud.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[29]-Blue-Green-and-Canary-Deployments.md)
+[Previous](./[27]-CI-CD-Pipelines-in-the-Cloud.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[29]-Blue-Green-and-Canary-Deployments.md)

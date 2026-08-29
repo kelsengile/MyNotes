@@ -1,4 +1,4 @@
-[Previous](./[1]-Installation-And-Setup.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[3]-Status-And-History.md)
+[Previous](./%5B1%5D-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B3%5D-Status-and-History.md)
 
 # Lesson 2 - Git Basics
 
@@ -117,4 +117,4 @@ git commit -m "Initial commit"
 
 ---
 
-[Previous](./[1]-Installation-And-Setup.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[3]-Status-And-History.md)
+[Previous](./%5B1%5D-Installation-and-Setup.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B3%5D-Status-and-History.md)

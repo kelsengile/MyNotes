@@ -1,4 +1,4 @@
-[Previous](./[4]-Data-Types-and-Table-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Insert-Update-Delete.md)
+[Previous](./[4]-Data-Types-and-Table-Design.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[6]-Insert-Update-Delete.md)
 
 # Lesson 5 - Creating Tables — CREATE, ALTER, DROP
 
@@ -128,4 +128,4 @@ Note the `FOREIGN KEY` line — it tells the database that `books.author_id` ref
 
 ---
 
-[Previous](./[4]-Data-Types-and-Table-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[6]-Insert-Update-Delete.md)
+[Previous](./[4]-Data-Types-and-Table-Design.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[6]-Insert-Update-Delete.md)

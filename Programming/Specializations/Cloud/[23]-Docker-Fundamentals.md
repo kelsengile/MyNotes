@@ -1,4 +1,4 @@
-[Previous](./[22]-Cloud-Native-IaC-Tools.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[24]-Container-Registries.md)
+[Previous](./[22]-Cloud-Native-IaC-Tools.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[24]-Container-Registries.md)
 
 *Containers & Orchestration*
 
@@ -55,4 +55,4 @@ Running `docker compose up` starts all defined services together, wired into a s
 
 ---
 
-[Previous](./[22]-Cloud-Native-IaC-Tools.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[24]-Container-Registries.md)
+[Previous](./[22]-Cloud-Native-IaC-Tools.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[24]-Container-Registries.md)

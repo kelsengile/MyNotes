@@ -1,4 +1,4 @@
-[Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[2]-Development-Environment.md)
+[Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B2%5D-Development-Environment%20%282%29.md)
 
 *Getting Started*
 
@@ -45,4 +45,4 @@ There's no single "correct" choice — it depends on your goals:
 
 This course covers concepts that apply broadly across both approaches — variables, UI layout, state, networking, and device features — while calling out native vs. cross-platform differences where they matter.
 
-[Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[2]-Development-Environment.md)
+[Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B2%5D-Development-Environment%20%282%29.md)

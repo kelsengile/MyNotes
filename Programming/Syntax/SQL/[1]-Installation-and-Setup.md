@@ -1,4 +1,4 @@
-[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-SQL-Basics.md)
+[Previous](./%5B0%5D-Introduction-to-SQL.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[2]-SQL-Basics.md)
 
 # Lesson 1 - Installing a Database & First-Time Setup
 
@@ -115,4 +115,4 @@ Once you have PostgreSQL, MySQL, or SQL Server installed (later, if you want a "
 
 ---
 
-[Previous](./[0]-Introduction.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[2]-SQL-Basics.md)
+[Previous](./%5B0%5D-Introduction-to-SQL.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[2]-SQL-Basics.md)

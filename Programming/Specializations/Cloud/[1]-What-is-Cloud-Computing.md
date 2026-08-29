@@ -1,4 +1,4 @@
-[Previous](./[0]-Introduction-to-Cloud-Development.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[2]-Choosing-a-Cloud-Provider.md)
+[Previous](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[2]-Choosing-a-Cloud-Provider.md)
 
 *Getting Started*
 
@@ -35,4 +35,4 @@ Most organizations start in the public cloud because it requires no upfront capi
 
 ---
 
-[Previous](./[0]-Introduction-to-Cloud-Development.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[2]-Choosing-a-Cloud-Provider.md)
+[Previous](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[2]-Choosing-a-Cloud-Provider.md)

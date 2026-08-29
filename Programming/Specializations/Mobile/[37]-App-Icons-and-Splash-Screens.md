@@ -1,4 +1,4 @@
-[Previous](./[36]-Debugging-and-Profiling.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[38]-Preparing-for-Release.md)
+[Previous](./%5B36%5D-Debugging-and-Profiling%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[38]-Preparing-for-Release.md)
 
 *Publishing & Distribution*
 
@@ -39,4 +39,4 @@ Vector formats (SDF on iOS, Vector Drawables on Android) are generally preferred
 
 Both platforms provide a centralized system for managing assets — Xcode's **Asset Catalog** (`.xcassets`) and Android's **`res/`** resource directories — which also handle **dark mode variants**, letting you supply a different image or color depending on whether the system is in light or dark appearance.
 
-[Previous](./[36]-Debugging-and-Profiling.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[38]-Preparing-for-Release.md)
+[Previous](./%5B36%5D-Debugging-and-Profiling%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[38]-Preparing-for-Release.md)

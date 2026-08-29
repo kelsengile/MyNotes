@@ -1,4 +1,4 @@
-[Previous](./[9]-Workflows-And-Best-Practices.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[11]-Stashing.md)
+[Previous](./%5B9%5D-Workflows-and-Best-Practices.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[11]-Stashing.md)
 
 # Lesson 10 - Rebasing And Interactive Rebase
 
@@ -149,4 +149,4 @@ git push --force-with-lease
 
 ---
 
-[Previous](./[9]-Workflows-And-Best-Practices.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[11]-Stashing.md)
+[Previous](./%5B9%5D-Workflows-and-Best-Practices.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[11]-Stashing.md)

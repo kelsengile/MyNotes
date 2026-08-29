@@ -1,4 +1,4 @@
-[Previous](./[17]-Indexes-and-Performance.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-CTEs-and-Recursive-Queries.md)
+[Previous](./[17]-Indexes-and-Performance.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[19]-CTEs-and-Recursive-Queries.md)
 
 # Lesson 18 - Transactions & ACID Properties
 
@@ -123,4 +123,4 @@ When two transactions each hold a lock the other needs, they can wait on each ot
 
 ---
 
-[Previous](./[17]-Indexes-and-Performance.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[19]-CTEs-and-Recursive-Queries.md)
+[Previous](./[17]-Indexes-and-Performance.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[19]-CTEs-and-Recursive-Queries.md)

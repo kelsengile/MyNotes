@@ -1,4 +1,4 @@
-[Previous](./[34]-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[36]-Debugging-and-Profiling.md)
+[Previous](./[34]-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B36%5D-Debugging-and-Profiling%20%281%29.md)
 
 *Architecture & Best Practices*
 
@@ -73,4 +73,4 @@ Because these tests spin up the full app, they run much slower and are more pron
 
 Writing tests as you build — rather than only after something breaks — catches regressions early and documents expected behavior. Most teams also run their test suite automatically on every pull request via **continuous integration (CI)**, so broken code is caught before it merges.
 
-[Previous](./[34]-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[36]-Debugging-and-Profiling.md)
+[Previous](./[34]-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B36%5D-Debugging-and-Profiling%20%281%29.md)

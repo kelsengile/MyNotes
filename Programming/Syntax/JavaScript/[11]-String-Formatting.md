@@ -1,4 +1,4 @@
-[Previous](./[10]-Functions-and-Scope.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[12]-Error-Handling.md)
+[Previous](./%5B10%5D-Functions-and-Scope%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B12%5D-Error-Handling%20%281%29.md)
 
 *Core Syntax*
 
@@ -96,4 +96,4 @@ text.replace(/\d/g, "#"); // "Contact: ###-###-####" — the g flag replaces all
 
 Common pattern building blocks: `\d` (a digit), `\w` (a word character), `\s` (whitespace), `+` (one or more), `*` (zero or more), `{n}` (exactly n times). Regex is a deep topic on its own — Lesson 44 covers it fully; this is just enough to recognize it when you see it.
 
-[Previous](./[10]-Functions-and-Scope.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[12]-Error-Handling.md)
+[Previous](./%5B10%5D-Functions-and-Scope%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B12%5D-Error-Handling%20%281%29.md)

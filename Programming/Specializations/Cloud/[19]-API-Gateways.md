@@ -1,4 +1,4 @@
-[Previous](./[18]-Content-Delivery-Networks.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[20]-Introduction-to-Infrastructure-as-Code.md)
+[Previous](./[18]-Content-Delivery-Networks.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[20]-Introduction-to-Infrastructure-as-Code.md)
 
 *Networking & Content Delivery*
 
@@ -27,4 +27,4 @@ A very common cloud-native pattern pairs an API Gateway with serverless function
 
 ---
 
-[Previous](./[18]-Content-Delivery-Networks.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[20]-Introduction-to-Infrastructure-as-Code.md)
+[Previous](./[18]-Content-Delivery-Networks.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[20]-Introduction-to-Infrastructure-as-Code.md)

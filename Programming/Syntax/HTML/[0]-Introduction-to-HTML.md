@@ -1,5 +1,7 @@
 # HTML
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning HTML (HyperText Markup Language), the foundational markup language that structures and gives meaning to every page on the web.
 
 ---

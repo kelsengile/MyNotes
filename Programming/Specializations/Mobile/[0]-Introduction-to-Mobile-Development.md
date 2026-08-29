@@ -1,5 +1,7 @@
 # Mobile Development
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning Mobile Development, the practice of building apps that run on phones and tablets, whether natively per-platform or across platforms with a shared codebase.
 
 ---
@@ -22,7 +24,7 @@ Mobile Development lets you:
 
 **Getting Started**  
     1. **[What is Mobile Development? Native vs Cross-Platform](./[1]-What-is-Mobile-Development.md)**  
-    2. **[Development Environment & Toolchains (Xcode, Android Studio, Flutter/RN CLI)](./[2]-Development-Environment.md)**  
+    2. **[Development Environment & Toolchains (Xcode, Android Studio, Flutter/RN CLI)](./%5B2%5D-Development-Environment%20%282%29.md)**  
     3. **[Anatomy of a Mobile App Project](./[3]-Anatomy-of-a-Mobile-App-Project.md)**  
 
 **Core Syntax**  
@@ -72,7 +74,7 @@ Mobile Development lets you:
     33. **[App Architecture Patterns (MVC, MVVM, MVI)](./[33]-App-Architecture-Patterns.md)**  
     34. **[Dependency Management & Package Managers](./[34]-Dependency-Management.md)**  
     35. **[Testing Mobile Apps (Unit, Widget, UI Tests)](./[35]-Testing-Mobile-Apps.md)**  
-    36. **[Debugging & Profiling](./[36]-Debugging-and-Profiling.md)**  
+    36. **[Debugging & Profiling](./%5B36%5D-Debugging-and-Profiling%20%281%29.md)**  
 
 **Publishing & Distribution**  
     37. **[App Icons, Splash Screens & Assets](./[37]-App-Icons-and-Splash-Screens.md)**  
@@ -86,6 +88,6 @@ Mobile Development lets you:
 
 **Best Practices**  
     43. **[Mobile Accessibility](./[43]-Mobile-Accessibility.md)**  
-    44. **[Performance Optimization for Mobile](./[44]-Performance-Optimization.md)**  
+    44. **[Performance Optimization for Mobile](./%5B44%5D-Performance-Optimization%20%281%29.md)**  
     45. **[Mobile Security Basics](./[45]-Mobile-Security-Basics.md)**  
     46. **[Battery & Resource Efficiency](./[46]-Battery-and-Resource-Efficiency.md)**

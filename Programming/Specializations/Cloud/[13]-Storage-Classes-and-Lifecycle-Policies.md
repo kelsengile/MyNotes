@@ -1,4 +1,4 @@
-[Previous](./[12]-Block-and-File-Storage.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[14]-Managed-Relational-Databases.md)
+[Previous](./[12]-Block-and-File-Storage.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[14]-Managed-Relational-Databases.md)
 
 *Storage*
 
@@ -41,4 +41,4 @@ The core trade-off across storage classes is **storage cost vs retrieval cost/la
 
 ---
 
-[Previous](./[12]-Block-and-File-Storage.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[14]-Managed-Relational-Databases.md)
+[Previous](./[12]-Block-and-File-Storage.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[14]-Managed-Relational-Databases.md)

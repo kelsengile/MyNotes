@@ -1,4 +1,4 @@
-[Previous](./[4]-Prototyping-and-Game-Design-Documents.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[6]-Control-Flow.md)
+[Previous](./[4]-Prototyping-and-Game-Design-Documents.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B6%5D-Control-Flow%20%281%29.md)
 
 *Core Programming Concepts*
 
@@ -49,4 +49,4 @@ Consistent naming makes a growing codebase far easier to navigate:
 - Prefix booleans with `is`, `has`, or `can` (`isAlive`, `hasKey`, `canDoubleJump`) so their meaning is obvious at a glance.
 - Avoid abbreviations that aren't universally clear (`plyrHlth` vs `playerHealth`).
 
-[Previous](./[4]-Prototyping-and-Game-Design-Documents.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[6]-Control-Flow.md)
+[Previous](./[4]-Prototyping-and-Game-Design-Documents.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B6%5D-Control-Flow%20%281%29.md)

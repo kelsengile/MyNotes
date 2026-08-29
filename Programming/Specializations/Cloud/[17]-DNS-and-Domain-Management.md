@@ -1,4 +1,4 @@
-[Previous](./[16]-Caching-Services.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[18]-Content-Delivery-Networks.md)
+[Previous](./[16]-Caching-Services.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[18]-Content-Delivery-Networks.md)
 
 *Networking & Content Delivery*
 
@@ -30,4 +30,4 @@ Managed DNS services also support advanced **routing policies** beyond a simple 
 
 ---
 
-[Previous](./[16]-Caching-Services.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[18]-Content-Delivery-Networks.md)
+[Previous](./[16]-Caching-Services.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[18]-Content-Delivery-Networks.md)

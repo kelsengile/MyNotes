@@ -1,4 +1,4 @@
-[Previous](./[44]-Performance-Optimization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[46]-Battery-and-Resource-Efficiency.md)
+[Previous](./%5B44%5D-Performance-Optimization%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[46]-Battery-and-Resource-Efficiency.md)
 
 *Best Practices*
 
@@ -41,4 +41,4 @@ Most apps authenticate using tokens (e.g. **OAuth 2.0** access/refresh tokens) r
 
 Just as with any application, never trust data coming from the client alone — always re-validate on the backend, since a modified or jailbroken app can bypass any client-side checks (validation, permission checks, in-app purchase state) entirely.
 
-[Previous](./[44]-Performance-Optimization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[46]-Battery-and-Resource-Efficiency.md)
+[Previous](./%5B44%5D-Performance-Optimization%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[46]-Battery-and-Resource-Efficiency.md)

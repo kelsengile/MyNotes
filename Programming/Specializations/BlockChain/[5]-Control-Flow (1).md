@@ -1,4 +1,4 @@
-[Previous](./[4]-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[6]-Functions-and-Modifiers.md)
+[Previous](./%5B4%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[6]-Functions-and-Modifiers.md)
 
 *Core Syntax*
 
@@ -50,4 +50,4 @@ Because every computational step costs gas, Solidity developers favor patterns t
 
 Logical operators `&&` and `||` short-circuit just as in JavaScript, and `return` can be used to exit a function early. Combined with `require` statements (covered in Lesson 17), early returns and early reverts are the standard way to keep contract logic simple and to avoid unnecessary gas consumption on invalid inputs.
 
-[Previous](./[4]-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[6]-Functions-and-Modifiers.md)
+[Previous](./%5B4%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[6]-Functions-and-Modifiers.md)

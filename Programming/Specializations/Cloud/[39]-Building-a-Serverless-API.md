@@ -1,4 +1,4 @@
-[Previous](./[38]-Message-Queues-and-Pub-Sub.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[40]-Cloud-Billing-and-Pricing-Models.md)
+[Previous](./[38]-Message-Queues-and-Pub-Sub.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[40]-Cloud-Billing-and-Pricing-Models.md)
 
 *Serverless & Event-Driven Architecture*
 
@@ -47,4 +47,4 @@ Building a real serverless API involves more than the happy path:
 
 ---
 
-[Previous](./[38]-Message-Queues-and-Pub-Sub.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[40]-Cloud-Billing-and-Pricing-Models.md)
+[Previous](./[38]-Message-Queues-and-Pub-Sub.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[40]-Cloud-Billing-and-Pricing-Models.md)

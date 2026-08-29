@@ -1,5 +1,7 @@
 # Go
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning Go (Golang), the statically-typed, compiled language from Google known for its simplicity, fast compilation, and first-class support for concurrency — widely used for backend services, cloud infrastructure, and CLI tools.
 
 ---

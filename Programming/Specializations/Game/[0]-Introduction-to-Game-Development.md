@@ -1,5 +1,7 @@
 # Game Development
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning Game Development, the practice of designing and building interactive games using modern engines, from small 2D prototypes to full 3D, multiplayer experiences.
 
 ---
@@ -28,11 +30,11 @@ Game Development lets you:
     4. **[Prototyping & Game Design Documents](./[4]-Prototyping-and-Game-Design-Documents.md)**  
 
 **Core Programming Concepts**  
-    5. **[Variables, Data Types & Operators](./[5]-Variables-and-Data-Types.md)**  
-    6. **[Control Flow: Conditionals & Loops](./[6]-Control-Flow.md)**  
-    7. **[Functions & Scope](./[7]-Functions-and-Scope.md)**  
-    8. **[Object-Oriented Basics for Games (Classes, Components)](./[8]-Object-Oriented-Basics.md)**  
-    9. **[Collections & Data Structures for Games](./[9]-Collections-and-Data-Structures.md)**  
+    5. **[Variables, Data Types & Operators](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
+    6. **[Control Flow: Conditionals & Loops](./%5B6%5D-Control-Flow%20%281%29.md)**  
+    7. **[Functions & Scope](./%5B7%5D-Functions-and-Scope%20%281%29.md)**  
+    8. **[Object-Oriented Basics for Games (Classes, Components)](./%5B8%5D-Object-Oriented-Basics%20%281%29.md)**  
+    9. **[Collections & Data Structures for Games](./%5B9%5D-Collections-and-Data-Structures%20%281%29.md)**  
 
 **Game Engine Fundamentals**  
     10. **[The Game Loop](./[10]-The-Game-Loop.md)**  

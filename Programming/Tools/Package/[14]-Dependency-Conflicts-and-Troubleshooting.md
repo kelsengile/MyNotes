@@ -1,4 +1,4 @@
-[Previous](./[13]-Package-Security-And-Supply-Chain-Risks.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[15]-License-Compliance.md)
+[Previous](./%5B13%5D-Package-Security-and-Supply-Chain-Risks.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[15]-License-Compliance.md)
 
 ---
 
@@ -72,4 +72,4 @@ Read this carefully — it tells you exactly where the conflict originates, whic
 
 ---
 
-[Previous](./[13]-Package-Security-And-Supply-Chain-Risks.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[15]-License-Compliance.md)
+[Previous](./%5B13%5D-Package-Security-and-Supply-Chain-Risks.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[15]-License-Compliance.md)

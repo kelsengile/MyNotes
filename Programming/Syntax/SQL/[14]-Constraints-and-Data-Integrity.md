@@ -1,4 +1,4 @@
-[Previous](./[13]-Keys-and-Relationships.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Normalization-and-Schema-Design.md)
+[Previous](./[13]-Keys-and-Relationships.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[15]-Normalization-and-Schema-Design.md)
 
 
 # Lesson 14 - Constraints & Data Integrity
@@ -158,4 +158,4 @@ It's tempting to think "I'll just validate this in my app code." But database-le
 
 ---
 
-[Previous](./[13]-Keys-and-Relationships.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[15]-Normalization-and-Schema-Design.md)
+[Previous](./[13]-Keys-and-Relationships.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[15]-Normalization-and-Schema-Design.md)

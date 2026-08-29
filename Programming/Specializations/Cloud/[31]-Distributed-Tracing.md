@@ -1,4 +1,4 @@
-[Previous](./[30]-Logging-and-Metrics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[32]-Alerting-and-Incident-Response.md)
+[Previous](./[30]-Logging-and-Metrics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[32]-Alerting-and-Incident-Response.md)
 
 *Monitoring & Observability*
 
@@ -28,4 +28,4 @@ A trace visualization typically shows a "waterfall" view of spans, immediately m
 
 ---
 
-[Previous](./[30]-Logging-and-Metrics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[32]-Alerting-and-Incident-Response.md)
+[Previous](./[30]-Logging-and-Metrics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[32]-Alerting-and-Incident-Response.md)

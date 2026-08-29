@@ -1,4 +1,4 @@
-[Previous](./[9]-Serverless-Computing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[11]-Object-Storage.md)
+[Previous](./[9]-Serverless-Computing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[11]-Object-Storage.md)
 
 *Compute*
 
@@ -34,4 +34,4 @@ Choosing the right policy balances responsiveness (reacting quickly to real traf
 
 ---
 
-[Previous](./[9]-Serverless-Computing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[11]-Object-Storage.md)
+[Previous](./[9]-Serverless-Computing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[11]-Object-Storage.md)

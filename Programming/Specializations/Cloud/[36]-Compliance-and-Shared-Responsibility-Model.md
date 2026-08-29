@@ -1,4 +1,4 @@
-[Previous](./[35]-Secrets-Management.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[37]-Event-Driven-Architecture-Basics.md)
+[Previous](./[35]-Secrets-Management.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[37]-Event-Driven-Architecture-Basics.md)
 
 *Security*
 
@@ -30,4 +30,4 @@ Providers publish compliance documentation (e.g. AWS Artifact, Azure Trust Cente
 
 ---
 
-[Previous](./[35]-Secrets-Management.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[37]-Event-Driven-Architecture-Basics.md)
+[Previous](./[35]-Secrets-Management.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[37]-Event-Driven-Architecture-Basics.md)

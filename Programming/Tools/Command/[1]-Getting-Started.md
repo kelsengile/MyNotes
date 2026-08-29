@@ -1,4 +1,4 @@
-[Previous](./[0]-Introduction-to-Command.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[2]-Navigating-The-File-System.md)
+[Previous](./[0]-Introduction-to-Command.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B2%5D-Navigating-the-File-System.md)
 
 # Lesson 1 - Getting Started with CMD
 
@@ -88,4 +88,4 @@ Closes the window.
 
 ---
 
-[Previous](./[0]-Introduction-to-Command.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[2]-Navigating-The-File-System.md)
+[Previous](./[0]-Introduction-to-Command.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B2%5D-Navigating-the-File-System.md)

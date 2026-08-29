@@ -1,4 +1,4 @@
-[Previous](./[4]-Package-Management.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[6]-Numbers-Strings-and-Booleans.md)
+[Previous](./[4]-Package-Management.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)
 
 *Core Syntax*
 
@@ -97,4 +97,4 @@ typeof function(){}; // "function"
 
 Note the famous quirk: `typeof null` returns `"object"`, not `"null"`. This is a mistake baked into JavaScript since 1995 that can never be fixed without breaking the web, so it's simply something to remember.
 
-[Previous](./[4]-Package-Management.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[6]-Numbers-Strings-and-Booleans.md)
+[Previous](./[4]-Package-Management.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)

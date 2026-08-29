@@ -1,4 +1,4 @@
-[Previous](./[20]-Introduction-to-Infrastructure-as-Code.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[22]-Cloud-Native-IaC-Tools.md)
+[Previous](./[20]-Introduction-to-Infrastructure-as-Code.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[22]-Cloud-Native-IaC-Tools.md)
 
 *Infrastructure as Code*
 
@@ -48,4 +48,4 @@ terraform apply   # actually creates/updates/deletes resources to match config
 
 ---
 
-[Previous](./[20]-Introduction-to-Infrastructure-as-Code.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[22]-Cloud-Native-IaC-Tools.md)
+[Previous](./[20]-Introduction-to-Infrastructure-as-Code.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[22]-Cloud-Native-IaC-Tools.md)

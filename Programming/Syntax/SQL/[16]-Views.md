@@ -1,4 +1,4 @@
-[Previous](./[15]-Normalization-and-Schema-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Indexes-and-Performance.md)
+[Previous](./[15]-Normalization-and-Schema-Design.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[17]-Indexes-and-Performance.md)
 
 # Lesson 16 - Views
 
@@ -103,4 +103,4 @@ Both let you name and reuse a piece of query logic — the key difference is per
 
 ---
 
-[Previous](./[15]-Normalization-and-Schema-Design.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[17]-Indexes-and-Performance.md)
+[Previous](./[15]-Normalization-and-Schema-Design.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[17]-Indexes-and-Performance.md)

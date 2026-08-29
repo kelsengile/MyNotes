@@ -1,4 +1,4 @@
-[Previous](./[19]-CTEs-and-Recursive-Queries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[21]-Stored-Procedures-and-Functions.md)
+[Previous](./[19]-CTEs-and-Recursive-Queries.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[21]-Stored-Procedures-and-Functions.md)
 
 # Lesson 20 - Window Functions
 
@@ -138,4 +138,4 @@ FROM books;
 
 ---
 
-[Previous](./[19]-CTEs-and-Recursive-Queries.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[21]-Stored-Procedures-and-Functions.md)
+[Previous](./[19]-CTEs-and-Recursive-Queries.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[21]-Stored-Procedures-and-Functions.md)

@@ -1,4 +1,4 @@
-[Previous](./[1]-Getting-Started.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[3]-Managing-Files-And-Folders.md)
+[Previous](./[1]-Getting-Started.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B3%5D-Managing-Files-and-Folders.md)
 
 # Lesson 2 - Navigating the File System
 
@@ -67,4 +67,4 @@ D:
 
 ---
 
-[Previous](./[1]-Getting-Started.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[3]-Managing-Files-And-Folders.md)
+[Previous](./[1]-Getting-Started.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B3%5D-Managing-Files-and-Folders.md)

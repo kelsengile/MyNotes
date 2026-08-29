@@ -1,4 +1,4 @@
-[Previous](./[4]-Dependencies-And-Dependency-Trees.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[6]-Lockfiles-And-Reproducible-Installs.md)
+[Previous](./%5B4%5D-Dependencies-and-Dependency-Trees.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B6%5D-Lockfiles-and-Reproducible-Installs.md)
 
 ---
 
@@ -70,4 +70,4 @@ While SemVer is a widely adopted convention, it's not universally enforced. Some
 
 ---
 
-[Previous](./[4]-Dependencies-And-Dependency-Trees.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[6]-Lockfiles-And-Reproducible-Installs.md)
+[Previous](./%5B4%5D-Dependencies-and-Dependency-Trees.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B6%5D-Lockfiles-and-Reproducible-Installs.md)

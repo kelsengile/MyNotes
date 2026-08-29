@@ -1,4 +1,4 @@
-[Previous](./[8]-Conditionals.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[10]-Functions-and-Scope.md)
+[Previous](./%5B8%5D-Conditionals%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[10]-Functions-and-Scope.md)
 
 *Core Syntax*
 
@@ -85,4 +85,4 @@ foreach ([1, 2, 3, 4, 5] as $num) {
 
 ---
 
-[Previous](./[8]-Conditionals.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[10]-Functions-and-Scope.md)
+[Previous](./%5B8%5D-Conditionals%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[10]-Functions-and-Scope.md)

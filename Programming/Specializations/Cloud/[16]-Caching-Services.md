@@ -1,4 +1,4 @@
-[Previous](./[15]-Managed-NoSQL-Databases.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[17]-DNS-and-Domain-Management.md)
+[Previous](./[15]-Managed-NoSQL-Databases.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[17]-DNS-and-Domain-Management.md)
 
 *Databases*
 
@@ -31,4 +31,4 @@ A key challenge with caching is **cache invalidation** — ensuring stale data i
 
 ---
 
-[Previous](./[15]-Managed-NoSQL-Databases.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[17]-DNS-and-Domain-Management.md)
+[Previous](./[15]-Managed-NoSQL-Databases.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[17]-DNS-and-Domain-Management.md)

@@ -1,5 +1,7 @@
 # Scripts
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning Scripting, the practice of writing small, fast programs to automate tasks, glue systems together, and manage machines from the command line.
 
 ---

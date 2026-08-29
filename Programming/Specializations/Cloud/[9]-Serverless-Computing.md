@@ -1,4 +1,4 @@
-[Previous](./[8]-Containers-and-Orchestration-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[10]-Auto-Scaling-and-Load-Balancing.md)
+[Previous](./[8]-Containers-and-Orchestration-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[10]-Auto-Scaling-and-Load-Balancing.md)
 
 *Compute*
 
@@ -35,4 +35,4 @@ Serverless functions are a great fit for event-driven, short-lived, and spiky wo
 
 ---
 
-[Previous](./[8]-Containers-and-Orchestration-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[10]-Auto-Scaling-and-Load-Balancing.md)
+[Previous](./[8]-Containers-and-Orchestration-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[10]-Auto-Scaling-and-Load-Balancing.md)

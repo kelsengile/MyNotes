@@ -1,4 +1,4 @@
-[Previous](./[18]-Transactions-and-ACID.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[20]-Window-Functions.md)
+[Previous](./[18]-Transactions-and-ACID.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[20]-Window-Functions.md)
 
 # Lesson 19 - Common Table Expressions (CTEs) & Recursive Queries
 
@@ -162,4 +162,4 @@ DELETE FROM books WHERE book_id IN (SELECT book_id FROM overpriced);
 
 ---
 
-[Previous](./[18]-Transactions-and-ACID.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[20]-Window-Functions.md)
+[Previous](./[18]-Transactions-and-ACID.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[20]-Window-Functions.md)

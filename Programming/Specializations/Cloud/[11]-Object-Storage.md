@@ -1,4 +1,4 @@
-[Previous](./[10]-Auto-Scaling-and-Load-Balancing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[12]-Block-and-File-Storage.md)
+[Previous](./[10]-Auto-Scaling-and-Load-Balancing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[12]-Block-and-File-Storage.md)
 
 *Storage*
 
@@ -40,4 +40,4 @@ Because object storage is billed per GB stored plus data transfer/requests, comb
 
 ---
 
-[Previous](./[10]-Auto-Scaling-and-Load-Balancing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[12]-Block-and-File-Storage.md)
+[Previous](./[10]-Auto-Scaling-and-Load-Balancing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[12]-Block-and-File-Storage.md)

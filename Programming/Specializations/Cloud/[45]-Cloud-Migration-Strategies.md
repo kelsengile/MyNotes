@@ -1,4 +1,4 @@
-[Previous](./[44]-Disaster-Recovery-and-High-Availability.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[46]-Cloud-Architecture-Best-Practices.md)
+[Previous](./[44]-Disaster-Recovery-and-High-Availability.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[46]-Cloud-Architecture-Best-Practices.md)
 
 *Multi-Cloud & Advanced Topics*
 
@@ -32,4 +32,4 @@ A successful migration typically follows a structured process: **assess** the cu
 
 ---
 
-[Previous](./[44]-Disaster-Recovery-and-High-Availability.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[46]-Cloud-Architecture-Best-Practices.md)
+[Previous](./[44]-Disaster-Recovery-and-High-Availability.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[46]-Cloud-Architecture-Best-Practices.md)

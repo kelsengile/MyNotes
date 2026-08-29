@@ -1,4 +1,4 @@
-[Previous](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[45]-Cloud-Migration-Strategies.md)
+[Previous](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[45]-Cloud-Migration-Strategies.md)
 
 *Multi-Cloud & Advanced Topics*
 
@@ -32,4 +32,4 @@ Choosing a DR strategy starts with defining acceptable RTO and RPO for the busin
 
 ---
 
-[Previous](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[45]-Cloud-Migration-Strategies.md)
+[Previous](./[43]-Multi-Cloud-and-Hybrid-Cloud-Strategies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[45]-Cloud-Migration-Strategies.md)

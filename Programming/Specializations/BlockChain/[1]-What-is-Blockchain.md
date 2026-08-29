@@ -1,4 +1,4 @@
-[Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[2]-Development-Environment.md)
+[Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B2%5D-Development-Environment%20%283%29.md)
 
 *Getting Started*
 
@@ -35,4 +35,4 @@ Traditional systems (a bank's database, a company's server) are centralized: one
 
 These four properties are the foundation for everything covered in the rest of this course — from writing smart contracts to building decentralized applications.
 
- [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[2]-Development-Environment.md)
+ [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B2%5D-Development-Environment%20%283%29.md)

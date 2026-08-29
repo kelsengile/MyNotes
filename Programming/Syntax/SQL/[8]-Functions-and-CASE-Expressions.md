@@ -1,4 +1,4 @@
-[Previous](./[7]-Handling-NULLs.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Aggregate-Functions-and-Group-By.md)
+[Previous](./[7]-Handling-NULLs.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[9]-Aggregate-Functions-and-Group-By.md)
 
 # Lesson 8 - String, Date & Math Functions and CASE Expressions
 
@@ -151,4 +151,4 @@ FROM books;
 
 ---
 
-[Previous](./[7]-Handling-NULLs.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[9]-Aggregate-Functions-and-Group-By.md)
+[Previous](./[7]-Handling-NULLs.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[9]-Aggregate-Functions-and-Group-By.md)

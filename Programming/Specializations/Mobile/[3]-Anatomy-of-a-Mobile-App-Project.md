@@ -1,4 +1,4 @@
-[Previous](./[2]-Development-Environment.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[4]-Variables-and-Data-Types.md)
+[Previous](./%5B2%5D-Development-Environment%20%282%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[4]-Variables-and-Data-Types.md)
 
 *Getting Started*
 
@@ -46,4 +46,4 @@ When you build a project, the toolchain produces an installable package:
 - **Android**: an `.apk` (direct install file) or `.aab` (Android App Bundle, the format Google Play requires for distribution, which it then splits into optimized APKs per device).
 - **iOS**: an `.ipa` file, which is signed with a developer certificate and provisioning profile before it can run on a real device or be submitted to the App Store.
 
-[Previous](./[2]-Development-Environment.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[4]-Variables-and-Data-Types.md)
+[Previous](./%5B2%5D-Development-Environment%20%282%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[4]-Variables-and-Data-Types.md)

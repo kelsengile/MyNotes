@@ -1,4 +1,4 @@
-[Previous](./[5]-IAM-Users-Roles-and-Permissions.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[7]-Virtual-Machines-and-Instances.md)
+[Previous](./[5]-IAM-Users-Roles-and-Permissions.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[7]-Virtual-Machines-and-Instances.md)
 
 *Core Concepts*
 
@@ -32,4 +32,4 @@ A typical rule allows inbound HTTPS (port 443) from anywhere (`0.0.0.0/0`) to a 
 
 ---
 
-[Previous](./[5]-IAM-Users-Roles-and-Permissions.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[7]-Virtual-Machines-and-Instances.md)
+[Previous](./[5]-IAM-Users-Roles-and-Permissions.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[7]-Virtual-Machines-and-Instances.md)

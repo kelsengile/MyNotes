@@ -1,5 +1,7 @@
 # PHP
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning PHP, the widely-used, server-side scripting language that powers a huge share of the web — from WordPress sites to large-scale applications built with Laravel and Symfony.
 
 ---
@@ -25,11 +27,11 @@ PHP lets you:
     4. **[php.ini & Configuration Basics](./[4]-php-ini-and-Configuration.md)**  
 
 **Core Syntax**  
-    5. **[Variables & Basic Data Types](./[5]-Variables-and-Data-Types.md)**  
+    5. **[Variables & Basic Data Types](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
     6. **[Numbers, Strings & Booleans](./[6]-Numbers-Strings-and-Booleans.md)**  
-    7. **[Operators & Expressions (arithmetic, comparison, logical, spaceship, null coalescing)](./[7]-Operators-and-Expressions.md)**  
-    8. **[Conditionals: if, elseif, else, switch, match](./[8]-Conditionals.md)**  
-    9. **[Loops: for, while, do-while, foreach, break, continue](./[9]-Loops.md)**  
+    7. **[Operators & Expressions (arithmetic, comparison, logical, spaceship, null coalescing)](./%5B7%5D-Operators-and-Expressions%20%281%29.md)**  
+    8. **[Conditionals: if, elseif, else, switch, match](./%5B8%5D-Conditionals%20%281%29.md)**  
+    9. **[Loops: for, while, do-while, foreach, break, continue](./%5B9%5D-Loops%20%281%29.md)**  
     10. **[Functions & Scope (default args, variadics, arrow functions)](./[10]-Functions-and-Scope.md)**  
     11. **[String Formatting & Manipulation (interpolation, heredoc/nowdoc, string functions)](./[11]-String-Formatting.md)**  
     12. **[Error & Exception Handling (try, catch, finally, custom exceptions)](./[12]-Error-and-Exception-Handling.md)**  
