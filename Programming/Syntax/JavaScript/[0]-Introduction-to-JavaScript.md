@@ -1,6 +1,6 @@
-# JavaScript
-
 [⬅ Back to README](../../../README.md)
+
+# JavaScript
 
 Welcome! This is a self-paced course for learning JavaScript, the dynamic, multi-paradigm programming language of the web — running in every browser and, via Node.js, on servers, desktops, and mobile devices too.
 

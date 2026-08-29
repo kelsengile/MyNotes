@@ -1,6 +1,6 @@
-# Blockchain Development
+[⬅ Back to README](../../README.md)
 
-[⬅ Back to README](../../../README.md)
+# Blockchain Development
 
 Welcome! This is a self-paced course for learning Blockchain Development, the practice of building decentralized systems, smart contracts, and applications on top of distributed ledgers.
 

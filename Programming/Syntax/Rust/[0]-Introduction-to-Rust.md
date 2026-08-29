@@ -1,6 +1,7 @@
+[⬅ Back to README](../../../README.md)
+
 # Rust
 
-[⬅ Back to README](../../../README.md)
 
 Welcome! This is a self-paced course for learning Rust, the systems programming language built for performance, reliability, and memory safety — without a garbage collector — widely used for systems software, WebAssembly, embedded programming, and high-performance backend services.
 

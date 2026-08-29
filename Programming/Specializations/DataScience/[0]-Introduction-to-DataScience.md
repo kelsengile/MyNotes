@@ -1,6 +1,7 @@
+[⬅ Back to README](../../README.md)
+
 # Data Science
 
-[⬅ Back to README](../../../README.md)
 
 Welcome! This is a self-paced course for learning Data Science, the practice of extracting insight from data through statistics, visualization, and machine learning.
 
