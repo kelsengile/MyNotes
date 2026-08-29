@@ -1,4 +1,4 @@
-[Previous](./[10]-Rebasing.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[12]-Tags-And-Cherry-Picking.md)
+[Previous](./[10]-Rebasing.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B12%5D-Tags-and-Cherry-Picking.md)
 
 # Lesson 11 - Stashing
 
@@ -123,4 +123,4 @@ Just like merges, applying a stash can conflict with the current state of your f
 
 ---
 
-[Previous](./[10]-Rebasing.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[12]-Tags-And-Cherry-Picking.md)
+[Previous](./[10]-Rebasing.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B12%5D-Tags-and-Cherry-Picking.md)

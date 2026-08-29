@@ -1,4 +1,4 @@
-[Previous](./[25]-SQL-Dialects.md) | [Table of Contents](./[0]-Introduction.md)
+[Previous](./[25]-SQL-Dialects.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md)
 
 # Lesson 26 - Query Optimization & Execution Plans
 
@@ -144,4 +144,4 @@ From here, the best way to keep building SQL skill is to use it: work with a rea
 
 ---
 
-[Previous](./[25]-SQL-Dialects.md) | [Table of Contents](./[0]-Introduction.md) 
+[Previous](./[25]-SQL-Dialects.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) 

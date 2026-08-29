@@ -1,4 +1,4 @@
-[Previous](./[23]-Docker-Fundamentals.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[25]-Kubernetes-Fundamentals.md)
+[Previous](./[23]-Docker-Fundamentals.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[25]-Kubernetes-Fundamentals.md)
 
 *Containers & Orchestration*
 
@@ -33,4 +33,4 @@ Every image push includes a **tag**, identifying a specific version (e.g. `my-ap
 
 ---
 
-[Previous](./[23]-Docker-Fundamentals.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[25]-Kubernetes-Fundamentals.md)
+[Previous](./[23]-Docker-Fundamentals.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[25]-Kubernetes-Fundamentals.md)

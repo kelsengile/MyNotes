@@ -1,4 +1,4 @@
-[Previous](./[2]-Development-Environment.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[4]-Variables-and-Data-Types.md)
+[Previous](./%5B2%5D-Development-Environment%20%283%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B4%5D-Variables-and-Data-Types%20%281%29.md)
 
 *Getting Started*
 
@@ -36,4 +36,4 @@ Many blockchain projects are more than just contracts. A typical dApp also inclu
 
 Blockchain projects commonly depend on audited, community-maintained libraries rather than writing everything from scratch — most notably OpenZeppelin's contract library, which provides secure, standard implementations of tokens (ERC-20, ERC-721), access control, and upgradeability patterns. Pulling in audited code for common patterns significantly reduces the risk of introducing security bugs.
 
-[Previous](./[2]-Development-Environment.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[4]-Variables-and-Data-Types.md)
+[Previous](./%5B2%5D-Development-Environment%20%283%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B4%5D-Variables-and-Data-Types%20%281%29.md)

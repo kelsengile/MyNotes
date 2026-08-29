@@ -1,4 +1,4 @@
-[Previous](./[16]-Views.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Transactions-and-ACID.md)
+[Previous](./[16]-Views.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[18]-Transactions-and-ACID.md)
 
 
 # Lesson 17 - Indexes & Query Performance
@@ -111,4 +111,4 @@ Add an index when you can answer "yes" to: *"Will this column be searched, joine
 
 ---
 
-[Previous](./[16]-Views.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[18]-Transactions-and-ACID.md)
+[Previous](./[16]-Views.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[18]-Transactions-and-ACID.md)

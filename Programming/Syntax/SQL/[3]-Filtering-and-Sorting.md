@@ -1,4 +1,4 @@
-[Previous](./[2]-SQL-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Data-Types-and-Table-Design.md)
+[Previous](./[2]-SQL-Basics.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[4]-Data-Types-and-Table-Design.md)
 
 # Lesson 3 - Filtering & Sorting Data
 
@@ -163,4 +163,4 @@ LIMIT 2;
 
 ---
 
-[Previous](./[2]-SQL-Basics.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[4]-Data-Types-and-Table-Design.md)
+[Previous](./[2]-SQL-Basics.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[4]-Data-Types-and-Table-Design.md)

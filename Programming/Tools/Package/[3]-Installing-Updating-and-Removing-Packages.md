@@ -1,4 +1,4 @@
-[Previous](./[2]-Package-Managers.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[4]-Dependencies-And-Dependency-Trees.md)
+[Previous](./[2]-Package-Managers.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B4%5D-Dependencies-and-Dependency-Trees.md)
 
 ---
 
@@ -102,4 +102,4 @@ cargo build   # Cargo installs dependencies automatically when building
 
 ---
 
-[Previous](./[2]-Package-Managers.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[4]-Dependencies-And-Dependency-Trees.md)
+[Previous](./[2]-Package-Managers.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B4%5D-Dependencies-and-Dependency-Trees.md)

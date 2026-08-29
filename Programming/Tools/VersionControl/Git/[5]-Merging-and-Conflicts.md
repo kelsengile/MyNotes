@@ -1,4 +1,4 @@
-[Previous](./[4]-Branching.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[6]-Remotes-Push-And-Pull.md)
+[Previous](./[4]-Branching.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B6%5D-Remotes-Push-and-Pull.md)
 
 # Lesson 5 - Merging And Resolving Conflicts
 
@@ -141,4 +141,4 @@ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 
 ---
 
-[Previous](./[4]-Branching.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[6]-Remotes-Push-And-Pull.md)
+[Previous](./[4]-Branching.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B6%5D-Remotes-Push-and-Pull.md)

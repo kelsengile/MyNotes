@@ -1,4 +1,4 @@
-[Previous](./[11]-User-And-Permissions-Basics.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[13]-Batch-Scripting-Control-Flow.md)
+[Previous](./%5B11%5D-User-and-Permissions-Basics.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[13]-Batch-Scripting-Control-Flow.md)
 
 # Lesson 12 - Batch Scripting Basics
 
@@ -83,4 +83,4 @@ pause
 
 ---
 
-[Previous](./[11]-User-And-Permissions-Basics.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[13]-Batch-Scripting-Control-Flow.md)
+[Previous](./%5B11%5D-User-and-Permissions-Basics.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[13]-Batch-Scripting-Control-Flow.md)

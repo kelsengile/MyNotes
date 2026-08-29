@@ -1,4 +1,4 @@
-[Previous](./[10]-Set-Operations.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Subqueries.md)
+[Previous](./[10]-Set-Operations.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[12]-Subqueries.md)
 
 # Lesson 11 - Joins — INNER, LEFT, RIGHT & FULL
 
@@ -162,4 +162,4 @@ JOIN employees e2 ON e1.manager_id = e2.employee_id;
 
 ---
 
-[Previous](./[10]-Set-Operations.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[12]-Subqueries.md)
+[Previous](./[10]-Set-Operations.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[12]-Subqueries.md)

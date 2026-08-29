@@ -1,4 +1,4 @@
-[Previous](./[11]-Object-Storage.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[13]-Storage-Classes-and-Lifecycle-Policies.md)
+[Previous](./[11]-Object-Storage.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[13]-Storage-Classes-and-Lifecycle-Policies.md)
 
 *Storage*
 
@@ -29,4 +29,4 @@ A typical web application might use block storage for its database, object stora
 
 ---
 
-[Previous](./[11]-Object-Storage.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[13]-Storage-Classes-and-Lifecycle-Policies.md)
+[Previous](./[11]-Object-Storage.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[13]-Storage-Classes-and-Lifecycle-Policies.md)

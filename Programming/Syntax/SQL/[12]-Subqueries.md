@@ -1,4 +1,4 @@
-[Previous](./[11]-Joins.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Keys-and-Relationships.md)
+[Previous](./[11]-Joins.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[13]-Keys-and-Relationships.md)
 
 
 # Lesson 12 - Subqueries & Nested Queries
@@ -124,4 +124,4 @@ WHERE customer_id NOT IN (SELECT customer_id FROM customers);
 
 ---
 
-[Previous](./[11]-Joins.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[13]-Keys-and-Relationships.md)
+[Previous](./[11]-Joins.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[13]-Keys-and-Relationships.md)

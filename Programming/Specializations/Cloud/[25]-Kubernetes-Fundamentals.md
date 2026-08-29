@@ -1,4 +1,4 @@
-[Previous](./[24]-Container-Registries.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[26]-Managed-Kubernetes-Services.md)
+[Previous](./[24]-Container-Registries.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[26]-Managed-Kubernetes-Services.md)
 
 *Containers & Orchestration*
 
@@ -57,4 +57,4 @@ Kubernetes' declarative model means `kubectl apply` is idempotent: reapplying th
 
 ---
 
-[Previous](./[24]-Container-Registries.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[26]-Managed-Kubernetes-Services.md)
+[Previous](./[24]-Container-Registries.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[26]-Managed-Kubernetes-Services.md)

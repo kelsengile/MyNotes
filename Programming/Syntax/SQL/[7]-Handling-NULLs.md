@@ -1,4 +1,4 @@
-[Previous](./[6]-Insert-Update-Delete.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Functions-and-CASE-Expressions.md)
+[Previous](./[6]-Insert-Update-Delete.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[8]-Functions-and-CASE-Expressions.md)
 
 # Lesson 7 - Handling NULLs
 
@@ -122,4 +122,4 @@ A `UNIQUE` constraint (Lesson 14) generally allows multiple `NULL` values in the
 
 ---
 
-[Previous](./[6]-Insert-Update-Delete.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[8]-Functions-and-CASE-Expressions.md)
+[Previous](./[6]-Insert-Update-Delete.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[8]-Functions-and-CASE-Expressions.md)

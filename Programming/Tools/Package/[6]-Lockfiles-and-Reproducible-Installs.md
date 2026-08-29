@@ -1,4 +1,4 @@
-[Previous](./[5]-Versioning-And-Semantic-Versioning.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md)
+[Previous](./%5B5%5D-Versioning-and-Semantic-Versioning.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B7%5D-Local-vs-Global-vs-Project-Level-Packages.md)
 
 ---
 
@@ -62,4 +62,4 @@ You generally shouldn't hand-edit a lockfile — let the package manager regener
 
 ---
 
-[Previous](./[5]-Versioning-And-Semantic-Versioning.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[7]-Local-Vs-Global-Vs-Project-Level-Packages.md)
+[Previous](./%5B5%5D-Versioning-and-Semantic-Versioning.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B7%5D-Local-vs-Global-vs-Project-Level-Packages.md)

@@ -1,4 +1,4 @@
-[Previous](./[28]-Build-and-Deployment-Automation.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[30]-Logging-and-Metrics.md)
+[Previous](./[28]-Build-and-Deployment-Automation.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[30]-Logging-and-Metrics.md)
 
 *CI/CD & DevOps*
 
@@ -29,4 +29,4 @@ Kubernetes Deployments (Lesson 25) support rolling updates natively, and can be 
 
 ---
 
-[Previous](./[28]-Build-and-Deployment-Automation.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[30]-Logging-and-Metrics.md)
+[Previous](./[28]-Build-and-Deployment-Automation.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[30]-Logging-and-Metrics.md)

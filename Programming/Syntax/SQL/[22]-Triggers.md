@@ -1,4 +1,4 @@
-[Previous](./[21]-Stored-Procedures-and-Functions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[23]-Permissions-and-Security.md)
+[Previous](./[21]-Stored-Procedures-and-Functions.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[23]-Permissions-and-Security.md)
 
 # Lesson 22 - Triggers
 
@@ -149,4 +149,4 @@ DROP TRIGGER trg_log_price_change;            -- SQLite, MySQL
 
 ---
 
-[Previous](./[21]-Stored-Procedures-and-Functions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[23]-Permissions-and-Security.md)
+[Previous](./[21]-Stored-Procedures-and-Functions.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[23]-Permissions-and-Security.md)

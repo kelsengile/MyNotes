@@ -1,4 +1,4 @@
-[Previous](./[46]-Cloud-Architecture-Best-Practices.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md)
+[Previous](./[46]-Cloud-Architecture-Best-Practices.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md)
 
 *Best Practices*
 
@@ -37,4 +37,4 @@ Having completed this course, you now have a working vocabulary and mental model
 
 ---
 
-[Previous](./[46]-Cloud-Architecture-Best-Practices.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md)
+[Previous](./[46]-Cloud-Architecture-Best-Practices.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md)

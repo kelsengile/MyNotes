@@ -1,4 +1,4 @@
-[Previous](./[7]-Functions-and-Scope.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[9]-Collections-and-Data-Structures.md)
+[Previous](./%5B7%5D-Functions-and-Scope%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B9%5D-Collections-and-Data-Structures%20%281%29.md)
 
 *Core Programming Concepts*
 
@@ -56,4 +56,4 @@ Rather than one giant class trying to do everything, **composition** builds beha
 
 Modern engines (Unity's `MonoBehaviour` components, Godot's Nodes, Unreal's Actor Components) are built around composition specifically because game objects often need to mix and match behaviors in ways a rigid inheritance tree can't express cleanly. A general rule of thumb: use inheritance for a true "is-a" relationship (a `Boss` *is a* `Character`), and use composition for "has-a" relationships (a `Player` *has a* `HealthComponent`). This is explored further in Lesson 12.
 
-[Previous](./[7]-Functions-and-Scope.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[9]-Collections-and-Data-Structures.md)
+[Previous](./%5B7%5D-Functions-and-Scope%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B9%5D-Collections-and-Data-Structures%20%281%29.md)

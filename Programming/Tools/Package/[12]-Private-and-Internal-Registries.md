@@ -1,4 +1,4 @@
-[Previous](./[11]-Monorepos-And-Workspaces.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[13]-Package-Security-And-Supply-Chain-Risks.md)
+[Previous](./%5B11%5D-Monorepos-and-Workspaces.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B13%5D-Package-Security-and-Supply-Chain-Risks.md)
 
 ---
 
@@ -76,4 +76,4 @@ Unlike most public registry downloads (which are open/anonymous), private regist
 
 ---
 
-[Previous](./[11]-Monorepos-And-Workspaces.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[13]-Package-Security-And-Supply-Chain-Risks.md)
+[Previous](./%5B11%5D-Monorepos-and-Workspaces.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B13%5D-Package-Security-and-Supply-Chain-Risks.md)

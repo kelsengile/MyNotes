@@ -1,4 +1,4 @@
-[Previous](./[1]-What-Is-A-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[3]-Installing-Updating-And-Removing-Packages.md)
+[Previous](./%5B1%5D-What-Is-a-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B3%5D-Installing-Updating-and-Removing-Packages.md)
 
 ---
 
@@ -81,4 +81,4 @@ Some languages have more than one popular option. A few things to weigh:
 
 ---
 
-[Previous](./[1]-What-Is-A-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[3]-Installing-Updating-And-Removing-Packages.md)
+[Previous](./%5B1%5D-What-Is-a-Package.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./%5B3%5D-Installing-Updating-and-Removing-Packages.md)

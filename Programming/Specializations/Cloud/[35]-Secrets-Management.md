@@ -1,4 +1,4 @@
-[Previous](./[34]-Encryption-at-Rest-and-in-Transit.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[36]-Compliance-and-Shared-Responsibility-Model.md)
+[Previous](./[34]-Encryption-at-Rest-and-in-Transit.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[36]-Compliance-and-Shared-Responsibility-Model.md)
 
 *Security*
 
@@ -34,4 +34,4 @@ Access to individual secrets is controlled through IAM (Lesson 5), so only the s
 
 ---
 
-[Previous](./[34]-Encryption-at-Rest-and-in-Transit.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[36]-Compliance-and-Shared-Responsibility-Model.md)
+[Previous](./[34]-Encryption-at-Rest-and-in-Transit.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[36]-Compliance-and-Shared-Responsibility-Model.md)

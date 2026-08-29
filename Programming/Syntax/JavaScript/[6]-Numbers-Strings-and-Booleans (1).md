@@ -1,4 +1,4 @@
-[Previous](./[5]-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[7]-Operators-and-Expressions.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B7%5D-Operators-and-Expressions%20%281%29.md)
 
 *Core Syntax*
 
@@ -97,4 +97,4 @@ Boolean("hello");  // true
 
 Values that convert to `false` when turned into a boolean are called **falsy**: `0`, `""`, `null`, `undefined`, `NaN`, and `false` itself. Every other value — including `"0"` and `[]` — is **truthy**. This concept becomes essential once you reach conditionals in Lesson 8.
 
-[Previous](./[5]-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[7]-Operators-and-Expressions.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B7%5D-Operators-and-Expressions%20%281%29.md)

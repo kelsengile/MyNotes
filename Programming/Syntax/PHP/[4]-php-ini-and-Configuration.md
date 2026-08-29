@@ -1,4 +1,4 @@
-[Previous](./[3]-Composer-and-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[5]-Variables-and-Data-Types.md)
+[Previous](./[3]-Composer-and-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)
 
 *Getting Started*
 
@@ -49,4 +49,4 @@ This is handy for local debugging, but production settings should generally live
 
 ---
 
-[Previous](./[3]-Composer-and-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./[5]-Variables-and-Data-Types.md)
+[Previous](./[3]-Composer-and-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)

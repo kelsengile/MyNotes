@@ -1,4 +1,4 @@
-[Previous](./[14]-Constraints-and-Data-Integrity.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Views.md)
+[Previous](./[14]-Constraints-and-Data-Integrity.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[16]-Views.md)
 
 # Lesson 15 - ER Modeling, Normalization & Schema Design
 
@@ -156,4 +156,4 @@ A common real-world pattern: keep the "source of truth" data normalized (e.g., i
 
 ---
 
-[Previous](./[14]-Constraints-and-Data-Integrity.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[16]-Views.md)
+[Previous](./[14]-Constraints-and-Data-Integrity.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[16]-Views.md)

@@ -1,4 +1,4 @@
-[Previous](./[45]-Cloud-Migration-Strategies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[47]-Cloud-Certifications-and-Career-Paths.md)
+[Previous](./[45]-Cloud-Migration-Strategies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[47]-Cloud-Certifications-and-Career-Paths.md)
 
 *Best Practices*
 
@@ -31,4 +31,4 @@ Architecture isn't a one-time decision — well-architected systems are reviewed
 
 ---
 
-[Previous](./[45]-Cloud-Migration-Strategies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[47]-Cloud-Certifications-and-Career-Paths.md)
+[Previous](./[45]-Cloud-Migration-Strategies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[47]-Cloud-Certifications-and-Career-Paths.md)

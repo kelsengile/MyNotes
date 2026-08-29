@@ -1,4 +1,4 @@
-[Previous](./[29]-Blue-Green-and-Canary-Deployments.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[31]-Distributed-Tracing.md)
+[Previous](./[29]-Blue-Green-and-Canary-Deployments.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[31]-Distributed-Tracing.md)
 
 *Monitoring & Observability*
 
@@ -22,4 +22,4 @@ Each application instance produces logs, but with many ephemeral instances, logs
 
 ---
 
-[Previous](./[29]-Blue-Green-and-Canary-Deployments.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[31]-Distributed-Tracing.md)
+[Previous](./[29]-Blue-Green-and-Canary-Deployments.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[31]-Distributed-Tracing.md)

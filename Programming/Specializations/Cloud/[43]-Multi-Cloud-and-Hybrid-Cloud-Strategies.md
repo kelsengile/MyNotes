@@ -1,4 +1,4 @@
-[Previous](./[42]-Resource-Tagging-and-Governance.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[44]-Disaster-Recovery-and-High-Availability.md)
+[Previous](./[42]-Resource-Tagging-and-Governance.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[44]-Disaster-Recovery-and-High-Availability.md)
 
 *Multi-Cloud & Advanced Topics*
 
@@ -30,4 +30,4 @@ Most organizations start on a single cloud provider and only adopt multi-cloud o
 
 ---
 
-[Previous](./[42]-Resource-Tagging-and-Governance.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[44]-Disaster-Recovery-and-High-Availability.md)
+[Previous](./[42]-Resource-Tagging-and-Governance.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[44]-Disaster-Recovery-and-High-Availability.md)

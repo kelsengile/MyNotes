@@ -1,4 +1,4 @@
-[Previous](./[14]-Submodules.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[16]-Blame-And-Bisect.md)
+[Previous](./[14]-Submodules.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B16%5D-Blame-and-Bisect.md)
 
 # Lesson 15 - Hooks
 
@@ -141,4 +141,4 @@ git push --no-verify
 
 ---
 
-[Previous](./[14]-Submodules.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[16]-Blame-And-Bisect.md)
+[Previous](./[14]-Submodules.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B16%5D-Blame-and-Bisect.md)

@@ -1,4 +1,4 @@
-[Previous](./[37]-Event-Driven-Architecture-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[39]-Building-a-Serverless-API.md)
+[Previous](./[37]-Event-Driven-Architecture-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[39]-Building-a-Serverless-API.md)
 
 *Serverless & Event-Driven Architecture*
 
@@ -27,4 +27,4 @@ Managed messaging services also provide features like **dead-letter queues** (ho
 
 ---
 
-[Previous](./[37]-Event-Driven-Architecture-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[39]-Building-a-Serverless-API.md)
+[Previous](./[37]-Event-Driven-Architecture-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[39]-Building-a-Serverless-API.md)

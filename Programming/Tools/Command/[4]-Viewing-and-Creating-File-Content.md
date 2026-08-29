@@ -1,4 +1,4 @@
-[Previous](./[3]-Managing-Files-And-Folders.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[5]-Redirection-And-Piping.md)
+[Previous](./%5B3%5D-Managing-Files-and-Folders.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B5%5D-Redirection-and-Piping.md)
 
 # Lesson 4 - Viewing and Creating File Content
 
@@ -59,4 +59,4 @@ If `notes.txt` doesn't exist yet, Notepad will offer to create it.
 
 ---
 
-[Previous](./[3]-Managing-Files-And-Folders.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[5]-Redirection-And-Piping.md)
+[Previous](./%5B3%5D-Managing-Files-and-Folders.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B5%5D-Redirection-and-Piping.md)

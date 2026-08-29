@@ -1,4 +1,4 @@
-[Previous](./[9]-Networking-Commands.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[11]-User-And-Permissions-Basics.md)
+[Previous](./[9]-Networking-Commands.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B11%5D-User-and-Permissions-Basics.md)
 
 # Lesson 10 - Disk and Drive Management
 
@@ -57,4 +57,4 @@ Opens a separate, more powerful tool for partitioning disks. Once inside, common
 
 ---
 
-[Previous](./[9]-Networking-Commands.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[11]-User-And-Permissions-Basics.md)
+[Previous](./[9]-Networking-Commands.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B11%5D-User-and-Permissions-Basics.md)

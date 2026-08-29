@@ -1,4 +1,4 @@
-[Previous](./[33]-Cloud-Security-Fundamentals.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[35]-Secrets-Management.md)
+[Previous](./[33]-Cloud-Security-Fundamentals.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[35]-Secrets-Management.md)
 
 *Security*
 
@@ -27,4 +27,4 @@ Regular **key rotation** (periodically replacing keys) limits the impact if a ke
 
 ---
 
-[Previous](./[33]-Cloud-Security-Fundamentals.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[35]-Secrets-Management.md)
+[Previous](./[33]-Cloud-Security-Fundamentals.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[35]-Secrets-Management.md)

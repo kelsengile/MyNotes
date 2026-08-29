@@ -1,4 +1,4 @@
-[Previous](./[7]-Operators-and-Expressions.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[9]-Loops.md)
+[Previous](./%5B7%5D-Operators-and-Expressions%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B9%5D-Loops%20%281%29.md)
 
 *Core Syntax*
 
@@ -114,4 +114,4 @@ console.log(getFee(30)); // "$10"
 
 Avoid chaining multiple ternaries together (`a ? b : c ? d : e`) — it quickly becomes hard to read. Use `if / else if` for anything beyond one simple choice.
 
-[Previous](./[7]-Operators-and-Expressions.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[9]-Loops.md)
+[Previous](./%5B7%5D-Operators-and-Expressions%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B9%5D-Loops%20%281%29.md)

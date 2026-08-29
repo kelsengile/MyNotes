@@ -1,4 +1,4 @@
-[Previous](./[32]-Alerting-and-Incident-Response.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[34]-Encryption-at-Rest-and-in-Transit.md)
+[Previous](./[32]-Alerting-and-Incident-Response.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[34]-Encryption-at-Rest-and-in-Transit.md)
 
 *Security*
 
@@ -36,4 +36,4 @@ Foundational practices to defend against these threats:
 
 ---
 
-[Previous](./[32]-Alerting-and-Incident-Response.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[34]-Encryption-at-Rest-and-in-Transit.md)
+[Previous](./[32]-Alerting-and-Incident-Response.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[34]-Encryption-at-Rest-and-in-Transit.md)

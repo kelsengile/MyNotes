@@ -1,4 +1,4 @@
-[Previous](./[17]-DNS-and-Domain-Management.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[19]-API-Gateways.md)
+[Previous](./[17]-DNS-and-Domain-Management.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[19]-API-Gateways.md)
 
 *Networking & Content Delivery*
 
@@ -30,4 +30,4 @@ Because a CDN reduces both latency and origin load, it's one of the highest-leve
 
 ---
 
-[Previous](./[17]-DNS-and-Domain-Management.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[19]-API-Gateways.md)
+[Previous](./[17]-DNS-and-Domain-Management.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[19]-API-Gateways.md)

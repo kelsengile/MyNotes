@@ -1,4 +1,4 @@
-[Previous](./[20]-Window-Functions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[22]-Triggers.md)
+[Previous](./[20]-Window-Functions.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[22]-Triggers.md)
 
 # Lesson 21 - Stored Procedures & Functions
 
@@ -157,4 +157,4 @@ DROP PROCEDURE apply_discount(TEXT, DECIMAL);
 
 ---
 
-[Previous](./[20]-Window-Functions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[22]-Triggers.md)
+[Previous](./[20]-Window-Functions.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[22]-Triggers.md)

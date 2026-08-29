@@ -1,4 +1,4 @@
-[Previous](./[12]-Error-Handling.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[14]-Objects-and-Object-Methods.md)
+[Previous](./%5B12%5D-Error-Handling%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[14]-Objects-and-Object-Methods.md)
 
 *Data Structures*
 
@@ -144,4 +144,4 @@ flat.flat();             // [1, 2, 3, 4, [5, 6]]  — flattens one level
 flat.flat(Infinity);     // [1, 2, 3, 4, 5, 6]     — flattens completely
 ```
 
-[Previous](./[12]-Error-Handling.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[14]-Objects-and-Object-Methods.md)
+[Previous](./%5B12%5D-Error-Handling%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[14]-Objects-and-Object-Methods.md)

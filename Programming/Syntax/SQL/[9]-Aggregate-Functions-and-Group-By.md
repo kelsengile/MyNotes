@@ -1,4 +1,4 @@
-[Previous](./[8]-Functions-and-CASE-Expressions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Set-Operations.md)
+[Previous](./[8]-Functions-and-CASE-Expressions.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[10]-Set-Operations.md)
 
 # Lesson 9 - Aggregate Functions & GROUP BY
 
@@ -147,4 +147,4 @@ ORDER BY avg_price DESC;
 
 ---
 
-[Previous](./[8]-Functions-and-CASE-Expressions.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[10]-Set-Operations.md)
+[Previous](./[8]-Functions-and-CASE-Expressions.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[10]-Set-Operations.md)

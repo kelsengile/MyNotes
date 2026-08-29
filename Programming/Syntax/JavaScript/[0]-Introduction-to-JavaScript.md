@@ -1,5 +1,7 @@
 # JavaScript
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning JavaScript, the dynamic, multi-paradigm programming language of the web — running in every browser and, via Node.js, on servers, desktops, and mobile devices too.
 
 ---
@@ -27,14 +29,14 @@ JavaScript lets you:
     4. **[Package Management (npm, yarn, pnpm) & package.json](./[4]-Package-Management.md)**  
 
 **Core Syntax**  
-    5. **[Variables & Data Types (var, let, const, typeof)](./[5]-Variables-and-Data-Types.md)**  
-    6. **[Numbers, Strings & Booleans](./[6]-Numbers-Strings-and-Booleans.md)**  
-    7. **[Operators & Expressions (arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining)](./[7]-Operators-and-Expressions.md)**  
-    8. **[Conditionals: if, else if, else, switch](./[8]-Conditionals.md)**  
-    9. **[Loops: for, while, do-while, for...in, for...of, break, continue](./[9]-Loops.md)**  
-    10. **[Functions & Scope (declarations, expressions, arrow functions, hoisting, closures)](./[10]-Functions-and-Scope.md)**  
+    5. **[Variables & Data Types (var, let, const, typeof)](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
+    6. **[Numbers, Strings & Booleans](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)**  
+    7. **[Operators & Expressions (arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining)](./%5B7%5D-Operators-and-Expressions%20%281%29.md)**  
+    8. **[Conditionals: if, else if, else, switch](./%5B8%5D-Conditionals%20%281%29.md)**  
+    9. **[Loops: for, while, do-while, for...in, for...of, break, continue](./%5B9%5D-Loops%20%281%29.md)**  
+    10. **[Functions & Scope (declarations, expressions, arrow functions, hoisting, closures)](./%5B10%5D-Functions-and-Scope%20%281%29.md)**  
     11. **[String Formatting & Manipulation (template literals, methods, regex basics)](./[11]-String-Formatting.md)**  
-    12. **[Error Handling: try, catch, finally, throw, custom errors](./[12]-Error-Handling.md)**  
+    12. **[Error Handling: try, catch, finally, throw, custom errors](./%5B12%5D-Error-Handling%20%281%29.md)**  
 
 **Data Structures**  
     13. **[Arrays & Array Methods (map, filter, reduce, and more)](./[13]-Arrays-and-Array-Methods.md)**  

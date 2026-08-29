@@ -1,4 +1,4 @@
-[Previous](./[2]-Choosing-a-Cloud-Provider.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md)
+[Previous](./[2]-Choosing-a-Cloud-Provider.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md)
 
 *Getting Started*
 
@@ -43,4 +43,4 @@ The CLI authenticates using credentials, most commonly an **access key ID** and 
 
 ---
 
-[Previous](./[2]-Choosing-a-Cloud-Provider.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md)
+[Previous](./[2]-Choosing-a-Cloud-Provider.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[4]-Regions-Availability-Zones-and-Global-Infrastructure.md)

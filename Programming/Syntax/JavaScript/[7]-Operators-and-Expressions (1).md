@@ -1,4 +1,4 @@
-[Previous](./[6]-Numbers-Strings-and-Booleans.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[8]-Conditionals.md)
+[Previous](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B8%5D-Conditionals%20%281%29.md)
 
 *Core Syntax*
 
@@ -121,4 +121,4 @@ These two are often combined:
 let city = user.address?.city ?? "Unknown";
 ```
 
-[Previous](./[6]-Numbers-Strings-and-Booleans.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[8]-Conditionals.md)
+[Previous](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B8%5D-Conditionals%20%281%29.md)

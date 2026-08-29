@@ -1,4 +1,4 @@
-[Previous](./[10]-Disk-And-Drive-Management.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[12]-Batch-Scripting-Basics.md)
+[Previous](./%5B10%5D-Disk-and-Drive-Management.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[12]-Batch-Scripting-Basics.md)
 
 # Lesson 11 - User and Permissions Basics
 
@@ -74,4 +74,4 @@ Account and permission commands can lock you out of your own system or grant uni
 
 ---
 
-[Previous](./[10]-Disk-And-Drive-Management.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[12]-Batch-Scripting-Basics.md)
+[Previous](./%5B10%5D-Disk-and-Drive-Management.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[12]-Batch-Scripting-Basics.md)

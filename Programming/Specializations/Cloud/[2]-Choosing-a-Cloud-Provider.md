@@ -1,4 +1,4 @@
-[Previous](./[1]-What-is-Cloud-Computing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[3]-Cloud-Environment-and-CLI-Tools.md)
+[Previous](./[1]-What-is-Cloud-Computing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[3]-Cloud-Environment-and-CLI-Tools.md)
 
 *Getting Started*
 
@@ -40,4 +40,4 @@ For learning purposes, AWS is the most common starting point due to its market s
 
 ---
 
-[Previous](./[1]-What-is-Cloud-Computing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[3]-Cloud-Environment-and-CLI-Tools.md)
+[Previous](./[1]-What-is-Cloud-Computing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[3]-Cloud-Environment-and-CLI-Tools.md)

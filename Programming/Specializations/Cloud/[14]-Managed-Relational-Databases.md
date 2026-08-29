@@ -1,4 +1,4 @@
-[Previous](./[13]-Storage-Classes-and-Lifecycle-Policies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[15]-Managed-NoSQL-Databases.md)
+[Previous](./[13]-Storage-Classes-and-Lifecycle-Policies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[15]-Managed-NoSQL-Databases.md)
 
 *Databases*
 
@@ -32,4 +32,4 @@ Enabling these features (especially automated backups and Multi-AZ) is considere
 
 ---
 
-[Previous](./[13]-Storage-Classes-and-Lifecycle-Policies.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[15]-Managed-NoSQL-Databases.md)
+[Previous](./[13]-Storage-Classes-and-Lifecycle-Policies.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[15]-Managed-NoSQL-Databases.md)

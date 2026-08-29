@@ -1,4 +1,4 @@
-[Previous](./[9]-Aggregate-Functions-and-Group-By.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Joins.md)
+[Previous](./[9]-Aggregate-Functions-and-Group-By.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[11]-Joins.md)
 
 # Lesson 10 - Set Operations — UNION, INTERSECT & EXCEPT
 
@@ -116,4 +116,4 @@ SELECT customer_id, name FROM archived_customers;
 
 ---
 
-[Previous](./[9]-Aggregate-Functions-and-Group-By.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[11]-Joins.md)
+[Previous](./[9]-Aggregate-Functions-and-Group-By.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[11]-Joins.md)

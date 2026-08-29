@@ -1,4 +1,4 @@
-[Previous](./[14]-Managed-Relational-Databases.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[16]-Caching-Services.md)
+[Previous](./[14]-Managed-Relational-Databases.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[16]-Caching-Services.md)
 
 *Databases*
 
@@ -33,4 +33,4 @@ NoSQL is generally a good fit when: your data doesn't naturally fit rigid tables
 
 ---
 
-[Previous](./[14]-Managed-Relational-Databases.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[16]-Caching-Services.md)
+[Previous](./[14]-Managed-Relational-Databases.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[16]-Caching-Services.md)

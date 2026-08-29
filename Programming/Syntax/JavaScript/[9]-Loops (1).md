@@ -1,4 +1,4 @@
-[Previous](./[8]-Conditionals.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[10]-Functions-and-Scope.md)
+[Previous](./%5B8%5D-Conditionals%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B10%5D-Functions-and-Scope%20%281%29.md)
 
 *Core Syntax*
 
@@ -117,4 +117,4 @@ for (let row = 1; row <= 2; row++) {
 
 Be mindful of performance: a loop nested inside another runs its inner body once for *every* iteration of the outer loop, so two loops of size 100 result in 10,000 total iterations.
 
-[Previous](./[8]-Conditionals.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[10]-Functions-and-Scope.md)
+[Previous](./%5B8%5D-Conditionals%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B10%5D-Functions-and-Scope%20%281%29.md)

@@ -1,4 +1,4 @@
-[Previous](./[9]-Loops.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[11]-String-Formatting.md)
+[Previous](./%5B9%5D-Loops%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[11]-String-Formatting.md)
 
 *Core Syntax*
 
@@ -142,4 +142,4 @@ console.log(counter()); // 3
 
 Each call to `counter()` still has access to `count`, even though `makeCounter()` already finished executing. Closures are the mechanism behind many patterns you'll use later, including data privacy in Lesson 21.
 
-[Previous](./[9]-Loops.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[11]-String-Formatting.md)
+[Previous](./%5B9%5D-Loops%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[11]-String-Formatting.md)

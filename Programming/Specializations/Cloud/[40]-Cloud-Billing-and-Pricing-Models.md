@@ -1,4 +1,4 @@
-[Previous](./[39]-Building-a-Serverless-API.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[41]-Cost-Optimization-Strategies.md)
+[Previous](./[39]-Building-a-Serverless-API.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[41]-Cost-Optimization-Strategies.md)
 
 *Cost & Optimization*
 
@@ -33,4 +33,4 @@ All three major providers offer a **free tier** — a set of services usable at 
 
 ---
 
-[Previous](./[39]-Building-a-Serverless-API.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[41]-Cost-Optimization-Strategies.md)
+[Previous](./[39]-Building-a-Serverless-API.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[41]-Cost-Optimization-Strategies.md)

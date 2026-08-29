@@ -1,4 +1,4 @@
-[Previous](./[5]-Merging-And-Conflicts.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[7]-Undoing-And-Rewriting-History.md)
+[Previous](./%5B5%5D-Merging-and-Conflicts.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B7%5D-Undoing-and-Rewriting-History.md)
 
 # Lesson 6 - Working With Remotes, Pushing And Pulling
 
@@ -156,4 +156,4 @@ git merge upstream/main
 
 ---
 
-[Previous](./[5]-Merging-And-Conflicts.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./[7]-Undoing-And-Rewriting-History.md)
+[Previous](./%5B5%5D-Merging-and-Conflicts.md) | [Table of Contents](./[0]-Introduction-to-Git.md) | [Next](./%5B7%5D-Undoing-and-Rewriting-History.md)

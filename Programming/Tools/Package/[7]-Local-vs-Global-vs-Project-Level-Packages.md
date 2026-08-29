@@ -1,4 +1,4 @@
-[Previous](./[6]-Lockfiles-And-Reproducible-Installs.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[8]-Package-Registries.md)
+[Previous](./%5B6%5D-Lockfiles-and-Reproducible-Installs.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[8]-Package-Registries.md)
 
 ---
 
@@ -72,4 +72,4 @@ Even dev tools (linters, test runners, build scripts) are usually best installed
 
 ---
 
-[Previous](./[6]-Lockfiles-And-Reproducible-Installs.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[8]-Package-Registries.md)
+[Previous](./%5B6%5D-Lockfiles-and-Reproducible-Installs.md) | [Table of Contents](./[0]-Introduction-to-Package.md) | [Next](./[8]-Package-Registries.md)

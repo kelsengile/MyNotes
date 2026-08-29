@@ -1,4 +1,4 @@
-[Previous](./[21]-Terraform-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[23]-Docker-Fundamentals.md)
+[Previous](./[21]-Terraform-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[23]-Docker-Fundamentals.md)
 
 *Infrastructure as Code*
 
@@ -41,4 +41,4 @@ Google Cloud's native IaC option, **Deployment Manager**, uses YAML templates (o
 
 ---
 
-[Previous](./[21]-Terraform-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[23]-Docker-Fundamentals.md)
+[Previous](./[21]-Terraform-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[23]-Docker-Fundamentals.md)

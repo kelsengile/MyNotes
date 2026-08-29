@@ -1,4 +1,4 @@
-[Previous](./[7]-Virtual-Machines-and-Instances.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[9]-Serverless-Computing.md)
+[Previous](./[7]-Virtual-Machines-and-Instances.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[9]-Serverless-Computing.md)
 
 *Compute*
 
@@ -30,4 +30,4 @@ Running one container is easy; running hundreds of containers across many machin
 
 ---
 
-[Previous](./[7]-Virtual-Machines-and-Instances.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[9]-Serverless-Computing.md)
+[Previous](./[7]-Virtual-Machines-and-Instances.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[9]-Serverless-Computing.md)

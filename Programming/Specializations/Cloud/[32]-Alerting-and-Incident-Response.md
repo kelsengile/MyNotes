@@ -1,4 +1,4 @@
-[Previous](./[31]-Distributed-Tracing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[33]-Cloud-Security-Fundamentals.md)
+[Previous](./[31]-Distributed-Tracing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[33]-Cloud-Security-Fundamentals.md)
 
 *Monitoring & Observability*
 
@@ -29,4 +29,4 @@ After an incident is resolved, a **postmortem** (or "retrospective") documents w
 
 ---
 
-[Previous](./[31]-Distributed-Tracing.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[33]-Cloud-Security-Fundamentals.md)
+[Previous](./[31]-Distributed-Tracing.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[33]-Cloud-Security-Fundamentals.md)

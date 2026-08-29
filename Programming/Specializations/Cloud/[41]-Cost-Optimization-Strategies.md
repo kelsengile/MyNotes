@@ -1,4 +1,4 @@
-[Previous](./[40]-Cloud-Billing-and-Pricing-Models.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[42]-Resource-Tagging-and-Governance.md)
+[Previous](./[40]-Cloud-Billing-and-Pricing-Models.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[42]-Resource-Tagging-and-Governance.md)
 
 *Cost & Optimization*
 
@@ -36,4 +36,4 @@ Regular cost reviews, combined with good tagging (Lesson 42) to identify resourc
 
 ---
 
-[Previous](./[40]-Cloud-Billing-and-Pricing-Models.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[42]-Resource-Tagging-and-Governance.md)
+[Previous](./[40]-Cloud-Billing-and-Pricing-Models.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[42]-Resource-Tagging-and-Governance.md)

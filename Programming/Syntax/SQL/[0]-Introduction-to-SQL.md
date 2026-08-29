@@ -1,5 +1,7 @@
 # SQL - Structured Query Language
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning SQL, the standard language used to store, query, and manage data in relational databases.
 
 ---

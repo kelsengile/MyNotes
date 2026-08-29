@@ -93,7 +93,7 @@ refactor: extract validation logic into helper
 ## 9.7 General Tips
 
 - **Never force-push to shared branches** without team agreement — use `--force-with-lease` if you must.
-- **Tag releases** so you can always find and reproduce a specific shipped version (see [Tags & Cherry-Picking](./[12]-Tags-And-Cherry-Picking.md)).
+- **Tag releases** so you can always find and reproduce a specific shipped version (see [Tags & Cherry-Picking](./%5B12%5D-Tags-and-Cherry-Picking.md)).
 - **Use `.gitattributes`** for consistent line endings across OSes:
   ```
   * text=auto

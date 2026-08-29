@@ -1,5 +1,7 @@
 # C#
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning C#, a modern, object-oriented language from Microsoft used for web apps, desktop software, games, cloud services, and more via the .NET platform.
 
 ---

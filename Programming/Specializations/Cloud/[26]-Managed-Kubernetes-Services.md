@@ -1,4 +1,4 @@
-[Previous](./[25]-Kubernetes-Fundamentals.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[27]-CI-CD-Pipelines-in-the-Cloud.md)
+[Previous](./[25]-Kubernetes-Fundamentals.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[27]-CI-CD-Pipelines-in-the-Cloud.md)
 
 *Containers & Orchestration*
 
@@ -32,4 +32,4 @@ For learning Kubernetes concepts, all three are functionally equivalent; the und
 
 ---
 
-[Previous](./[25]-Kubernetes-Fundamentals.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[27]-CI-CD-Pipelines-in-the-Cloud.md)
+[Previous](./[25]-Kubernetes-Fundamentals.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[27]-CI-CD-Pipelines-in-the-Cloud.md)

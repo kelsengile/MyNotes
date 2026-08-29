@@ -1,4 +1,4 @@
-[Previous](./[36]-Compliance-and-Shared-Responsibility-Model.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[38]-Message-Queues-and-Pub-Sub.md)
+[Previous](./[36]-Compliance-and-Shared-Responsibility-Model.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[38]-Message-Queues-and-Pub-Sub.md)
 
 *Serverless & Event-Driven Architecture*
 
@@ -34,4 +34,4 @@ Producers don't need to know who (or how many services) will consume their event
 
 ---
 
-[Previous](./[36]-Compliance-and-Shared-Responsibility-Model.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[38]-Message-Queues-and-Pub-Sub.md)
+[Previous](./[36]-Compliance-and-Shared-Responsibility-Model.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[38]-Message-Queues-and-Pub-Sub.md)

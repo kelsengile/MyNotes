@@ -1,4 +1,4 @@
-[Previous](./[24]-Importing-and-Exporting-Data.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[26]-Query-Optimization.md)
+[Previous](./[24]-Importing-and-Exporting-Data.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[26]-Query-Optimization.md)
 
 # Lesson 25 - SQL Dialects — PostgreSQL, MySQL, SQLite & SQL Server
 
@@ -130,4 +130,4 @@ SQL is governed by an ANSI/ISO standard, but the standard leaves many behaviors 
 
 ---
 
-[Previous](./[24]-Importing-and-Exporting-Data.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[26]-Query-Optimization.md)
+[Previous](./[24]-Importing-and-Exporting-Data.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[26]-Query-Optimization.md)

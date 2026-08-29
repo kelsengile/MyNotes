@@ -1,4 +1,4 @@
-[Previous](./[26]-Managed-Kubernetes-Services.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[28]-Build-and-Deployment-Automation.md)
+[Previous](./[26]-Managed-Kubernetes-Services.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[28]-Build-and-Deployment-Automation.md)
 
 *CI/CD & DevOps*
 
@@ -48,4 +48,4 @@ jobs:
 
 ---
 
-[Previous](./[26]-Managed-Kubernetes-Services.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[28]-Build-and-Deployment-Automation.md)
+[Previous](./[26]-Managed-Kubernetes-Services.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[28]-Build-and-Deployment-Automation.md)

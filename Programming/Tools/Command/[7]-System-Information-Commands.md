@@ -1,4 +1,4 @@
-[Previous](./[6]-Environment-Variables-And-PATH.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[8]-Process-And-Task-Management.md)
+[Previous](./%5B6%5D-Environment-Variables-and-PATH.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B8%5D-Process-and-Task-Management.md)
 
 # Lesson 7 - System Information Commands
 
@@ -66,4 +66,4 @@ Shows total size and free space for every drive letter.
 
 ---
 
-[Previous](./[6]-Environment-Variables-And-PATH.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./[8]-Process-And-Task-Management.md)
+[Previous](./%5B6%5D-Environment-Variables-and-PATH.md) | [Table of Contents](./[0]-Introduction-to-Command.md) | [Next](./%5B8%5D-Process-and-Task-Management.md)

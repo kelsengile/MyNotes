@@ -1,4 +1,4 @@
-[Previous](./[19]-API-Gateways.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[21]-Terraform-Basics.md)
+[Previous](./[19]-API-Gateways.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[21]-Terraform-Basics.md)
 
 *Infrastructure as Code*
 
@@ -34,4 +34,4 @@ Major tools include Terraform (multi-cloud, the most widely adopted general-purp
 
 ---
 
-[Previous](./[19]-API-Gateways.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[21]-Terraform-Basics.md)
+[Previous](./[19]-API-Gateways.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[21]-Terraform-Basics.md)

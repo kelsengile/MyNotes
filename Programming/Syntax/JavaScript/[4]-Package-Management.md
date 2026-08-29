@@ -1,4 +1,4 @@
-[Previous](./[3]-How-JavaScript-Works.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[5]-Variables-and-Data-Types.md)
+[Previous](./[3]-How-JavaScript-Works.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)
 
 *Getting Started*
 
@@ -84,4 +84,4 @@ npm ships with Node.js by default, but two popular alternatives solve similar pr
 
 All three read and understand `package.json`, so switching between them on an existing project is usually painless. This course uses npm in its examples, but the concepts transfer directly.
 
-[Previous](./[3]-How-JavaScript-Works.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[5]-Variables-and-Data-Types.md)
+[Previous](./[3]-How-JavaScript-Works.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)

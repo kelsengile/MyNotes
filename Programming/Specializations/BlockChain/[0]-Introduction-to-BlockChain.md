@@ -1,5 +1,7 @@
 # Blockchain Development
 
+[⬅ Back to README](../../../README.md)
+
 Welcome! This is a self-paced course for learning Blockchain Development, the practice of building decentralized systems, smart contracts, and applications on top of distributed ledgers.
 
 ---
@@ -21,12 +23,12 @@ Blockchain Development lets you:
 
 **Getting Started**  
     1. **[What is Blockchain? Core Concepts & History](./[1]-What-is-Blockchain.md)**  
-    2. **[Development Environment & Toolchains (Node, Hardhat/Foundry, Wallets)](./[2]-Development-Environment.md)**  
+    2. **[Development Environment & Toolchains (Node, Hardhat/Foundry, Wallets)](./%5B2%5D-Development-Environment%20%283%29.md)**  
     3. **[Anatomy of a Blockchain Project](./[3]-Anatomy-of-a-Blockchain-Project.md)**  
 
 **Core Syntax**  
-    4. **[Variables, Data Types & Operators](./[4]-Variables-and-Data-Types.md)**  
-    5. **[Control Flow: Conditionals & Loops](./[5]-Control-Flow.md)**  
+    4. **[Variables, Data Types & Operators](./%5B4%5D-Variables-and-Data-Types%20%281%29.md)**  
+    5. **[Control Flow: Conditionals & Loops](./%5B5%5D-Control-Flow%20%281%29.md)**  
     6. **[Functions & Modifiers](./[6]-Functions-and-Modifiers.md)**  
     7. **[Structs, Arrays & Mappings](./[7]-Structs-Arrays-and-Mappings.md)**  
 

@@ -1,4 +1,4 @@
-[Previous](./[3]-Filtering-and-Sorting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Creating-Tables.md)
+[Previous](./[3]-Filtering-and-Sorting.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[5]-Creating-Tables.md)
 
 # Lesson 4 - Data Types & Table Design
 
@@ -102,4 +102,4 @@ When designing a table, decide for each column: is it okay for this value to be 
 
 ---
 
-[Previous](./[3]-Filtering-and-Sorting.md) | [Table of Contents](./[0]-Introduction.md) | [Next](./[5]-Creating-Tables.md)
+[Previous](./[3]-Filtering-and-Sorting.md) | [Table of Contents](./%5B0%5D-Introduction-to-SQL.md) | [Next](./[5]-Creating-Tables.md)

@@ -1,4 +1,4 @@
-[Previous](./[6]-Cloud-Networking-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[8]-Containers-and-Orchestration-Basics.md)
+[Previous](./[6]-Cloud-Networking-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[8]-Containers-and-Orchestration-Basics.md)
 
 *Compute*
 
@@ -35,4 +35,4 @@ VM instances move through states you control: **launch** (create from an image),
 
 ---
 
-[Previous](./[6]-Cloud-Networking-Basics.md) | [Table of Contents](./[0]-Introduction-to-Cloud-Development.md) | [Next](./[8]-Containers-and-Orchestration-Basics.md)
+[Previous](./[6]-Cloud-Networking-Basics.md) | [Table of Contents](./%5B0%5D-Introduction.-to-Cloud-Development.md) | [Next](./[8]-Containers-and-Orchestration-Basics.md)
