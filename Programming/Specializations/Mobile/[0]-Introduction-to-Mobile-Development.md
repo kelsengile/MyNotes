@@ -1,6 +1,6 @@
-# Mobile Development
-
 [⬅ Back to README](../../../README.md)
+
+# Mobile Development
 
 Welcome! This is a self-paced course for learning Mobile Development, the practice of building apps that run on phones and tablets, whether natively per-platform or across platforms with a shared codebase.
 

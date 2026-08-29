@@ -1,6 +1,6 @@
-# Web Development
-
 [⬅ Back to README](../../../README.md)
+
+# Web Development
 
 Welcome! This is a self-paced course for learning Web Development, the practice of building websites and web applications that run in a browser and, often, talk to a server behind the scenes.
 

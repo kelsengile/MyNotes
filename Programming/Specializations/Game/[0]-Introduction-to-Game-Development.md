@@ -1,6 +1,6 @@
-# Game Development
-
 [⬅ Back to README](../../../README.md)
+
+# Game Development
 
 Welcome! This is a self-paced course for learning Game Development, the practice of designing and building interactive games using modern engines, from small 2D prototypes to full 3D, multiplayer experiences.
 
