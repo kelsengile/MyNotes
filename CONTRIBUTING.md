@@ -4,6 +4,17 @@ Thanks for your interest in contributing! This repository is for **educational p
 
 ```
 MyNotes/
+├── 📁 Computer Science
+│   ├── 📁 Data Structures & Alogorithms
+|   |    ├── 📁 Alogorithms
+|   |    ├── 📁 Complexity
+|   |    ├── 📁 Data Structures
+|   |    └── 📁 Fundamentals
+│   └── 📁 Math
+|        ├── 📁 Algebra
+|        ├── 📁 Calculus
+|        ├── 📁 Discrete
+|        └── 📁 Statistics
 ├── 📁 Programmming
 │   ├── 📁 Fundamentals
 │   ├── 📁 Specializations
