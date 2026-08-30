@@ -23,159 +23,163 @@ JavaScript lets you:
 ## Table of Contents
 
 **Getting Started**  
-    1. **[Installing Node.js, npm & First-Time Setup](./[1]-Installation-and-Setup.md)**  
-       1.1 What Is Node.js And Why You Need It  
-       1.2 Installing Node.js  
-       1.3 Verifying Your Installation  
-       1.4 Choosing A Code Editor  
-       1.5 Your First Script File  
-    2. **[Running Code: Browser Console, Node REPL & Script Files](./[2]-Running-JavaScript-Code.md)**  
-       2.1 The Browser Console  
-       2.2 The Node REPL  
-       2.3 Running Script Files  
-       2.4 Running Code In A Browser Page  
-       2.5 Comments  
-    3. **[How JavaScript Works: the Engine, Call Stack & Event Loop](./[3]-How-JavaScript-Works.md)**  
-       3.1 The JavaScript Engine  
-       3.2 JavaScript Is Single-Threaded  
-       3.3 The Call Stack  
-       3.4 The Event Loop (A First Look)  
-       3.5 Interpreted, Then Compiled  
-    4. **[Package Management (npm, yarn, pnpm) & package.json](./[4]-Package-Management.md)**  
-       4.1 What Is A Package?  
-       4.2 Initializing A Project With package.json  
-       4.3 Installing Packages  
-       4.4 Using An Installed Package  
-       4.5 package-lock.json And Reproducible Installs  
-       4.6 Alternative Package Managers: Yarn And pnpm  
+
+1. **[Installing Node.js, npm & First-Time Setup](./[1]-Installation-and-Setup.md)**  
+    1.1 What Is Node.js And Why You Need It  
+    1.2 Installing Node.js  
+    1.3 Verifying Your Installation  
+    1.4 Choosing A Code Editor  
+    1.5 Your First Script File  
+2. **[Running Code: Browser Console, Node REPL & Script Files](./[2]-Running-JavaScript-Code.md)**  
+    2.1 The Browser Console  
+    2.2 The Node REPL  
+    2.3 Running Script Files  
+    2.4 Running Code In A Browser Page  
+    2.5 Comments  
+3. **[How JavaScript Works: the Engine, Call Stack & Event Loop](./[3]-How-JavaScript-Works.md)**  
+    3.1 The JavaScript Engine  
+    3.2 JavaScript Is Single-Threaded  
+    3.3 The Call Stack  
+    3.4 The Event Loop (A First Look)  
+    3.5 Interpreted, Then Compiled  
+4. **[Package Management (npm, yarn, pnpm) & package.json](./[4]-Package-Management.md)**  
+    4.1 What Is A Package?  
+    4.2 Initializing A Project With package.json  
+    4.3 Installing Packages  
+    4.4 Using An Installed Package  
+    4.5 package-lock.json And Reproducible Installs  
+    4.6 Alternative Package Managers: Yarn And pnpm  
 
 **Core Syntax**  
-    5. **[Variables & Data Types (var, let, const, typeof)](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
-       5.1 Declaring Variables: let, const, var  
-       5.2 Naming Rules And Conventions  
-       5.3 The Primitive Data Types  
-       5.4 undefined vs. null  
-       5.5 Checking A Type With typeof  
-    6. **[Numbers, Strings & Booleans](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)**  
-       6.1 Numbers  
-       6.2 Strings  
-       6.3 Booleans  
-       6.4 Type Coercion  
-       6.5 Explicit Type Conversion  
-    7. **[Operators & Expressions (arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining)](./%5B7%5D-Operators-and-Expressions%20%281%29.md)**  
-       7.1 Arithmetic Operators  
-       7.2 Assignment Operators  
-       7.3 Comparison Operators  
-       7.4 Logical Operators  
-       7.5 Ternary Operator  
-       7.6 Nullish Coalescing And Optional Chaining  
-    8. **[Conditionals: if, else if, else, switch](./%5B8%5D-Conditionals%20%281%29.md)**  
-       8.1 if, else if, else  
-       8.2 Truthy And Falsy In Conditions  
-       8.3 The switch Statement  
-       8.4 Nesting And Combining Conditions  
-       8.5 The Ternary Operator As A Compact Conditional  
-    9. **[Loops: for, while, do-while, for...in, for...of, break, continue](./%5B9%5D-Loops%20%281%29.md)**  
-       9.1 The for Loop  
-       9.2 The while And do-while Loops  
-       9.3 for...of — Looping Over Values  
-       9.4 for...in — Looping Over Keys  
-       9.5 break And continue  
-       9.6 Nested Loops  
-    10. **[Functions & Scope (declarations, expressions, arrow functions, hoisting, closures)](./%5B10%5D-Functions-and-Scope%20%281%29.md)**  
-        10.1 Function Declarations  
-        10.2 Function Expressions And Arrow Functions  
-        10.3 Default And Rest Parameters  
-        10.4 Hoisting  
-        10.5 Scope: Where Variables Live  
-        10.6 Closures  
-    11. **[String Formatting & Manipulation (template literals, methods, regex basics)](./[11]-String-Formatting.md)**  
-        11.1 Template Literals  
-        11.2 Common String Methods  
-        11.3 Slicing And Splitting  
-        11.4 Joining Strings  
-        11.5 Regex Basics  
-    12. **[Error Handling: try, catch, finally, throw, custom errors](./%5B12%5D-Error-Handling%20%281%29.md)**  
-        12.1 What Happens When Code Throws  
-        12.2 try, catch, finally  
-        12.3 The throw Statement  
-        12.4 Built-in Error Types  
-        12.5 Custom Error Classes  
+
+5. **[Variables & Data Types (var, let, const, typeof)](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
+    5.1 Declaring Variables: let, const, var  
+    5.2 Naming Rules And Conventions  
+    5.3 The Primitive Data Types  
+    5.4 undefined vs. null  
+    5.5 Checking A Type With typeof  
+6. **[Numbers, Strings & Booleans](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)**  
+    6.1 Numbers  
+    6.2 Strings  
+    6.3 Booleans  
+    6.4 Type Coercion  
+    6.5 Explicit Type Conversion  
+7. **[Operators & Expressions (arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining)](./%5B7%5D-Operators-and-Expressions%20%281%29.md)**  
+    7.1 Arithmetic Operators  
+    7.2 Assignment Operators  
+    7.3 Comparison Operators  
+    7.4 Logical Operators  
+    7.5 Ternary Operator  
+    7.6 Nullish Coalescing And Optional Chaining  
+8. **[Conditionals: if, else if, else, switch](./%5B8%5D-Conditionals%20%281%29.md)**  
+    8.1 if, else if, else  
+    8.2 Truthy And Falsy In Conditions  
+    8.3 The switch Statement  
+    8.4 Nesting And Combining Conditions  
+    8.5 The Ternary Operator As A Compact Conditional  
+9. **[Loops: for, while, do-while, for...in, for...of, break, continue](./%5B9%5D-Loops%20%281%29.md)**  
+    9.1 The for Loop  
+    9.2 The while And do-while Loops  
+    9.3 for...of — Looping Over Values  
+    9.4 for...in — Looping Over Keys  
+    9.5 break And continue  
+    9.6 Nested Loops  
+10. **[Functions & Scope (declarations, expressions, arrow functions, hoisting, closures)](./%5B10%5D-Functions-and-Scope%20%281%29.md)**  
+    10.1 Function Declarations  
+    10.2 Function Expressions And Arrow Functions  
+    10.3 Default And Rest Parameters  
+    10.4 Hoisting  
+    10.5 Scope: Where Variables Live  
+    10.6 Closures  
+11. **[String Formatting & Manipulation (template literals, methods, regex basics)](./[11]-String-Formatting.md)**  
+    11.1 Template Literals  
+    11.2 Common String Methods  
+    11.3 Slicing And Splitting  
+    11.4 Joining Strings  
+    11.5 Regex Basics  
+12. **[Error Handling: try, catch, finally, throw, custom errors](./%5B12%5D-Error-Handling%20%281%29.md)**  
+    12.1 What Happens When Code Throws  
+    12.2 try, catch, finally  
+    12.3 The throw Statement  
+    12.4 Built-in Error Types  
+    12.5 Custom Error Classes  
 
 **Data Structures**  
-    13. **[Arrays & Array Methods (map, filter, reduce, and more)](./[13]-Arrays-and-Array-Methods.md)**  
-        13.1 Creating And Accessing Arrays  
-        13.2 Adding And Removing Items  
-        13.3 Finding And Checking Items  
-        13.4 Transforming Arrays: map, filter, reduce  
-        13.5 Iterating: forEach vs. for...of  
-        13.6 Sorting And Reversing  
-        13.7 Other Useful Methods  
-    14. **[Objects & Object Methods](./[14]-Objects-and-Object-Methods.md)**  
-        14.1 Creating And Accessing Objects  
-        14.2 Adding, Updating, And Deleting Properties  
-        14.3 Methods: Functions Inside Objects  
-        14.4 Nested Objects  
-        14.5 Checking Properties  
-        14.6 Useful Object Static Methods  
-        14.7 Shorthand Property And Method Syntax  
-    15. **[Destructuring, Spread & Rest Operators](./[15]-Destructuring-Spread-and-Rest.md)**  
-        15.1 Array Destructuring  
-        15.2 Object Destructuring  
-        15.3 The Spread Operator (...)  
-        15.4 The Rest Parameter (...)  
-    16. **[Sets & Maps (Set, Map, WeakSet, WeakMap)](./[16]-Sets-and-Maps.md)**  
-        16.1 What Is A Set?  
-        16.2 Iterating A Set  
-        16.3 What Is A Map?  
-        16.4 Iterating A Map  
-        16.5 Map vs. Plain Object  
-        16.6 WeakSet And WeakMap  
-    17. **[JSON: Parsing & Stringifying](./[17]-JSON.md)**  
-        17.1 What Is JSON?  
-        17.2 Converting A JavaScript Value To JSON  
-        17.3 Converting JSON Back To A JavaScript Value  
-        17.4 Deep Cloning With JSON  
-        17.5 Where JSON Is Used  
+
+13. **[Arrays & Array Methods (map, filter, reduce, and more)](./[13]-Arrays-and-Array-Methods.md)**  
+    13.1 Creating And Accessing Arrays  
+    13.2 Adding And Removing Items  
+    13.3 Finding And Checking Items  
+    13.4 Transforming Arrays: map, filter, reduce  
+    13.5 Iterating: forEach vs. for...of  
+    13.6 Sorting And Reversing  
+    13.7 Other Useful Methods  
+14. **[Objects & Object Methods](./[14]-Objects-and-Object-Methods.md)**  
+    14.1 Creating And Accessing Objects  
+    14.2 Adding, Updating, And Deleting Properties  
+    14.3 Methods: Functions Inside Objects  
+    14.4 Nested Objects  
+    14.5 Checking Properties  
+    14.6 Useful Object Static Methods  
+    14.7 Shorthand Property And Method Syntax  
+15. **[Destructuring, Spread & Rest Operators](./[15]-Destructuring-Spread-and-Rest.md)**  
+    15.1 Array Destructuring  
+    15.2 Object Destructuring  
+    15.3 The Spread Operator (...)  
+    15.4 The Rest Parameter (...)  
+16. **[Sets & Maps (Set, Map, WeakSet, WeakMap)](./[16]-Sets-and-Maps.md)**  
+    16.1 What Is A Set?  
+    16.2 Iterating A Set  
+    16.3 What Is A Map?  
+    16.4 Iterating A Map  
+    16.5 Map vs. Plain Object  
+    16.6 WeakSet And WeakMap  
+17. **[JSON: Parsing & Stringifying](./[17]-JSON.md)**  
+    17.1 What Is JSON?  
+    17.2 Converting A JavaScript Value To JSON  
+    17.3 Converting JSON Back To A JavaScript Value  
+    17.4 Deep Cloning With JSON  
+    17.5 Where JSON Is Used  
 
 **Object-Oriented Programming**  
-    18. **[Classes & Objects](./[18]-OOP-Classes-and-Objects.md)**  
-        18.1 Why Object-Oriented Programming?  
-        18.2 Defining A Class  
-        18.3 Creating Instances  
-        18.4 Object Literals vs. Classes  
-        18.5 Methods Can Use Other Properties And Methods  
-        18.6 Class Fields (Properties Without A Constructor)  
-    19. **[Prototypes & Prototypal Inheritance](./[19]-Prototypes-and-Prototypal-Inheritance.md)**  
-        19.1 Classes Are "Syntactic Sugar"  
-        19.2 What Is A Prototype?  
-        19.3 How Classes Use Prototypes  
-        19.4 The Pre-Class Pattern: Constructor Functions  
-        19.5 Checking The Prototype Chain  
-    20. **[Inheritance & Polymorphism (`extends`, `super`)](./[20]-Inheritance-and-Polymorphism.md)**  
-        20.1 What Is Inheritance?  
-        20.2 The super Keyword  
-        20.3 Overriding Methods  
-        20.4 Polymorphism  
-        20.5 When To Use Inheritance  
-    21. **[Encapsulation (private fields, closures, getters/setters)](./[21]-Encapsulation.md)**  
-        21.1 What Is Encapsulation?  
-        21.2 Private Fields  
-        21.3 Private Methods  
-        21.4 Getters And Setters  
-        21.5 Encapsulation Through Closures (The Pre-# Pattern)  
-    22. **[Static Members & the `this` Keyword](./[22]-Static-Members-and-This.md)**  
-        22.1 Static Properties And Methods  
-        22.2 A Common Use: Factory Methods  
-        22.3 What `this` Refers To  
-        22.4 `this` Inside Regular Functions vs. Arrow Functions  
-        22.5 Explicitly Controlling `this`: call, apply, bind  
-    23. **[Mixins & Composition](./[23]-Mixins-and-Composition.md)**  
-        23.1 The Limits Of Single Inheritance  
-        23.2 What Is A Mixin?  
-        23.3 Composition Over Inheritance  
-        23.4 Composition With Object Spread  
-        23.5 Choosing Between Inheritance, Mixins, And Composition  
+
+18. **[Classes & Objects](./[18]-OOP-Classes-and-Objects.md)**  
+    18.1 Why Object-Oriented Programming?  
+    18.2 Defining A Class  
+    18.3 Creating Instances  
+    18.4 Object Literals vs. Classes  
+    18.5 Methods Can Use Other Properties And Methods  
+    18.6 Class Fields (Properties Without A Constructor)  
+19. **[Prototypes & Prototypal Inheritance](./[19]-Prototypes-and-Prototypal-Inheritance.md)**  
+    19.1 Classes Are "Syntactic Sugar"  
+    19.2 What Is A Prototype?  
+    19.3 How Classes Use Prototypes  
+    19.4 The Pre-Class Pattern: Constructor Functions  
+    19.5 Checking The Prototype Chain  
+20. **[Inheritance & Polymorphism (`extends`, `super`)](./[20]-Inheritance-and-Polymorphism.md)**  
+    20.1 What Is Inheritance?  
+    20.2 The super Keyword  
+    20.3 Overriding Methods  
+    20.4 Polymorphism  
+    20.5 When To Use Inheritance  
+21. **[Encapsulation (private fields, closures, getters/setters)](./[21]-Encapsulation.md)**  
+    21.1 What Is Encapsulation?  
+    21.2 Private Fields  
+    21.3 Private Methods  
+    21.4 Getters And Setters  
+    21.5 Encapsulation Through Closures (The Pre-# Pattern)  
+22. **[Static Members & the `this` Keyword](./[22]-Static-Members-and-This.md)**  
+    22.1 Static Properties And Methods  
+    22.2 A Common Use: Factory Methods  
+    22.3 What `this` Refers To  
+    22.4 `this` Inside Regular Functions vs. Arrow Functions  
+    22.5 Explicitly Controlling `this`: call, apply, bind  
+23. **[Mixins & Composition](./[23]-Mixins-and-Composition.md)**  
+    23.1 The Limits Of Single Inheritance  
+    23.2 What Is A Mixin?  
+    23.3 Composition Over Inheritance  
+    23.4 Composition With Object Spread  
+    23.5 Choosing Between Inheritance, Mixins, And Composition  
 
 **Asynchronous JavaScript**  
     24. **[Callbacks & the Callback Pattern](./[24]-Callbacks.md)**  
