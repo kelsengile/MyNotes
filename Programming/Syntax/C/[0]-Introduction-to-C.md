@@ -24,25 +24,103 @@ C lets you:
 
 **Getting Started**  
     1. **[Installing a C Toolchain (GCC, Clang, MSVC)](./[1]-Installation-and-Setup.md)**  
+       1.1 What Is a Toolchain?  
+       1.2 Installing GCC (Linux / macOS)  
+       1.3 Installing Clang  
+       1.4 Installing MSVC (Windows)  
+       1.5 Verifying Your Installation  
     2. **[Compiling & Running: Compilers, Linkers & Makefiles](./[2]-Compiling-and-Running.md)**  
+       2.1 From Source Code to Executable  
+       2.2 Compiling a Single File  
+       2.3 The Linker and Multiple Files  
+       2.4 Introduction to Makefiles  
+       2.5 Common Compiler Flags  
     3. **[Your Development Environment (editors, debuggers, `-Wall -Wextra`)](./[3]-Development-Environment.md)**  
+       3.1 Choosing an Editor or IDE  
+       3.2 Setting Up a Debugger  
+       3.3 Compiler Warnings: -Wall and -Wextra  
+       3.4 A Recommended Project Layout  
 
 **Core Syntax**  
     4. **[Variables & Basic Data Types](./[4]-Variables-and-Data-Types.md)**  
+       4.1 What Is a Variable?  
+       4.2 Declaring and Initializing Variables  
+       4.3 Basic Data Types Overview  
+       4.4 Constants  
+       4.5 Naming Conventions  
     5. **[Integers, Floats, Chars & Type Sizes](./[5]-Numbers-and-Characters.md)**  
+       5.1 Integer Types and Signedness  
+       5.2 Floating-Point Types  
+       5.3 The char Type  
+       5.4 Type Sizes and sizeof  
+       5.5 Type Conversion and Casting  
     6. **[Operators & Expressions (arithmetic, comparison, logical, bitwise)](./[6]-Operators-and-Expressions.md)**  
+       6.1 Arithmetic Operators  
+       6.2 Comparison Operators  
+       6.3 Logical Operators  
+       6.4 Bitwise Operators  
+       6.5 Assignment and Compound Assignment  
+       6.6 Operator Precedence  
     7. **[Conditionals: if, else, switch](./[7]-Conditionals.md)**  
+       7.1 The if Statement  
+       7.2 else and else if  
+       7.3 The switch Statement  
+       7.4 The Ternary Operator  
     8. **[Loops: for, while, do-while, break, continue](./[8]-Loops.md)**  
+       8.1 The for Loop  
+       8.2 The while Loop  
+       8.3 The do-while Loop  
+       8.4 break and continue  
+       8.5 Nested Loops  
     9. **[Functions & Scope (declarations, prototypes, recursion)](./[9]-Functions-and-Scope.md)**  
+       9.1 Declaring and Defining Functions  
+       9.2 Function Prototypes  
+       9.3 Parameters and Return Values  
+       9.4 Scope and Lifetime of Variables  
+       9.5 Recursion  
     10. **[The Preprocessor (`#define`, `#include`, macros, conditional compilation)](./[10]-The-Preprocessor.md)**  
+        10.1 What Is the Preprocessor?  
+        10.2 #include  
+        10.3 #define and Macros  
+        10.4 Conditional Compilation  
+        10.5 Common Pitfalls with Macros  
 
 **Pointers & Memory**  
     11. **[Pointers Fundamentals (address-of, dereference, pointer arithmetic)](./[11]-Pointers-Fundamentals.md)**  
+        11.1 What Is a Pointer?  
+        11.2 The Address-Of Operator  
+        11.3 Dereferencing a Pointer  
+        11.4 Pointer Arithmetic  
+        11.5 Null Pointers and Common Mistakes  
     12. **[Arrays & Strings (char arrays, null termination, `string.h`)](./[12]-Arrays-and-Strings.md)**  
+        12.1 Declaring and Using Arrays  
+        12.2 Arrays and Pointers  
+        12.3 Strings as Char Arrays  
+        12.4 Null Termination  
+        12.5 The string.h Library  
     13. **[Dynamic Memory (`malloc`, `calloc`, `realloc`, `free`)](./[13]-Dynamic-Memory.md)**  
+        13.1 Why Dynamic Memory?  
+        13.2 malloc and free  
+        13.3 calloc  
+        13.4 realloc  
+        13.5 Avoiding Leaks and Dangling Pointers  
     14. **[Memory Layout (stack, heap, data & text segments)](./[14]-Memory-Layout.md)**  
+        14.1 The Stack  
+        14.2 The Heap  
+        14.3 Data and BSS Segments  
+        14.4 The Text Segment  
+        14.5 Putting It All Together  
     15. **[Common Memory Bugs (leaks, dangling pointers, buffer overflows)](./[15]-Common-Memory-Bugs.md)**  
+        15.1 Memory Leaks  
+        15.2 Dangling Pointers  
+        15.3 Buffer Overflows  
+        15.4 Use-After-Free  
+        15.5 Double Free  
     16. **[Function Pointers & Callbacks](./[16]-Function-Pointers.md)**  
+        16.1 What Is a Function Pointer?  
+        16.2 Declaring and Using Function Pointers  
+        16.3 Callbacks  
+        16.4 Arrays of Function Pointers  
 
 **Data Structures in C**  
     17. **[Structs & Typedefs](./[17]-Structs-and-Typedefs.md)**  

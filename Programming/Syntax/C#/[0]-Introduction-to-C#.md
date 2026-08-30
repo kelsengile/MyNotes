@@ -24,34 +24,115 @@ C# lets you:
 
 **Getting Started**  
     1. **[Installing .NET SDK & First-Time Setup](./[1]-Installation-and-Setup.md)**  
+       1.1 What is the .NET SDK?  
+       1.2 Installing the .NET SDK  
+       1.3 Verifying Your Installation  
+       1.4 Choosing an Editor  
     2. **[Running Code: `dotnet run`, the REPL (csharp), and Visual Studio](./[2]-Running-CSharp-Code.md)**  
+       2.1 Creating and Running Your First Program  
+       2.2 The C# REPL  
+       2.3 Running Code in an Editor/IDE  
     3. **[Projects & Solutions (.csproj, .sln, NuGet)](./[3]-Projects-and-Solutions.md)**  
+       3.1 What is a .csproj File?  
+       3.2 Solutions (.sln)  
+       3.3 NuGet Packages  
+       3.4 Common `dotnet` CLI Commands  
     4. **[Configuration & Environment (appsettings.json, environment variables)](./[4]-Configuration-and-Environment.md)**  
+       4.1 appsettings.json  
+       4.2 Environment Variables  
+       4.3 Environments (Development, Staging, Production)  
 
 **Core Syntax**  
     5. **[Variables & Basic Data Types](./[5]-Variables-and-Data-Types.md)**  
+       5.1 Declaring Variables  
+       5.2 Type Inference with `var`  
+       5.3 Value Types vs Reference Types  
+       5.4 Constants  
     6. **[Numbers, Strings & Booleans](./[6]-Numbers-Strings-and-Booleans.md)**  
+       6.1 Numeric Types  
+       6.2 Strings  
+       6.3 Booleans  
+       6.4 Type Conversion  
     7. **[Operators & Expressions (arithmetic, comparison, logical, null-coalescing)](./[7]-Operators-and-Expressions.md)**  
+       7.1 Arithmetic Operators  
+       7.2 Comparison Operators  
+       7.3 Logical Operators  
+       7.4 Null-Coalescing Operators  
     8. **[Conditionals: if, else, switch expressions](./[8]-Conditionals.md)**  
+       8.1 if / else  
+       8.2 else if Chains  
+       8.3 switch Statements  
+       8.4 switch Expressions  
     9. **[Loops: for, foreach, while, do-while, break, continue](./[9]-Loops.md)**  
+       9.1 for Loop  
+       9.2 while and do-while  
+       9.3 foreach  
+       9.4 break and continue  
     10. **[Methods & Parameters (ref, out, params, overloading)](./[10]-Methods-and-Parameters.md)**  
+        10.1 Defining Methods  
+        10.2 Parameters and Return Values  
+        10.3 ref, out, and params  
+        10.4 Method Overloading  
     11. **[String Formatting & Manipulation (interpolation, `string` methods)](./[11]-String-Formatting.md)**  
+        11.1 String Interpolation  
+        11.2 Common String Methods  
+        11.3 StringBuilder  
     12. **[Exception Handling: try, catch, finally, custom exceptions](./[12]-Exception-Handling.md)**  
+        12.1 try / catch / finally  
+        12.2 Common Exception Types  
+        12.3 Custom Exceptions  
+        12.4 Best Practices  
 
 **Data Structures**  
     13. **[Arrays & Lists](./[13]-Arrays-and-Lists.md)**  
+        13.1 Arrays  
+        13.2 List\<T\>  
+        13.3 Common Operations  
     14. **[Dictionaries & Sets](./[14]-Dictionaries-and-Sets.md)**  
+        14.1 Dictionary\<TKey, TValue\>  
+        14.2 HashSet\<T\>  
+        14.3 Choosing the Right Collection  
     15. **[Collection Interfaces (IEnumerable, ICollection, IList)](./[15]-Collection-Interfaces.md)**  
+        15.1 IEnumerable\<T\>  
+        15.2 ICollection\<T\>  
+        15.3 IList\<T\>  
     16. **[Tuples & Records](./[16]-Tuples-and-Records.md)**  
+        16.1 Tuples  
+        16.2 Records  
+        16.3 Records vs Classes  
 
 **Object-Oriented Programming**  
     17. **[Classes & Objects](./[17]-OOP-Classes-and-Objects.md)**  
+        17.1 Defining a Class  
+        17.2 Creating Objects  
+        17.3 Constructors  
+        17.4 Fields vs Properties  
     18. **[Inheritance & Polymorphism](./[18]-Inheritance-and-Polymorphism.md)**  
+        18.1 Inheritance Basics  
+        18.2 Overriding Methods  
+        18.3 Polymorphism  
+        18.4 The base Keyword  
     19. **[Encapsulation & Access Modifiers](./[19]-Encapsulation-and-Access-Modifiers.md)**  
+        19.1 What is Encapsulation?  
+        19.2 Access Modifiers  
+        19.3 Encapsulation in Practice  
     20. **[Interfaces & Abstract Classes](./[20]-Interfaces-and-Abstract-Classes.md)**  
+        20.1 Interfaces  
+        20.2 Abstract Classes  
+        20.3 Interfaces vs Abstract Classes  
     21. **[Properties, Indexers & Operator Overloading](./[21]-Properties-and-Indexers.md)**  
+        21.1 Properties  
+        21.2 Indexers  
+        21.3 Operator Overloading  
     22. **[Generics](./[22]-Generics.md)**  
+        22.1 Why Generics?  
+        22.2 Generic Classes  
+        22.3 Generic Methods  
+        22.4 Constraints  
     23. **[Structs vs Classes (value vs reference types)](./[23]-Structs-vs-Classes.md)**  
+        23.1 What is a Struct?  
+        23.2 Value vs Reference Semantics  
+        23.3 When to Use Which  
 
 **Advanced Language Features**  
     24. **[Delegates, Events & Lambda Expressions](./[24]-Delegates-Events-and-Lambdas.md)**  
