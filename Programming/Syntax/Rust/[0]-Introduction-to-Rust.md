@@ -23,124 +23,128 @@ Rust lets you:
 ## Table of Contents
 
 **Getting Started**  
-    1. **[Installing Rust & First-Time Setup (rustup, rustc)](./[1]-Installation-and-Setup.md)**  
-       1.1 What You're Installing  
-       1.2 Installing rustup  
-       1.3 Verifying the Install  
-       1.4 Keeping Rust Up to Date  
-    2. **[Running Code: cargo run, cargo build & the Rust Toolchain](./[2]-Running-Rust-Code.md)**  
-       2.1 Creating a New Project  
-       2.2 Building With cargo build  
-       2.3 Running With cargo run  
-       2.4 Checking Code Without Building  
-    3. **[Cargo & Dependency Management (Cargo.toml, crates.io)](./[3]-Cargo-and-Dependency-Management.md)**  
-       3.1 Anatomy of Cargo.toml  
-       3.2 Adding Dependencies  
-       3.3 Semantic Versioning  
-       3.4 Cargo.lock  
-    4. **[Project Structure & Workspaces](./[4]-Project-Structure-and-Workspaces.md)**  
-       4.1 Standard Layout  
-       4.2 Binaries vs. Libraries  
-       4.3 Multiple Binaries  
-       4.4 Workspaces  
+
+1. **[Installing Rust & First-Time Setup (rustup, rustc)](./[1]-Installation-and-Setup.md)**  
+    1.1 What You're Installing  
+    1.2 Installing rustup  
+    1.3 Verifying the Install  
+    1.4 Keeping Rust Up to Date  
+2. **[Running Code: cargo run, cargo build & the Rust Toolchain](./[2]-Running-Rust-Code.md)**  
+    2.1 Creating a New Project  
+    2.2 Building With cargo build  
+    2.3 Running With cargo run  
+    2.4 Checking Code Without Building  
+3. **[Cargo & Dependency Management (Cargo.toml, crates.io)](./[3]-Cargo-and-Dependency-Management.md)**  
+    3.1 Anatomy of Cargo.toml  
+    3.2 Adding Dependencies  
+    3.3 Semantic Versioning  
+    3.4 Cargo.lock  
+4. **[Project Structure & Workspaces](./[4]-Project-Structure-and-Workspaces.md)**  
+    4.1 Standard Layout  
+    4.2 Binaries vs. Libraries  
+    4.3 Multiple Binaries  
+    4.4 Workspaces  
 
 **Core Syntax**  
-    5. **[Variables, Mutability & Basic Data Types](./[5]-Variables-Mutability-and-Data-Types.md)**  
-       5.1 Variables Are Immutable by Default  
-       5.2 Shadowing  
-       5.3 Constants  
-       5.4 Basic Data Types Overview  
-    6. **[Numbers, Strings & Booleans](./[6]-Numbers-Strings-and-Booleans.md)**  
-       6.1 Integer Types  
-       6.2 Floating-Point Types  
-       6.3 Booleans and Characters  
-       6.4 Strings: A First Look  
-    7. **[Operators & Expressions](./[7]-Operators-and-Expressions.md)**  
-       7.1 Arithmetic and Comparison Operators  
-       7.2 Compound Assignment  
-       7.3 Everything Is an Expression  
-       7.4 Statements vs. Expressions  
-    8. **[Conditionals: if, else if, else, if let](./[8]-Conditionals.md)**  
-       8.1 Basic if / else  
-       8.2 else if Chains  
-       8.3 if as an Expression  
-       8.4 if let for Pattern Matching  
-    9. **[Loops: loop, while, for, break with values](./[9]-Loops.md)**  
-       9.1 The loop Keyword  
-       9.2 break With a Value  
-       9.3 while Loops  
-       9.4 for Loops and Iterators  
-       9.5 Loop Labels  
-    10. **[Functions & Scope](./[10]-Functions-and-Scope.md)**  
-        10.1 Defining Functions  
-        10.2 Return Values  
-        10.3 Scope and Blocks  
-        10.4 Parameters vs. Arguments  
-    11. **[String Formatting & Manipulation (String vs. &str, format!, slicing)](./[11]-String-Formatting.md)**  
-        11.1 String vs. &str, Revisited  
-        11.2 The format! Macro and println!  
-        11.3 Common String Methods  
-        11.4 Slicing Strings Safely  
-    12. **[Comments & Documentation (doc comments, rustdoc)](./[12]-Comments-and-Documentation.md)**  
-        12.1 Regular Comments  
-        12.2 Doc Comments  
-        12.3 Generating Docs With rustdoc  
-        12.4 Doc-Tests  
+
+5. **[Variables, Mutability & Basic Data Types](./[5]-Variables-Mutability-and-Data-Types.md)**  
+    5.1 Variables Are Immutable by Default  
+    5.2 Shadowing  
+    5.3 Constants  
+    5.4 Basic Data Types Overview  
+6. **[Numbers, Strings & Booleans](./[6]-Numbers-Strings-and-Booleans.md)**  
+    6.1 Integer Types  
+    6.2 Floating-Point Types  
+    6.3 Booleans and Characters  
+    6.4 Strings: A First Look  
+7. **[Operators & Expressions](./[7]-Operators-and-Expressions.md)**  
+    7.1 Arithmetic and Comparison Operators  
+    7.2 Compound Assignment  
+    7.3 Everything Is an Expression  
+    7.4 Statements vs. Expressions  
+8. **[Conditionals: if, else if, else, if let](./[8]-Conditionals.md)**  
+    8.1 Basic if / else  
+    8.2 else if Chains  
+    8.3 if as an Expression  
+    8.4 if let for Pattern Matching  
+9. **[Loops: loop, while, for, break with values](./[9]-Loops.md)**  
+    9.1 The loop Keyword  
+    9.2 break With a Value  
+    9.3 while Loops  
+    9.4 for Loops and Iterators  
+    9.5 Loop Labels  
+10. **[Functions & Scope](./[10]-Functions-and-Scope.md)**  
+    10.1 Defining Functions  
+    10.2 Return Values  
+    10.3 Scope and Blocks  
+    10.4 Parameters vs. Arguments  
+11. **[String Formatting & Manipulation (String vs. &str, format!, slicing)](./[11]-String-Formatting.md)**  
+    11.1 String vs. &str, Revisited  
+    11.2 The format! Macro and println!  
+    11.3 Common String Methods  
+    11.4 Slicing Strings Safely  
+12. **[Comments & Documentation (doc comments, rustdoc)](./[12]-Comments-and-Documentation.md)**  
+    12.1 Regular Comments  
+    12.2 Doc Comments  
+    12.3 Generating Docs With rustdoc  
+    12.4 Doc-Tests  
 
 **Ownership & Memory Safety**  
-    13. **[Ownership Rules](./[13]-Ownership-Rules.md)**  
-        13.1 Why Ownership Exists  
-        13.2 Move Semantics  
-        13.3 Ownership and Functions  
-        13.4 Ownership and Drop  
-    14. **[Borrowing & References](./[14]-Borrowing-and-References.md)**  
-        14.1 References: Access Without Ownership  
-        14.2 Mutable References  
-        14.3 The Borrowing Rules  
-        14.4 Dangling References  
-    15. **[The Slice Type](./[15]-The-Slice-Type.md)**  
-        15.1 What Is a Slice?  
-        15.2 String Slices (&str)  
-        15.3 Array and Vector Slices  
-        15.4 Why Slices Matter for Safety  
-    16. **[Lifetimes](./[16]-Lifetimes.md)**  
-        16.1 What Lifetimes Describe  
-        16.2 Lifetime Annotation Syntax  
-        16.3 Lifetimes in Structs  
-        16.4 Lifetime Elision  
-        16.5 The 'static Lifetime  
-    17. **[The Stack, the Heap & Copy vs. Move Semantics](./[17]-Stack-Heap-and-Copy-vs-Move.md)**  
-        17.1 The Stack  
-        17.2 The Heap  
-        17.3 Why Some Types Copy and Others Move  
-        17.4 Explicit Clones  
+
+13. **[Ownership Rules](./[13]-Ownership-Rules.md)**  
+    13.1 Why Ownership Exists  
+    13.2 Move Semantics  
+    13.3 Ownership and Functions  
+    13.4 Ownership and Drop  
+14. **[Borrowing & References](./[14]-Borrowing-and-References.md)**  
+    14.1 References: Access Without Ownership  
+    14.2 Mutable References  
+    14.3 The Borrowing Rules  
+    14.4 Dangling References  
+15. **[The Slice Type](./[15]-The-Slice-Type.md)**  
+    15.1 What Is a Slice?  
+    15.2 String Slices (&str)  
+    15.3 Array and Vector Slices  
+    15.4 Why Slices Matter for Safety  
+16. **[Lifetimes](./[16]-Lifetimes.md)**  
+    16.1 What Lifetimes Describe  
+    16.2 Lifetime Annotation Syntax  
+    16.3 Lifetimes in Structs  
+    16.4 Lifetime Elision  
+    16.5 The 'static Lifetime  
+17. **[The Stack, the Heap & Copy vs. Move Semantics](./[17]-Stack-Heap-and-Copy-vs-Move.md)**  
+    17.1 The Stack  
+    17.2 The Heap  
+    17.3 Why Some Types Copy and Others Move  
+    17.4 Explicit Clones  
 
 **Data Structures**  
-    18. **[Structs](./[18]-Structs.md)**  
-        18.1 Defining and Instantiating Structs  
-        18.2 Field Init Shorthand and Update Syntax  
-        18.3 Tuple Structs and Unit Structs  
-        18.4 Methods With impl  
-    19. **[Enums & Pattern Matching](./[19]-Enums-and-Pattern-Matching.md)**  
-        19.1 Defining Enums  
-        19.2 Enums With Data  
-        19.3 Pattern Matching Basics  
-        19.4 Option: Rust's Answer to Null  
-    20. **[The `match` Expression & `if let`/`while let`](./[20]-Match-Expression.md)**  
-        20.1 match Basics  
-        20.2 Matching and Binding Values  
-        20.3 Match Guards  
-        20.4 if let and while let  
-    21. **[Collections: Vec, HashMap, HashSet, VecDeque](./[21]-Collections.md)**  
-        21.1 Vec: Growable Lists  
-        21.2 HashMap: Key-Value Storage  
-        21.3 HashSet: Unique Values  
-        21.4 VecDeque: Double-Ended Queue  
-    22. **[Option & Result: Handling Absence & Errors](./[22]-Option-and-Result.md)**  
-        22.1 Option Recap  
-        22.2 Working With Option  
-        22.3 The Result Type  
-        22.4 Handling Results  
+
+18. **[Structs](./[18]-Structs.md)**  
+    18.1 Defining and Instantiating Structs  
+    18.2 Field Init Shorthand and Update Syntax  
+    18.3 Tuple Structs and Unit Structs  
+    18.4 Methods With impl  
+19. **[Enums & Pattern Matching](./[19]-Enums-and-Pattern-Matching.md)**  
+    19.1 Defining Enums  
+    19.2 Enums With Data  
+    19.3 Pattern Matching Basics  
+    19.4 Option: Rust's Answer to Null  
+20. **[The `match` Expression & `if let`/`while let`](./[20]-Match-Expression.md)**  
+    20.1 match Basics  
+    20.2 Matching and Binding Values  
+    20.3 Match Guards  
+    20.4 if let and while let  
+21. **[Collections: Vec, HashMap, HashSet, VecDeque](./[21]-Collections.md)**  
+    21.1 Vec: Growable Lists  
+    21.2 HashMap: Key-Value Storage  
+    21.3 HashSet: Unique Values  
+    21.4 VecDeque: Double-Ended Queue  
+22. **[Option & Result: Handling Absence & Errors](./[22]-Option-and-Result.md)**  
+    22.1 Option Recap  
+    22.2 Working With Option  
+    22.3 The Result Type  
+    22.4 Handling Results  
 
 **Error Handling**  
     23. **[The Result Type & the `?` Operator](./[23]-Result-Type-and-the-Question-Mark-Operator.md)**  
