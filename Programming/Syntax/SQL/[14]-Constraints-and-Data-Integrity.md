@@ -9,7 +9,7 @@ Constraints are rules attached to columns or tables that the database enforces a
 
 ---
 
-## NOT NULL
+## 14.1 NOT NULL
 
 Requires a column to always have a value:
 ```sql
@@ -25,7 +25,7 @@ INSERT INTO customers (customer_id) VALUES (1);
 
 ---
 
-## UNIQUE
+## 14.2 UNIQUE
 
 Ensures no two rows share the same value in a column (or set of columns):
 ```sql
@@ -48,7 +48,7 @@ This allows a student to enroll in many courses, and a course to have many stude
 
 ---
 
-## CHECK
+## 14.3 CHECK
 
 Enforces an arbitrary condition on a column's value:
 ```sql
@@ -76,7 +76,7 @@ CREATE TABLE bookings (
 
 ---
 
-## DEFAULT
+## 14.4 DEFAULT
 
 Not strictly an integrity constraint, but closely related — provides a fallback value when none is given:
 ```sql
@@ -89,7 +89,7 @@ CREATE TABLE orders (
 
 ---
 
-## PRIMARY KEY and FOREIGN KEY
+## 14.5 PRIMARY KEY and FOREIGN KEY
 
 Covered in depth in Lesson 13 — both are constraints too. To recap briefly:
 ```sql
@@ -102,7 +102,7 @@ CREATE TABLE books (
 
 ---
 
-## Naming constraints
+## 14.6 Naming constraints
 
 You can name constraints explicitly, which makes error messages clearer and lets you drop or alter them later by name:
 ```sql
@@ -117,7 +117,7 @@ Without a name, the database auto-generates one (often something unmemorable lik
 
 ---
 
-## Adding constraints to an existing table
+## 14.7 Adding constraints to an existing table
 
 ```sql
 ALTER TABLE books ADD CONSTRAINT chk_price_positive CHECK (price > 0);
@@ -127,7 +127,7 @@ ALTER TABLE customers ADD CONSTRAINT uq_email UNIQUE (email);
 
 ---
 
-## Dropping constraints
+## 14.8 Dropping constraints
 
 ```sql
 -- PostgreSQL / MySQL / SQL Server
@@ -139,7 +139,7 @@ ALTER TABLE books DROP CHECK chk_price_positive;
 
 ---
 
-## What happens when a constraint is violated?
+## 14.9 What happens when a constraint is violated?
 
 The statement is rejected entirely, and (inside a transaction — Lesson 18) any partial changes from that statement are rolled back. The database raises an error identifying which constraint was violated, which you (or your application) can catch and handle.
 
@@ -149,7 +149,7 @@ ERROR: duplicate key value violates unique constraint "customers_email_key"
 
 ---
 
-## Why enforce integrity in the database, not just the application?
+## 14.10 Why enforce integrity in the database, not just the application?
 
 It's tempting to think "I'll just validate this in my app code." But database-level constraints matter because:
 - Multiple applications, scripts, or people might write to the same database — a constraint enforces the rule *everywhere*, not just in one codebase

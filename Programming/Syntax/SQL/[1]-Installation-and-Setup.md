@@ -4,13 +4,13 @@
 
 ---
 
-## Why start here?
+## 1.1 Why start here?
 
 SQL is a language, not a program. To practice it, you need a **database engine** — software that actually stores your data and understands SQL commands. This lesson gets one running on your computer.
 
 ---
 
-## Choosing a database for learning
+## 1.2 Choosing a database for learning
 
 There are many relational database systems. For this course, we recommend **SQLite** to start, because:
 
@@ -23,7 +23,7 @@ Later lessons will note where PostgreSQL, MySQL, or SQL Server behave differentl
 
 ---
 
-## Option A: SQLite (recommended for this course)
+## 1.3 Option A: SQLite (recommended for this course)
 
 ### Windows
 1. Download the "sqlite-tools" zip from the official SQLite website's download page.
@@ -71,7 +71,7 @@ To exit: type `.quit` and press Enter.
 
 ---
 
-## Option B: A GUI tool (optional but helpful)
+## 1.4 Option B: A GUI tool (optional but helpful)
 
 Typing commands is great for learning, but a graphical tool makes it easier to browse tables and see results in a grid. Popular free options:
 
@@ -83,13 +83,13 @@ Any of these can open the `practice.db` file you just created.
 
 ---
 
-## Option C: Practice online, no installation
+## 1.5 Option C: Practice online, no installation
 
 If you'd rather not install anything yet, sites like SQLite's own "Try SQLite" playground, or sites such as DB Fiddle and SQL Fiddle, let you run SQL directly in the browser. This is a fine way to follow along with the early lessons.
 
 ---
 
-## Useful SQLite command-line shortcuts
+## 1.6 Useful SQLite command-line shortcuts
 
 These start with a dot and are specific to the `sqlite3` tool (not standard SQL):
 
@@ -109,7 +109,7 @@ Turn on friendlier output now — it'll make every later lesson easier to read:
 
 ---
 
-## Looking ahead
+## 1.7 Looking ahead
 
 Once you have PostgreSQL, MySQL, or SQL Server installed (later, if you want a "real" server-based database), the SQL commands you learn here will work almost unchanged. Lesson 25 walks through exactly what's different between the major systems.
 

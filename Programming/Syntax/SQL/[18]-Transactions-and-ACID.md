@@ -4,13 +4,13 @@
 
 ---
 
-## What a transaction is
+## 18.1 What a transaction is
 
 A **transaction** groups multiple SQL statements into a single, all-or-nothing unit of work. Either every statement in the transaction succeeds and is saved, or (if anything goes wrong) none of them are — the database is left exactly as if the transaction never happened.
 
 ---
 
-## The classic example: transferring money
+## 18.2 The classic example: transferring money
 
 ```sql
 BEGIN;
@@ -25,7 +25,7 @@ If the database crashed *between* the two `UPDATE` statements without transactio
 
 ---
 
-## BEGIN, COMMIT, ROLLBACK
+## 18.3 BEGIN, COMMIT, ROLLBACK
 
 ```sql
 BEGIN;                          -- start a transaction (some dialects use START TRANSACTION)
@@ -45,13 +45,13 @@ ROLLBACK;                       -- undo — as if nothing happened
 
 ---
 
-## Autocommit mode
+## 18.4 Autocommit mode
 
 By default, most databases run in **autocommit** mode — every individual statement is its own implicit transaction, committed immediately. Explicit `BEGIN`/`COMMIT` blocks let you group several statements together instead.
 
 ---
 
-## The ACID properties
+## 18.5 The ACID properties
 
 ACID is an acronym describing the guarantees a properly implemented transactional database provides:
 
@@ -69,7 +69,7 @@ Once a transaction is committed, it's permanent — it survives a crash, a power
 
 ---
 
-## Isolation levels
+## 18.6 Isolation levels
 
 Full isolation between every concurrent transaction is expensive to guarantee perfectly, so SQL defines several isolation levels, trading strictness for performance:
 
@@ -93,7 +93,7 @@ Higher isolation levels give stronger guarantees but reduce how much work can ha
 
 ---
 
-## SAVEPOINT: partial rollback within a transaction
+## 18.7 SAVEPOINT: partial rollback within a transaction
 
 ```sql
 BEGIN;
@@ -109,13 +109,13 @@ COMMIT;   -- keeps the Fantasy price change, discards the Sci-Fi one
 
 ---
 
-## Deadlocks
+## 18.8 Deadlocks
 
 When two transactions each hold a lock the other needs, they can wait on each other forever — a **deadlock**. Most databases detect this automatically and abort one of the transactions (raising an error) so the other can proceed. Application code that uses transactions should generally be prepared to catch this error and retry.
 
 ---
 
-## When to use explicit transactions
+## 18.9 When to use explicit transactions
 
 - Any time multiple statements must succeed or fail together (like the account transfer example)
 - Before running a risky `UPDATE`/`DELETE` you want to double-check with a `SELECT` before committing

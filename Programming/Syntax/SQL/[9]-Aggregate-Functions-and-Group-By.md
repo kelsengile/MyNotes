@@ -8,7 +8,7 @@ Aggregate functions summarize many rows into a single value — "how many," "wha
 
 ---
 
-## The five core aggregate functions
+## 9.1 The five core aggregate functions
 
 | Function | Purpose |
 |---|---|
@@ -27,7 +27,7 @@ SELECT MIN(published_year), MAX(published_year) FROM books;
 
 ---
 
-## GROUP BY: aggregating per category
+## 9.2 GROUP BY: aggregating per category
 
 `GROUP BY` splits rows into buckets based on one or more columns, then applies aggregate functions *within each bucket*.
 
@@ -47,7 +47,7 @@ GROUP BY genre;
 
 ---
 
-## The golden rule of GROUP BY
+## 9.3 The golden rule of GROUP BY
 
 Every column in `SELECT` that isn't wrapped in an aggregate function **must** appear in `GROUP BY`. This query is invalid in most databases (SQLite is a notable, permissive exception, but relying on that is bad practice):
 ```sql
@@ -60,7 +60,7 @@ GROUP BY genre;
 
 ---
 
-## Grouping by multiple columns
+## 9.4 Grouping by multiple columns
 
 ```sql
 SELECT genre, published_year, COUNT(*) AS count
@@ -71,7 +71,7 @@ Each unique *combination* of genre and year becomes its own group.
 
 ---
 
-## HAVING: filtering groups
+## 9.5 HAVING: filtering groups
 
 `WHERE` filters rows *before* grouping happens. `HAVING` filters groups *after* aggregation — and it's the only place you can filter based on an aggregate result.
 
@@ -90,7 +90,7 @@ SELECT genre, COUNT(*) FROM books WHERE COUNT(*) > 1 GROUP BY genre;
 
 ---
 
-## Clause execution order (conceptual)
+## 9.6 Clause execution order (conceptual)
 
 SQL is *written* in this order:
 ```
@@ -107,7 +107,7 @@ This explains several rules that otherwise seem arbitrary:
 
 ---
 
-## Combining WHERE and HAVING
+## 9.7 Combining WHERE and HAVING
 
 ```sql
 SELECT genre, AVG(price) AS avg_price
@@ -120,7 +120,7 @@ Here, `WHERE` removes individual books published in or before 1970 *before* grou
 
 ---
 
-## COUNT(DISTINCT ...)
+## 9.8 COUNT(DISTINCT ...)
 
 Counts unique values rather than every row:
 ```sql
@@ -130,7 +130,7 @@ SELECT COUNT(DISTINCT author_id) FROM books;
 
 ---
 
-## A full example
+## 9.9 A full example
 
 ```sql
 SELECT

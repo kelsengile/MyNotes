@@ -8,7 +8,7 @@ This lesson builds on `WHERE` from Lesson 2, adding more powerful ways to filter
 
 ---
 
-## Combining conditions: AND, OR, NOT
+## 3.1 Combining conditions: AND, OR, NOT
 
 ```sql
 SELECT title, price, genre
@@ -41,7 +41,7 @@ SELECT * FROM books WHERE genre = 'Fantasy' OR (genre = 'Science Fiction' AND pr
 
 ---
 
-## IN: matching a list of values
+## 3.2 IN: matching a list of values
 
 Instead of chaining `OR` conditions on the same column, use `IN`:
 ```sql
@@ -56,7 +56,7 @@ SELECT title FROM books WHERE genre NOT IN ('Fantasy');
 
 ---
 
-## BETWEEN: matching a range
+## 3.3 BETWEEN: matching a range
 
 ```sql
 SELECT title, published_year
@@ -67,7 +67,7 @@ WHERE published_year BETWEEN 1970 AND 2000;
 
 ---
 
-## LIKE: pattern matching text
+## 3.4 LIKE: pattern matching text
 
 `LIKE` uses two wildcards:
 - `%` matches any sequence of characters (including none)
@@ -82,7 +82,7 @@ SELECT title FROM books WHERE title LIKE '%of%';         -- contains "of" anywhe
 
 ---
 
-## IS NULL: checking for missing values
+## 3.5 IS NULL: checking for missing values
 
 `NULL` (covered fully in Lesson 7) represents missing data and needs special handling — you can't use `= NULL`.
 ```sql
@@ -92,7 +92,7 @@ SELECT title FROM books WHERE author_id IS NOT NULL;
 
 ---
 
-## ORDER BY: sorting results
+## 3.6 ORDER BY: sorting results
 
 ```sql
 SELECT title, price FROM books ORDER BY price;          -- ascending by default
@@ -113,7 +113,7 @@ SELECT title, price FROM books ORDER BY 2 DESC;
 
 ---
 
-## LIMIT and OFFSET: controlling how many rows come back
+## 3.7 LIMIT and OFFSET: controlling how many rows come back
 
 ```sql
 SELECT title, price FROM books ORDER BY price DESC LIMIT 3;
@@ -128,7 +128,7 @@ This pattern returns "page 2" of 3-row pages.
 
 ---
 
-## DISTINCT: removing duplicate rows
+## 3.8 DISTINCT: removing duplicate rows
 
 ```sql
 SELECT DISTINCT genre FROM books;
@@ -141,7 +141,7 @@ This only collapses rows where *both* genre and year match exactly.
 
 ---
 
-## Putting it together
+## 3.9 Putting it together
 
 Full clause order so far:
 ```sql

@@ -4,7 +4,7 @@
 
 ---
 
-## What they are
+## 21.1 What they are
 
 **Stored procedures** and **stored functions** are reusable blocks of SQL (often with procedural logic like variables, loops, and conditionals) saved inside the database itself, so they can be called by name instead of rewritten every time.
 
@@ -24,7 +24,7 @@ Because SQLite doesn't support this feature, the examples below use PostgreSQL a
 
 ---
 
-## A simple function (PostgreSQL)
+## 21.2 A simple function (PostgreSQL)
 
 ```sql
 CREATE FUNCTION price_with_tax(base_price DECIMAL, tax_rate DECIMAL DEFAULT 0.08)
@@ -43,7 +43,7 @@ FROM books;
 
 ---
 
-## A simple function (MySQL)
+## 21.3 A simple function (MySQL)
 
 ```sql
 DELIMITER //
@@ -61,7 +61,7 @@ DELIMITER ;
 
 ---
 
-## A stored procedure (PostgreSQL)
+## 21.4 A stored procedure (PostgreSQL)
 
 Procedures can perform multiple actions and don't need to return a value:
 ```sql
@@ -84,7 +84,7 @@ CALL apply_discount('Fantasy', 15);
 
 ---
 
-## Procedural control flow
+## 21.5 Procedural control flow
 
 Stored procedures/functions typically support:
 
@@ -112,7 +112,7 @@ END LOOP;
 
 ---
 
-## Parameters: IN, OUT, INOUT
+## 21.6 Parameters: IN, OUT, INOUT
 
 - `IN` parameters (the default) pass a value into the procedure
 - `OUT` parameters let the procedure return a value back to the caller, without using `RETURN`
@@ -130,7 +130,7 @@ $$;
 
 ---
 
-## Why use stored procedures/functions?
+## 21.7 Why use stored procedures/functions?
 
 - **Encapsulation** — complex, multi-step business logic lives in one place, in the database, rather than duplicated across every application that touches the data
 - **Performance** — for logic requiring many round trips (loops, conditional branches), running it *inside* the database avoids repeated network round-trips between application and database
@@ -139,7 +139,7 @@ $$;
 
 ---
 
-## Trade-offs and criticisms
+## 21.8 Trade-offs and criticisms
 
 - Procedural SQL dialects are non-standard and largely non-portable between databases — heavy use locks you into one vendor
 - Business logic split between application code and stored procedures can become harder to test, version-control, and reason about compared to keeping it entirely in application code
@@ -147,7 +147,7 @@ $$;
 
 ---
 
-## Dropping procedures/functions
+## 21.9 Dropping procedures/functions
 
 ```sql
 DROP FUNCTION price_with_tax(DECIMAL, DECIMAL);

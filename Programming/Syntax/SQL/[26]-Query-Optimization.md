@@ -8,7 +8,7 @@ This final lesson ties together Lesson 17 (Indexes) with a deeper look at how da
 
 ---
 
-## How a query actually runs
+## 26.1 How a query actually runs
 
 When you submit a `SELECT`, the database doesn't run it literally in the order you typed it. Instead, it:
 
@@ -20,7 +20,7 @@ This is why understanding execution plans matters — the optimizer's choices, n
 
 ---
 
-## EXPLAIN: seeing the plan
+## 26.2 EXPLAIN: seeing the plan
 
 ```sql
 EXPLAIN SELECT * FROM books WHERE genre = 'Fantasy';
@@ -40,7 +40,7 @@ EXPLAIN QUERY PLAN SELECT * FROM books WHERE genre = 'Fantasy';
 
 ---
 
-## Reading a plan: key things to look for
+## 26.3 Reading a plan: key things to look for
 
 ### Scan type
 - **Sequential/full table scan**: reads every row — fine for small tables, expensive for large ones
@@ -63,7 +63,7 @@ ANALYZE TABLE books;    -- MySQL
 
 ---
 
-## Common causes of slow queries, and their fixes
+## 26.4 Common causes of slow queries, and their fixes
 
 | Problem | Fix |
 |---|---|
@@ -78,7 +78,7 @@ ANALYZE TABLE books;    -- MySQL
 
 ---
 
-## N+1 query problems
+## 26.5 N+1 query problems
 
 A common *application-level* performance bug: running one query to get a list, then looping through it and running one additional query per row (often via an ORM), instead of a single query (or join) that fetches everything at once.
 ```sql
@@ -96,7 +96,7 @@ This isn't a SQL syntax issue — it's a pattern to watch for in how application
 
 ---
 
-## Query rewriting techniques
+## 26.6 Query rewriting techniques
 
 ### Avoid unnecessary DISTINCT
 `DISTINCT` requires extra sorting/hashing work — only use it when duplicates are genuinely possible and unwanted, not as a reflexive habit.
@@ -125,7 +125,7 @@ Good optimizers often push the filter down automatically regardless of how you w
 
 ---
 
-## A practical optimization workflow
+## 26.7 A practical optimization workflow
 
 1. **Measure first** — don't guess; use `EXPLAIN ANALYZE` to find the actual slow part of a query
 2. **Look for full table scans** on large tables where an index-based scan seems like it should apply
@@ -136,7 +136,7 @@ Good optimizers often push the filter down automatically regardless of how you w
 
 ---
 
-## You've completed the course! 🎉
+## 26.8 You've completed the course! 🎉
 
 You've gone from installing a database to reading query execution plans — covering querying, schema design, integrity, performance, and the practical differences between major database systems along the way.
 

@@ -9,7 +9,7 @@ Throughout this course, dialect notes have flagged differences as they came up. 
 
 ---
 
-## The four databases at a glance
+## 25.1 The four databases at a glance
 
 | | PostgreSQL | MySQL | SQLite | SQL Server |
 |---|---|---|---|---|
@@ -20,7 +20,7 @@ Throughout this course, dialect notes have flagged differences as they came up. 
 
 ---
 
-## Where dialects diverge — a consolidated reference
+## 25.2 Where dialects diverge — a consolidated reference
 
 ### Limiting results
 ```sql
@@ -106,13 +106,13 @@ SELECT DATE('now'), DATETIME('now');
 
 ---
 
-## Why does this variation exist?
+## 25.3 Why does this variation exist?
 
 SQL is governed by an ANSI/ISO standard, but the standard leaves many behaviors unspecified or optional, and vendors have historically added proprietary extensions before the standard caught up (or instead of ever adopting it). The core `SELECT`/`FROM`/`WHERE`/`JOIN`/`GROUP BY` grammar you learned in earlier lessons is close to universal — most divergence shows up in edge cases, procedural extensions, and administrative commands.
 
 ---
 
-## Practical advice for working across dialects
+## 25.4 Practical advice for working across dialects
 
 - Stick to standard, portable syntax (plain joins, `WHERE`, `GROUP BY`, standard functions) whenever a query doesn't specifically need a vendor feature — this keeps code portable if you ever migrate databases
 - When you must use a vendor-specific feature (like PostgreSQL's `JSONB` or SQL Server's `MERGE`), document that dependency clearly
@@ -121,7 +121,7 @@ SQL is governed by an ANSI/ISO standard, but the standard leaves many behaviors 
 
 ---
 
-## Choosing a database for a new project (a rough guide)
+## 25.5 Choosing a database for a new project (a rough guide)
 
 - **Prototyping, mobile apps, small local tools** → SQLite
 - **General-purpose web applications, cost-sensitive projects** → MySQL or PostgreSQL

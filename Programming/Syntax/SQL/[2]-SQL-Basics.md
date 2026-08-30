@@ -6,7 +6,7 @@
 
 ---
 
-## Setting up sample data
+## 2.1 Setting up sample data
 
 Every lesson from here on uses the same small sample database: a fictional bookstore. Run this once in your `sqlite3` prompt (or GUI tool) before following along:
 
@@ -45,7 +45,7 @@ We'll keep building on this `authors` / `books` schema throughout the course.
 
 ---
 
-## The anatomy of a query
+## 2.2 The anatomy of a query
 
 The most common SQL statement is `SELECT`. At minimum, it needs two things: **what columns you want**, and **which table to get them from**.
 
@@ -58,7 +58,7 @@ Every SQL statement ends with a semicolon `;`. Some tools don't strictly require
 
 ---
 
-## SELECT: choosing columns
+## 2.3 SELECT: choosing columns
 
 To get every column, use `*`:
 ```sql
@@ -94,13 +94,13 @@ FROM books;
 
 ---
 
-## FROM: choosing the table
+## 2.4 FROM: choosing the table
 
 `FROM` tells the database where the columns come from. A query always needs exactly one `FROM` clause pointing at a table (or, as you'll see in Lesson 11, multiple tables joined together).
 
 ---
 
-## WHERE: filtering rows
+## 2.5 WHERE: filtering rows
 
 Without `WHERE`, a query returns every row in the table. `WHERE` narrows that down to rows matching a condition.
 
@@ -129,7 +129,7 @@ SELECT * FROM books WHERE published_year > 2000;
 
 ---
 
-## Query clause order
+## 2.6 Query clause order
 
 SQL statements are written in a fixed order, even though the database doesn't necessarily *execute* them in that order (more on that in later lessons):
 
@@ -143,7 +143,7 @@ Getting this order wrong is one of the most common beginner errors — `WHERE` a
 
 ---
 
-## Comments
+## 2.7 Comments
 
 You can annotate your SQL with comments, which the database ignores:
 ```sql
@@ -154,7 +154,7 @@ SELECT * FROM books; /* this is a
 
 ---
 
-## A note on case sensitivity
+## 2.8 A note on case sensitivity
 
 SQL keywords (`SELECT`, `FROM`, `WHERE`) are traditionally written in uppercase by convention, but SQL doesn't require it — `select * from books;` works identically. Table and column names, however, may or may not be case-sensitive depending on the database system (SQLite is flexible; PostgreSQL lowercases unquoted identifiers). Sticking to lowercase table/column names avoids most headaches.
 

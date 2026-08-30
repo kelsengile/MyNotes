@@ -8,13 +8,13 @@ Before creating tables in the next lesson, it helps to understand what data type
 
 ---
 
-## Why types matter
+## 4.1 Why types matter
 
 If a column is defined to hold numbers, the database prevents you from accidentally storing text like `"twelve"` in it, and it can sort and do math on the values correctly. Types are a form of built-in data validation.
 
 ---
 
-## Common data type categories
+## 4.2 Common data type categories
 
 ### Numbers
 
@@ -59,13 +59,13 @@ Always store dates using an actual date/time type, not as text — this lets the
 
 ---
 
-## SQLite's flexible typing
+## 4.3 SQLite's flexible typing
 
 Unlike most databases, SQLite uses "type affinity" rather than strict types — you can technically insert text into an integer column. This makes SQLite forgiving for learning, but it's not representative of how PostgreSQL, MySQL, or SQL Server behave, which enforce types strictly. Don't rely on SQLite's flexibility once you move to a "real" server database.
 
 ---
 
-## Designing a table: thinking in entities
+## 4.4 Designing a table: thinking in entities
 
 Before writing `CREATE TABLE`, sketch out what real-world "things" (entities) you're modeling and what facts (attributes) you need about each one.
 
@@ -77,7 +77,7 @@ Each entity typically becomes one table. Each attribute typically becomes one co
 
 ---
 
-## Choosing appropriate types, column by column
+## 4.5 Choosing appropriate types, column by column
 
 | Column | Good type | Why |
 |---|---|---|
@@ -90,13 +90,13 @@ Each entity typically becomes one table. Each attribute typically becomes one co
 
 ---
 
-## One fact, one column
+## 4.6 One fact, one column
 
 A good rule of thumb: each column should hold one atomic piece of information. Avoid cramming multiple values into a single column, like storing `"Le Guin, Ursula (USA)"` as one text field — that makes filtering and sorting painful. Split it into `first_name`, `last_name`, `country` instead. This idea is developed fully in Lesson 15 (Normalization).
 
 ---
 
-## Nullable vs required columns
+## 4.7 Nullable vs required columns
 
 When designing a table, decide for each column: is it okay for this value to be missing (`NULL`), or should every row be required to have one? You'll declare this with `NOT NULL` when creating the table (Lesson 5), and it ties closely into Lesson 14 (Constraints).
 

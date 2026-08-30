@@ -10,7 +10,7 @@ Keys are how relational databases keep data connected and consistent. This lesso
 
 ---
 
-## Primary keys
+## 13.1 Primary keys
 
 A **primary key** uniquely identifies each row in a table. No two rows can share the same primary key value, and a primary key column cannot be `NULL`.
 
@@ -64,7 +64,7 @@ This says a student can't enroll in the same course twice, but can enroll in man
 
 ---
 
-## Foreign keys
+## 13.2 Foreign keys
 
 A **foreign key** is a column (or set of columns) in one table that references the primary key of another table, establishing a relationship between them.
 
@@ -92,7 +92,7 @@ PostgreSQL, MySQL (with InnoDB), and SQL Server enforce foreign keys by default.
 
 ---
 
-## Relationship types
+## 13.3 Relationship types
 
 ### One-to-many
 
@@ -125,7 +125,7 @@ CREATE TABLE user_profiles (
 
 ---
 
-## ON DELETE and ON UPDATE behavior
+## 13.4 ON DELETE and ON UPDATE behavior
 
 When a referenced row is deleted or its key changes, you can tell the database what to do to dependent rows:
 
@@ -150,7 +150,7 @@ Choosing the right behavior matters: `CASCADE` on `authors → books` would sile
 
 ---
 
-## Why keys matter
+## 13.5 Why keys matter
 
 Keys are the mechanism that makes joins meaningful (Lesson 11), prevents duplicate or orphaned data, and is foundational to normalization (Lesson 15). Without them, a "relational" database is really just a collection of unrelated spreadsheets.
 
