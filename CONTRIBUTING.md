@@ -10,7 +10,7 @@ MyNotes/
 |   |    ├── 📁 Complexity
 |   |    ├── 📁 Data Structures
 |   |    └── 📁 Fundamentals
-│   └── 📁 Math
+│   └── 📁 Mathematics
 |        ├── 📁 Algebra
 |        ├── 📁 Calculus
 |        ├── 📁 Discrete
