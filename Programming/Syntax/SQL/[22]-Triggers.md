@@ -4,13 +4,13 @@
 
 ---
 
-## What a trigger is
+## 22.1 What a trigger is
 
 A **trigger** is a block of SQL that runs automatically when a specific event happens on a table — an `INSERT`, `UPDATE`, or `DELETE`. Unlike a stored procedure (Lesson 21), you never call a trigger directly; the database fires it for you.
 
 ---
 
-## When triggers fire
+## 22.2 When triggers fire
 
 A trigger's timing and event combine:
 
@@ -26,7 +26,7 @@ A trigger's timing and event combine:
 
 ---
 
-## A trigger example (PostgreSQL)
+## 22.3 A trigger example (PostgreSQL)
 
 PostgreSQL splits trigger logic into two pieces: a **trigger function** and the **trigger** itself that attaches it to a table and event.
 
@@ -59,7 +59,7 @@ Now, every time a book's price changes, a row is automatically inserted into `bo
 
 ---
 
-## OLD and NEW
+## 22.4 OLD and NEW
 
 Inside a trigger, `OLD` refers to the row's values *before* the change, and `NEW` refers to the values *after*:
 - `INSERT` triggers: only `NEW` is available (there was no "before" row)
@@ -68,7 +68,7 @@ Inside a trigger, `OLD` refers to the row's values *before* the change, and `NEW
 
 ---
 
-## A trigger example (SQLite)
+## 22.5 A trigger example (SQLite)
 
 SQLite's syntax is more compact — no separate function required:
 ```sql
@@ -84,7 +84,7 @@ END;
 
 ---
 
-## A trigger example (MySQL)
+## 22.6 A trigger example (MySQL)
 
 ```sql
 DELIMITER //
@@ -104,7 +104,7 @@ DELIMITER ;
 
 ---
 
-## Using BEFORE triggers to validate/modify data
+## 22.7 Using BEFORE triggers to validate/modify data
 
 ```sql
 CREATE FUNCTION prevent_negative_price() RETURNS TRIGGER AS $$
@@ -125,7 +125,7 @@ This rejects any insert/update that would set a negative price — though in pra
 
 ---
 
-## Common real-world uses for triggers
+## 22.8 Common real-world uses for triggers
 
 - **Audit logging** — automatically recording who changed what, and when
 - **Maintaining denormalized/summary data** — e.g., updating a `books_count` column on `authors` whenever a book is added or removed
@@ -134,13 +134,13 @@ This rejects any insert/update that would set a negative price — though in pra
 
 ---
 
-## Trade-offs of triggers
+## 22.9 Trade-offs of triggers
 
 Triggers run invisibly — anyone looking only at application code won't see them, which can make debugging unexpectedly difficult ("why did this row change when my code never updated it?"). Use them deliberately and document them clearly; overuse of triggers is a common source of hard-to-trace bugs in production systems.
 
 ---
 
-## Dropping a trigger
+## 22.10 Dropping a trigger
 
 ```sql
 DROP TRIGGER trg_log_price_change ON books;   -- PostgreSQL

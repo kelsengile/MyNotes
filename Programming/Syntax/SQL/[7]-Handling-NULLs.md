@@ -4,7 +4,7 @@
 
 ---
 
-## What NULL means
+## 7.1 What NULL means
 
 `NULL` represents the *absence* of a value — "unknown" or "not applicable," not zero, not an empty string, and not false. A book with no known `published_year` should store `NULL`, not `0`.
 
@@ -15,7 +15,7 @@ VALUES (8, 'Untitled Manuscript', NULL, 15.00, NULL, NULL);
 
 ---
 
-## Why NULL = NULL doesn't work
+## 7.2 Why NULL = NULL doesn't work
 
 This is the single most common NULL-related bug. In SQL, `NULL` isn't equal to anything — not even to another `NULL` — because "unknown" compared to "unknown" is itself unknown.
 
@@ -32,7 +32,7 @@ SELECT * FROM books WHERE author_id IS NOT NULL;
 
 ---
 
-## NULL in calculations
+## 7.3 NULL in calculations
 
 Any arithmetic involving `NULL` produces `NULL`:
 ```sql
@@ -41,7 +41,7 @@ SELECT price + NULL AS result;  -- result is NULL, not price
 
 ---
 
-## NULL in AND / OR logic
+## 7.4 NULL in AND / OR logic
 
 SQL uses three-valued logic: `TRUE`, `FALSE`, and `UNKNOWN` (which behaves like NULL). A row is only returned by `WHERE` if the condition evaluates to `TRUE` — `UNKNOWN` rows are excluded, same as `FALSE` rows.
 
@@ -60,7 +60,7 @@ SELECT * FROM books WHERE NOT (author_id = 1);   -- NOT UNKNOWN is still UNKNOWN
 
 ---
 
-## COALESCE: substituting a default value
+## 7.5 COALESCE: substituting a default value
 
 `COALESCE` returns the first non-NULL value from a list of arguments — the standard way to provide a fallback:
 ```sql
@@ -77,7 +77,7 @@ SELECT COALESCE(nickname, first_name, 'Anonymous') FROM users;
 
 ---
 
-## NULLIF: turning a value into NULL conditionally
+## 7.6 NULLIF: turning a value into NULL conditionally
 
 `NULLIF(a, b)` returns `NULL` if `a` equals `b`, otherwise returns `a`. Useful for avoiding divide-by-zero errors:
 ```sql
@@ -88,7 +88,7 @@ If `total_orders` is 0, this returns `NULL` instead of throwing a division error
 
 ---
 
-## NULLs and aggregate functions
+## 7.7 NULLs and aggregate functions
 
 Aggregate functions (fully covered in Lesson 9) generally *ignore* NULLs rather than treating them as zero:
 ```sql
@@ -100,7 +100,7 @@ This distinction between `COUNT(column)` and `COUNT(*)` trips up a lot of beginn
 
 ---
 
-## NULLs and sorting
+## 7.8 NULLs and sorting
 
 By default, most databases sort `NULL` values as either first or last, but the exact behavior differs:
 - PostgreSQL: `NULL` sorts last in `ASC` order by default
@@ -116,7 +116,7 @@ ORDER BY published_year ASC NULLS LAST;
 
 ---
 
-## NULLs and UNIQUE constraints
+## 7.9 NULLs and UNIQUE constraints
 
 A `UNIQUE` constraint (Lesson 14) generally allows multiple `NULL` values in the same column, since `NULL` is never considered equal to another `NULL` — even under a uniqueness check. This behavior is consistent across PostgreSQL, SQLite, and MySQL.
 

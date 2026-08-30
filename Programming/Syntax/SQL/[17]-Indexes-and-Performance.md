@@ -6,7 +6,7 @@
 
 ---
 
-## The problem indexes solve
+## 17.1 The problem indexes solve
 
 Without any help, finding rows matching a `WHERE` condition means the database checks every single row in the table, one by one — a **full table scan**. On a table with a few hundred rows, that's instant. On a table with 50 million rows, it can take seconds or minutes.
 
@@ -14,7 +14,7 @@ An **index** is a separate, ordered data structure that lets the database jump s
 
 ---
 
-## Creating an index
+## 17.2 Creating an index
 
 ```sql
 CREATE INDEX idx_books_genre ON books (genre);
@@ -26,19 +26,19 @@ SELECT * FROM books WHERE genre = 'Fantasy';
 
 ---
 
-## How indexes work (conceptually)
+## 17.3 How indexes work (conceptually)
 
 Most indexes use a **B-tree** structure: a balanced, sorted tree that lets the database narrow down to matching rows in roughly `O(log n)` steps instead of checking all `n` rows. Think of it like binary search on a sorted list, but able to handle inserts and deletes efficiently as the table changes.
 
 ---
 
-## Primary keys and unique constraints are automatically indexed
+## 17.4 Primary keys and unique constraints are automatically indexed
 
 You rarely need to manually index a primary key or a `UNIQUE` column — most databases create an index for these automatically, since uniqueness checks require fast lookups anyway.
 
 ---
 
-## Composite (multi-column) indexes
+## 17.5 Composite (multi-column) indexes
 
 ```sql
 CREATE INDEX idx_books_genre_year ON books (genre, published_year);
@@ -47,7 +47,7 @@ This helps queries filtering on `genre` alone, or on `genre` *and* `published_ye
 
 ---
 
-## Checking whether a query uses an index: EXPLAIN
+## 17.6 Checking whether a query uses an index: EXPLAIN
 
 ```sql
 -- PostgreSQL / SQLite / MySQL
@@ -60,7 +60,7 @@ This shows the database's **query plan** — whether it used an index scan (fast
 
 ---
 
-## When an index helps
+## 17.7 When an index helps
 
 - Columns frequently used in `WHERE` clauses
 - Columns used in `JOIN ... ON` conditions (foreign keys especially — these are *not* always auto-indexed, unlike primary keys, and are a common performance gap)
@@ -69,7 +69,7 @@ This shows the database's **query plan** — whether it used an index scan (fast
 
 ---
 
-## When an index doesn't help (or actively hurts)
+## 17.8 When an index doesn't help (or actively hurts)
 
 - **Small tables** — a full scan of 100 rows is already near-instant; the index adds overhead for no benefit.
 - **Low-cardinality columns** — indexing a `boolean` column with only `TRUE`/`FALSE` rarely helps, since roughly half the table matches either value anyway.
@@ -79,7 +79,7 @@ This shows the database's **query plan** — whether it used an index scan (fast
 
 ---
 
-## Types of indexes (brief overview)
+## 17.9 Types of indexes (brief overview)
 
 | Type | Best for |
 |---|---|
@@ -96,7 +96,7 @@ CREATE INDEX idx_expensive_books ON books (price) WHERE price > 20;
 
 ---
 
-## Dropping an index
+## 17.10 Dropping an index
 
 ```sql
 DROP INDEX idx_books_genre;             -- SQLite, PostgreSQL
@@ -105,7 +105,7 @@ DROP INDEX idx_books_genre ON books;    -- MySQL requires the table name
 
 ---
 
-## A practical mental model
+## 17.11 A practical mental model
 
 Add an index when you can answer "yes" to: *"Will this column be searched, joined, or sorted on often enough that the write-time cost of maintaining the index is worth the read-time savings?"* Start without extra indexes, measure real query performance with `EXPLAIN`, and add indexes where the evidence points — rather than guessing upfront.
 

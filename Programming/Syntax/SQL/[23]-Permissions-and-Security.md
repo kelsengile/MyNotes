@@ -8,7 +8,7 @@ This lesson applies to server-based databases (PostgreSQL, MySQL, SQL Server). *
 
 ---
 
-## Users and roles
+## 23.1 Users and roles
 
 A **user** (sometimes called a "login") is an account that can connect to the database. A **role** is a named collection of permissions that can be granted to users — some databases (like PostgreSQL) unify these concepts, treating users as roles that happen to have login privilege.
 
@@ -20,7 +20,7 @@ CREATE USER 'analyst'@'localhost' IDENTIFIED BY 'a_strong_password';  -- MySQL s
 
 ---
 
-## GRANT: giving permissions
+## 23.2 GRANT: giving permissions
 
 ```sql
 GRANT SELECT ON books TO analyst;
@@ -51,7 +51,7 @@ GRANT SELECT (title, price) ON books TO analyst;     -- specific columns only (s
 
 ---
 
-## REVOKE: taking permissions away
+## 23.3 REVOKE: taking permissions away
 
 ```sql
 REVOKE INSERT ON books FROM analyst;
@@ -60,7 +60,7 @@ REVOKE ALL PRIVILEGES ON books FROM analyst;
 
 ---
 
-## Roles as permission groups
+## 23.4 Roles as permission groups
 
 Rather than granting permissions to individual users one by one, it's standard practice to define roles representing job functions, then assign users to those roles:
 ```sql
@@ -74,7 +74,7 @@ This way, changing what "read-only access" means updates every user in that role
 
 ---
 
-## The principle of least privilege
+## 23.5 The principle of least privilege
 
 A core security principle: every user or application should have the *minimum* permissions necessary to do its job, and nothing more.
 
@@ -86,7 +86,7 @@ This limits the damage from a compromised application, a buggy script, or an acc
 
 ---
 
-## Using views to restrict access (recap of Lesson 16)
+## 23.6 Using views to restrict access (recap of Lesson 16)
 
 Views can expose a limited slice of a table's columns or rows, letting you grant broad `SELECT` access to a view without ever exposing sensitive underlying columns directly:
 ```sql
@@ -98,7 +98,7 @@ GRANT SELECT ON public_authors TO analyst;
 
 ---
 
-## Row-level security (PostgreSQL, SQL Server)
+## 23.7 Row-level security (PostgreSQL, SQL Server)
 
 Some databases can restrict access to specific *rows*, not just tables/columns — e.g., letting each salesperson see only their own customers' data:
 ```sql
@@ -112,7 +112,7 @@ CREATE POLICY salesperson_own_orders ON orders
 
 ---
 
-## SQL injection: the most important security concept for SQL
+## 23.8 SQL injection: the most important security concept for SQL
 
 **SQL injection** happens when untrusted input (like a search box on a website) is inserted directly into a SQL string, letting an attacker manipulate the query's actual structure.
 
@@ -137,7 +137,7 @@ Every mainstream database driver, in every language, supports parameterized quer
 
 ---
 
-## Encryption
+## 23.9 Encryption
 
 - **Encryption at rest** protects stored data if the underlying disk/backups are stolen
 - **Encryption in transit** (TLS/SSL) protects data traveling between application and database over the network

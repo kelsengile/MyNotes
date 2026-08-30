@@ -8,7 +8,7 @@ A **view** is a saved query that behaves like a virtual table — you can `SELEC
 
 ---
 
-## Creating a view
+## 16.1 Creating a view
 
 ```sql
 CREATE VIEW expensive_books AS
@@ -26,7 +26,7 @@ Behind the scenes, the database expands this into the original query with your a
 
 ---
 
-## Why use views?
+## 16.2 Why use views?
 
 ### 1. Simplifying complex queries
 If you frequently run a query with several joins and aggregations, wrapping it in a view means everyone can just say `SELECT * FROM sales_summary` instead of retyping the underlying logic every time:
@@ -54,7 +54,7 @@ Encoding business logic (like "what counts as an active customer") once, in a vi
 
 ---
 
-## Updating through a view
+## 16.3 Updating through a view
 
 Some views are **updatable** — you can `INSERT`, `UPDATE`, or `DELETE` through them, and the change is applied to the underlying table:
 ```sql
@@ -65,7 +65,7 @@ A view is generally updatable only if it's "simple" — no aggregates (`GROUP BY
 
 ---
 
-## Dropping and replacing a view
+## 16.4 Dropping and replacing a view
 
 ```sql
 DROP VIEW expensive_books;
@@ -78,7 +78,7 @@ SELECT title, price FROM books WHERE price > 12;
 
 ---
 
-## Materialized views
+## 16.5 Materialized views
 
 A **materialized view** is a variant that *does* physically store its query's results, refreshed on demand or on a schedule, rather than recomputing on every access. This trades freshness for speed — ideal for expensive aggregate queries that don't need to reflect the absolute latest data.
 
@@ -97,7 +97,7 @@ REFRESH MATERIALIZED VIEW genre_stats;
 
 ---
 
-## Views vs CTEs (preview of Lesson 19)
+## 16.6 Views vs CTEs (preview of Lesson 19)
 
 Both let you name and reuse a piece of query logic — the key difference is persistence. A view is saved permanently in the database schema and can be used across many different queries and sessions. A CTE (`WITH ... AS (...)`) exists only for the duration of a single query.
 

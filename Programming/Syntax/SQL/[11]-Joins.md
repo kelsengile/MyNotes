@@ -10,7 +10,7 @@ Joins combine columns from two or more tables into a single result, based on a r
 
 ---
 
-## Sample setup
+## 11.1 Sample setup
 
 We'll extend the bookstore schema with an orders table:
 ```sql
@@ -39,7 +39,7 @@ Notice order 4 references a customer that doesn't exist — a realistic (if mess
 
 ---
 
-## INNER JOIN: only matching rows
+## 11.2 INNER JOIN: only matching rows
 
 `INNER JOIN` (often just written `JOIN`) returns rows where the join condition matches in *both* tables. Non-matching rows on either side are dropped.
 
@@ -61,7 +61,7 @@ JOIN table_b AS b ON a.key = b.key;
 
 ---
 
-## LEFT JOIN (LEFT OUTER JOIN): all rows from the left, matched or not
+## 11.3 LEFT JOIN (LEFT OUTER JOIN): all rows from the left, matched or not
 
 Returns every row from the left table, and matching data from the right table where it exists — filling in `NULL` where it doesn't.
 
@@ -83,7 +83,7 @@ This finds "orphaned" orders — a very common real-world data integrity check.
 
 ---
 
-## RIGHT JOIN (RIGHT OUTER JOIN): all rows from the right, matched or not
+## 11.4 RIGHT JOIN (RIGHT OUTER JOIN): all rows from the right, matched or not
 
 The mirror image of `LEFT JOIN` — every row from the right table, matched data from the left where available:
 ```sql
@@ -99,7 +99,7 @@ In practice, most people avoid `RIGHT JOIN` entirely and just swap table order t
 
 ---
 
-## FULL JOIN (FULL OUTER JOIN): everything, matched or not
+## 11.5 FULL JOIN (FULL OUTER JOIN): everything, matched or not
 
 Returns every row from both tables — matched where possible, `NULL`-filled where not.
 ```sql
@@ -118,7 +118,7 @@ SELECT c.name, o.order_id FROM customers c RIGHT JOIN orders o ON c.customer_id 
 
 ---
 
-## Visual summary
+## 11.6 Visual summary
 
 ```
 INNER JOIN:  only the overlap
@@ -129,7 +129,7 @@ FULL JOIN:   everything from both sides
 
 ---
 
-## Joining more than two tables
+## 11.7 Joining more than two tables
 
 Chain joins together — each new `JOIN` can reference any table already brought into the query:
 ```sql
@@ -141,7 +141,7 @@ JOIN books b ON o.book_id = b.book_id;
 
 ---
 
-## CROSS JOIN: every combination
+## 11.8 CROSS JOIN: every combination
 
 Returns the Cartesian product — every row from table A paired with every row from table B, with no matching condition:
 ```sql
@@ -151,7 +151,7 @@ If `customers` has 3 rows and `books` has 6, this returns 18 rows. Rarely used d
 
 ---
 
-## Self joins
+## 11.9 Self joins
 
 A table can be joined to itself — useful for hierarchical or comparative data, like finding employees managed by the same person:
 ```sql

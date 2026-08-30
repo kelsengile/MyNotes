@@ -4,13 +4,13 @@
 
 ---
 
-## The problem window functions solve
+## 20.1 The problem window functions solve
 
 `GROUP BY` (Lesson 9) collapses many rows into one row per group — you lose the individual rows. **Window functions** let you calculate aggregates and rankings *while keeping every individual row visible*, by computing across a "window" of related rows for each row.
 
 ---
 
-## Basic syntax: OVER()
+## 20.2 Basic syntax: OVER()
 
 ```sql
 SELECT title, genre, price,
@@ -21,7 +21,7 @@ This attaches the overall average price to *every single row*, without collapsin
 
 ---
 
-## PARTITION BY: windows within groups
+## 20.3 PARTITION BY: windows within groups
 
 `PARTITION BY` splits rows into groups (like `GROUP BY` does), but each row of the original table is still kept in the output:
 ```sql
@@ -33,7 +33,7 @@ Every row shows its own title/price *and* the average price for its genre, side 
 
 ---
 
-## Ranking functions
+## 20.4 Ranking functions
 
 ### ROW_NUMBER()
 Assigns a unique, sequential number to each row within its partition:
@@ -65,7 +65,7 @@ FROM books;
 
 ---
 
-## A practical use of ranking: "top N per group"
+## 20.5 A practical use of ranking: "top N per group"
 
 ```sql
 WITH ranked AS (
@@ -83,7 +83,7 @@ Note: you **cannot** use a window function's result directly in the same query's
 
 ---
 
-## Offset functions: LAG() and LEAD()
+## 20.6 Offset functions: LAG() and LEAD()
 
 These let a row see values from a *neighboring* row within its partition — perfect for period-over-period comparisons:
 ```sql
@@ -99,7 +99,7 @@ LAG(price, 1, 0) OVER (ORDER BY published_year)
 
 ---
 
-## Running totals with window frames
+## 20.7 Running totals with window frames
 
 By default, aggregate window functions with `ORDER BY` compute over "all rows from the start of the partition up to the current row" — giving you a running total:
 ```sql
@@ -121,7 +121,7 @@ This computes a moving sum over the current row plus the two preceding it — a 
 
 ---
 
-## FIRST_VALUE() and LAST_VALUE()
+## 20.8 FIRST_VALUE() and LAST_VALUE()
 
 ```sql
 SELECT title, genre, price,
@@ -131,7 +131,7 @@ FROM books;
 
 ---
 
-## Window functions vs GROUP BY: when to use which
+## 20.9 Window functions vs GROUP BY: when to use which
 
 - Use `GROUP BY` when you want a summarized result — one row per group, individual rows discarded.
 - Use a window function when you want to keep every individual row but *enrich* it with group-level context, running calculations, or rankings.

@@ -10,7 +10,7 @@ Before writing a single `CREATE TABLE` statement, it helps to model your data co
 
 ---
 
-## Entity-Relationship (ER) modeling
+## 15.1 Entity-Relationship (ER) modeling
 
 An **entity-relationship diagram (ERD)** is a visual way of planning a database's structure before writing SQL. It forces you to think through what the real-world "things" are, what facts you need about them, and how they connect — catching design mistakes on paper (or a whiteboard) instead of after the tables already exist.
 
@@ -55,13 +55,13 @@ Sketching entities, attributes, and relationships first — before typing `CREAT
 
 ---
 
-## Normalization
+## 15.2 Normalization
 
 Once you have an ER model, normalization is the process of organizing the resulting tables to reduce redundancy and prevent certain kinds of inconsistency. It's less about memorizing rules and more about a way of thinking: *each fact should be stored in exactly one place.*
 
 ---
 
-## The problem: a denormalized table
+## 15.3 The problem: a denormalized table
 
 Imagine one big table instead of separate `books` and `authors` tables:
 
@@ -80,7 +80,7 @@ Splitting into `authors` and `books` tables (as we've done throughout this cours
 
 ---
 
-## Normal forms
+## 15.4 Normal forms
 
 Normalization is formalized as a series of "normal forms," each building on the last.
 
@@ -133,7 +133,7 @@ Further normal forms exist (BCNF, 4NF, 5NF) for edge cases involving more comple
 
 ---
 
-## Denormalization: sometimes on purpose
+## 15.5 Denormalization: sometimes on purpose
 
 Normalization optimizes for data integrity and minimal redundancy — but every join has a performance cost (Lesson 26). For read-heavy systems like reporting dashboards or analytics warehouses, it's common to deliberately **denormalize**: duplicate some data back into wider tables to avoid expensive joins at query time.
 
@@ -145,7 +145,7 @@ A common real-world pattern: keep the "source of truth" data normalized (e.g., i
 
 ---
 
-## Practical schema design process
+## 15.6 Practical schema design process
 
 1. **Identify entities** — the "nouns" in your domain (author, book, customer, order).
 2. **Identify attributes** for each entity — facts that belong to exactly that entity.

@@ -10,7 +10,7 @@ Set operations combine the *results* of two separate `SELECT` queries, stacking 
 
 ---
 
-## The requirement: compatible columns
+## 10.1 The requirement: compatible columns
 
 For any set operation, both queries must return:
 - The same number of columns
@@ -20,7 +20,7 @@ The column names in the final result come from the **first** query.
 
 ---
 
-## Sample setup
+## 10.2 Sample setup
 
 ```sql
 CREATE TABLE fiction_bestsellers (title TEXT, year INTEGER);
@@ -38,7 +38,7 @@ INSERT INTO award_winners VALUES
 
 ---
 
-## UNION: combine rows, remove duplicates
+## 10.3 UNION: combine rows, remove duplicates
 
 ```sql
 SELECT title, year FROM fiction_bestsellers
@@ -49,7 +49,7 @@ Returns every distinct row that appears in *either* query. Because `UNION` remov
 
 ---
 
-## UNION ALL: combine rows, keep duplicates
+## 10.4 UNION ALL: combine rows, keep duplicates
 
 ```sql
 SELECT title, year FROM fiction_bestsellers
@@ -60,7 +60,7 @@ This returns every row from both queries, including 'Norwegian Wood' and 'Half o
 
 ---
 
-## INTERSECT: only rows in both
+## 10.5 INTERSECT: only rows in both
 
 ```sql
 SELECT title, year FROM fiction_bestsellers
@@ -73,7 +73,7 @@ Returns only rows that appear in *both* result sets — here, 'Half of a Yellow 
 
 ---
 
-## EXCEPT (aka MINUS): rows in the first, not the second
+## 10.6 EXCEPT (aka MINUS): rows in the first, not the second
 
 ```sql
 SELECT title, year FROM fiction_bestsellers
@@ -86,7 +86,7 @@ Returns rows from the first query that *don't* appear in the second — here, ju
 
 ---
 
-## Ordering the combined result
+## 10.7 Ordering the combined result
 
 `ORDER BY` applies to the *entire combined result*, and goes at the very end (only one `ORDER BY` is allowed per set operation):
 ```sql
@@ -98,7 +98,7 @@ ORDER BY year;
 
 ---
 
-## A practical use: combining data from similarly-shaped tables
+## 10.8 A practical use: combining data from similarly-shaped tables
 
 Set operations are especially useful when the same kind of data is split across tables — for example, current-year and archived records:
 ```sql
@@ -109,7 +109,7 @@ SELECT customer_id, name FROM archived_customers;
 
 ---
 
-## Set operations vs JOIN: when to use which
+## 10.9 Set operations vs JOIN: when to use which
 
 - Use a **JOIN** when you want to combine *columns* from two related tables into wider rows (e.g., books with their author's name attached).
 - Use a **set operation** when you want to combine or compare *rows* from two queries with the same shape (e.g., "titles that are bestsellers OR award winners").

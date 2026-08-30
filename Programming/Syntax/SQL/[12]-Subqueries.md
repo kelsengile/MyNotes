@@ -10,7 +10,7 @@ A subquery is a `SELECT` statement nested inside another SQL statement. It lets 
 
 ---
 
-## Scalar subqueries: a single value
+## 12.1 Scalar subqueries: a single value
 
 A subquery that returns exactly one row and one column can be used anywhere a single value is expected:
 ```sql
@@ -28,7 +28,7 @@ FROM books;
 
 ---
 
-## Subqueries with IN
+## 12.2 Subqueries with IN
 
 When a subquery returns multiple rows (but one column), use `IN` to check membership:
 ```sql
@@ -42,7 +42,7 @@ This finds authors who have written at least one science fiction book.
 
 ---
 
-## Subqueries with comparison operators + ANY/ALL
+## 12.3 Subqueries with comparison operators + ANY/ALL
 
 ```sql
 SELECT title, price
@@ -57,7 +57,7 @@ WHERE price > ALL (SELECT price FROM books WHERE genre = 'Fantasy');
 
 ---
 
-## EXISTS: checking for any matching row
+## 12.4 EXISTS: checking for any matching row
 
 `EXISTS` returns `TRUE` if the subquery returns at least one row — it doesn't care about the actual values, just whether any rows come back. This is often the fastest way to check for existence, since the database can stop as soon as it finds one match.
 
@@ -78,14 +78,14 @@ This finds authors with zero books in the table — and unlike `NOT IN`, it isn'
 
 ---
 
-## Correlated vs uncorrelated subqueries
+## 12.5 Correlated vs uncorrelated subqueries
 
 - **Uncorrelated**: the subquery is independent — it could run on its own. `WHERE price > (SELECT AVG(price) FROM books)` doesn't need anything from the outer query.
 - **Correlated**: the subquery references a column from the outer query, so it logically depends on each outer row. These are typically slower on large tables, since (conceptually) they must be evaluated per row, though modern query optimizers often rewrite them into joins internally.
 
 ---
 
-## Subqueries in FROM (derived tables)
+## 12.6 Subqueries in FROM (derived tables)
 
 A subquery can stand in for a table entirely — this is often called a "derived table" or "inline view":
 ```sql
@@ -101,7 +101,7 @@ The subquery must be given an alias (`AS genre_averages`) in most databases, inc
 
 ---
 
-## Subqueries vs JOINs vs CTEs
+## 12.7 Subqueries vs JOINs vs CTEs
 
 - A subquery in `WHERE ... IN (...)` or `EXISTS` is great for filtering based on a *related fact*, without needing the related table's columns in your output.
 - A `JOIN` (Lesson 11) is better when you need columns from *both* tables in your result.
@@ -111,7 +111,7 @@ These often produce equivalent results — choosing between them is largely abou
 
 ---
 
-## Subqueries in UPDATE and DELETE
+## 12.8 Subqueries in UPDATE and DELETE
 
 ```sql
 UPDATE books

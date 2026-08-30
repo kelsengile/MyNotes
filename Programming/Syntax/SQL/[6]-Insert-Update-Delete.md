@@ -8,7 +8,7 @@
 
 ---
 
-## INSERT: adding rows
+## 6.1 INSERT: adding rows
 
 ### Inserting one row, all columns
 ```sql
@@ -47,7 +47,7 @@ This copies rows straight from a `SELECT` into another table.
 
 ---
 
-## UPDATE: changing existing rows
+## 6.2 UPDATE: changing existing rows
 
 ```sql
 UPDATE books
@@ -78,7 +78,7 @@ This raises the price of every science fiction book by 5%.
 
 ---
 
-## DELETE: removing rows
+## 6.3 DELETE: removing rows
 
 ```sql
 DELETE FROM books
@@ -94,7 +94,7 @@ This still leaves the (now empty) table structure intact — unlike `DROP TABLE`
 
 ---
 
-## A safety habit: SELECT before you UPDATE or DELETE
+## 6.4 A safety habit: SELECT before you UPDATE or DELETE
 
 Before running an `UPDATE` or `DELETE` with a `WHERE` clause you're not 100% sure about, run the equivalent `SELECT` first to see exactly which rows would be affected:
 ```sql
@@ -108,7 +108,7 @@ This habit prevents the single most common and painful SQL mistake.
 
 ---
 
-## Transactions: an early preview
+## 6.5 Transactions: an early preview
 
 Server databases (PostgreSQL, MySQL, SQL Server) let you wrap changes in a transaction so you can undo them if something looks wrong, *before* committing:
 ```sql
@@ -123,7 +123,7 @@ Transactions are covered in full in Lesson 18 — but it's worth knowing this sa
 
 ---
 
-## RETURNING (PostgreSQL, SQLite 3.35+)
+## 6.6 RETURNING (PostgreSQL, SQLite 3.35+)
 
 Some databases let you see the affected rows immediately, without a separate `SELECT`:
 ```sql
@@ -134,7 +134,7 @@ RETURNING book_id, title, price;
 
 ---
 
-## UPSERT: insert, or update if it already exists
+## 6.7 UPSERT: insert, or update if it already exists
 
 Often you want to insert a row, but if a row with that same key already exists, update it instead of failing with a duplicate-key error. This pattern is called an **upsert** (insert + update), and every major database supports it — with different syntax.
 

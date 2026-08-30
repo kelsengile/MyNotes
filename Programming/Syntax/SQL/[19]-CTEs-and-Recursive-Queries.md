@@ -5,7 +5,7 @@
 
 ---
 
-## What a CTE is
+## 19.1 What a CTE is
 
 A **Common Table Expression** (CTE) is a named, temporary result set defined with `WITH`, that you can reference like a table for the rest of that single query. It exists only for the duration of the query — unlike a view (Lesson 16), nothing is saved to the database.
 
@@ -20,7 +20,7 @@ GROUP BY genre;
 
 ---
 
-## Why use a CTE instead of a subquery?
+## 19.2 Why use a CTE instead of a subquery?
 
 Both often produce identical results and identical performance (modern query optimizers frequently treat them the same way internally) — the real difference is **readability**. Compare:
 
@@ -44,7 +44,7 @@ As logic gets more nested, CTEs stay readable while stacked subqueries quickly b
 
 ---
 
-## Multiple CTEs in one query
+## 19.3 Multiple CTEs in one query
 
 Separate multiple CTEs with commas — later CTEs can reference earlier ones:
 ```sql
@@ -61,7 +61,7 @@ WHERE scifi_books.price > scifi_avg.avg_price;
 
 ---
 
-## Referencing a CTE more than once
+## 19.4 Referencing a CTE more than once
 
 A CTE can be referenced multiple times within the same query, without the underlying query being re-run and rewritten each time:
 ```sql
@@ -75,7 +75,7 @@ WHERE g1.total = (SELECT MAX(total) FROM genre_totals);
 
 ---
 
-## Recursive CTEs
+## 19.5 Recursive CTEs
 
 A **recursive CTE** references itself, letting you walk through hierarchical or graph-like data — organizational charts, category trees, bill-of-materials structures, or generating a sequence of numbers.
 
@@ -142,7 +142,7 @@ This produces the numbers 1 through 10 — useful for generating date ranges, fi
 
 ---
 
-## Avoiding infinite recursion
+## 19.6 Avoiding infinite recursion
 
 A recursive CTE without a stopping condition will run forever (or until it hits a database-imposed row/depth limit). Always ensure the recursive case eventually stops matching new rows — in the examples above, that happens naturally once no more employees or numbers satisfy the join/filter condition.
 
@@ -150,7 +150,7 @@ A recursive CTE without a stopping condition will run forever (or until it hits 
 
 ---
 
-## CTEs in INSERT/UPDATE/DELETE
+## 19.7 CTEs in INSERT/UPDATE/DELETE
 
 CTEs aren't limited to `SELECT` — they can feed other statements too:
 ```sql

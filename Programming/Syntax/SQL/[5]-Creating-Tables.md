@@ -8,7 +8,7 @@ These commands belong to a subset of SQL called **DDL** — Data Definition Lang
 
 ---
 
-## CREATE TABLE
+## 5.1 CREATE TABLE
 
 ```sql
 CREATE TABLE customers (
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS customers (
 
 ---
 
-## ALTER TABLE
+## 5.2 ALTER TABLE
 
 `ALTER TABLE` changes the structure of an existing table without losing its data.
 
@@ -67,7 +67,7 @@ ALTER TABLE clients DROP COLUMN phone_number;
 
 ---
 
-## DROP TABLE
+## 5.3 DROP TABLE
 
 Permanently deletes a table and all its data:
 ```sql
@@ -80,7 +80,7 @@ DROP TABLE IF EXISTS clients;
 
 ---
 
-## TRUNCATE TABLE
+## 5.4 TRUNCATE TABLE
 
 Removes all *rows* from a table but keeps the table structure — faster than `DELETE FROM table` for clearing large tables, and typically resets auto-increment counters.
 ```sql
@@ -90,7 +90,7 @@ TRUNCATE TABLE clients;
 
 ---
 
-## A full example: building the bookstore schema properly
+## 5.5 A full example: building the bookstore schema properly
 
 Combining what we've learned in Lessons 4 and 5:
 
@@ -119,7 +119,7 @@ Note the `FOREIGN KEY` line — it tells the database that `books.author_id` ref
 
 ---
 
-## Viewing a table's structure
+## 5.6 Viewing a table's structure
 
 - SQLite: `.schema books`
 - PostgreSQL: `\d books` (in `psql`)

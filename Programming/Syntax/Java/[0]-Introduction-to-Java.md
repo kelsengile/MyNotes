@@ -26,33 +26,162 @@ Java lets you:
 
 **Getting Started**  
     1. **[Installing Java & First-Time Setup (JDK, JRE, JVM)](./[1]-Installation-and-Setup.md)**  
+       1.1 JDK vs JRE vs JVM  
+       1.2 Choosing a Java Version (LTS Releases)  
+       1.3 Installing the JDK  
+       1.4 Verifying Your Installation  
+       1.5 Setting JAVA_HOME and PATH  
     2. **[Running Code: javac, java, jshell REPL & IDEs](./[2]-Running-Java-Code.md)**  
+       2.1 Compiling with javac  
+       2.2 Running with java  
+       2.3 Single-File Source-Code Programs  
+       2.4 The jshell REPL  
+       2.5 Using an IDE (IntelliJ, Eclipse, VS Code)  
     3. **[How Java Works: Bytecode, the JVM & Classloading](./[3]-How-Java-Works.md)**  
+       3.1 From Source Code to Bytecode  
+       3.2 The Java Virtual Machine  
+       3.3 Write Once, Run Anywhere  
+       3.4 Classloading  
+       3.5 JIT Compilation  
     4. **[Build Tools & Dependency Management (Maven, Gradle)](./[4]-Build-Tools-Maven-and-Gradle.md)**  
+       4.1 Why Build Tools?  
+       4.2 Project Structure Conventions  
+       4.3 Maven Basics (pom.xml)  
+       4.4 Gradle Basics (build.gradle)  
+       4.5 Choosing Between Maven and Gradle  
 
 **Core Syntax**  
     5. **[Variables & Basic Data Types (Primitives vs. Reference Types)](./[5]-Variables-and-Data-Types.md)**  
+       5.1 Declaring Variables  
+       5.2 Primitive Types  
+       5.3 Reference Types  
+       5.4 Type Inference with var  
+       5.5 Naming Conventions  
     6. **[Numbers, Strings, Characters & Booleans](./[6]-Numbers-Strings-and-Booleans.md)**  
+       6.1 Integer Types in Depth  
+       6.2 Floating-Point Types in Depth  
+       6.3 The char Type  
+       6.4 The String Type  
+       6.5 The boolean Type  
     7. **[Operators & Expressions (arithmetic, comparison, logical, bitwise, ternary)](./[7]-Operators-and-Expressions.md)**  
+       7.1 Arithmetic Operators  
+       7.2 Assignment Operators  
+       7.3 Comparison Operators  
+       7.4 Logical Operators  
+       7.5 Bitwise Operators  
+       7.6 The Ternary Operator  
+       7.7 Operator Precedence  
     8. **[Conditionals: if, else if, else, switch (incl. switch expressions)](./[8]-Conditionals.md)**  
+       8.1 if, else if, else  
+       8.2 switch Statements  
+       8.3 Switch Expressions (Java 14+)  
+       8.4 Pattern Matching in switch  
     9. **[Loops: for, while, do-while, enhanced for, break, continue](./[9]-Loops.md)**  
+       9.1 for Loops  
+       9.2 while Loops  
+       9.3 do-while Loops  
+       9.4 Enhanced for Loop  
+       9.5 break and continue  
+       9.6 Nested Loops and Labels  
     10. **[Methods & Scope (overloading, varargs, pass-by-value)](./[10]-Methods-and-Scope.md)**  
+        10.1 Defining Methods  
+        10.2 Parameters and Return Values  
+        10.3 Method Overloading  
+        10.4 Varargs  
+        10.5 Pass-by-Value Semantics  
+        10.6 Variable Scope  
     11. **[String Formatting & Manipulation (String, StringBuilder, text blocks)](./[11]-String-Formatting.md)**  
+        11.1 String Immutability  
+        11.2 Common String Methods  
+        11.3 StringBuilder  
+        11.4 String Formatting (String.format, printf)  
+        11.5 Text Blocks  
     12. **[Arrays & Multidimensional Arrays](./[12]-Arrays.md)**  
+        12.1 Declaring and Creating Arrays  
+        12.2 Array Initialization  
+        12.3 Iterating Arrays  
+        12.4 Multidimensional Arrays  
+        12.5 Arrays Utility Class  
     13. **[Exception Handling: try, catch, finally, throw, custom exceptions](./[13]-Exception-Handling.md)**  
+        13.1 What Are Exceptions?  
+        13.2 try, catch, finally  
+        13.3 Checked vs Unchecked Exceptions  
+        13.4 throw and throws  
+        13.5 Custom Exceptions  
+        13.6 try-with-resources  
 
 **Object-Oriented Programming**  
     14. **[Classes & Objects](./[14]-OOP-Classes-and-Objects.md)**  
+        14.1 What Is a Class?  
+        14.2 Fields and Methods  
+        14.3 Creating Objects  
+        14.4 Instance vs Class Members  
+        14.5 Object References  
     15. **[Constructors & the `this` Keyword](./[15]-Constructors.md)**  
+        15.1 Default Constructors  
+        15.2 Parameterized Constructors  
+        15.3 Constructor Overloading  
+        15.4 The this Keyword  
+        15.5 Constructor Chaining (this(...))  
     16. **[Inheritance & Polymorphism (`extends`, method overriding)](./[16]-Inheritance-and-Polymorphism.md)**  
+        16.1 The extends Keyword  
+        16.2 Method Overriding  
+        16.3 super Keyword  
+        16.4 Polymorphism  
+        16.5 The Object Superclass  
     17. **[Encapsulation & Access Modifiers (public, private, protected, package-private)](./[17]-Encapsulation-and-Access-Modifiers.md)**  
+        17.1 What Is Encapsulation?  
+        17.2 public, private, protected, package-private  
+        17.3 Getters and Setters  
+        17.4 Access Modifiers on Classes  
+        17.5 Best Practices  
     18. **[Abstraction: Abstract Classes & Interfaces](./[18]-Abstraction-Interfaces-and-Abstract-Classes.md)**  
+        18.1 What Is Abstraction?  
+        18.2 Abstract Classes  
+        18.3 Interfaces  
+        18.4 Default and Static Interface Methods  
+        18.5 Abstract Class vs Interface  
     19. **[The Object Class & Overriding equals(), hashCode(), toString()](./[19]-The-Object-Class.md)**  
+        19.1 Every Class Extends Object  
+        19.2 toString()  
+        19.3 equals()  
+        19.4 hashCode()  
+        19.5 The equals/hashCode Contract  
     20. **[Static Members, Static Blocks & Final Keyword](./[20]-Static-and-Final.md)**  
+        20.1 Static Fields  
+        20.2 Static Methods  
+        20.3 Static Initializer Blocks  
+        20.4 The final Keyword  
+        20.5 Static vs Instance Context  
     21. **[Nested, Inner, Local & Anonymous Classes](./[21]-Nested-and-Inner-Classes.md)**  
+        21.1 Static Nested Classes  
+        21.2 Inner (Non-Static) Classes  
+        21.3 Local Classes  
+        21.4 Anonymous Classes  
+        21.5 When to Use Each  
     22. **[Enums](./[22]-Enums.md)**  
+        22.1 What Is an Enum?  
+        22.2 Enum Constants and Basic Usage  
+        22.3 Enums with Fields, Constructors, and Methods  
+        22.4 Enums with Constant-Specific Bodies  
+        22.5 Enum Methods: values(), valueOf(), ordinal(), name()  
+        22.6 Enums in Switch Statements  
+        22.7 Implementing Interfaces with Enums  
     23. **[Records](./[23]-Records.md)**  
+        23.1 What Is a Record?  
+        23.2 Declaring and Using Records  
+        23.3 Compact Constructors  
+        23.4 Custom Methods and Static Members  
+        23.5 Records vs Traditional Classes  
+        23.6 A Preview: Records and Pattern Matching  
     24. **[Sealed Classes & Pattern Matching (instanceof, switch patterns)](./[24]-Sealed-Classes-and-Pattern-Matching.md)**  
+        24.1 What Are Sealed Classes?  
+        24.2 Declaring Sealed Classes and Interfaces  
+        24.3 Permitted Subclasses: final, sealed, non-sealed  
+        24.4 Pattern Matching for instanceof  
+        24.5 Switch Expressions with Pattern Matching  
+        24.6 Record Patterns in Switch  
+        24.7 Sealed Classes and Pattern Matching Together  
 
 **Generics & Type System**  
     25. **[Generics (generic classes, methods, bounded types, wildcards)](./[25]-Generics.md)**  

@@ -8,7 +8,7 @@ Built-in functions let you transform and compute values inside a query, instead 
 
 ---
 
-## String functions
+## 8.1 String functions
 
 | Task | SQLite / PostgreSQL | MySQL | SQL Server |
 |---|---|---|---|
@@ -31,7 +31,7 @@ SELECT SUBSTR('Kafka on the Shore', 1, 5);   -- 'Kafka'
 
 ---
 
-## Math functions
+## 8.2 Math functions
 
 | Function | Purpose |
 |---|---|
@@ -51,7 +51,7 @@ SELECT CEIL(4.1);      -- 5
 
 ---
 
-## Date and time functions
+## 8.3 Date and time functions
 
 Date functions vary the most across dialects. Examples for getting "today":
 
@@ -94,7 +94,7 @@ Because of this variation, always check your specific database's documentation w
 
 ---
 
-## Type conversion: CAST
+## 8.4 Type conversion: CAST
 
 `CAST` converts a value from one type to another, and is standard across all major databases:
 ```sql
@@ -106,7 +106,7 @@ Shorthand in PostgreSQL and SQLite: `price::INTEGER`.
 
 ---
 
-## CASE expressions: conditional logic inside a query
+## 8.5 CASE expressions: conditional logic inside a query
 
 `CASE` is SQL's if/else — it lets you compute a value based on conditions, inline in a `SELECT`, `WHERE`, or `ORDER BY`.
 

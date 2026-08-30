@@ -9,7 +9,7 @@ Real-world data rarely starts out already inside your database — it usually ar
 
 ---
 
-## Importing CSV data
+## 24.1 Importing CSV data
 
 ### SQLite
 ```
@@ -52,7 +52,7 @@ WITH (
 
 ---
 
-## Exporting to CSV
+## 24.2 Exporting to CSV
 
 ### SQLite
 ```
@@ -87,7 +87,7 @@ Most database GUI tools (DBeaver, TablePlus, pgAdmin) offer an "Export results" 
 
 ---
 
-## Working with JSON
+## 24.3 Working with JSON
 
 Modern databases increasingly support JSON natively.
 
@@ -124,7 +124,7 @@ SELECT JSON_OBJECT('title', title, 'price', price) FROM books;
 
 ---
 
-## Dump and restore (full database backups)
+## 24.4 Dump and restore (full database backups)
 
 ### PostgreSQL
 ```bash
@@ -147,7 +147,7 @@ sqlite3 new_database.db < backup.sql
 
 ---
 
-## Practical import checklist
+## 24.5 Practical import checklist
 
 Before importing external data:
 1. **Inspect the source first** — open the CSV, check column names, encoding, delimiter, and whether it has a header row
