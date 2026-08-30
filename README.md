@@ -13,7 +13,7 @@ This repository is written for educational purposes and is open for anyone to re
 <tr><th colspan="1" align="center">Fundamentals</th></tr>
 <tr>
 <td align="center" width="100%">
-<a href="./Programming/Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="40" title="Fundamentals"/><br>Introduction</a>
+<a href="./Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="40" title="Fundamentals"/><br>Introduction</a>
 </td>
 </tr>
 </table>
