@@ -1,4 +1,4 @@
-[Previous](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B8%5D-Conditionals%20%281%29.md)
+[Previous](./%5B6%5D-Numbers-Strings-and-Booleans.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B8%5D-Conditionals.md)
 
 *Core Syntax*
 

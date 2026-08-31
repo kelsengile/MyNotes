@@ -1,4 +1,4 @@
-[Previous](./%5B44%5D-Performance-Optimization%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[46]-Battery-and-Resource-Efficiency.md)
+[Previous](./%5B44%5D-Performance-Optimization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[46]-Battery-and-Resource-Efficiency.md)
 
 *Best Practices*
 

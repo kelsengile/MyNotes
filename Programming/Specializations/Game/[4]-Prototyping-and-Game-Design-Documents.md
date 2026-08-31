@@ -1,4 +1,4 @@
-[Previous](./[3]-Anatomy-of-a-Game-Project.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)
+[Previous](./[3]-Anatomy-of-a-Game-Project.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B5%5D-Variables-and-Data-Types.md)
 
 *Getting Started*
 
@@ -42,4 +42,4 @@ Not every idea needs code to test. A **paper prototype** (index cards, a board, 
 3. Ask: does this loop feel good *before* any art or story is added? If not, iterate on the mechanic before investing further.
 4. Only after the core loop is validated should you move on to building out the broader systems covered in the rest of this course.
 
-[Previous](./[3]-Anatomy-of-a-Game-Project.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)
+[Previous](./[3]-Anatomy-of-a-Game-Project.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B5%5D-Variables-and-Data-Types.md)

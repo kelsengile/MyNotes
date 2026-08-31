@@ -29,7 +29,7 @@ Mobile Development lets you:
     1.2 Native Development  
     1.3 Cross-Platform Development  
     1.4 Choosing an Approach  
-2. **[Development Environment & Toolchains (Xcode, Android Studio, Flutter/RN CLI)](./%5B2%5D-Development-Environment%20%282%29.md)**  
+2. **[Development Environment & Toolchains (Xcode, Android Studio, Flutter/RN CLI)](./%5B2%5D-Development-Environment.md)**  
     2.1 Xcode (iOS)  
     2.2 Android Studio  
     2.3 Cross-Platform CLIs  
@@ -231,7 +231,7 @@ Mobile Development lets you:
     35.3 Widget / Component Testing  
     35.4 UI / Integration Testing  
     35.5 Test-Driven Habits  
-36. **[Debugging & Profiling](./%5B36%5D-Debugging-and-Profiling%20%281%29.md)**  
+36. **[Debugging & Profiling](./%5B36%5D-Debugging-and-Profiling.md)**  
     36.1 Breakpoints and Step Debugging  
     36.2 Logging  
     36.3 Profiling Performance  
@@ -287,7 +287,7 @@ Mobile Development lets you:
     43.3 Touch Target Sizes  
     43.4 Color Contrast and Dynamic Type  
     43.5 Testing Accessibility  
-44. **[Performance Optimization for Mobile](./%5B44%5D-Performance-Optimization%20%281%29.md)**  
+44. **[Performance Optimization for Mobile](./%5B44%5D-Performance-Optimization.md)**  
     44.1 Why Mobile Performance Is Different  
     44.2 Rendering Performance  
     44.3 Memory Management  

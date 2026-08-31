@@ -1,4 +1,4 @@
-[Previous](./%5B12%5D-Error-Handling%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[14]-Objects-and-Object-Methods.md)
+[Previous](./%5B12%5D-Error-Handling.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./[14]-Objects-and-Object-Methods.md)
 
 *Data Structures*
 

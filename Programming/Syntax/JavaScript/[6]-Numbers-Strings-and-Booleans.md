@@ -1,4 +1,4 @@
-[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B7%5D-Operators-and-Expressions%20%281%29.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B7%5D-Operators-and-Expressions.md)
 
 *Core Syntax*
 

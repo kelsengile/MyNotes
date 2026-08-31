@@ -1,4 +1,4 @@
-[Previous](./%5B8%5D-Object-Oriented-Basics%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[10]-The-Game-Loop.md)
+[Previous](./%5B8%5D-Object-Oriented-Basic.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[10]-The-Game-Loop.md)
 
 *Core Programming Concepts*
 
@@ -52,4 +52,4 @@ Dictionaries are ideal for inventories, save data, and looking up game objects b
 
 Picking the right structure isn't just about correctness — it affects performance. Searching for an item in a `List` of thousands of enemies every frame is much slower than looking it up directly in a `Dictionary`, which matters once a game has many active objects.
 
-[Previous](./%5B8%5D-Object-Oriented-Basics%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[10]-The-Game-Loop.md)
+[Previous](./%5B8%5D-Object-Oriented-Basics.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[10]-The-Game-Loop.md)

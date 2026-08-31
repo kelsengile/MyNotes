@@ -49,26 +49,26 @@ Game Development lets you:
 
 **Core Programming Concepts**  
 
-5. **[Variables, Data Types & Operators](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
+5. **[Variables, Data Types & Operators](./%5B5%5D-Variables-and-Data-Types.md)**  
     5.1 What Is a Variable?  
     5.2 Common Data Types  
     5.3 Operators  
     5.4 Naming Conventions for Game Code  
-6. **[Control Flow: Conditionals & Loops](./%5B6%5D-Control-Flow%20%281%29.md)**  
+6. **[Control Flow: Conditionals & Loops](./%5B6%5D-Control-Flow.md)**  
     6.1 Conditional Statements  
-    6.2 Loops  
+    6.2 Loops   
     6.3 Using Control Flow in Gameplay Code  
-7. **[Functions & Scope](./%5B7%5D-Functions-and-Scope%20%281%29.md)**  
+7. **[Functions & Scope](./%5B7%5D-Functions-and-Scope.md)**  
     7.1 What Is a Function?  
     7.2 Parameters and Return Values  
     7.3 Scope: Local vs Global  
     7.4 Functions in Game Engine Callbacks  
-8. **[Object-Oriented Basics for Games (Classes, Components)](./%5B8%5D-Object-Oriented-Basics%20%281%29.md)**  
+8. **[Object-Oriented Basics for Games (Classes, Components)](./%5B8%5D-Object-Oriented-Basics.md)**  
     8.1 Classes and Objects  
     8.2 Inheritance  
     8.3 Components and Composition  
     8.4 Composition over Inheritance in Game Engines  
-9. **[Collections & Data Structures for Games](./%5B9%5D-Collections-and-Data-Structures%20%281%29.md)**  
+9. **[Collections & Data Structures for Games](./%5B9%5D-Collections-and-Data-Structures.md)**  
     9.1 Arrays and Lists  
     9.2 Dictionaries / Maps  
     9.3 Queues and Stacks  

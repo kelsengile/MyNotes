@@ -113,3 +113,42 @@ Contributions are welcome. Before opening a pull request, please read [CONTRIBUT
 **Why This Exists**
  
 Notes scattered across apps, tabs, and notebooks are easy to lose. This repository keeps everything in one searchable, versioned, and backed-up place — structured enough to teach from, and personal enough to keep growing indefinitely.
+
+
+├── Computer Science
+│   ├── Data Structures & Algorithms
+│   │   ├── Algorithms
+│   │   ├── Complexity
+│   │   └── Data Structures
+│   ├── Mathematics
+│   │   ├── Algebra
+│   │   ├── Calculus
+│   │   ├── Discrete
+│   │   └── Statistics
+│   ├── Computer Architecture
+│   │   ├── CPU & Memory
+│   │   ├── Assembly
+│   │   └── Digital Logic
+│   ├── Operating Systems Theory
+│   │   ├── Processes & Threads
+│   │   ├── Memory Management
+│   │   └── Concurrency
+│   ├── Networking
+│   │   ├── Protocols (TCP/IP, HTTP)
+│   │   └── Distributed Systems
+│   ├── Software Engineering
+│   │   ├── Design Patterns
+│   │   ├── Architecture (Design)
+│   │   ├── Testing
+│   │   └── SDLC
+│   ├── Theory of Computation
+│   │   ├── Automata
+│   │   ├── Formal Languages
+│   │   └── Computability
+│   └── Compilers & Languages
+│       ├── Parsing
+│       ├── Language Design
+│       └── Interpreters/Compilers
+
+
+Ransme lesson files with parenthesis numbers

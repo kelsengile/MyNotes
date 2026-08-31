@@ -1,4 +1,4 @@
-[Previous](./[6]-Numbers-Strings-and-Booleans.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B8%5D-Conditionals%20%281%29.md)
+[Previous](./[6]-Numbers-Strings-and-Booleans.md) | [Table of Contents](./[0]-Introduction-to-PHP.md) | [Next](./%5B8%5D-Conditionals.md)
 
 *Core Syntax*
 

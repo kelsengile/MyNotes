@@ -1,4 +1,4 @@
-[Previous](./[42]-In-App-Purchases-and-Monetization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B44%5D-Performance-Optimization%20%281%29.md)
+[Previous](./[42]-In-App-Purchases-and-Monetization.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B44%5D-Performance-Optimization.md)
 
 *Best Practices*
 

@@ -1,4 +1,4 @@
-[Previous](./[34]-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B36%5D-Debugging-and-Profiling%20%281%29.md)
+[Previous](./[34]-Dependency-Management.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./%5B36%5D-Debugging-and-Profiling.md)
 
 *Architecture & Best Practices*
 
