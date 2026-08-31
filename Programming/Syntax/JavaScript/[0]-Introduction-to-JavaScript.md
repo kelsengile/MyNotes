@@ -52,39 +52,39 @@ JavaScript lets you:
 
 **Core Syntax**  
 
-5. **[Variables & Data Types (var, let, const, typeof)](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
+5. **[Variables & Data Types (var, let, const, typeof)](./%5B5%5D-Variables-and-Data-Types.md)**  
     5.1 Declaring Variables: let, const, var  
     5.2 Naming Rules And Conventions  
     5.3 The Primitive Data Types  
     5.4 undefined vs. null  
     5.5 Checking A Type With typeof  
-6. **[Numbers, Strings & Booleans](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)**  
+6. **[Numbers, Strings & Booleans](./%5B6%5D-Numbers-Strings-and-Booleans.md)**  
     6.1 Numbers  
     6.2 Strings  
     6.3 Booleans  
     6.4 Type Coercion  
     6.5 Explicit Type Conversion  
-7. **[Operators & Expressions (arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining)](./%5B7%5D-Operators-and-Expressions%20%281%29.md)**  
+7. **[Operators & Expressions (arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining)](./%5B7%5D-Operators-and-Expressions.md)**  
     7.1 Arithmetic Operators  
     7.2 Assignment Operators  
     7.3 Comparison Operators  
     7.4 Logical Operators  
     7.5 Ternary Operator  
     7.6 Nullish Coalescing And Optional Chaining  
-8. **[Conditionals: if, else if, else, switch](./%5B8%5D-Conditionals%20%281%29.md)**  
+8. **[Conditionals: if, else if, else, switch](./%5B8%5D-Conditionals.md)**  
     8.1 if, else if, else  
     8.2 Truthy And Falsy In Conditions  
     8.3 The switch Statement  
     8.4 Nesting And Combining Conditions  
     8.5 The Ternary Operator As A Compact Conditional  
-9. **[Loops: for, while, do-while, for...in, for...of, break, continue](./%5B9%5D-Loops%20%281%29.md)**  
+9. **[Loops: for, while, do-while, for...in, for...of, break, continue](./%5B9%5D-Loops.md)**  
     9.1 The for Loop  
     9.2 The while And do-while Loops  
     9.3 for...of — Looping Over Values  
     9.4 for...in — Looping Over Keys  
     9.5 break And continue  
     9.6 Nested Loops  
-10. **[Functions & Scope (declarations, expressions, arrow functions, hoisting, closures)](./%5B10%5D-Functions-and-Scope%20%281%29.md)**  
+10. **[Functions & Scope (declarations, expressions, arrow functions, hoisting, closures)](./%5B10%5D-Functions-and-Scope.md)**  
     10.1 Function Declarations  
     10.2 Function Expressions And Arrow Functions  
     10.3 Default And Rest Parameters  
@@ -97,7 +97,7 @@ JavaScript lets you:
     11.3 Slicing And Splitting  
     11.4 Joining Strings  
     11.5 Regex Basics  
-12. **[Error Handling: try, catch, finally, throw, custom errors](./%5B12%5D-Error-Handling%20%281%29.md)**  
+12. **[Error Handling: try, catch, finally, throw, custom errors](./%5B12%5D-Error-Handling.md)**  
     12.1 What Happens When Code Throws  
     12.2 try, catch, finally  
     12.3 The throw Statement  

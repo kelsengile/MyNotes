@@ -45,7 +45,7 @@ PHP lets you:
 
 **Core Syntax**  
 
-5. **[Variables & Basic Data Types](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)**  
+5. **[Variables & Basic Data Types](./%5B5%5D-Variables-and-Data-Types.md)**  
     5.1 Declaring Variables  
     5.2 Variable Naming Rules  
     5.3 PHP's Data Types Overview  
@@ -56,18 +56,18 @@ PHP lets you:
     6.2 Arithmetic and Number Functions  
     6.3 Strings: Single vs Double Quotes  
     6.4 Booleans and Truthy/Falsy Values  
-7. **[Operators & Expressions (arithmetic, comparison, logical, spaceship, null coalescing)](./%5B7%5D-Operators-and-Expressions%20%281%29.md)**  
+7. **[Operators & Expressions (arithmetic, comparison, logical, spaceship, null coalescing)](./%5B7%5D-Operators-and-Expressions.md)**  
     7.1 Arithmetic Operators  
     7.2 Comparison Operators (== vs ===)  
     7.3 Logical Operators  
     7.4 The Spaceship Operator (<=>)  
     7.5 The Null Coalescing Operator (?? and ??=)  
-8. **[Conditionals: if, elseif, else, switch, match](./%5B8%5D-Conditionals%20%281%29.md)**  
+8. **[Conditionals: if, elseif, else, switch, match](./%5B8%5D-Conditionals.md)**  
     8.1 if, elseif, else  
     8.2 switch Statements  
     8.3 The match Expression  
     8.4 Ternary and Short Ternary Operators  
-9. **[Loops: for, while, do-while, foreach, break, continue](./%5B9%5D-Loops%20%281%29.md)**  
+9. **[Loops: for, while, do-while, foreach, break, continue](./%5B9%5D-Loops.md)**  
     9.1 for Loops  
     9.2 while and do-while Loops  
     9.3 foreach Loops  

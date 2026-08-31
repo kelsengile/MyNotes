@@ -1,4 +1,4 @@
-[Previous](./[3]-How-JavaScript-Works.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B5%5D-Variables-and-Data-Types%20%281%29.md)
+[Previous](./[3]-How-JavaScript-Works.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B5%5D-Variables-and-Data-Types.md)
 
 *Getting Started*
 

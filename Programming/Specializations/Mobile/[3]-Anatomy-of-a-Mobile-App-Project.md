@@ -1,4 +1,4 @@
-[Previous](./%5B2%5D-Development-Environment%20%282%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[4]-Variables-and-Data-Types.md)
+[Previous](./%5B2%5D-Development-Environment.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[4]-Variables-and-Data-Types.md)
 
 *Getting Started*
 

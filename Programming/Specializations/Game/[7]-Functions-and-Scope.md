@@ -1,4 +1,4 @@
-[Previous](./%5B6%5D-Control-Flow%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B8%5D-Object-Oriented-Basics%20%281%29.md)
+[Previous](./%5B6%5D-Control-Flow.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B8%5D-Object-Oriented-Basics.md)
 
 *Core Programming Concepts*
 

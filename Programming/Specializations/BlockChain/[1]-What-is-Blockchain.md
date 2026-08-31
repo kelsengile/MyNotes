@@ -1,6 +1,6 @@
-[Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B2%5D-Development-Environment%20%283%29.md)
+[Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B2%5D-Development-Environment.md)
 
-*Getting Started*
+*Getting Started*K
 
 # Lesson 1 - What is Blockchain? Core Concepts & History
 

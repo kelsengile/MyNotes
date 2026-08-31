@@ -1,4 +1,4 @@
-[Previous](./%5B9%5D-Collections-and-Data-Structures%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[11]-Scenes-GameObjects-and-Entities.md)
+[Previous](./%5B9%5D-Collections-and-Data-Structures.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[11]-Scenes-GameObjects-and-Entities.md)
 
 *Game Engine Fundamentals*
 
@@ -55,4 +55,4 @@ Without delta time, a game would run at different effective speeds on different 
 
 Designing gameplay code around delta time (rather than assuming a fixed frame rate) is one of the most important habits to build early, since it affects almost every system covered later in this course.
 
-[Previous](./%5B9%5D-Collections-and-Data-Structures%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[11]-Scenes-GameObjects-and-Entities.md)
+[Previous](./%5B9%5D-Collections-and-Data-Structures.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./[11]-Scenes-GameObjects-and-Entities.md)

@@ -1,4 +1,4 @@
-[Previous](./[4]-Package-Management.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B6%5D-Numbers-Strings-and-Booleans%20%281%29.md)
+[Previous](./[4]-Package-Management.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B6%5D-Numbers-Strings-and-Booleans.md)
 
 *Core Syntax*
 

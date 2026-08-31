@@ -27,7 +27,7 @@ Blockchain Development lets you:
     1.2 Decentralization vs. Centralization  
     1.3 A Brief History  
     1.4 Core Properties  
-2. **[Development Environment & Toolchains (Node, Hardhat/Foundry, Wallets)](./%5B2%5D-Development-Environment%20%283%29.md)**  
+2. **[Development Environment & Toolchains (Node, Hardhat/Foundry, Wallets)](./%5B2%5D-Development-Environment.md)**  
     2.1 Node.js and Package Managers  
     2.2 Development Frameworks: Hardhat and Foundry  
     2.3 Wallets for Development  
@@ -41,12 +41,12 @@ Blockchain Development lets you:
 
 **Core Syntax**  
 
-4. **[Variables, Data Types & Operators](./%5B4%5D-Variables-and-Data-Types%20%281%29.md)**  
+4. **[Variables, Data Types & Operators](./%5B4%5D-Variables-and-Data-Types.md)**  
     4.1 Value Types  
     4.2 Reference Types  
     4.3 State Variables vs. Local Variables  
     4.4 Operators  
-5. **[Control Flow: Conditionals & Loops](./%5B5%5D-Control-Flow%20%281%29.md)**  
+5. **[Control Flow: Conditionals & Loops](./%5B5%5D-Control-Flow.md)**  
     5.1 Conditionals  
     5.2 Loops  
     5.3 Gas-Aware Control Flow  

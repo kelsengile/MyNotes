@@ -1,4 +1,4 @@
-[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B7%5D-Functions-and-Scope%20%281%29.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B7%5D-Functions-and-Scope.md)
 
 *Core Programming Concepts*
 
@@ -54,4 +54,4 @@ Control flow is the backbone of gameplay logic. A few real examples:
 
 Keeping conditionals shallow (avoiding deeply nested `if` inside `if` inside `if`) makes gameplay code easier to debug — consider early returns (`if (!isAlive) return;`) instead of wrapping the rest of a function in a large `else` block.
 
-[Previous](./%5B5%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B7%5D-Functions-and-Scope%20%281%29.md)
+[Previous](./%5B5%5D-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-Game-Development.md) | [Next](./%5B7%5D-Functions-and-Scope.md)

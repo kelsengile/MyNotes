@@ -1,4 +1,4 @@
-[Previous](./%5B4%5D-Variables-and-Data-Types%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[6]-Functions-and-Modifiers.md)
+[Previous](./%5B4%5D-Variables-and-Data-Types.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./[6]-Functions-and-Modifiers.md)
 
 *Core Syntax*
 

@@ -1,4 +1,4 @@
-[Previous](./%5B36%5D-Debugging-and-Profiling%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[38]-Preparing-for-Release.md)
+[Previous](./%5B36%5D-Debugging-and-Profiling.md) | [Table of Contents](./[0]-Introduction-to-Mobile-Development.md) | [Next](./[38]-Preparing-for-Release.md)
 
 *Publishing & Distribution*
 

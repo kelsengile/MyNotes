@@ -1,4 +1,4 @@
-[Previous](./[3]-Anatomy-of-a-Blockchain-Project.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B5%5D-Control-Flow%20%281%29.md)
+[Previous](./[3]-Anatomy-of-a-Blockchain-Project.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B5%5D-Control-Flow.md)
 
 *Core Syntax*
 
@@ -44,4 +44,4 @@ contract Example {
 
 Solidity supports the arithmetic (`+ - * / %`), comparison (`== != < > <= >=`), and logical (`&& || !`) operators found in most C-like languages, plus bitwise operators (`& | ^ ~ << >>`). Since Solidity 0.8.0, arithmetic operations automatically revert on overflow/underflow instead of silently wrapping around, which removed the need for the manual "SafeMath" checks earlier versions required.
 
-[Previous](./[3]-Anatomy-of-a-Blockchain-Project.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B5%5D-Control-Flow%20%281%29.md)
+[Previous](./[3]-Anatomy-of-a-Blockchain-Project.md) | [Table of Contents](./[0]-Introduction-to-BlockChain.md) | [Next](./%5B5%5D-Control-Flow.md)

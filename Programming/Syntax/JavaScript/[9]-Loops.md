@@ -1,4 +1,4 @@
-[Previous](./%5B8%5D-Conditionals%20%281%29.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B10%5D-Functions-and-Scope%20%281%29.md)
+[Previous](./%5B8%5D-Conditionals.md) | [Table of Contents](./[0]-Introduction-to-JavaScript.md) | [Next](./%5B10%5D-Functions-and-Scope.md)
 
 *Core Syntax*
 
