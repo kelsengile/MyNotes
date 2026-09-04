@@ -6,10 +6,6 @@ This repository is written for educational purposes and is open for anyone to re
 ---
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-<tr>
-<td valign="top" width="50%">
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="1" align="center">Fundamentals</th></tr>
 <tr>
 <td align="center" width="100%">
@@ -18,8 +14,33 @@ This repository is written for educational purposes and is open for anyone to re
 </tr>
 </table>
 
-</td>
-<td valign="top" width="50%">
+<br>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="4" align="center">Mathematics</th></tr>
+<tr>
+<td align="center" width="25%"><a href="./Mathematics/Algebra/%5B0%5D-Introduction-to-Algebra.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f522.svg" width="40" title="Algebra"/><br>Algebra</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Algorithms/%5B0%5D-Introduction-to-Algorithms.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9ee.svg" width="40" title="Algorithms"/><br>Algorithms</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Calculus/%5B0%5D-Introduction-to-Calculus.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4c8.svg" width="40" title="Calculus"/><br>Calculus</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Complexity/%5B0%5D-Introduction-to-Complexity.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e0.svg" width="40" title="Complexity"/><br>Complexity</a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="./Mathematics/Data%20Structures/%5B0%5D-Introduction-to-Data-Structures.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f5c2.svg" width="40" title="Data Structures"/><br>Data Structures</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Discrete/%5B0%5D-Introduction-to-Discrete-Mathematics.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e9.svg" width="40" title="Discrete"/><br>Discrete</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Statistics/%5B0%5D-Introduction-to-Statistics.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4ca.svg" width="40" title="Statistics"/><br>Statistics</a></td>
+<td width="25%"></td>
+</tr>
+</table>
+
+<br>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="1" align="center">Programming</th></tr>
+</table>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr>
+<td valign="top" width="33%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="3" align="center">Specializations</th></tr>
@@ -41,45 +62,39 @@ This repository is written for educational purposes and is open for anyone to re
 </table>
 
 </td>
-</tr>
-</table>
-
-<br>
+<td valign="top" width="34%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="3" align="center">Syntax</th></tr>
 <tr>
-<td valign="top" width="55%">
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-<tr><th colspan="4" align="center">Syntax</th></tr>
-<tr>
-<td align="center" width="25%"><a href="./Programming/Syntax/C/%5B0%5D-Introduction-to-C.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" title="C"/><br>C</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/C%23/%5B0%5D-Introduction-to-C%23.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" title="C#"/><br>C#</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/C++/%5B0%5D-Introduction-to-C++.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++"/><br>C++</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/CSS/%5B0%5D-Introduction-to-CSS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS"/><br>CSS</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/C/%5B0%5D-Introduction-to-C.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" title="C"/><br>C</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/C%23/%5B0%5D-Introduction-to-C%23.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" title="C#"/><br>C#</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/C++/%5B0%5D-Introduction-to-C++.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++"/><br>C++</a></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Syntax/Go/%5B0%5D-Introduction-to-Go.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="40" title="Go"/><br>Go</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/HTML/%5B0%5D-Introduction-to-HTML.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML"/><br>HTML</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/Java/%5B0%5D-Introduction-to-Java.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" title="Java"/><br>Java</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/JavaScript/%5B0%5D-Introduction-to-JavaScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/><br>JavaScript</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/CSS/%5B0%5D-Introduction-to-CSS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS"/><br>CSS</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/Go/%5B0%5D-Introduction-to-Go.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="40" title="Go"/><br>Go</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/HTML/%5B0%5D-Introduction-to-HTML.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML"/><br>HTML</a></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Syntax/PHP/%5B0%5D-Introduction-to-PHP.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" title="PHP"/><br>PHP</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/Python/%5B0%5D-Introduction-to-Python.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python"/><br>Python</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/Rust/%5B0%5D-Introduction-to-Rust.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="40" title="Rust"/><br>Rust</a></td>
-<td align="center" width="25%"><a href="./Programming/Syntax/SQL/%5B0%5D-Introduction-to-SQL.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="SQL"/><br>SQL</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/Java/%5B0%5D-Introduction-to-Java.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" title="Java"/><br>Java</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/JavaScript/%5B0%5D-Introduction-to-JavaScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/><br>JavaScript</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/PHP/%5B0%5D-Introduction-to-PHP.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" title="PHP"/><br>PHP</a></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/><br>TypeScript</a></td>
-<td width="25%"></td>
-<td width="25%"></td>
-<td width="25%"></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/Python/%5B0%5D-Introduction-to-Python.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python"/><br>Python</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/Rust/%5B0%5D-Introduction-to-Rust.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="40" title="Rust"/><br>Rust</a></td>
+<td align="center" width="33%"><a href="./Programming/Syntax/SQL/%5B0%5D-Introduction-to-SQL.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="SQL"/><br>SQL</a></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/><br>TypeScript</a></td>
+<td width="33%"></td>
+<td width="33%"></td>
 </tr>
 </table>
 
 </td>
-<td valign="top" width="45%">
+<td valign="top" width="33%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="3" align="center">Tools</th></tr>
