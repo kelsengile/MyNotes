@@ -6,10 +6,6 @@ This repository is written for educational purposes and is open for anyone to re
 ---
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-<tr>
-<td valign="top" width="50%">
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="1" align="center">Fundamentals</th></tr>
 <tr>
 <td align="center" width="100%">
@@ -18,7 +14,29 @@ This repository is written for educational purposes and is open for anyone to re
 </tr>
 </table>
 
-</td>
+<br>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="4" align="center">Mathematics</th></tr>
+<tr>
+<td align="center" width="25%"><a href="./Mathematics/Algebra/%5B0%5D-Introduction-to-Algebra.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f522.svg" width="40" title="Algebra"/><br>Algebra</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Algorithms/%5B0%5D-Introduction-to-Algorithms.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9ee.svg" width="40" title="Algorithms"/><br>Algorithms</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Calculus/%5B0%5D-Introduction-to-Calculus.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4c8.svg" width="40" title="Calculus"/><br>Calculus</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Complexity/%5B0%5D-Introduction-to-Complexity.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e0.svg" width="40" title="Complexity"/><br>Complexity</a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="./Mathematics/Data%20Structures/%5B0%5D-Introduction-to-Data-Structures.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f5c2.svg" width="40" title="Data Structures"/><br>Data Structures</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Discrete/%5B0%5D-Introduction-to-Discrete-Mathematics.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e9.svg" width="40" title="Discrete"/><br>Discrete</a></td>
+<td align="center" width="25%"><a href="./Mathematics/Statistics/%5B0%5D-Introduction-to-Statistics.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4ca.svg" width="40" title="Statistics"/><br>Statistics</a></td>
+<td width="25%"></td>
+</tr>
+</table>
+
+<br>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="2" align="center">Programming</th></tr>
+<tr>
 <td valign="top" width="50%">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
@@ -41,14 +59,31 @@ This repository is written for educational purposes and is open for anyone to re
 </table>
 
 </td>
+<td valign="top" width="50%">
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="3" align="center">Tools</th></tr>
+<tr>
+<td align="center" width="33%"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" title="Command"/><br>Command</a></td>
+<td align="center" width="33%"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" title="Containers"/><br>Containers</a></td>
+<td align="center" width="33%"><a href="./Programming/Tools/Database/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="Database"/><br>Database</a></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="IDE"/><br>IDE</a></td>
+<td align="center" width="33%"><a href="./Programming/Tools/Package/%5B0%5D-Introduction-to-Package.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="40" title="Package"/><br>Package</a></td>
+<td align="center" width="33%"><a href="./Programming/Tools/VersionControl/Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Version Control"/><br>Version Control</a></td>
+</tr>
+<tr>
+<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Linux/Introduction_to_Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Operating System"/><br>Operating System</a></td>
+<td width="33%"></td>
+<td width="33%"></td>
 </tr>
 </table>
 
-<br>
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+</td>
+</tr>
 <tr>
-<td valign="top" width="55%">
+<td colspan="2">
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="4" align="center">Syntax</th></tr>
@@ -75,28 +110,6 @@ This repository is written for educational purposes and is open for anyone to re
 <td width="25%"></td>
 <td width="25%"></td>
 <td width="25%"></td>
-</tr>
-</table>
-
-</td>
-<td valign="top" width="45%">
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-<tr><th colspan="3" align="center">Tools</th></tr>
-<tr>
-<td align="center" width="33%"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" title="Command"/><br>Command</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" title="Containers"/><br>Containers</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/Database/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="Database"/><br>Database</a></td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="IDE"/><br>IDE</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/Package/%5B0%5D-Introduction-to-Package.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="40" title="Package"/><br>Package</a></td>
-<td align="center" width="33%"><a href="./Programming/Tools/VersionControl/Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Version Control"/><br>Version Control</a></td>
-</tr>
-<tr>
-<td align="center" width="33%"><a href="./Programming/Tools/OperatingSystem/Linux/Introduction_to_Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Operating System"/><br>Operating System</a></td>
-<td width="33%"></td>
-<td width="33%"></td>
 </tr>
 </table>
 
