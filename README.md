@@ -64,7 +64,7 @@ This repository is written for educational purposes and is open for anyone to re
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="3" align="center">Tools</th></tr>
 <tr>
-<td align="center" width="33%"><a href="./Programming/Tools/ArtificialIntelligence/%5B0%5D-Introduction-to-ArtificialIntelligence.md"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA2MDAgNjAwIj48cGF0aCBmaWxsPSIjRDk3NzU3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01MjUgMjczLjdoNzV2NzcuNmgtNzVWNDI3aC0zNy4ydjczSDQ1MHYtNzNoLTM3LjJ2NzNIMzc1di03M0gyMjV2NzNoLTM3Ljh2LTczSDE1MHY3M2gtMzcuOHYtNzNINzV2LTc1LjdIMHYtNzcuNmg3NVYxMjVoNDUwem0tMzc1IDBoMzcuMnYtNzEuMUgxNTB6bTI2Mi44IDBINDUwdi03MS4xaC0zNy4yeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" width="40" title="Artificial Intelligence"/><br>Artificial Intelligence</a></td>
+<td align="center" width="33%"><a href="./Programming/Tools/ArtificialIntelligence/%5B0%5D-Introduction-to-ArtificialIntelligence.md"><img src="https://cdn.simpleicons.org/claudecode" width="40" title="Artificial Intelligence"/><br>Artificial Intelligence</a></td>
 <td align="center" width="33%"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" title="Command"/><br>Command</a></td>
 <td align="center" width="33%"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction-to-Containers.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" title="Containers"/><br>Containers</a></td>
 </tr>
