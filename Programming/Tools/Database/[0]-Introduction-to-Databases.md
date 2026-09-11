@@ -125,5 +125,12 @@ These lessons intentionally avoid tying the concepts to any single product. Once
 
 The lessons above teach the fundamentals that apply across the whole database ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
 
-- **[PostgreSQL](./PostgreSQL/[0]-Introduction-to-PostgreSQL.md)** — a widely-used open-source relational database; a strong starting point for learning SQL databases hands-on.
 - **[MongoDB](./MongoDB/[0]-Introduction-to-MongoDB.md)** — a widely-used document-oriented NoSQL database; a strong starting point for learning schema-flexible, document-based databases hands-on.
+
+- **[MySQL](./MySQL/[0]-Introduction-to-MySQL.md)** — a widely-used open-source relational database; a strong starting point for learning SQL databases hands-on.
+
+- **[PostgreSQL](./PostgreSQL/[0]-Introduction-to-PostgreSQL.md)** — a widely-used open-source relational database; a strong starting point for learning SQL databases hands-on.
+
+- **[Redis](./Redis/[0]-Introduction-to-Redis.md)** — an in-memory data store commonly used for caching, fast data access, and real-time applications.
+
+- **[SQLite](./SQLite/[0]-Introduction-to-SQLite.md)** — a lightweight, serverless relational database that is useful for embedded applications, local storage, and smaller projects.
