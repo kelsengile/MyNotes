@@ -21,6 +21,18 @@ Here's how a few popular IDEs compare at a glance:
 | JetBrains IDEs | Deep, language-specific tooling | Java, Python, C#, and more | Powerful refactoring and code analysis |
 | Xcode | Apple platform development | Swift, Objective-C | Tight integration with iOS/macOS tooling |
 
+## IDE's
+
+The lessons above introduce the fundamentals of software development, programming, and development workflows. To see those concepts applied to specific, widely-used integrated development environments (IDEs) and code editors, continue on to:
+
+* **[JetBrains IDEs](https://www.jetbrains.com/toolbox-app/)** — a family of powerful IDEs designed for different programming languages, offering features such as intelligent code completion, debugging, refactoring, and project management.
+
+* **[Visual Studio Code](https://code.visualstudio.com/download)** — a lightweight and highly customizable source-code editor with extensive support for programming languages, extensions, debugging, and development workflows.
+
+* **[Xcode](https://developer.apple.com/xcode/)** — Apple's integrated development environment for developing applications for platforms such as macOS, iOS, iPadOS, watchOS, and tvOS.
+
+
+
 ## Table of Contents
 
 **IDE Foundations**
@@ -127,12 +139,4 @@ Here's how a few popular IDEs compare at a glance:
        16.3 Performance And Resource Usage  
        16.4 Where To Go Next  
 
-**## IDEs**
 
-The lessons above introduce the fundamentals of software development, programming, and development workflows. To see those concepts applied to specific, widely-used integrated development environments (IDEs) and code editors, continue on to:
-
-* **[JetBrains IDE](./JetBrains%20IDE/[0]-Introduction-to-JetBrainsIDE.md)** — a family of powerful IDEs designed for different programming languages, offering features such as intelligent code completion, debugging, refactoring, and project management.
-
-* **[Visual Studio Code](./Visual%20Studio%20Code/[0]-Introduction-to-VisualStudioCode.md)** — a lightweight and highly customizable source-code editor with extensive support for programming languages, extensions, debugging, and development workflows.
-
-* **[Xcode](./XCode/[0]-Introduction-to-XCode.md)** — Apple's integrated development environment for developing applications for platforms such as macOS, iOS, iPadOS, watchOS, and tvOS.

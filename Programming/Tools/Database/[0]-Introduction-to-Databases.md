@@ -22,6 +22,21 @@ Here's a preview of the main database families you'll compare in this course:
 | Key-Value | Simple key → value pairs | Caching, fast lookups | Redis |
 | Embedded | Single-file relational database | Local apps, prototypes | SQLite |
 
+## Database Tools
+
+The lessons above introduce the fundamentals of databases, data storage, querying, and database management systems. To see those concepts applied to specific, widely-used database tools and platforms, continue on to:
+
+* **[MySQL](https://dev.mysql.com/downloads/)** — a popular open-source relational database management system widely used for web applications, business systems, and general-purpose data storage.
+
+* **[PostgreSQL](https://www.postgresql.org/download/)** — a powerful open-source relational database system known for its advanced SQL capabilities, reliability, extensibility, and standards compliance.
+
+* **[MongoDB](https://www.mongodb.com/try/download/community)** — a popular NoSQL document database designed for flexible, scalable applications that store data in JSON-like documents.
+
+* **[Redis](https://redis.io/docs/latest/operate/oss_and_stack/install/)** — an in-memory data store commonly used for caching, session management, real-time applications, queues, and high-performance data access.
+
+* **[SQLite](https://www.sqlite.org/download.html)** — a lightweight, serverless relational database engine that stores an entire database in a single file, making it useful for embedded applications, development, and small-scale projects.
+
+
 ## Table of Contents
 
 **Basics**
@@ -137,16 +152,4 @@ Here's a preview of the main database families you'll compare in this course:
        19.3 NoSQL Databases for Flexible Data  
        19.4 Where to Go Next  
 
-## Database Tools
 
-The lessons above teach the fundamentals that apply across the whole database ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
-
-- **[MongoDB](./MongoDB/[0]-Introduction-to-MongoDB.md)** — a widely-used document-oriented NoSQL database; a strong starting point for learning schema-flexible, document-based databases hands-on.
-
-- **[MySQL](./MySQL/[0]-Introduction-to-MySQL.md)** — a widely-used open-source relational database; a strong starting point for learning SQL databases hands-on.
-
-- **[PostgreSQL](./PostgreSQL/[0]-Introduction-to-PostgreSQL.md)** — a widely-used open-source relational database; a strong starting point for learning SQL databases hands-on.
-
-- **[Redis](./Redis/[0]-Introduction-to-Redis.md)** — an in-memory data store commonly used for caching, fast data access, and real-time applications.
-
-- **[SQLite](./SQLite/[0]-Introduction-to-SQLite.md)** — a lightweight, serverless relational database that is useful for embedded applications, local storage, and smaller projects.

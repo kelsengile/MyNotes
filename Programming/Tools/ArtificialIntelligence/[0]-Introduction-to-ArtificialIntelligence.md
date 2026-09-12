@@ -23,6 +23,21 @@ Here's a quick preview of the major branches you'll cover, and where you've prob
 | Computer Vision | Interprets images and video | Self-checkout cameras, photo tagging |
 | Reinforcement Learning | Learns by trial, error, and reward | Game-playing agents, robotics |
 
+## Artificial Intelligence Tools
+
+The lessons above teach the fundamentals of artificial intelligence and machine learning. To see those concepts applied using popular, industry-standard tools, continue on to:
+
+* **[TensorFlow](https://www.tensorflow.org/install)** — an open-source machine learning framework developed by Google for building, training, and deploying AI models.
+
+* **[PyTorch](https://pytorch.org/get-started/locally/)** — a popular open-source deep learning framework widely used for AI research, computer vision, natural language processing, and model development.
+
+* **[scikit-learn](https://scikit-learn.org/stable/install.html)** — a Python machine learning library for classification, regression, clustering, preprocessing, and other traditional machine learning tasks.
+
+* **[Hugging Face Transformers](https://huggingface.co/docs/transformers/installation)** — a popular library and platform for working with pretrained models for natural language processing, computer vision, audio, and multimodal AI.
+
+* **[OpenAI API](https://platform.openai.com/docs/quickstart)** — provides APIs for integrating AI capabilities such as text generation, reasoning, image understanding, and other AI features into applications.
+
+
 ## Table of Contents
 
 **Foundations**
@@ -132,3 +147,4 @@ Here's a quick preview of the major branches you'll cover, and where you've prob
        18.2 Open Research Questions  
        18.3 AI Safety And Alignment  
        18.4 Where To Go Next  
+

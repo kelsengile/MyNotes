@@ -11,6 +11,22 @@ Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a comm
 - **Troubleshooting** — a huge number of Windows diagnostic and repair tools are CMD-only or CMD-first.
 - **Foundations** — understanding CMD makes it much easier to later pick up PowerShell, Linux shells, or scripting languages, since many concepts carry over.
 
+## Command-Line Tools
+
+The lessons above teach the fundamentals of working with command-line interfaces and terminal environments. To see those fundamentals applied to popular, industry-standard command-line tools, continue on to:
+
+* **[Git](https://git-scm.com)** — a distributed version control tool used to track changes, manage code, and collaborate on software projects.
+
+* **[cURL](https://curl.se)** — a command-line tool for transferring data using HTTP, HTTPS, and other network protocols.
+
+* **[Wget](https://www.gnu.org)** — a command-line utility for downloading files and retrieving content from the web.
+
+* **[jq](https://jqlang.org)** — a lightweight command-line processor for parsing, filtering, and manipulating JSON data.
+
+* **[FFmpeg](https://ffmpeg.org)** — a powerful command-line tool for processing, converting, recording, and streaming audio and video.
+
+* **[PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
+
 ## Table of Contents
 
 1. **[Getting Started](./[1]-Getting-Started.md)**  
@@ -111,9 +127,3 @@ Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a comm
     14.8 Opening CMD in a specific folder quickly  
     14.9 Running a command as a one-off with elevated rights  
     14.10 Where to go from here  
-
-## Before you begin
-
-- All lessons assume you're using **Windows** (10 or 11). Open CMD by pressing `Win + R`, typing `cmd`, and hitting Enter — or searching "Command Prompt" in the Start menu.
-- Some commands (marked in later lessons) require running CMD **as Administrator**. Right-click Command Prompt and choose "Run as administrator."
-- Don't worry about memorizing every command. The goal is to get comfortable enough that you can look up details and know what to search for.
