@@ -22,6 +22,8 @@
 
 Notice that the user's orders live directly inside their document, instead of being split into a separate `orders` table joined by a foreign key (see [6.2](./[6]-Keys-And-Relationships.md)). Popular document databases include MongoDB and Couchbase.
 
+> 💡 **Analogy:** A document database is like a manila folder per customer, with everything about them — contact info, notes, order history — stapled together inside. No cross-referencing other folders needed to get the full picture.
+
 ---
 
 ## 15.2 Key-Value Stores
@@ -34,6 +36,8 @@ GET session:abc123
 ```
 
 This simplicity makes key-value stores extremely fast, which is why they're commonly used for caching, session storage, and real-time lookups. Popular key-value stores include Redis and Amazon DynamoDB.
+
+> 💡 **Analogy:** A key-value store is a coat check counter — hand over your ticket number (the key), get your coat back (the value) instantly. The attendant doesn't search through pockets or sort coats by color; it's a direct lookup.
 
 ---
 
@@ -56,5 +60,14 @@ This model is optimized for writing and reading huge volumes of data where queri
 ```
 
 This model shines for highly interconnected data where the relationships matter as much as the entities themselves — social networks, recommendation engines, and fraud detection are common use cases, since questions like "friends of friends who liked this post" are fast and natural to express. Popular graph databases include Neo4j and Amazon Neptune.
+
+> 💡 **Analogy:** A graph database is like a corkboard covered in photos connected by strings — detective-style. The connections themselves ("who knows whom," "who liked what") are drawn directly on the board, rather than buried in separate filing cabinets you'd need to cross-reference.
+
+| NoSQL Type | Best For | Real-World Analogy |
+|---|---|---|
+| Document | Flexible, nested records | Manila folder per customer |
+| Key-Value | Ultra-fast simple lookups | Coat check counter |
+| Column-Family | Massive, sparse datasets | Warehouse shelving by category |
+| Graph | Highly connected data | Detective's corkboard |
 
 [Previous](./[14]-Concurrency-And-Locking.md) | [Table of Contents](./[0]-Introduction-to-Databases.md) | [Next](./[16]-CAP-Theorem-And-Consistency-Models.md)

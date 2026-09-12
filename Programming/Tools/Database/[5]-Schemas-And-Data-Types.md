@@ -8,6 +8,8 @@
 
 A **schema** is the blueprint that defines the structure of a database: which tables exist, which columns each table has, what data type and constraints each column enforces, and how tables relate to one another. In a relational database, the schema is typically defined before data is inserted, which is why relational databases are often described as having a **fixed** or **strict** schema.
 
+> 💡 **Analogy:** A schema is like the blueprint for a building. You decide where the rooms go and what each room is for *before* construction — you don't build a house and figure out room purposes afterward.
+
 ---
 
 ## 5.2 Common Data Types
@@ -22,6 +24,8 @@ Every column is assigned a data type that determines what kind of value it can s
 
 Choosing the right data type matters for both correctness (you can't accidentally store text in a numeric column) and performance (smaller, more specific types are faster to store and index).
 
+**🔍 Quick Example:** Storing a price as `VARCHAR` instead of `DECIMAL` might look fine at first — until someone tries to sort by price and discovers `"9.99"` sorts alphabetically before `"100.00"`, because it's being compared as text, not as a number.
+
 ---
 
 ## 5.3 Constraints
@@ -33,6 +37,8 @@ Choosing the right data type matters for both correctness (you can't accidentall
 - `PRIMARY KEY` — uniquely identifies each row (covered in [Lesson 6](./[6]-Keys-And-Relationships.md)).
 - `FOREIGN KEY` — the value must match a row in another table (covered in [Lesson 6](./[6]-Keys-And-Relationships.md)).
 - `CHECK` — the value must satisfy a custom condition, like `age >= 0`.
+
+> 💡 **Analogy:** Constraints are like a form with required fields and validation rules — you can't submit "N/A" where an email is required, and you can't enter a negative age. The form (database) simply won't accept it.
 
 ---
 

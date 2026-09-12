@@ -10,6 +10,8 @@ A **Database Management System (DBMS)** is the software layer that sits between 
 
 When people say "I'm using PostgreSQL" or "I'm using MongoDB," they're referring to a specific DBMS.
 
+> 💡 **Analogy:** Think of the DBMS as a librarian standing between you and a massive archive. You never rifle through the shelves yourself — you ask the librarian, who knows exactly where everything is, enforces the rules (no removing reference books), and hands you exactly what you asked for.
+
 ---
 
 ## 3.2 Core Responsibilities of a DBMS
@@ -34,6 +36,15 @@ Most DBMSs run as a **server** — a long-running process that listens for conne
 - Access can be centrally controlled and audited at the server.
 
 Some databases, like SQLite, break this pattern by running as an embedded library directly inside the application rather than a separate server — a useful trade-off for smaller or single-user applications.
+
+```mermaid
+flowchart LR
+    App1[App Server 1] --> DB[(Database Server)]
+    App2[App Server 2] --> DB
+    App3[Analytics Job] --> DB
+```
+
+**🔍 Quick Example:** SQLite skips the client-server split entirely — it's a library linked directly into your app, storing everything in a single file. Great for a mobile app's local storage; not built for many separate applications sharing data over a network.
 
 ---
 

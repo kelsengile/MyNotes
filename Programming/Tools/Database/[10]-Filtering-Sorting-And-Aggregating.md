@@ -15,6 +15,8 @@ WHERE created_at > '2026-01-01' AND email LIKE '%@example.com';
 
 `LIKE` performs pattern matching, where `%` matches any sequence of characters — here, matching any email ending in `@example.com`.
 
+> 💡 **Analogy:** `WHERE` is like a bouncer at a club door, checking each row against a condition and only letting through the ones that pass.
+
 ---
 
 ## 10.2 ORDER BY and LIMIT
@@ -47,6 +49,8 @@ SELECT COUNT(*) FROM users;
 
 This returns the total number of users in the table.
 
+**🔍 Quick Example:** `SELECT AVG(total) FROM orders;` collapses thousands of individual order rows down into a single number — the average order value — without you writing a single loop.
+
 ---
 
 ## 10.4 GROUP BY and HAVING
@@ -69,5 +73,13 @@ HAVING COUNT(*) > 100;
 ```
 
 This returns only countries with more than 100 users.
+
+> 💡 **Analogy:** `GROUP BY` is like sorting a pile of mail into bins by zip code before counting how many letters are in each bin. `WHERE` decides which letters make it into the pile in the first place; `HAVING` decides which *bins* are big enough to report on.
+
+```
+WHERE   → filters individual rows        (before grouping)
+GROUP BY → buckets rows into groups
+HAVING  → filters entire groups          (after aggregation)
+```
 
 [Previous](./[9]-CRUD-Operations.md) | [Table of Contents](./[0]-Introduction-to-Databases.md) | [Next](./[11]-Joins-And-Subqueries.md)

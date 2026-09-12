@@ -29,6 +29,8 @@ SELECT * FROM users WHERE email = 'ana@example.com';
 - **Without an index**: the database scans every row in `users`, checking each one's `email` column. This is O(n) — it gets slower as the table grows.
 - **With an index on `email`**: the database jumps almost directly to the matching row(s) using the sorted B-tree. This is close to O(log n) — much faster on large tables.
 
+> 💡 **Analogy:** Finding "Zebra" in a phone book by flipping to roughly the last page (because you know it's sorted alphabetically) is an index lookup. Reading every single name from page 1 until you happen to find "Zebra" is a full table scan.
+
 Indexes are especially valuable on columns frequently used in:
 
 - `WHERE` clauses (see [10.1](./[10]-Filtering-Sorting-And-Aggregating.md))
@@ -48,6 +50,8 @@ Indexes aren't free — they come with real costs, so they should be added delib
 - **Diminishing returns** — indexing a column with very few distinct values (like a `boolean` flag) rarely helps, since the index can't narrow the search down much.
 
 A good rule of thumb: index columns that are read often and selective (they narrow results down a lot), and avoid indexing columns that are written to constantly but rarely searched on.
+
+**🔍 Quick Example:** Indexing a `is_active` boolean column on a 10-million-row table barely helps — since roughly half the rows match either value, the index can't narrow much. Indexing `email`, where every value is nearly unique, narrows a search from 10 million rows down to essentially one instantly.
 
 ---
 

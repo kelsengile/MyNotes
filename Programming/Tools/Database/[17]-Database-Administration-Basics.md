@@ -18,6 +18,8 @@ GRANT analyst TO maria;
 
 Here, `maria` inherits the `analyst` role, which can only read (`SELECT`) from the `orders` table — she can't insert, update, or delete data, and has no access to any other table. Following the **principle of least privilege** — giving each user only the access they actually need — limits the damage a mistake or compromised account can cause.
 
+> 💡 **Analogy:** Roles and permissions work like hotel key cards — a housekeeping card opens guest rooms on one floor, not the vault, not the manager's office. Everyone gets exactly the access their job requires, nothing more.
+
 ---
 
 ## 17.2 Backups and Restores
@@ -33,6 +35,8 @@ psql mydatabase < backup.sql
 ```
 
 A backup strategy is only as good as its tested restore process — a backup that has never been restored successfully isn't a reliable safety net, only an assumption.
+
+> 💡 **Analogy:** An untested backup is like a fire extinguisher you've never checked — it might work perfectly when you need it, or it might be empty. The only way to know is to actually test the restore, before there's a real fire.
 
 ---
 

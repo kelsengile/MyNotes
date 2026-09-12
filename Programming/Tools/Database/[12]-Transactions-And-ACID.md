@@ -15,6 +15,8 @@ UPDATE accounts SET balance = balance + 100 WHERE id = 2;
 COMMIT;
 ```
 
+> 💡 **Analogy:** A transaction is like a "package deal" at checkout — either both items scan and you pay for both, or the whole transaction is cancelled. You'd never accept a scenario where you pay for one item but walk out without the other, or vice versa.
+
 ---
 
 ## 12.2 Atomicity
@@ -39,6 +41,13 @@ Atomicity is one of four guarantees, together known as **ACID**:
 - **Durability** — once a transaction is committed, it stays committed, even if the system crashes immediately afterward.
 
 Together, ACID is the foundation that makes relational databases trustworthy for critical data like financial records.
+
+| Letter | Guarantee | Plain English |
+|---|---|---|
+| A | Atomicity | All steps happen, or none do |
+| C | Consistency | Rules are never broken |
+| I | Isolation | Transactions don't step on each other |
+| D | Durability | Once saved, it's really saved |
 
 ---
 

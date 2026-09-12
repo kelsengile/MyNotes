@@ -41,6 +41,15 @@ Typical use cases: content management systems and product catalogs (document dat
 
 In practice, many real-world systems use more than one type of database together — a technique sometimes called **polyglot persistence** — using each tool where it fits best rather than forcing every kind of data into a single database.
 
+> 💡 **Analogy:** Polyglot persistence is like using different tools in a toolbox — a hammer for nails, a screwdriver for screws. No one demands a single tool handle every job; the same logic applies to picking a relational database for orders and a key-value store for session caching, side by side in the same system.
+
+```mermaid
+flowchart TD
+    App[Application] --> SQL[(PostgreSQL: orders, accounts)]
+    App --> Cache[(Redis: session cache)]
+    App --> Search[(Elasticsearch: product search)]
+```
+
 ---
 
 ## 19.4 Where to Go Next

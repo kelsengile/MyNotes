@@ -14,6 +14,8 @@ The **CAP theorem** states that a distributed database (one whose data is spread
 
 Because networks can and do fail, partition tolerance isn't really optional for a distributed system — so in practice, the CAP theorem is mostly a choice between **Consistency** and **Availability** when a partition happens.
 
+> 💡 **Analogy:** Imagine two branches of a bank that lose their phone line to each other. Consistency means each branch refuses to process withdrawals until it can confirm the account balance with the other branch. Availability means both branches keep serving customers using whatever balance they last knew — risking a brief disagreement.
+
 ---
 
 ## 16.2 Consistency vs Availability vs Partition Tolerance
@@ -25,6 +27,13 @@ Imagine a database replicated across two data centers, and the network link betw
 
 Neither choice is "correct" in general — it depends entirely on what the application needs. A banking system handling withdrawals typically favors consistency; a social media "like" counter typically favors availability.
 
+```mermaid
+flowchart TD
+    P[Network Partition Occurs] --> Choice{Pick one}
+    Choice -->|Choose Consistency| CP[CP System: refuses stale answers]
+    Choice -->|Choose Availability| AP[AP System: answers anyway, may be stale]
+```
+
 ---
 
 ## 16.3 Strong vs Eventual Consistency
@@ -35,6 +44,8 @@ These trade-offs show up as different **consistency models**:
 - **Eventual consistency** — after a write, different nodes may temporarily return different (stale) results, but they're guaranteed to "converge" to the same value once updates finish propagating. Many NoSQL databases (see [Lesson 15](./[15]-NoSQL-Database-Types.md)) default to this model in exchange for higher availability and speed.
 
 For example, a product's stock count updated in one data center might briefly show the old value in another data center, until the update finishes replicating a moment later.
+
+**🔍 Quick Example:** Post something on social media and refresh instantly on a friend's phone across the world — occasionally it's not there yet. That's eventual consistency in action: the write is real, it just hasn't finished propagating everywhere.
 
 ---
 

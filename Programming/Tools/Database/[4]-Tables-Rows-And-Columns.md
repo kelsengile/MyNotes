@@ -16,6 +16,8 @@ Think of a table like a single sheet in a spreadsheet, but with strict rules abo
 
 A **row**, also called a **record** or **tuple**, represents one single instance of the entity the table describes. In a `users` table, each row is one specific user. Every row has a value (or `NULL`, see [1.4](./[5]-Schemas-And-Data-Types.md)) for every column defined on the table.
 
+> 💡 **Analogy:** If a table is a filing cabinet drawer, a row is one individual folder in that drawer — one folder per person, one row per user.
+
 ---
 
 ## 4.3 Columns (Fields) and Attributes
@@ -37,5 +39,15 @@ Here's a small `users` table to make the terminology concrete:
 - `id`, `first_name`, `email`, and `created_at` are the **columns**.
 - Each of the three lines below the header is a **row**.
 - The whole structure is the `users` **table**.
+
+```
+        column       column        column          column
+          │             │             │               │
+          ▼             ▼             ▼               ▼
+        id   first_name    email          created_at
+row ─▶  1    Ana           ana@example.com 2026-01-04
+row ─▶  2    Ben           ben@example.com 2026-02-11
+row ─▶  3    Cleo          cleo@example.com 2026-03-30
+```
 
 [Previous](./[3]-Database-Management-Systems.md) | [Table of Contents](./[0]-Introduction-to-Databases.md) | [Next](./[5]-Schemas-And-Data-Types.md)
