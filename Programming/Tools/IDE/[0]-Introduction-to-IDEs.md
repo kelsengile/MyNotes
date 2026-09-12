@@ -6,6 +6,21 @@ An IDE (Integrated Development Environment) bundles the tools a developer needs 
 
 These lessons intentionally avoid tying the concepts to any single IDE. Once you understand the fundamentals here, you'll be equipped to pick up Visual Studio Code, IntelliJ IDEA, Visual Studio, PyCharm, Xcode, or any other IDE and recognize the same ideas under different menus and shortcuts.
 
+## Why Study IDEs?
+
+- **It's where you'll spend most of your time** — as a developer, the IDE is the single tool you interact with more than any other, so getting comfortable with it pays off constantly.
+- **It makes you dramatically faster** — features like autocomplete, go-to-definition, and integrated debugging replace slow manual searching and guesswork.
+- **It catches mistakes before they cost you** — built-in linting and error detection surface bugs while you type instead of after you run the code.
+- **The skills transfer** — once you know what a debugger, a build task, or an extension marketplace is, switching from VS Code to JetBrains or Xcode is mostly a matter of finding the same button in a new place.
+
+Here's how a few popular IDEs compare at a glance:
+
+| IDE | Primary Focus | Common Languages | Known For |
+|---|---|---|---|
+| Visual Studio Code | Lightweight, extensible editor | Nearly any (via extensions) | Huge extension ecosystem, fast startup |
+| JetBrains IDEs | Deep, language-specific tooling | Java, Python, C#, and more | Powerful refactoring and code analysis |
+| Xcode | Apple platform development | Swift, Objective-C | Tight integration with iOS/macOS tooling |
+
 ## Table of Contents
 
 **IDE Foundations**

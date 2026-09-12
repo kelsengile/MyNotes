@@ -6,6 +6,22 @@ A game engine is a software framework that gives developers the tools to build g
 
 These lessons intentionally avoid tying the concepts to any single engine. Once you understand the fundamentals here, you'll be equipped to pick up Unity, Unreal, Godot, or any other engine and recognize the same ideas under different names and menus.
 
+## Why Study Game Engines?
+
+- **You skip reinventing the basics** — rendering, physics, and input handling are hard problems that engines have already solved, letting you focus on the game itself.
+- **The concepts transfer between engines** — scene graphs, components, and game loops appear under different names in Unity, Unreal, and Godot alike, so learning one deeply makes the next one easier.
+- **Game engines are used beyond games** — architecture walkthroughs, training simulations, and film previsualization all run on the same engine concepts you'll learn here.
+- **It's hands-on and visual** — few areas of software let you see the direct result of a concept (like a physics tweak or a lighting change) as immediately as a game engine does.
+
+A quick look at how some popular engines differ, which you'll explore in depth later:
+
+| Engine | Primary Language | Known For | Best Fit For |
+|---|---|---|---|
+| Unity | C# | Flexibility, huge asset store | 2D and 3D, mobile and indie games |
+| Unreal Engine | C++ / Blueprints | High-fidelity 3D graphics | AAA and visually demanding games |
+| Godot | GDScript / C# | Lightweight, open-source | Indie and 2D-focused projects |
+| Roblox Studio | Lua | Built-in platform and audience | Social and multiplayer experiences |
+
 ## Table of Contents
 
 **Engine Foundations**

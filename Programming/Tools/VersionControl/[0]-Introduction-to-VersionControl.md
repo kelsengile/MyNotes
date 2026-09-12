@@ -6,6 +6,22 @@ Version control is the practice of tracking and managing changes to files over t
 
 These lessons use Git — by far the most widely used version control system today — to illustrate the concepts concretely, but the underlying ideas (commits, branches, merging, conflict resolution) apply broadly across other version control systems as well. Once you understand the fundamentals here, you'll be equipped to work confidently with Git on any team, and to recognize the same ideas in other tools under different names.
 
+## Why Study Version Control?
+
+- **Mistakes become recoverable** — with a full history of changes, you can always go back to a working version instead of losing work or panicking over a bad edit.
+- **It's how teams collaborate without chaos** — branching and merging let multiple people work on the same codebase at once without overwriting each other's changes.
+- **It's a baseline expectation** — virtually every software job, open-source project, and coding bootcamp assumes you already know Git basics.
+- **It documents the "why," not just the "what"** — commit messages and history turn a codebase into a record of decisions, useful long after you've forgotten the details.
+
+Here's a quick comparison of the two broad approaches to version control you'll learn about:
+
+| Aspect | Centralized VCS | Distributed VCS (e.g. Git) |
+|---|---|---|
+| History location | Single central server | Full copy on every machine |
+| Working offline | Limited | Fully supported |
+| Speed of commits | Depends on server connection | Instant (local) |
+| Single point of failure | Yes (the central server) | No (every clone is a backup) |
+
 ## Table of Contents
 
 **Foundations**

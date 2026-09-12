@@ -6,6 +6,22 @@ A database is an organized collection of data that can be stored, retrieved, upd
 
 These lessons intentionally avoid tying the concepts to any single product. Once you understand the fundamentals here, head over to the tool-specific folders below to see how those concepts are put into practice with real, widely-used tools.
 
+## Why Study Databases?
+
+- **Every real application needs one** — user accounts, orders, messages, and settings all have to live somewhere reliable, and that "somewhere" is almost always a database.
+- **Bad data handling is expensive** — poor schema design or missing indexes can turn a snappy app into an unusably slow one as data grows.
+- **The concepts outlast the tool** — tables, keys, transactions, and indexing show up whether you're using MySQL, MongoDB, or something brand new next year.
+- **It's a universal interview and job topic** — from junior developer to data engineer, database fundamentals are assumed knowledge in most technical roles.
+
+Here's a preview of the main database families you'll compare in this course:
+
+| Database Type | Data Model | Good Fit For | Example Tools |
+|---|---|---|---|
+| Relational (SQL) | Tables with rows and columns | Structured data with clear relationships | MySQL, PostgreSQL |
+| Document | JSON-like documents | Flexible, evolving data shapes | MongoDB |
+| Key-Value | Simple key → value pairs | Caching, fast lookups | Redis |
+| Embedded | Single-file relational database | Local apps, prototypes | SQLite |
+
 ## Table of Contents
 
 **Basics**

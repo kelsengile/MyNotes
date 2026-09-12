@@ -6,6 +6,21 @@ An operating system (OS) is the software layer that sits between raw computer ha
 
 These lessons intentionally avoid tying the concepts to any single operating system. Once you understand the fundamentals here, you'll be equipped to reason about Linux, Windows, macOS, or any other OS and recognize the same ideas under different names and implementations.
 
+## Why Study Operating Systems?
+
+- **Everything you run sits on top of one** — every app, browser tab, and background service depends on the OS to schedule it, give it memory, and let it talk to hardware.
+- **It explains "why is my computer slow"** — concepts like scheduling, memory paging, and disk I/O are the real reasons behind sluggish performance and frozen programs.
+- **It's foundational for other fields** — networking, security, databases, and even game engines all lean on OS concepts like processes, threads, and memory management.
+- **It makes you a stronger troubleshooter** — understanding what a process, a deadlock, or virtual memory actually is turns cryptic error messages into solvable problems.
+
+A quick look at the major OS families you'll compare later in this course:
+
+| Operating System | Kernel Type | Common Use Case | Known For |
+|---|---|---|---|
+| Linux | Monolithic (modular) | Servers, development, embedded systems | Openness, customization, stability |
+| Windows | Hybrid | Personal computing, gaming, business | Broad hardware and software compatibility |
+| macOS | Hybrid (XNU) | Creative and development work | Polish, tight hardware integration |
+
 ## Table of Contents
 
 **Foundations**

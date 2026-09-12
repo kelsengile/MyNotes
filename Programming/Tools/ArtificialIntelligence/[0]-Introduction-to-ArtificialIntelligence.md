@@ -6,6 +6,23 @@ Artificial Intelligence (AI) is the field of building systems that can perform t
 
 These lessons use widely accepted terminology and examples from the broader AI and Machine Learning community to illustrate the concepts concretely, but the underlying ideas (learning from data, generalization, representation, optimization) apply broadly across specific frameworks, libraries, and research subfields. Once you understand the fundamentals here, you'll be equipped to explore any specialized AI tool or framework, and to recognize the same core ideas under different names.
 
+## Why Study Artificial Intelligence?
+
+- **It's everywhere already** — search engines, spam filters, recommendation feeds, voice assistants, and navigation apps all run on AI techniques you'll learn here.
+- **It's reshaping how software gets built** — more products now ship with a model at their core instead of only hand-written rules, so understanding AI helps you understand modern software in general.
+- **The vocabulary is portable** — "training," "overfitting," and "inference" mean the same thing whether you're reading about self-driving cars or chatbots, so learning the fundamentals once pays off everywhere.
+- **It's a career multiplier** — even outside AI-specific roles, knowing how these systems work (and where they fail) is increasingly expected of engineers, analysts, and product people alike.
+
+Here's a quick preview of the major branches you'll cover, and where you've probably already met them:
+
+| AI Branch | What It Does | Everyday Example |
+|---|---|---|
+| Machine Learning | Learns patterns from data instead of following fixed rules | Email spam detection |
+| Neural Networks / Deep Learning | Learns layered representations of complex data | Face recognition on your phone |
+| Natural Language Processing | Understands and generates human language | Voice assistants, chatbots |
+| Computer Vision | Interprets images and video | Self-checkout cameras, photo tagging |
+| Reinforcement Learning | Learns by trial, error, and reward | Game-playing agents, robotics |
+
 ## Table of Contents
 
 **Foundations**
