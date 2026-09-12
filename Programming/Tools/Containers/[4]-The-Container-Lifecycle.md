@@ -12,6 +12,8 @@
    → Image       Registry     container     the container
 ```
 
+> 💡 **Analogy:** Think of this lifecycle like publishing a book: you **write and print** it (build), **ship copies to bookstores** (ship), a reader **checks one out and reads it** (run), and eventually the copy is **returned or retired** (stop/remove) — while the original manuscript (the image) stays untouched and ready to print more copies.
+
 ## 4.1 Build
 
 Everything starts with a build step, where instructions describing an image — such as which base image to start from, which files to copy in, and which commands to run — are turned into an actual image made up of layers, as covered in the previous lesson. The result is a reusable artifact that can be stored and shared.
@@ -46,11 +48,15 @@ container-1 container-2 container-3
  (isolated)  (isolated)  (isolated)
 ```
 
+**🔍 Quick Example:** If your website gets a traffic spike, "scaling up" can be as simple as starting three more containers from the exact same `my-app:1.0` image — no separate installation or configuration needed for each new copy.
+
 ## 4.4 Stop and Remove
 
 A container can be stopped, which halts its running process but keeps its writable state around, or removed entirely, which deletes that state along with it. Because containers are meant to be disposable, it's common practice to design applications so that important data lives outside the container — for example, in a separate storage volume — so nothing important is lost when a container is stopped or removed.
 
 This disposability is a deliberate design choice: it should always be safe to throw away a container and start a fresh one from the same image.
+
+> 💡 **Analogy:** Treat a container like a paper cup, not a ceramic mug — it's meant to be used and thrown away without a second thought. Anything you actually care about (the "water," i.e. your data) should be poured into something more permanent before the cup gets tossed.
 
 ### Lifecycle states at a glance
 

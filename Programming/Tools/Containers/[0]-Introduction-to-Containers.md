@@ -34,6 +34,7 @@ The lessons above teach the fundamentals that apply across the whole container e
 ## Table of Contents
 
 **Basics**
+
    1. **[What Are Containers?](./[1]-What-Are-Containers.md)**  
        1.1 Defining a Container  
        1.2 Why Containers Exist  
@@ -55,6 +56,7 @@ The lessons above teach the fundamentals that apply across the whole container e
        4.4 Stop and Remove  
 
 **Ecosystem**
+
    5. **[Container Runtimes And Orchestration](./[5]-Container-Runtimes-And-Orchestration.md)**  
        5.1 What Is a Container Runtime  
        5.2 Single Host vs Multi Host  
@@ -65,3 +67,11 @@ The lessons above teach the fundamentals that apply across the whole container e
        6.2 Docker for Local Development  
        6.3 Kubernetes for Production Orchestration  
        6.4 Where to Go Next
+
+## Container Tools
+
+The lessons above teach the fundamentals that apply across the whole container ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
+
+* **[Docker](https://docs.docker.com)** — build and run individual containers on a single machine; the most common starting point for learning containers hands-on.
+
+* **[Kubernetes](https://kubernetes.io)** — orchestrate many containers across many machines; the industry-standard tool for running containers in production.
