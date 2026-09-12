@@ -4,6 +4,8 @@
 
 Welcome! This is a self-paced course for learning PHP, the widely-used, server-side scripting language that powers a huge share of the web — from WordPress sites to large-scale applications built with Laravel and Symfony.
 
+Download: [https://www.php.net/downloads.php](https://www.php.net/downloads.php)
+
 ---
 
 ## What is PHP?

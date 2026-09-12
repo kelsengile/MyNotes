@@ -22,7 +22,7 @@ Here's a preview of the main database families you'll compare in this course:
 | Key-Value | Simple key → value pairs | Caching, fast lookups | Redis |
 | Embedded | Single-file relational database | Local apps, prototypes | SQLite |
 
-## Database Tools
+## Database Tools:
 
 The lessons above introduce the fundamentals of databases, data storage, querying, and database management systems. To see those concepts applied to specific, widely-used database tools and platforms, continue on to:
 

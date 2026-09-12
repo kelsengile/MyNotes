@@ -5,6 +5,8 @@
 
 Welcome! This is a self-paced course for learning Java, a general-purpose, class-based, object-oriented programming language known for its "write once, run anywhere" portability, strong typing, and widespread use across enterprise systems, Android apps, and large-scale backend services.
 
+Download: [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
+
 ---
 
 ## What is Java?

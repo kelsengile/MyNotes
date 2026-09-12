@@ -4,6 +4,8 @@
 
 Welcome! This is a self-paced course for learning C, a low-level, procedural programming language that underpins operating systems, embedded devices, compilers, and performance-critical software.
 
+Download: [https://gcc.gnu.org/install/download.html](https://gcc.gnu.org/install/download.html)
+
 ---
 
 ## What is C?

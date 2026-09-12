@@ -23,7 +23,7 @@ Here's a quick preview of the major branches you'll cover, and where you've prob
 | Computer Vision | Interprets images and video | Self-checkout cameras, photo tagging |
 | Reinforcement Learning | Learns by trial, error, and reward | Game-playing agents, robotics |
 
-## Artificial Intelligence Tools
+## Artificial Intelligence:
 
 The lessons above teach the fundamentals of artificial intelligence and machine learning. To see those concepts applied using popular, industry-standard tools, continue on to:
 

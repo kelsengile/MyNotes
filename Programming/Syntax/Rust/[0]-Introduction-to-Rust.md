@@ -5,6 +5,8 @@
 
 Welcome! This is a self-paced course for learning Rust, the systems programming language built for performance, reliability, and memory safety — without a garbage collector — widely used for systems software, WebAssembly, embedded programming, and high-performance backend services.
 
+Download: [https://rust-lang.org/tools/install/](https://rust-lang.org/tools/install/)
+
 ---
 
 ## What is Rust?

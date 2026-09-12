@@ -5,6 +5,8 @@
 
 Welcome! This is a self-paced course for learning TypeScript, the statically-typed superset of JavaScript that adds a powerful type system to the language of the web — catching bugs at compile time and powering most large-scale modern JavaScript codebases.
 
+Download: [https://www.typescriptlang.org/download/](https://www.typescriptlang.org/download/)
+
 ---
 
 ## What is TypeScript?

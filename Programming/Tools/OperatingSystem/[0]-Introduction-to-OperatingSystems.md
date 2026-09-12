@@ -21,7 +21,7 @@ A quick look at the major OS families you'll compare later in this course:
 | Windows | Hybrid | Personal computing, gaming, business | Broad hardware and software compatibility |
 | macOS | Hybrid (XNU) | Creative and development work | Polish, tight hardware integration |
 
-## Operating Systems
+## Operating Systems:
 
 The lessons above introduce the fundamentals of operating systems, including system resources, processes, memory management, file systems, and user interaction. To see these concepts applied to specific, widely-used operating systems, continue on to:
 
