@@ -13,6 +13,21 @@ Packages let you:
 - Share your own code so other developers can install and use it
 - Keep dependencies consistent across machines and teammates
 
+## Why Study Packages?
+
+- **Almost no project starts from scratch** — modern software is built on thousands of small, reusable packages, so knowing how to find, install, and manage them is a daily skill.
+- **Dependency problems are inevitable** — version conflicts, broken installs, and "it works on my machine" issues are far easier to debug once you understand how package managers actually resolve dependencies.
+- **It affects security, not just convenience** — supply-chain attacks and vulnerable dependencies are a real risk, and understanding packages helps you spot and avoid them.
+- **You'll eventually publish, not just consume** — sharing your own code as a package is a core part of contributing to open source or reusing code across your own projects.
+
+A quick look at how a few major ecosystems name the same core pieces:
+
+| Language | Package Manager | Registry | Lockfile |
+|---|---|---|---|
+| JavaScript | npm / yarn / pnpm | npmjs.com | package-lock.json / yarn.lock |
+| Python | pip / poetry | PyPI | requirements.txt / poetry.lock |
+| Rust | cargo | crates.io | Cargo.lock |
+
 ## Table of Contents
 
 1. **[What Is A Package?](./%5B1%5D-What-Is-a-Package.md)**  

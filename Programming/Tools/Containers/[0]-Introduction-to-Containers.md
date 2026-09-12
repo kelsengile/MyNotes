@@ -6,6 +6,23 @@ Containers are a way of packaging an application together with everything it nee
 
 These lessons intentionally avoid tying the concepts to any single tool. Once you understand the fundamentals here, head over to the tool-specific folders below to see how those concepts are put into practice with real, widely-used tools.
 
+## Why Learn Containers?
+
+- **"Works on my machine" stops being an excuse** — a container packages the app with its exact dependencies, so it runs the same way on your laptop, a teammate's laptop, and a production server.
+- **It's the default way modern apps ship** — most cloud-native companies deploy software as containers, so the skill shows up in almost every backend, DevOps, or platform role.
+- **It's lighter than a full virtual machine** — you get isolation and portability without the overhead of booting an entire guest operating system for every app.
+- **It unlocks orchestration** — once you understand a single container, tools like Kubernetes (which run thousands of them) make a lot more sense.
+
+A quick sense of how a container stacks up against the alternative you may already know, a virtual machine:
+
+| Aspect | Virtual Machine | Container |
+|---|---|---|
+| What it virtualizes | Entire hardware + OS | Just the application layer, sharing the host OS kernel |
+| Startup time | Minutes | Seconds |
+| Typical size | Gigabytes | Megabytes |
+| Isolation level | Very strong (separate kernel) | Process-level (shared kernel) |
+| Best for | Running different OSes on one machine | Packaging and shipping apps consistently |
+
 ## Table of Contents
 
 **Basics**
