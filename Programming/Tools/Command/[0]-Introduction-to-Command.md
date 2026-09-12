@@ -11,10 +11,6 @@ Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a comm
 - **Troubleshooting** — a huge number of Windows diagnostic and repair tools are CMD-only or CMD-first.
 - **Foundations** — understanding CMD makes it much easier to later pick up PowerShell, Linux shells, or scripting languages, since many concepts carry over.
 
-## How this course is organized
-
-Each lesson is a standalone Markdown file. They're numbered so you can work through them in order, but feel free to jump to whichever topic you need. Every lesson includes explanations and example commands.
-
 ## Table of Contents
 
 1. **[Getting Started](./[1]-Getting-Started.md)**  
