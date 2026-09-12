@@ -20,6 +20,12 @@ These three terms get used loosely, but they describe different levels of toolin
 
 Modern tools blur this line — an editor like Visual Studio Code becomes IDE-like once you add the right extensions. The category matters less than knowing which capabilities a given tool actually has.
 
+| Tool | Syntax highlighting | Autocompletion | Built-in build/run | Built-in debugger |
+|---|---|---|---|---|
+| Notepad (text editor) | No | No | No | No |
+| Sublime Text (code editor) | Yes | Basic | No (needs a build system config) | No |
+| PyCharm (IDE) | Yes | Deep, type-aware | Yes | Yes |
+
 ---
 
 ## 1.3 Why Use an IDE
@@ -34,5 +40,9 @@ Writing code without any tooling is possible but slow: you'd type code in a plai
 - **Less context switching** — editing, running, and debugging happen in one application.
 - **Built-in navigation** — jumping to a function's definition or finding every place it's used is instant.
 - **Consistency** — a shared project configuration means every contributor builds and runs the code the same way.
+
+> **Worth noting:** none of this makes an IDE strictly *necessary* — plenty of experienced developers still write code in a plain editor and drive everything else from the command line. An IDE trades a small amount of setup and resource usage for a large amount of convenience, which is why it's the default recommendation for most learners.
+
+---
 
 [Previous](./[0]-Introduction-to-IDEs.md) | [Table of Contents](./[0]-Introduction-to-IDEs.md) | [Next](./[2]-Core-IDE-Features.md)
