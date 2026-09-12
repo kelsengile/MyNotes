@@ -4,6 +4,8 @@
 
 Welcome! This is a self-paced course for learning HTML (HyperText Markup Language), the foundational markup language that structures and gives meaning to every page on the web.
 
+Download [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 ---
 
 ## What is HTML?

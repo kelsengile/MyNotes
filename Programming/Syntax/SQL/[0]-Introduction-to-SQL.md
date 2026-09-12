@@ -5,6 +5,8 @@
 
 Welcome! This is a self-paced course for learning SQL, the standard language used to store, query, and manage data in relational databases.
 
+Download: [https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)
+
 ---
 
 ## What is SQL?

@@ -4,6 +4,8 @@
 
 Welcome! This is a self-paced course for learning JavaScript, the dynamic, multi-paradigm programming language of the web — running in every browser and, via Node.js, on servers, desktops, and mobile devices too.
 
+Download [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 ---
 
 ## What is JavaScript?

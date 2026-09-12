@@ -4,6 +4,8 @@
 
 Welcome! This is a self-paced course for learning CSS (Cascading Style Sheets), the language that styles and lays out every visual aspect of the web — from colors and typography to responsive, animated, production-grade interfaces.
 
+Download [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 ---
 
 ## What is CSS?
