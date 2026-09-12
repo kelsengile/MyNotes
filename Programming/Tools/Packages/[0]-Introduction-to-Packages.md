@@ -28,6 +28,26 @@ A quick look at how a few major ecosystems name the same core pieces:
 | Python | pip / poetry | PyPI | requirements.txt / poetry.lock |
 | Rust | cargo | crates.io | Cargo.lock |
 
+## Packages
+
+The lessons above introduce the fundamentals of software packages, package management, dependencies, and installing third-party libraries. To see those concepts applied to popular package managers and package ecosystems, continue on to:
+
+* **[npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)** — the default package manager for Node.js, widely used to install and manage JavaScript and web-development packages.
+
+* **[pip](https://pip.pypa.io/en/stable/installation/)** — Python's standard package installer for downloading and managing Python libraries and dependencies.
+
+* **[Yarn](https://yarnpkg.com/getting-started/install)** — a fast package manager for JavaScript projects that provides dependency management and project tooling.
+
+* **[pnpm](https://pnpm.io/installation)** — a fast and disk-efficient JavaScript package manager that uses a content-addressable store to manage dependencies.
+
+* **[Composer](https://getcomposer.org/download/)** — a dependency manager for PHP applications, commonly used to install and manage PHP libraries.
+
+* **[NuGet](https://learn.microsoft.com/nuget/install-nuget-client-tools)** — the package manager for .NET, used to discover, install, and manage libraries and dependencies for .NET projects.
+
+* **[Maven](https://maven.apache.org/install.html)** — a build and dependency management tool widely used for Java projects.
+
+* **[Gradle](https://gradle.org/install/)** — a flexible build automation and dependency management tool commonly used for Java, Kotlin, Android, and other JVM-based projects.
+
 ## Table of Contents
 
 1. **[What Is A Package?](./%5B1%5D-What-Is-a-Package.md)**  

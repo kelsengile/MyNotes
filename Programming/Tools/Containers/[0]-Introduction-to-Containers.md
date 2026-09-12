@@ -23,6 +23,14 @@ A quick sense of how a container stacks up against the alternative you may alrea
 | Isolation level | Very strong (separate kernel) | Process-level (shared kernel) |
 | Best for | Running different OSes on one machine | Packaging and shipping apps consistently |
 
+## Container Tools
+
+The lessons above teach the fundamentals that apply across the whole container ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
+
+* **[Docker](https://docs.docker.com)** — build and run individual containers on a single machine; the most common starting point for learning containers hands-on.
+
+* **[Kubernetes](https://kubernetes.io)** — orchestrate many containers across many machines; the industry-standard tool for running containers in production.
+
 ## Table of Contents
 
 **Basics**
@@ -57,10 +65,3 @@ A quick sense of how a container stacks up against the alternative you may alrea
        6.2 Docker for Local Development  
        6.3 Kubernetes for Production Orchestration  
        6.4 Where to Go Next
-
-## Container Tools
-
-The lessons above teach the fundamentals that apply across the whole container ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
-
-- **[Docker](./Docker/[0]-Introduction-to-Docker.md)** — build and run individual containers on a single machine; the most common starting point for learning containers hands-on.
-- **[Kubernetes](./Kubernetes/[0]-Introduction-to-Kubernetes.md)** — orchestrate many containers across many machines; the industry-standard tool for running containers in production.

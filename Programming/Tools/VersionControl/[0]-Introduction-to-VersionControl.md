@@ -22,6 +22,12 @@ Here's a quick comparison of the two broad approaches to version control you'll 
 | Speed of commits | Depends on server connection | Instant (local) |
 | Single point of failure | Yes (the central server) | No (every clone is a backup) |
 
+## Version Control
+
+The lessons above introduce the fundamentals of version control, including tracking changes, managing different versions of files, and collaborating on software projects. To see these concepts applied to a widely-used version control system, continue on to:
+
+* **[Git](https://git-scm.com)** — a distributed version control system used to track changes in source code, manage project history, create branches, and support collaboration among developers.
+
 ## Table of Contents
 
 **Foundations**
@@ -134,10 +140,3 @@ Here's a quick comparison of the two broad approaches to version control you'll 
        18.2 Git GUIs And Editor Integrations  
        18.3 Learning Resources  
        18.4 Where To Go Next  
-
-
-**## Version Control**
-
-The lessons above introduce the fundamentals of version control, including tracking changes, managing different versions of files, and collaborating on software projects. To see these concepts applied to a widely-used version control system, continue on to:
-
-* **[Git](./Git/[0]-Introduction-to-Git.md)** — a distributed version control system used to track changes in source code, manage project history, create branches, and support collaboration among developers.

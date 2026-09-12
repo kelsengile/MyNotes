@@ -22,6 +22,19 @@ A quick look at how some popular engines differ, which you'll explore in depth l
 | Godot | GDScript / C# | Lightweight, open-source | Indie and 2D-focused projects |
 | Roblox Studio | Lua | Built-in platform and audience | Social and multiplayer experiences |
 
+## Game Engines
+
+The lessons above introduce the fundamentals of game development and interactive applications. To see those concepts applied to specific, industry-standard game engines and development platforms, continue on to:
+
+* **[Godot](https://godotengine.org/download/)** — a free and open-source game engine known for its lightweight workflow and flexible 2D and 3D development capabilities.
+
+* **[Roblox Studio](https://create.roblox.com/docs/studio/setup)** — Roblox's development environment for creating, scripting, testing, and publishing interactive experiences on the Roblox platform.
+
+* **[Unity](https://docs.unity.com/en-us/hub/install-hub)** — a widely-used game engine supporting 2D and 3D development across multiple platforms.
+
+* **[Unreal Engine](https://www.unrealengine.com/download)** — a powerful game engine known for high-fidelity 3D graphics, advanced rendering, and large-scale game development.
+
+
 ## Table of Contents
 
 **Engine Foundations**
@@ -138,15 +151,3 @@ A quick look at how some popular engines differ, which you'll explore in depth l
        19.2 2D-Focused vs 3D-Focused Engines  
        19.3 Learning Curve And Community  
        19.4 Where To Go Next  
-
-## Game Engines
-
-The lessons above introduce the fundamentals of game development and interactive applications. To see those concepts applied to specific, industry-standard game engines and development platforms, continue on to:
-
-- **[Godot](./Godot/[0]-Introduction-to-Godot.md)** — a free and open-source game engine known for its lightweight workflow and flexible 2D and 3D development capabilities.
-
-- **[Roblox Studio](./Roblox%20Studio/[0]-Introduction-to-RobloxStudio.md)** — Roblox's development environment for creating, scripting, testing, and publishing interactive experiences on the Roblox platform.
-
-- **[Unity](./Unity/[0]-Introduction-to-Unity.md)** — a widely-used game engine supporting 2D and 3D development across multiple platforms.
-
-- **[Unreal Engine](./UnrealEngine/[0]-Introduction-to-UnrealEngine.md)** — a powerful game engine known for high-fidelity 3D graphics, advanced rendering, and large-scale game development.
