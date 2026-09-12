@@ -17,6 +17,8 @@ A few questions worth asking before committing to one:
 
 No single engine wins on every axis simultaneously, which is exactly why the three major general-purpose engines from Lesson 3 continue to coexist and thrive rather than one simply replacing the others.
 
+---
+
 ## 19.2 2D-Focused vs 3D-Focused Engines
 
 While most major modern engines support both 2D and 3D to some degree, they don't all support both equally well, and the distinction is worth weighing seriously for a specific project:
@@ -27,6 +29,17 @@ While most major modern engines support both 2D and 3D to some degree, they don'
 
 This isn't a hard rule — every major engine has shipped excellent games outside its "strongest" category — but it's a reasonable heuristic when narrowing down options, and worth validating directly by building a very small prototype in a candidate engine before committing a full project to it.
 
+**Quick-pick guide:**
+
+| If your project is... | A common starting point is... |
+|---|---|
+| A 2D indie game with a small team | Godot |
+| A high-fidelity 3D game, or you want strong out-of-the-box visuals | Unreal Engine |
+| A mix of 2D and 3D, or a mobile-first game | Unity |
+| Highly specialized with unique performance needs | A custom/proprietary engine (rare, and costly) |
+
+---
+
 ## 19.3 Learning Curve And Community
 
 Beyond raw technical capability, two practical factors heavily influence how quickly a team (or an individual learner) can actually become productive in a given engine:
@@ -35,6 +48,8 @@ Beyond raw technical capability, two practical factors heavily influence how qui
 - **Community and documentation** — the size and activity of an engine's community directly affects how easy it is to get unstuck. A large community means existing tutorials, forum answers, and third-party assets for almost any problem a developer runs into; a smaller community means more time spent solving problems from first principles or reading official documentation and source code directly.
 
 These factors matter enormously for solo developers and small teams in particular, since they often don't have a more experienced colleague to ask when they get stuck — for these developers, an engine's community can end up mattering as much as its technical feature set.
+
+---
 
 ## 19.4 Where To Go Next
 

@@ -14,6 +14,8 @@ Engines need to read input from a wide range of devices, including:
 
 Because these devices behave so differently (a mouse reports continuous 2D movement, a gamepad reports button presses and analog stick positions, a touchscreen reports one or more finger positions), engines provide an **input system** that abstracts away these differences behind a consistent API, so gameplay code doesn't need to be rewritten for every device a game might support.
 
+---
+
 ## 12.2 Polling vs Event-Driven Input
 
 There are two general approaches to reading input:
@@ -22,6 +24,15 @@ There are two general approaches to reading input:
 - **Event-driven input** — the input system notifies interested code only when something changes (e.g., "the spacebar was just pressed"), rather than the game having to check every frame. This is efficient and works well for discrete actions like firing a weapon once per press, rather than repeatedly firing every frame the button happens to be held.
 
 Most engines support both approaches side by side, since different kinds of input naturally fit one model better than the other. Continuous movement is usually polled every frame; a menu button click is usually handled as an event.
+
+| Action | Approach | Why |
+|---|---|---|
+| Walking forward | Polling | Needs to know the state every single frame |
+| Firing a single shot | Event-driven | Should trigger once per press, not repeatedly |
+| Menu "Confirm" button | Event-driven | A discrete, one-time action |
+| Aiming with a control stick | Polling | Needs a continuously updated direction |
+
+---
 
 ## 12.3 Input Mapping And Action Systems
 
@@ -40,6 +51,8 @@ if (input.action_pressed("Jump")) {
 ```
 
 This indirection is exactly the data-driven philosophy from Lesson 2 applied to input: gameplay logic asks "was Jump pressed?" without caring what physical button the player (or the player's custom key bindings) actually used to trigger it.
+
+---
 
 ## 12.4 Handling Multiple Players
 

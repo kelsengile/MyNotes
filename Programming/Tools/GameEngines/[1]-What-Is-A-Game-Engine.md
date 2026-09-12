@@ -12,6 +12,8 @@ Think of a game as a house. The engine is the foundation, plumbing, and electric
 
 Most modern engines also ship with an **editor**: a visual application where developers place objects in a world, tweak properties, preview changes instantly, and assemble the final game without writing low-level rendering or math code by hand.
 
+---
+
 ## 1.2 Engines vs Frameworks vs Libraries
 
 These three terms get used loosely, but they describe different levels of structure:
@@ -22,6 +24,14 @@ These three terms get used loosely, but they describe different levels of struct
 
 A useful way to remember the distinction: you call a library, a framework calls you, and an engine gives you an entire workshop with the framework, libraries, and tools already wired together.
 
+| Term | Who's in control | Example | What you still have to build |
+|---|---|---|---|
+| Library | You call it | Box2D (physics) | Rendering, game loop, input, everything else |
+| Framework | It calls you | LÖVE, MonoGame | Physics, editor tooling, higher-level systems |
+| Engine | It provides the whole environment | Unity, Unreal, Godot | Just your game's content and unique logic |
+
+---
+
 ## 1.3 Why Game Engines Exist
 
 Before general-purpose engines were common, most game studios wrote their own technology for every game — often from scratch. This was extremely expensive: a team might spend a year building a renderer before writing a single level of actual gameplay.
@@ -31,6 +41,8 @@ Game engines exist to solve this by separating **reusable technology** from **ga
 - Small teams and solo developers ship games that would have required a large studio a decade earlier.
 - Studios reuse and improve the same technology across multiple titles.
 - Companies license their engines to other studios (Unity and Unreal both work this way), turning engine development into its own business.
+
+---
 
 ## 1.4 Key Benefits
 
@@ -43,6 +55,8 @@ Using an existing engine instead of building one from scratch offers several con
 - **Focus on gameplay** — teams can spend their time on what makes their game unique instead of on low-level infrastructure.
 
 The trade-off is flexibility: an engine makes assumptions about how games are structured, and working against those assumptions can be harder than writing custom code. This is why some large studios still maintain proprietary, in-house engines tailored exactly to their needs — a topic we'll return to in Lesson 3.
+
+> **Fun fact:** *Doom* (1993) and *Quake* (1996) each shipped with their own custom-built engine technology, and both were later licensed out to other studios — id Tech's lineage is a big part of why "engine licensing" became a viable business model in the first place.
 
 ---
 

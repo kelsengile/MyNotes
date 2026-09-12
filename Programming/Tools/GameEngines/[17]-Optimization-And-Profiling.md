@@ -12,6 +12,8 @@ Optimization is the process of finding and reducing these costs so the game cons
 
 A useful mindset: optimization is not about making everything as fast as theoretically possible, but about finding *where the time is actually going* and fixing the parts that matter, since a game can be shipped successfully with plenty of inefficient code, as long as none of it is on the "critical path" of the frame.
 
+---
+
 ## 17.2 Profiling Tools
 
 Guessing where a game's performance problems come from is notoriously unreliable — the part of the code a developer *assumes* is slow is often not the actual bottleneck. **Profiling tools**, built into essentially every modern engine, solve this by directly measuring how long each part of a frame actually takes.
@@ -28,6 +30,8 @@ Frame time: 22ms (target: 16.6ms)
 
 From output like this, a developer can immediately see that scripting logic is the largest single contributor to this frame running over budget, and focus their optimization effort there rather than, say, needlessly trying to speed up audio (which is already a small fraction of the frame). Profilers can typically drill down further within each category too — for example, showing which individual script or which individual draw call is the most expensive — turning "the game feels slow" into a specific, actionable target.
 
+---
+
 ## 17.3 Common Performance Bottlenecks
 
 While every game is different, a handful of performance problems recur constantly across projects:
@@ -38,6 +42,15 @@ While every game is different, a handful of performance problems recur constantl
 - **Uncontrolled memory allocation** — repeatedly creating and destroying objects at runtime, rather than pooling them (Lesson 16), can cause frame-time spikes as the underlying memory system does extra work to find and organize free space.
 
 Recognizing these patterns lets a developer often guess *reasonably* where to look even before profiling, though the profiler remains the tool that confirms whether a suspected bottleneck is actually the one costing real time in a specific game.
+
+| Symptom | Likely bottleneck | Common fix |
+|---|---|---|
+| Frame rate drops in crowded scenes | Too many draw calls | Batch objects, reduce unique materials |
+| Stutter when many objects collide | Expensive collision checks | Simplify colliders, use broad phase |
+| Slowdown that gets worse over time | Unoptimized `update()` logic, or a memory leak | Profile per-frame cost, check reference counts |
+| Hitches when spawning/destroying objects | Uncontrolled memory allocation | Use object pooling |
+
+---
 
 ## 17.4 Level Of Detail (LOD)
 

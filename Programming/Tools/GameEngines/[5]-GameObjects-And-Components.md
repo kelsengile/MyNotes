@@ -10,6 +10,8 @@ A **GameObject** (sometimes called an "actor," "node," or "entity" depending on 
 
 What gives a GameObject its behavior and appearance is the set of pieces attached to it — which brings us to components.
 
+---
+
 ## 5.2 Component-Based Architecture
 
 Instead of giving each object type its own dedicated class (a `Player` class, an `Enemy` class, a `Door` class, each written from scratch), most modern engines use **component-based architecture**: a GameObject is built by attaching small, focused, reusable **components**, each responsible for one piece of functionality.
@@ -26,6 +28,15 @@ None of these components need to know about each other's internal details. The `
 
 This is powerful because the exact same components can be reused across wildly different objects — a `Rigidbody` and `Collider` work identically whether they're attached to a player, a crate, or a rolling boulder.
 
+| GameObject | Components attached |
+|---|---|
+| Player | SpriteRenderer, Collider, Rigidbody, PlayerMovement, AudioSource |
+| Crate | SpriteRenderer, Collider, Rigidbody |
+| Background Music Player | AudioSource only (no visuals, no physics) |
+| Level Exit | Collider (as a trigger), LevelExitScript |
+
+---
+
 ## 5.3 Entity-Component-System (ECS)
 
 **Entity-Component-System (ECS)** is a stricter, performance-oriented variation of component-based design, used heavily in engines that need to simulate very large numbers of objects efficiently (for example, thousands of particles, units, or NPCs at once).
@@ -37,6 +48,22 @@ ECS separates three concerns that are normally blended together:
 - **Systems** — functions that operate on all entities that have a particular combination of components (e.g., a `MovementSystem` that reads every entity with both a `Position` and `Velocity` component and updates its position each frame).
 
 The benefit of ECS is performance: because components are stored as tightly packed arrays of raw data rather than scattered across many individual objects, systems can process thousands of entities very quickly, taking advantage of how modern CPUs access memory. The trade-off is that ECS code can feel less intuitive at first compared to attaching components directly to objects, since behavior lives in separate systems rather than "inside" the object itself.
+
+**Example:** a bullet-hell game with 5,000 projectiles on screen might store them like this:
+
+```
+Entities:       [0, 1, 2, 3, ... 4999]
+Position[]:     [(x0,y0), (x1,y1), (x2,y2), ...]
+Velocity[]:     [(vx0,vy0), (vx1,vy1), ...]
+
+MovementSystem:
+    for each entity with Position AND Velocity:
+        Position += Velocity * delta_time
+```
+
+Because `Position[]` and `Velocity[]` are stored as flat, contiguous arrays, the CPU can churn through all 5,000 updates far faster than if each bullet were a separate object scattered across memory.
+
+---
 
 ## 5.4 Composition Over Inheritance
 

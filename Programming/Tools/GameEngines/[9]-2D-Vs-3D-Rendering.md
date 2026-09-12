@@ -10,11 +10,26 @@ In 2D games, the fundamental visual unit is the **sprite** — a flat 2D image (
 
 2D rendering relies heavily on **layering** and **sorting order** to determine which sprites appear in front of others — since there's no true depth in a flat 2D scene, engines typically let developers assign an explicit sort order (sometimes called a "z-order" or "sorting layer") to control draw order, such as making sure the player always renders in front of background scenery but behind foreground decoration.
 
+**Example sorting layers for a side-scroller (back to front):**
+
+```
+0. Sky/Background   (furthest back)
+1. Distant Terrain
+2. Midground Scenery
+3. Gameplay Layer     <- Player, enemies, platforms live here
+4. Foreground Decoration
+5. UI/HUD            (always on top)
+```
+
+---
+
 ## 9.2 Meshes And 3D Rendering
 
 In 3D games, objects are represented by **meshes** — collections of vertices connected into triangles that define a 3D shape's surface. A simple mesh might be a cube made of just 8 vertices and 12 triangles; a detailed character model might use tens of thousands of triangles to capture fine detail.
 
 Unlike 2D sprites, 3D meshes have real depth, so the renderer needs to solve the **visibility problem** — determining which surfaces are in front of others from the camera's point of view. This is typically handled using a **depth buffer** (also called a z-buffer), which records the distance from the camera to the nearest surface drawn at each pixel so far, ensuring that closer objects correctly obscure farther ones regardless of the order they're drawn in.
+
+---
 
 ## 9.3 Mixing 2D And 3D
 
@@ -26,6 +41,8 @@ Many games blend 2D and 3D rendering rather than using one exclusively:
 
 Most engines support both 2D and 3D rendering paths simultaneously, letting developers combine techniques as needed rather than being forced to pick one exclusively for an entire project.
 
+---
+
 ## 9.4 Choosing a Rendering Approach
 
 Whether a game should lean on 2D or 3D rendering depends heavily on the kind of experience being built:
@@ -34,6 +51,13 @@ Whether a game should lean on 2D or 3D rendering depends heavily on the kind of 
 - **3D rendering** allows for depth, dynamic camera angles, and more immersive environments, but comes with significantly higher art and technical production costs — 3D models, rigging, and animation (covered in Lesson 14) all require specialized skills and more time.
 
 Many successful indie teams deliberately choose 2D specifically because it lets a small team produce a polished, complete game without needing a large 3D art pipeline — a practical decision covered further in Lesson 19 when we discuss matching engines and rendering approaches to project needs.
+
+| Factor | 2D | 3D |
+|---|---|---|
+| Art production cost | Lower | Higher (modeling, rigging, texturing) |
+| Computational cost | Lower | Higher |
+| Camera flexibility | Limited | Full freedom of movement and angle |
+| Common genres | Platformers, puzzle, classic RPG | FPS, open-world, racing |
 
 ---
 

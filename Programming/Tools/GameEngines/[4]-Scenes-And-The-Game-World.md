@@ -10,6 +10,21 @@ A **scene** is a self-contained snapshot of a game world at a moment in time —
 
 Almost every engine treats the scene as the fundamental unit of content organization. Instead of building an entire game as one giant, monolithic world, developers split it into scenes such as `MainMenu`, `Level1`, `Level2`, and `GameOverScreen`. Each scene can be authored, tested, and loaded independently.
 
+**Example project structure for a small platformer:**
+
+```
+Scenes/
+├── MainMenu.scene
+├── Level1_Forest.scene
+├── Level2_Cave.scene
+├── Level3_Castle.scene
+└── GameOverScreen.scene
+```
+
+Each `.scene` file is self-contained, so a designer could open and test `Level2_Cave` directly without ever loading the main menu or any other level.
+
+---
+
 ## 4.2 Scene Graphs
 
 Internally, most engines represent a scene as a **scene graph** — a tree-like structure where every object is a node, and nodes can contain other nodes as children. This mirrors how objects relate to each other in the real world: a character node might have a "weapon" node attached to its "hand," so that when the hand moves, the weapon moves with it automatically.
@@ -31,6 +46,8 @@ Scene: Level1
 
 The scene graph isn't just an organizational convenience — it directly affects how transformations (position, rotation, scale) propagate, which we'll cover in depth in Lesson 6.
 
+---
+
 ## 4.3 Loading And Unloading Scenes
 
 Games rarely load every scene into memory at once — that would be enormously wasteful, since a game might have dozens of levels but the player is only ever in one at a time. Instead, engines provide functions to **load** a scene (bringing all its objects and assets into memory and initializing them) and **unload** it (freeing that memory when it's no longer needed).
@@ -40,6 +57,14 @@ Common loading strategies include:
 - **Single scene loading** — one scene is active at a time; loading a new one unloads the previous one, often with a loading screen in between.
 - **Additive loading** — multiple scenes are loaded simultaneously and layered together, useful for streaming large open worlds in pieces or keeping persistent UI/HUD scenes active across level changes.
 - **Asynchronous loading** — a scene loads in the background while the player continues playing (or watches a loading animation), avoiding a hard freeze.
+
+| Strategy | Memory usage | Best for |
+|---|---|---|
+| Single scene | Low (one scene at a time) | Linear levels, menus |
+| Additive | Higher (multiple scenes at once) | Persistent HUD, streaming open worlds |
+| Asynchronous | Varies | Any game that wants to avoid hard freezes |
+
+---
 
 ## 4.4 A Simple Scene Example
 

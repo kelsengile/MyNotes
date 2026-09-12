@@ -13,6 +13,8 @@ Detecting collisions between every possible pair of objects in a scene, every si
 
 This two-phase approach is a classic performance optimization pattern: do a cheap, approximate check first to eliminate the obviously-not-colliding majority, then only spend expensive, precise computation on the few pairs that actually need it.
 
+---
+
 ## 11.2 Collision Shapes
 
 Colliders (introduced in Lesson 10) come in several common shapes, each with different performance and accuracy trade-offs:
@@ -24,6 +26,15 @@ Colliders (introduced in Lesson 10) come in several common shapes, each with dif
 
 A common best practice is to use the simplest collider shape that reasonably approximates an object, rather than defaulting to expensive mesh colliders everywhere — a detailed character model, for example, is usually given a simple capsule collider rather than a collider matching every finger and strand of hair.
 
+| Shape | Relative cost | Typical use |
+|---|---|---|
+| Sphere | Cheapest | Balls, rough approximations |
+| Box | Cheap | Crates, walls, rectangular props |
+| Capsule | Moderate | Characters, moving units |
+| Mesh | Expensive | Static terrain, level geometry only |
+
+---
+
 ## 11.3 Triggers vs Collisions
 
 Not every overlap between two colliders should result in physical collision response (objects pushing each other apart). Engines distinguish between two modes:
@@ -32,6 +43,8 @@ Not every overlap between two colliders should result in physical collision resp
 - A **trigger** detects overlap *without* any physical response — the objects simply pass through each other, but the engine still fires an event that scripts can react to. Triggers are commonly used for things like a level exit zone, an item pickup area, or a zone that starts a cutscene when the player walks into it.
 
 Using a trigger for the `LevelExit` object from Lesson 4's scene example is a good illustration: the player should be able to walk *through* the exit zone to trigger the next level, not physically bump into an invisible wall there.
+
+---
 
 ## 11.4 Collision Events
 

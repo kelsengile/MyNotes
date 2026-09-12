@@ -10,6 +10,8 @@ The **renderer** is the engine subsystem responsible for turning a scene's data 
 
 At a high level, rendering answers one question, repeated for every pixel on the screen: "what color should this pixel be, given everything in the scene?"
 
+---
+
 ## 7.2 The Rendering Pipeline
 
 The **rendering pipeline** is the sequence of steps a renderer performs to go from raw scene data to a finished image. While the exact steps vary by engine and graphics API, a simplified pipeline generally includes:
@@ -21,6 +23,19 @@ The **rendering pipeline** is the sequence of steps a renderer performs to go fr
 
 This pipeline runs for every single frame of the game — often 30, 60, or even more times per second — which is why efficient rendering is such a central concern in engine design.
 
+**Example:** rendering a single triangle-based cube (12 triangles, 8 vertices) walks through the pipeline like this:
+
+```
+1. Vertex processing:    8 vertices transformed into screen positions
+2. Rasterization:        GPU determines which pixels each of the 12 triangles covers
+3. Fragment processing:  every covered pixel gets a final color (texture + lighting)
+4. Output merging:       colors written to the frame buffer, respecting depth order
+```
+
+Now imagine a scene with a thousand such cubes, all repeating this same four-step process, 60 times a second — that's the kind of scale a GPU is built to handle in parallel.
+
+---
+
 ## 7.3 Cameras And Viewports
 
 A scene can't be rendered without a **camera** — the object that defines the position, angle, and field of view from which the scene is observed. Just like a real camera, a game camera has properties such as:
@@ -30,6 +45,13 @@ A scene can't be rendered without a **camera** — the object that defines the p
 - **Projection type** — most commonly **perspective** (objects farther away appear smaller, mimicking human vision — used in most 3D games) or **orthographic** (objects stay the same size regardless of distance — commonly used for 2D games, UI, and some strategy games).
 
 The **viewport** is the rectangular region of the screen (or window) that the camera's output is drawn into. Most games use a single full-screen viewport, but split-screen multiplayer games use multiple viewports — one camera and viewport per player, each rendering to a portion of the screen.
+
+| Projection | Objects farther away | Typical use case |
+|---|---|---|
+| Perspective | Appear smaller | First-person shooters, open-world 3D games |
+| Orthographic | Stay the same size | 2D platformers, isometric strategy games, UI |
+
+---
 
 ## 7.4 Frame Rate And The Render Loop
 

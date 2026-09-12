@@ -67,11 +67,3 @@ The lessons above teach the fundamentals that apply across the whole container e
        6.2 Docker for Local Development  
        6.3 Kubernetes for Production Orchestration  
        6.4 Where to Go Next
-
-## Container Tools
-
-The lessons above teach the fundamentals that apply across the whole container ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
-
-* **[Docker](https://docs.docker.com)** — build and run individual containers on a single machine; the most common starting point for learning containers hands-on.
-
-* **[Kubernetes](https://kubernetes.io)** — orchestrate many containers across many machines; the industry-standard tool for running containers in production.

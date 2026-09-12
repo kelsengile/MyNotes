@@ -14,6 +14,16 @@ Every object placed in a scene has a **transform** — the data that describes w
 
 Together, these three values define exactly how an object's shape and appearance map into the world. Nearly every other system in an engine — rendering, physics, audio — reads an object's transform to know where to draw it, simulate it, or play sound from it.
 
+**Example transform for a 2D enemy sprite:**
+
+| Property | Value | Meaning |
+|---|---|---|
+| Position | (120, 45) | 120 units right, 45 units up from the origin |
+| Rotation | 15° | Tilted slightly clockwise |
+| Scale | (2.0, 2.0) | Twice the sprite's original width and height |
+
+---
+
 ## 6.2 Parent-Child Hierarchies
 
 As introduced in Lesson 4's scene graph, objects can be nested inside one another, forming a **parent-child hierarchy**. When an object is a "child" of another "parent" object, the child's transform is interpreted *relative to* its parent, and moving the parent automatically moves all of its children along with it.
@@ -31,6 +41,8 @@ Car (parent)
 
 If the `Car`'s position changes, every wheel and the driver move with it automatically — you don't need to manually reposition each wheel every frame. Similarly, rotating the car rotates all of its children around it, which is exactly how you'd expect a car and its parts to behave.
 
+---
+
 ## 6.3 Local Space vs World Space
 
 Because of parent-child hierarchies, a transform's position, rotation, and scale can be described in two different ways:
@@ -39,6 +51,8 @@ Because of parent-child hierarchies, a transform's position, rotation, and scale
 - **World space** — the transform values relative to the entire scene's origin (0, 0, 0). This is the "true" position an object actually occupies, taking every ancestor's transform into account.
 
 If the car above is parked at world position (10, 0) and the front-left wheel's local position is (0.8, -0.2) relative to the car, then the wheel's world position is (10.8, -0.2) — the parent's world position combined with the child's local offset. Engines calculate this automatically, but understanding the difference matters whenever you're debugging "why is this object in the wrong place," since a script that reads local position when it should read world position (or vice versa) is one of the most common sources of positioning bugs.
+
+---
 
 ## 6.4 Transform Matrices
 
