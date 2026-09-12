@@ -22,7 +22,7 @@ A quick look at how some popular engines differ, which you'll explore in depth l
 | Godot | GDScript / C# | Lightweight, open-source | Indie and 2D-focused projects |
 | Roblox Studio | Lua | Built-in platform and audience | Social and multiplayer experiences |
 
-## Game Engines
+## Game Engines:
 
 The lessons above introduce the fundamentals of game development and interactive applications. To see those concepts applied to specific, industry-standard game engines and development platforms, continue on to:
 

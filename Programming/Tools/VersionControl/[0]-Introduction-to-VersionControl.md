@@ -22,7 +22,7 @@ Here's a quick comparison of the two broad approaches to version control you'll 
 | Speed of commits | Depends on server connection | Instant (local) |
 | Single point of failure | Yes (the central server) | No (every clone is a backup) |
 
-## Version Control
+## Version Control Tools:
 
 The lessons above introduce the fundamentals of version control, including tracking changes, managing different versions of files, and collaborating on software projects. To see these concepts applied to a widely-used version control system, continue on to:
 

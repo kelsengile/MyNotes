@@ -23,7 +23,7 @@ A quick sense of how a container stacks up against the alternative you may alrea
 | Isolation level | Very strong (separate kernel) | Process-level (shared kernel) |
 | Best for | Running different OSes on one machine | Packaging and shipping apps consistently |
 
-## Container Tools
+## Containers:
 
 The lessons above teach the fundamentals that apply across the whole container ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
 

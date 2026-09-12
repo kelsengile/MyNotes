@@ -28,7 +28,7 @@ A quick look at how a few major ecosystems name the same core pieces:
 | Python | pip / poetry | PyPI | requirements.txt / poetry.lock |
 | Rust | cargo | crates.io | Cargo.lock |
 
-## Packages
+## Package Managers:
 
 The lessons above introduce the fundamentals of software packages, package management, dependencies, and installing third-party libraries. To see those concepts applied to popular package managers and package ecosystems, continue on to:
 

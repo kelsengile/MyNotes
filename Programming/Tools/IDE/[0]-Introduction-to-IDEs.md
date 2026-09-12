@@ -21,7 +21,7 @@ Here's how a few popular IDEs compare at a glance:
 | JetBrains IDEs | Deep, language-specific tooling | Java, Python, C#, and more | Powerful refactoring and code analysis |
 | Xcode | Apple platform development | Swift, Objective-C | Tight integration with iOS/macOS tooling |
 
-## IDE's
+## IDE's:
 
 The lessons above introduce the fundamentals of software development, programming, and development workflows. To see those concepts applied to specific, widely-used integrated development environments (IDEs) and code editors, continue on to:
 
@@ -30,8 +30,6 @@ The lessons above introduce the fundamentals of software development, programmin
 * **[Visual Studio Code](https://code.visualstudio.com/download)** — a lightweight and highly customizable source-code editor with extensive support for programming languages, extensions, debugging, and development workflows.
 
 * **[Xcode](https://developer.apple.com/xcode/)** — Apple's integrated development environment for developing applications for platforms such as macOS, iOS, iPadOS, watchOS, and tvOS.
-
-
 
 ## Table of Contents
 
