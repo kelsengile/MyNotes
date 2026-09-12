@@ -8,11 +8,22 @@
 
 Data is the raw material that most modern AI systems learn from — without it, a machine learning model has nothing to learn a pattern from. The quality, quantity, and relevance of data used to train a system directly determines how well that system will perform, often more than the choice of algorithm does. This is why "garbage in, garbage out" is one of the most repeated phrases in AI: even a sophisticated model trained on poor data will produce poor, unreliable results.
 
+> 💡 **Analogy:** Training a model on bad data is like teaching a student from a textbook full of typos and wrong answers. No matter how smart the student is, they'll learn the mistakes right along with everything else.
+
 ---
 
 ## 4.2 Features And Labels
 
 A **feature** is an individual measurable property of the data used as input to a model — for example, a house's square footage, number of bedrooms, and location could all be features used to predict its price. A **label** is the target value a model is trying to predict, such as the actual sale price in that example. Choosing which features to include, and how to represent them numerically, is called **feature engineering**, and it remains one of the most impactful (and often most manual) parts of building an effective machine learning system, even as some modern deep learning methods can learn useful features automatically from raw data.
+
+**🔍 Quick Example — Predicting House Price**
+
+| Square Footage | Bedrooms | Location Score | → | Price (label) |
+|---|---|---|---|---|
+| 1,800 | 3 | 8/10 | → | $410,000 |
+| 1,200 | 2 | 5/10 | → | $265,000 |
+
+The first three columns are **features**; the last column is the **label** the model learns to predict.
 
 ---
 
@@ -22,10 +33,20 @@ A **feature** is an individual measurable property of the data used as input to 
 
 **Unstructured data** doesn't fit neatly into rows and columns — text documents, images, audio recordings, and video are all unstructured. Working with unstructured data typically requires additional processing (like the tokenization discussed in Lesson 13, or the image processing discussed in Lesson 15) to convert it into a numerical form a model can use. Much of the progress in deep learning has come specifically from getting better at learning directly from unstructured data.
 
+```mermaid
+flowchart LR
+    A[Raw Data] --> B{Structured or Unstructured?}
+    B -->|Structured: spreadsheet| C[Feed directly into ML model]
+    B -->|Unstructured: text, image, audio| D[Preprocess: tokenize / vectorize]
+    D --> C
+```
+
 ---
 
 ## 4.4 Data Quality And Bias
 
 Data quality issues — missing values, incorrect labels, duplicate records, or measurement errors — can silently degrade a model's performance, which is why data cleaning is a major part of any real AI project. Beyond simple errors, data can also be **biased**: if the data used to train a system underrepresents certain groups or situations, or reflects historical inequities, the resulting model can make systematically worse or unfair predictions for those groups. This issue is significant enough that it's covered in more depth in Lesson 17 (Ethics And Bias In AI), but it's worth internalizing early: a model is only as good, and as fair, as the data it was trained on.
+
+> 💡 **Analogy:** If a photo dataset used to train a facial-recognition system contains mostly one skin tone, the model becomes like a student who only ever studied one chapter of the textbook — confident, but blind to everything outside it.
 
 [Previous](./[3]-Types-Of-AI-Systems.md) | [Table of Contents](./[0]-Introduction-to-ArtificialIntelligence.md) | [Next](./[5]-Search-And-Problem-Solving.md)
