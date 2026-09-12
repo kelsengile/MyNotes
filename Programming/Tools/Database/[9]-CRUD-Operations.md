@@ -39,6 +39,8 @@ SET email = 'dana.new@example.com'
 WHERE id = 4;
 ```
 
+> ⚠️ **Cautionary Example:** Forgetting the `WHERE` clause on `UPDATE users SET email = 'dana.new@example.com';` doesn't just fix Dana's email — it overwrites *every single user's* email with the same value. This exact mistake has taken down production systems more than once.
+
 ---
 
 ## 9.4 Delete (DELETE)
@@ -53,5 +55,14 @@ WHERE id = 4;
 Without a `WHERE` clause, `DELETE FROM users;` removes every row in the table. Many teams add a safeguard — like requiring a transaction (see [Lesson 12](./[12]-Transactions-And-ACID.md)) or a confirmation step — before running unqualified `DELETE` or `UPDATE` statements in production.
 
 Together, `INSERT`, `SELECT`, `UPDATE`, and `DELETE` form **CRUD** — Create, Read, Update, Delete — the four basic operations almost every application performs on its data.
+
+> 💡 **Analogy:** CRUD maps almost perfectly onto everyday actions with a physical filing cabinet: **Create** a new folder, **Read** (pull out and look at) a folder, **Update** (edit) its contents, and **Delete** (shred) a folder you no longer need.
+
+| Operation | SQL Statement | Physical Analogy |
+|---|---|---|
+| Create | INSERT | Add a new folder |
+| Read | SELECT | Pull out and read a folder |
+| Update | UPDATE | Edit the folder's contents |
+| Delete | DELETE | Shred the folder |
 
 [Previous](./[8]-Introduction-To-SQL.md) | [Table of Contents](./[0]-Introduction-to-Databases.md) | [Next](./[10]-Filtering-Sorting-And-Aggregating.md)

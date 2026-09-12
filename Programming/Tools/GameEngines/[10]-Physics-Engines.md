@@ -10,6 +10,8 @@ A **physics engine** is the subsystem responsible for simulating physical behavi
 
 Physics engines typically run on a **fixed timestep**, separate from the variable rendering rate discussed in Lesson 7. This keeps the simulation stable and deterministic — running physics at a consistent rate (for example, exactly 50 times per second) regardless of how fast or slow frames are rendering prevents objects from behaving inconsistently or "tunneling" through walls at low frame rates.
 
+---
+
 ## 10.2 Rigidbodies And Colliders
 
 Two components form the foundation of most physics simulations:
@@ -18,6 +20,15 @@ Two components form the foundation of most physics simulations:
 - A **collider** defines an object's physical shape for the purposes of detecting collisions — this is often a simplified approximation of the object's visual shape (a box or sphere collider around a detailed character model, for example), since simple shapes are far cheaper to calculate collisions for than exact, detailed geometry.
 
 An object can have a collider without a rigidbody (a static wall), and in some engines, a rigidbody without a visible mesh at all (an invisible physical barrier). The two components are related but conceptually distinct: the rigidbody governs *how an object moves*, while the collider governs *what shape it collides as*.
+
+| Object | Rigidbody? | Collider? | Behavior |
+|---|---|---|---|
+| Floor | No | Yes | Static — never moves, but blocks other objects |
+| Bouncing ball | Yes | Yes | Falls under gravity, bounces off surfaces |
+| Invisible wall | Yes (kinematic) or No | Yes | Blocks movement, never visibly renders |
+| Background decoration | No | No | Purely visual, ignored by physics entirely |
+
+---
 
 ## 10.3 Forces And Gravity
 
@@ -38,6 +49,8 @@ function on_jump_pressed() {
 ```
 
 Because the physics engine handles the resulting motion (acceleration, deceleration due to gravity, eventual landing) automatically once a force is applied, developers rarely need to manually calculate trajectories by hand.
+
+---
 
 ## 10.4 Physics Materials
 

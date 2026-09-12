@@ -10,6 +10,8 @@
 
 Relational databases are queried using **SQL** (Structured Query Language) and are built around a fixed schema — the shape of the data is defined up front. Examples include PostgreSQL, MySQL, and SQLite.
 
+> 💡 **Analogy:** A relational database is like a well-organized filing cabinet with labeled folders (tables), each containing forms with the exact same fields (columns) — and cross-reference numbers linking related folders together.
+
 ---
 
 ## 2.2 NoSQL Databases
@@ -49,5 +51,15 @@ No single database type is "best" — the right choice depends on the shape of t
 | Metrics or sensor data over time | Time-series |
 
 This table is a starting point, not a rulebook — many real systems combine multiple database types, using each where it fits best.
+
+```mermaid
+flowchart TD
+    A[What shape is your data?] --> B{Fixed rows/columns with relationships?}
+    B -->|Yes| C[Relational]
+    B -->|No, flexible shape| D{Access pattern?}
+    D -->|Simple key lookup| E[Key-Value]
+    D -->|Nested/varying documents| F[Document]
+    D -->|Highly connected data| G[Graph]
+```
 
 [Previous](./[1]-What-Are-Databases.md) | [Table of Contents](./[0]-Introduction-to-Databases.md) | [Next](./[3]-Database-Management-Systems.md)

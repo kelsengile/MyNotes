@@ -34,6 +34,7 @@ The lessons above teach the fundamentals that apply across the whole container e
 ## Table of Contents
 
 **Basics**
+
    1. **[What Are Containers?](./[1]-What-Are-Containers.md)**  
        1.1 Defining a Container  
        1.2 Why Containers Exist  
@@ -55,6 +56,7 @@ The lessons above teach the fundamentals that apply across the whole container e
        4.4 Stop and Remove  
 
 **Ecosystem**
+
    5. **[Container Runtimes And Orchestration](./[5]-Container-Runtimes-And-Orchestration.md)**  
        5.1 What Is a Container Runtime  
        5.2 Single Host vs Multi Host  

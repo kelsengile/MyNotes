@@ -10,6 +10,8 @@ A container runtime is the software responsible for actually running containers 
 
 Runtimes are typically an implementation detail: developers usually interact with a higher-level tool that talks to a runtime on their behalf, rather than working with the runtime directly.
 
+> 💡 **Analogy:** The runtime is like a car's engine — essential to actually making things move, but most drivers interact with the steering wheel and pedals (the higher-level tool), not the engine's internals directly.
+
 ```
  Developer-facing tool  ──talks to──▶  Container Runtime  ──manages──▶  Running Containers
    (e.g. Docker CLI)                  (does the actual isolation
@@ -28,6 +30,8 @@ Once containers are spread across multiple hosts, new problems appear: how do yo
 | Failure recovery | Manual restart | Needs automatic detection + rescheduling |
 | Networking | Local, simple | Needs cross-machine service discovery |
 | Scaling | Limited to one machine's capacity | Can scale across the whole fleet |
+
+> 💡 **Analogy:** Running containers on one machine is like managing one food stall — you can see everything at a glance. Running across many machines is like managing a chain of 50 food stalls across a city: you now need a head office deciding staffing, handling a stall that shuts down unexpectedly, and coordinating supply between locations.
 
 ## 5.3 What Is Orchestration
 
@@ -52,6 +56,8 @@ An orchestrator takes over decisions that would otherwise have to be made by han
 ```
 
 If `Machine B` crashes, the orchestrator notices only 2 copies are running, and automatically starts a replacement — without anyone stepping in.
+
+> 💡 **Analogy:** An orchestrator behaves like a thermostat: you set the desired temperature ("keep 3 copies running"), and it continuously checks the actual temperature and turns the heat on or off as needed — no one has to babysit it.
 
 ## 5.4 Why Orchestration Matters at Scale
 

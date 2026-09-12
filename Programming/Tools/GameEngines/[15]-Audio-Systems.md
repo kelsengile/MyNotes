@@ -13,6 +13,15 @@ Game audio generally falls into two broad categories, each with different techni
 
 This distinction matters for how an engine's audio system is built: SFX playback needs to prioritize **low latency** (the gap between "trigger" and "sound"), while music playback needs to prioritize **efficient streaming and seamless looping**. Most engines expose separate APIs, or at least separate default settings, for these two use cases rather than treating all audio identically.
 
+| | Sound Effects (SFX) | Music |
+|---|---|---|
+| Length | Very short (under a few seconds) | Long (minutes) |
+| Loading | Fully loaded into memory | Streamed in chunks |
+| Priority | Low latency | Seamless looping |
+| Example | Jump, coin pickup, gunshot | Background track, boss theme |
+
+---
+
 ## 15.2 Audio Sources And Listeners
 
 Just as rendering needs a camera to define what's seen (Lesson 7), audio needs an analogous concept to define what's *heard*. Engines model this with two components:
@@ -21,6 +30,8 @@ Just as rendering needs a camera to define what's seen (Lesson 7), audio needs a
 - An **audio listener** represents the "ears" of the scene — almost always attached to the active camera or player character. The engine calculates what the listener hears based on the position, distance, and volume of every audio source relative to it.
 
 A scene typically has exactly one active listener at a time. If a scene accidentally ends up with two enabled listeners (for example, after loading a second player into a scene without disabling the first camera), most engines will either only use one of them or produce broken, doubled-up audio — a common early bug for developers new to 3D audio.
+
+---
 
 ## 15.3 3D Spatial Audio
 
@@ -42,6 +53,8 @@ function calculate_volume(source, listener) {
 ```
 
 Combined, attenuation and panning let a player close their eyes and still roughly point toward an off-screen enemy based on sound alone — a core part of how 3D games communicate spatial information without relying purely on visuals.
+
+---
 
 ## 15.4 Mixing And Audio Buses
 

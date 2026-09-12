@@ -15,6 +15,8 @@ Everything covered so far — images, layers, running containers, and orchestrat
 | "I need automatic restarts, scaling, and self-healing" | Kubernetes |
 | "I'm just learning the basics hands-on" | Docker first |
 
+> 💡 **Analogy:** Docker is like learning to cook in your own kitchen — you build the dish and taste it yourself. Kubernetes is like running the kitchen operations for a chain of restaurants — the same recipes, but now automated staffing, restocking, and quality control across every location.
+
 ## 6.2 Docker for Local Development
 
 Docker is typically where developers first encounter containers hands-on. It provides the tools to build images, run containers, and manage them on a single machine, and its tooling has become a de-facto standard that many other tools build on or interoperate with.

@@ -16,6 +16,17 @@ Common texture types used within a material include:
 
 A single 3D model can reuse the same material across many instances — a hundred identical crates in a warehouse level can all share one `Crate` material, keeping memory usage low and ensuring a consistent look.
 
+**Example `Metal_Rusted` material:**
+
+| Texture slot | What it contributes |
+|---|---|
+| Albedo | Reddish-brown rust coloring with dirt streaks |
+| Normal map | Small pits, scratches, and dents in the surface |
+| Roughness map | Rough in rusted patches, slightly shinier on exposed metal |
+| Metallic map | High metallic value under the rust, near-zero on flaking paint |
+
+---
+
 ## 8.2 What Is a Shader
 
 A **shader** is a small program that runs directly on the GPU and determines exactly how a material is rendered — how light interacts with it, what color each pixel ends up, and any special visual effects applied to it. Shaders are what actually calculate the final result described conceptually by a material.
@@ -38,6 +49,8 @@ fragment_shader(uv_coordinates) {
 
 A more advanced version would also factor in lighting direction, surface normals, and shadows before producing the final color.
 
+---
+
 ## 8.3 Lighting Models
 
 A **lighting model** is the mathematical approach a renderer uses to simulate how light interacts with surfaces. Two broad philosophies dominate modern engines:
@@ -50,6 +63,14 @@ Engines also distinguish between different **light types** placed in a scene, in
 - **Directional lights** — simulate an infinitely distant light source like the sun; all light rays are parallel.
 - **Point lights** — emit light in all directions from a single point, like a light bulb.
 - **Spot lights** — emit a cone of light from a point, like a flashlight.
+
+| Light type | Real-world analogy | Common use |
+|---|---|---|
+| Directional | The sun | Outdoor daylight scenes |
+| Point | A light bulb | Torches, lanterns, explosions |
+| Spot | A flashlight | Headlights, stage lights, stealth game sightlines |
+
+---
 
 ## 8.4 Shadows
 

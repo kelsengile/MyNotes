@@ -16,6 +16,14 @@ Common approaches include:
 
 Regardless of the language, scripts in an engine are typically attached to components (Lesson 5) and gain access to that object's transform, other components, and engine-provided functions for things like input, physics queries, and spawning objects.
 
+| Engine | Scripting approach | Example syntax style |
+|---|---|---|
+| Unity | C# | `transform.position += Vector3.right * speed;` |
+| Unreal | C++ or Blueprints | Visual node graph, or `AActor::Tick()` in C++ |
+| Godot | GDScript | `position.x += speed * delta` |
+
+---
+
 ## 13.2 Lifecycle Methods
 
 Engines call specific, predictably-named functions on a script at specific moments — these are called **lifecycle methods**. Rather than a developer writing their own game loop from scratch (as shown conceptually in Lesson 2), the engine's runtime already contains that loop, and it calls into user scripts at the right points automatically. Common lifecycle methods include:
@@ -40,6 +48,8 @@ class PlayerMovement {
 }
 ```
 
+---
+
 ## 13.3 Event Systems And Messaging
 
 As a game grows, objects increasingly need to communicate without being tightly coupled to each other's internal details — for example, a `HealthBar` UI element needs to know when the player's health changes, but the `PlayerHealth` script shouldn't need to know anything about how the UI displays that information. Engines address this with **event systems** (sometimes called "signals," "delegates," or "messaging systems"), which let one piece of code **broadcast** that something happened, while any number of unrelated listeners can **subscribe** to react to it, without either side needing direct knowledge of the other.
@@ -61,6 +71,8 @@ function start() {
 
 This decoupling makes large projects far more maintainable — systems can be added, removed, or changed independently as long as the events they publish and subscribe to stay consistent.
 
+---
+
 ## 13.4 State Machines
 
 Much of gameplay logic boils down to an object being in one of several distinct **states**, with specific rules for how and when it transitions between them. A **state machine** is a pattern (and often a built-in engine tool) for organizing this cleanly, rather than relying on a tangle of boolean flags and conditional checks.
@@ -75,6 +87,15 @@ Chasing -> Patrolling   (if the player escapes)
 ```
 
 Each state defines its own behavior for what the enemy does while in it (e.g., only in the `Attacking` state does the enemy deal damage), and the state machine handles moving between states based on the defined rules. This keeps behavior organized and predictable, and is a pattern you'll see again in Lesson 14 applied specifically to animation.
+
+```
+Idle:        [Enemy stands still, plays idle animation]
+Patrolling:  [Enemy walks a fixed path between waypoints]
+Chasing:     [Enemy moves directly toward the player's position]
+Attacking:   [Enemy stops moving, deals damage on a cooldown timer]
+```
+
+Without a state machine, this same logic often devolves into a tangle of flags like `isChasing`, `isAttacking`, and `hasSeenPlayer`, all checked in nested `if` statements — a state machine keeps exactly one state active at a time, making the enemy's behavior far easier to reason about and debug.
 
 ---
 

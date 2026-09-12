@@ -14,6 +14,8 @@ Real databases are almost never used by one person at a time — many transactio
 
 For example, if two people try to book the last seat on a flight at the same instant, the database needs a way to make sure only one of them succeeds.
 
+> 💡 **Analogy:** Picture two people grabbing the last concert ticket at the exact same millisecond from two different browser tabs. Without coordination, both might see "available" and both might think they succeeded — but only one seat actually exists.
+
 ---
 
 ## 14.2 Locking Strategies
@@ -34,6 +36,8 @@ COMMIT;
 ```
 
 `FOR UPDATE` explicitly requests an exclusive lock on the selected row, so no other transaction can book the same seat until this one finishes.
+
+> 💡 **Analogy:** A shared lock is like several people reading the same library book's page over each other's shoulder — fine, no one's changing anything. An exclusive lock is like someone taking the book to write in it — everyone else has to wait until they're done.
 
 ---
 
@@ -75,5 +79,13 @@ UPDATE accounts SET balance = balance + 50 WHERE id = 1; -- waits for row 1
 Here, Transaction A is waiting on the lock Transaction B holds, and Transaction B is waiting on the lock Transaction A holds — neither can proceed. Most databases detect this automatically and resolve it by forcibly rolling back one of the transactions, letting the other continue.
 
 Application code that runs transactions should always be prepared to catch a deadlock error and retry the transaction, since deadlocks are a normal (if occasional) part of concurrent systems rather than a sign of a bug.
+
+> 💡 **Analogy:** Classic deadlock: two cars meet nose-to-nose on a one-lane bridge, each waiting for the other to back up first. Neither moves — until someone (or something) forces one to yield.
+
+```mermaid
+flowchart LR
+    A[Transaction A holds Lock 1] -->|waits for| L2[Lock 2]
+    B[Transaction B holds Lock 2] -->|waits for| L1[Lock 1]
+```
 
 [Previous](./[13]-Indexing-And-Query-Performance.md) | [Table of Contents](./[0]-Introduction-to-Databases.md) | [Next](./[15]-NoSQL-Database-Types.md)

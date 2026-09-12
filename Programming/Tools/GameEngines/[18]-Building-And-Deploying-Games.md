@@ -10,6 +10,8 @@ While developing a game, most work happens inside the engine's own editor (Lesso
 
 Each target has its own requirements and constraints: a mobile build needs to fit within tight memory and battery limits, a console build must pass strict certification requirements from the platform holder, and a web build needs to run inside a browser sandbox with no direct file-system access. Modern engines abstract away much of this complexity — the same project can typically be exported to several targets with only build-specific settings changed, rather than rewriting game logic per platform — but some amount of target-specific tuning (asset resolution, control schemes, performance budgets) is almost always necessary regardless of how platform-agnostic the underlying engine is.
 
+---
+
 ## 18.2 Build Configurations
 
 Separate from the target platform, a build is usually also produced in one of a few standard **configurations**, which control how much debugging information and internal tooling are included:
@@ -19,6 +21,14 @@ Separate from the target platform, a build is usually also produced in one of a 
 - A **release build** (sometimes called a "shipping" or "master" build) strips out debugging tools entirely and applies every available optimization, producing the fastest, smallest version of the game — this is the configuration actually distributed to players.
 
 A team typically works in debug or development builds throughout production, only switching to a release build configuration for final performance testing and the actual shipped product, since debugging a release build is difficult once its diagnostic information has been stripped away.
+
+| Configuration | Speed | Debug info | Used for |
+|---|---|---|---|
+| Debug | Slowest | Full logging, symbols, extra checks | Day-to-day development |
+| Development | Near-full | Profiler hooks, limited diagnostics | Performance testing during production |
+| Release | Fastest | Stripped out entirely | The version players actually receive |
+
+---
 
 ## 18.3 Packaging Assets
 
@@ -35,6 +45,8 @@ game.exe
 ```
 
 This split maps naturally onto the per-scene loading strategies from Lesson 16 — a level's assets can be packaged into their own file and only loaded from disk when that specific scene is actually needed — and it also enables smaller initial downloads or separately distributed downloadable content (DLC), since players don't need to download package files for content they haven't unlocked or purchased.
+
+---
 
 ## 18.4 Testing Across Platforms
 

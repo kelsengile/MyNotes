@@ -17,6 +17,16 @@ Keyframe at 0.5s: door rotation = 90°  (open)
 
 The engine fills in every rotation value between 0° and 90° across that half-second automatically, based on an **interpolation curve** that controls the pacing of the motion — a linear curve moves at a constant speed, while an "ease-in/ease-out" curve starts and ends slowly with faster motion in the middle, often looking more natural.
 
+| Time | Linear curve | Ease-in/ease-out curve |
+|---|---|---|
+| 0.0s | 0° | 0° |
+| 0.125s | 22.5° | ~8° (starts slow) |
+| 0.25s | 45° | 45° (fastest here) |
+| 0.375s | 67.5° | ~82° (ends slow) |
+| 0.5s | 90° | 90° |
+
+---
+
 ## 14.2 Skeletal Animation And Rigging
 
 Simple keyframe animation of a whole object's transform works fine for a door, but animating a character walking, running, or waving requires moving individual body parts independently. This is handled through **skeletal animation**: a 3D character model has an invisible internal "skeleton" (a hierarchy of connected bones, directly using the parent-child transform hierarchy from Lesson 6), and the visible mesh is **rigged** — mathematically bound to that skeleton so that moving a bone deforms the nearby portion of the mesh, similar to how a real skeleton moves skin and muscle.
@@ -37,11 +47,15 @@ Root
 
 Animators then keyframe the *rotations of these bones* over time rather than the mesh directly — a walk cycle is really just the leg and arm bones rotating back and forth in a repeating pattern, which the engine applies to deform the character's mesh in real time.
 
+---
+
 ## 14.3 Animation Blending And Transitions
 
 Real gameplay rarely involves a single animation playing in isolation — a character might need to smoothly shift from walking to running as speed increases, or blend an upper-body "aiming" animation with lower-body "running" animation at the same time. Engines handle this through **animation blending**: instead of abruptly switching from one animation clip to another, the engine mixes them together over a short period, gradually reducing the weight of the outgoing animation while increasing the weight of the incoming one.
 
 This is what makes character movement feel fluid rather than robotic — a sudden snap from a walk animation directly to a run animation would look jarring, while a blended transition over a few tenths of a second looks natural.
+
+---
 
 ## 14.4 Animation State Machines
 

@@ -26,6 +26,18 @@ The `delta_time` value — the time elapsed since the last frame — is critical
 
 Engines build much more sophisticated versions of this loop internally — separating fixed-rate updates (used for physics, so simulations stay stable and deterministic) from variable-rate updates (used for rendering, which can run as fast as the hardware allows).
 
+**Example:** if a character moves at `5 units/second`:
+
+| Frame rate | Loop iterations/sec | Movement per frame (no delta_time) | Movement per frame (with delta_time) |
+|---|---|---|---|
+| 30 FPS | 30 | 5 units (way too fast!) | 5 × (1/30) ≈ 0.167 units |
+| 60 FPS | 60 | 5 units (twice as fast as above) | 5 × (1/60) ≈ 0.083 units |
+| 144 FPS | 144 | 5 units (nearly 5x too fast) | 5 × (1/144) ≈ 0.035 units |
+
+Without `delta_time`, the character covers 5 units *every single frame* regardless of frame rate — meaning it would appear to move nearly 5x faster on a 144 FPS machine than on a 30 FPS one. With `delta_time`, total distance covered per second stays exactly 5 units on every machine.
+
+---
+
 ## 2.2 Engine Subsystems Overview
 
 An engine is really a set of cooperating subsystems, each responsible for one concern. The most common ones include:
@@ -41,6 +53,8 @@ An engine is really a set of cooperating subsystems, each responsible for one co
 
 These subsystems don't operate in isolation — the physics system needs to tell the rendering system where objects moved, the input system needs to feed the scripting system, and so on. A large part of engine design is defining clean ways for these systems to communicate without becoming tightly tangled together.
 
+---
+
 ## 2.3 Runtime vs Editor
 
 Engines are generally split into two related but distinct pieces of software:
@@ -49,6 +63,8 @@ Engines are generally split into two related but distinct pieces of software:
 - The **editor** is the development-time application used to build the game — placing objects, adjusting properties, previewing scenes, and packaging the final build. The editor typically embeds a copy of the runtime so you can hit "play" and test the game live inside it.
 
 This separation matters because the runtime needs to be lean and fast (it's what players actually experience), while the editor can be as feature-rich and resource-heavy as needed to support development, since it never ships to players.
+
+---
 
 ## 2.4 Data-Driven Design
 
@@ -61,6 +77,17 @@ This matters for a few reasons:
 - **Reusability** — the same piece of logic (e.g., "an enemy that patrols and attacks") can be reused for many different enemy types just by swapping out the data that drives it.
 
 Data-driven design is one of the biggest reasons engines feel powerful once mastered: instead of writing a new program for every character or level, you write general-purpose systems once, then configure them endlessly through data.
+
+**Example:** a single `EnemyData` table can spawn wildly different enemies from the same code:
+
+```
+EnemyData:
+  Goblin    -> health: 30,  speed: 3.5, damage: 5
+  Troll     -> health: 200, speed: 1.2, damage: 25
+  Bat       -> health: 10,  speed: 6.0, damage: 2
+```
+
+One `Enemy` script reads whichever row it's given — no new class or code path needed per monster type.
 
 ---
 

@@ -16,6 +16,8 @@ When a raw file is dropped into a project, most engines automatically run an **i
 
 This importing step usually happens once, up front, rather than every time the game runs — the engine caches the converted result so that a raw source file only needs to be reprocessed when it changes. This is why a project might feel briefly slower the first time it opens or after pulling new art — the engine is (re-)running assets through the import pipeline before it can use them.
 
+---
+
 ## 16.2 Asset Loading Strategies
 
 Even after assets are imported into an engine-friendly format, a full game's worth of assets is typically far too large to hold in memory all at once. Engines generally use one of a few strategies to manage this:
@@ -25,6 +27,14 @@ Even after assets are imported into an engine-friendly format, a full game's wor
 - **Streaming** — assets are loaded and unloaded continuously *during* gameplay, based on the player's position, rather than at fixed loading-screen boundaries. Open-world games rely heavily on streaming: only the terrain, buildings, and objects near the player are actually in memory, with distant content streamed in as the player approaches and unloaded again as they move away.
 
 Streaming is the most complex strategy to implement well, since it requires predicting what the player will need *before* they need it (to avoid visible pop-in) while not loading so far ahead that memory is wasted — but it's also what makes seamless, loading-screen-free open worlds possible.
+
+| Strategy | Loading screens | Memory usage | Best for |
+|---|---|---|---|
+| Load everything up front | One, at the start | Highest sustained | Small, short games |
+| Per-scene/per-level | Between levels | Moderate | Most single-level-at-a-time games |
+| Streaming | Rare or none | Kept low, continuously managed | Large open worlds |
+
+---
 
 ## 16.3 Memory Management
 
@@ -36,6 +46,8 @@ Two related concepts sit at the center of this:
 - A **memory leak** occurs when something keeps a reference to an asset alive long after it's actually needed — for example, a script that loads a texture but never releases its reference even after the object using it is destroyed. Over time, leaked assets accumulate in memory, eventually causing a crash even though the game never appears to load an unreasonable amount of *new* content.
 
 Most engines provide profiling tools (explored further in Lesson 17) specifically to inspect what's currently resident in memory, making it possible to track down exactly which assets are lingering longer than they should.
+
+---
 
 ## 16.4 Object Pooling
 

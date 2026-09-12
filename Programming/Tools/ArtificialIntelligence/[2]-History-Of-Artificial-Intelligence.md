@@ -10,6 +10,8 @@ The theoretical roots of AI go back to the 1940s and 50s, when researchers such 
 
 Early AI research focused on symbolic approaches: programs that manipulated logical symbols and rules to solve problems like theorem proving and simple games. These early systems achieved surprising early successes on narrow, well-defined problems, which fueled optimism that general machine intelligence was close at hand.
 
+> 💡 **Analogy:** The Turing Test is like a blind taste test, but for conversation. If a judge chats with both a human and a machine through text and can't reliably tell which is which, the machine "passes." It says nothing about whether the machine actually *understands* — only whether it can convincingly imitate.
+
 ---
 
 ## 2.2 The AI Winters
@@ -18,6 +20,20 @@ By the 1970s, the gap between early ambitions and what symbolic AI could actuall
 
 These winters are an important part of AI's story: they show that progress in the field has historically been uneven, driven by cycles of hype followed by more sober reassessment, a pattern worth remembering when evaluating any new wave of AI advances.
 
+```mermaid
+timeline
+    title AI Hype Cycles
+    1956 : Dartmouth Workshop — field is born
+    1970s : First AI Winter — funding collapses
+    1980s : Expert Systems Boom
+    1987-1993 : Second AI Winter
+    1990s : Rise of Machine Learning
+    2012 : Deep Learning breakthrough
+    2020s : LLMs & Generative AI boom
+```
+
+**🔍 Quick Example:** Imagine investing heavily in a "translating machine" in the 1960s, promising fluent translation within years — then watching it produce nonsensical output on any sentence with ambiguity. That gap between promise and delivery is exactly what triggered funding cuts.
+
 ---
 
 ## 2.3 The Rise Of Machine Learning
@@ -25,6 +41,8 @@ These winters are an important part of AI's story: they show that progress in th
 Starting in the 1990s, AI research shifted away from hand-coded rules and toward machine learning: systems that improve their performance by learning statistical patterns from data rather than being explicitly programmed with logic. Growth in available data, cheaper computing power, and better algorithms (such as support vector machines and improved decision trees) drove steady progress on practical tasks like spam filtering, fraud detection, and recommendation systems.
 
 This shift in approach — from telling the machine the rules to letting the machine find the rules in data — is arguably the most important turning point in AI's history, and it set the stage for the deep learning era that followed.
+
+> 💡 **Analogy:** It's the difference between teaching a kid to recognize dogs by reciting a checklist ("four legs, fur, a tail, barks") versus just showing them a thousand photos labeled "dog" or "not dog" and letting them figure out the pattern themselves. The second approach turned out to generalize far better.
 
 ---
 

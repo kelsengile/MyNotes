@@ -10,6 +10,8 @@ A container image is a read-only template that contains everything needed to cre
 
 Images are immutable — running a container doesn't change the underlying image. This makes images predictable and safe to reuse: the same image will always produce a container that starts out in exactly the same state.
 
+> 💡 **Analogy:** An image is like a cookie cutter, and a running container is one cookie cut from it. You can stamp out as many identical cookies as you like — the cutter itself never changes, no matter how many cookies you make.
+
 ```
    Image (read-only)              Container (running)
    ┌─────────────────┐            ┌─────────────────┐
@@ -39,6 +41,8 @@ This layered structure has a practical benefit: layers can be cached and reused.
 
 **Why order matters:** tools that build images (like Docker) cache each layer. If you put things that rarely change (the base OS, the runtime) at the bottom and things that change often (your app code) at the top, only the top layers need rebuilding after a code change — the rest are reused instantly from cache.
 
+> 💡 **Analogy:** It's like packing a moving truck with heavy furniture at the bottom and fragile, frequently-needed boxes near the door. If you only need to grab one box, you don't want to unpack the whole truck to get to it.
+
 ## 3.3 Base Images
 
 Most images start from a **base image** — a starting point that already contains an operating system's core files or a language runtime. Application-specific layers are then added on top of this base.
@@ -56,6 +60,8 @@ Choosing a good base image matters: smaller, well-maintained base images general
 Once built, images are typically stored in a **registry** — a service that hosts images so they can be shared and downloaded ("pulled") by anyone who needs to run them. Registries can be public, for freely sharing open-source images, or private, for storing an organization's proprietary images securely.
 
 Pulling an image from a registry and running it is what allows the same tested, packaged application to be deployed consistently across many different machines.
+
+> 💡 **Analogy:** A registry is like an app store for images — publish once, and anyone with access can download ("pull") the exact same package and run it, whether that's a public app store for open-source tools or a private, internal one for company software.
 
 ```
 Developer's        push        Registry         pull        Production
