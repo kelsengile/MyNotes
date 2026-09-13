@@ -11,22 +11,6 @@ Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a comm
 - **Troubleshooting** — a huge number of Windows diagnostic and repair tools are CMD-only or CMD-first.
 - **Foundations** — understanding CMD makes it much easier to later pick up PowerShell, Linux shells, or scripting languages, since many concepts carry over.
 
-## Command-Line Tools:
-
-The lessons above teach the fundamentals of working with command-line interfaces and terminal environments. To see those fundamentals applied to popular, industry-standard command-line tools, continue on to:
-
-* **[Git](https://git-scm.com)** — a distributed version control tool used to track changes, manage code, and collaborate on software projects.
-
-* **[cURL](https://curl.se)** — a command-line tool for transferring data using HTTP, HTTPS, and other network protocols.
-
-* **[Wget](https://www.gnu.org)** — a command-line utility for downloading files and retrieving content from the web.
-
-* **[jq](https://jqlang.org)** — a lightweight command-line processor for parsing, filtering, and manipulating JSON data.
-
-* **[FFmpeg](https://ffmpeg.org)** — a powerful command-line tool for processing, converting, recording, and streaming audio and video.
-
-* **[PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
-
 ## Table of Contents
 
 1. **[Getting Started](./[1]-Getting-Started.md)**  
@@ -127,3 +111,139 @@ The lessons above teach the fundamentals of working with command-line interfaces
     14.8 Opening CMD in a specific folder quickly  
     14.9 Running a command as a one-off with elevated rights  
     14.10 Where to go from here  
+
+## Command-Line Tools:
+
+The lessons above teach the fundamentals of working with command-line interfaces and terminal environments. To see those fundamentals applied to popular, industry-standard command-line tools, continue on to:
+
+**Shells**
+
+* **[Bash](https://www.gnu.org/software/bash/)** — a widely used Unix shell and scripting language commonly found on Linux and macOS systems.
+
+* **[Zsh](https://www.zsh.org/)** — an interactive Unix shell with advanced features for command-line use, scripting, customization, and productivity.
+
+* **[Command Prompt](https://learn.microsoft.com/windows-server/administration/windows-commands/windows-commands)** — the traditional Windows command-line shell used to execute commands, scripts, and system utilities.
+
+* **[PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
+
+**Terminal**
+
+* **[Windows Terminal](https://learn.microsoft.com/windows/terminal/)** — a modern terminal application for Windows that supports multiple shells, tabs, profiles, and command-line environments.
+
+* **[GNOME Terminal](https://help.gnome.org/users/gnome-terminal/stable/)** — a terminal emulator commonly used on Linux systems for accessing shells and command-line tools.
+
+* **[Konsole](https://konsole.kde.org/)** — a terminal emulator for KDE-based Linux desktop environments that provides tabs, profiles, and shell access.
+
+**Version Control**
+
+* **[Git](../VersionControl/Git/[0]-Introduction-to-Git.md)** — a distributed version control tool used to track changes, manage code, and collaborate on software projects.
+
+* **[GitHub CLI](https://cli.github.com/)** — GitHub's official command-line interface, used to manage repositories, issues, pull requests, releases, workflows, and other GitHub features directly from the terminal.
+
+**Networking**
+
+* **[SSH](https://www.openssh.com/)** — a secure protocol and command-line tool used to remotely access and manage computers over a network.
+
+* **[cURL](https://curl.se/download.html)** — a command-line tool for transferring data over network protocols such as HTTP, HTTPS, FTP, and SFTP.
+
+* **[Wget](https://www.gnu.org/software/wget/)** — a command-line utility for downloading files and retrieving content from web servers.
+
+* **[ping](https://learn.microsoft.com/windows-server/administration/windows-commands/ping)** — a network diagnostic command used to test connectivity and measure response times between devices.
+
+* **[ipconfig](https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig)** — a Windows command used to display and manage network interface configuration information.
+
+* **[ip](https://man7.org/linux/man-pages/man8/ip.8.html)** — a Linux command used to configure and inspect network interfaces, addresses, routes, and other networking components.
+
+* **[netstat](https://learn.microsoft.com/windows-server/administration/windows-commands/netstat)** — a command used to display network connections, listening ports, routing information, and network statistics.
+
+* **[tracert](https://learn.microsoft.com/windows-server/administration/windows-commands/tracert)** — a Windows command used to trace the network path packets take to a destination.
+
+* **[traceroute](https://man7.org/linux/man-pages/man8/traceroute.8.html)** — a Unix and Linux utility used to trace the network path between a computer and a destination.
+
+* **[nslookup](https://learn.microsoft.com/windows-server/administration/windows-commands/nslookup)** — a command-line tool used to query DNS records and troubleshoot domain name resolution.
+
+* **[dig](https://bind9.readthedocs.io/en/latest/manpages.html)** — a DNS lookup utility used to query and troubleshoot domain name system records.
+
+**File Management**
+
+* **[cat](https://man7.org/linux/man-pages/man1/cat.1.html)** — a command used to display and concatenate the contents of files.
+
+* **[less](https://man7.org/linux/man-pages/man1/less.1.html)** — a terminal pager used to view large text files and command output interactively.
+
+* **[head](https://man7.org/linux/man-pages/man1/head.1.html)** — a command used to display the beginning of a file or stream.
+
+* **[tail](https://man7.org/linux/man-pages/man1/tail.1.html)** — a command used to display the end of a file or continuously monitor new output.
+
+* **[mkdir](https://man7.org/linux/man-pages/man1/mkdir.1.html)** — a command used to create directories.
+
+* **[cp](https://man7.org/linux/man-pages/man1/cp.1.html)** — a command used to copy files and directories.
+
+* **[mv](https://man7.org/linux/man-pages/man1/mv.1.html)** — a command used to move or rename files and directories.
+
+* **[rm](https://man7.org/linux/man-pages/man1/rm.1.html)** — a command used to remove files and directories.
+
+* **[touch](https://man7.org/linux/man-pages/man1/touch.1.html)** — a command used to create empty files or update file timestamps.
+
+* **[find](https://man7.org/linux/man-pages/man1/find.1.html)** — a command used to search for files and directories based on names, locations, attributes, and other conditions.
+
+* **[tar](https://www.gnu.org/software/tar/)** — a command-line utility used to create, extract, and manage archive files.
+
+* **[tree](https://mama.indstate.edu/users/ice/tree/)** — a command-line utility that displays files and directories in a hierarchical tree structure.
+
+**Text Processing**
+
+* **[grep](https://man7.org/linux/man-pages/man1/grep.1.html)** — a command used to search text for lines matching a specified pattern.
+
+* **[sed](https://www.gnu.org/software/sed/)** — a stream editor used to search, transform, replace, and manipulate text.
+
+* **[awk](https://www.gnu.org/software/gawk/)** — a text-processing language commonly used for filtering, transforming, and analyzing structured text.
+
+* **[sort](https://man7.org/linux/man-pages/man1/sort.1.html)** — a command used to sort lines of text.
+
+* **[uniq](https://man7.org/linux/man-pages/man1/uniq.1.html)** — a command used to detect and filter repeated adjacent lines.
+
+* **[diff](https://man7.org/linux/man-pages/man1/diff.1.html)** — a command used to compare files and identify differences between them.
+
+* **[cut](https://man7.org/linux/man-pages/man1/cut.1.html)** — a command used to extract selected sections or columns from lines of text.
+
+* **[tr](https://man7.org/linux/man-pages/man1/tr.1.html)** — a command used to translate, replace, or remove characters from text streams.
+
+**System Administration**
+
+* **[ps](https://man7.org/linux/man-pages/man1/ps.1.html)** — a command used to display information about currently running processes.
+
+* **[top](https://man7.org/linux/man-pages/man1/top.1.html)** — an interactive command-line utility for monitoring running processes and system resource usage.
+
+* **[kill](https://man7.org/linux/man-pages/man1/kill.1.html)** — a command used to send signals to running processes, including requests to terminate them.
+
+* **[df](https://man7.org/linux/man-pages/man1/df.1.html)** — a command used to display available and used disk space on mounted filesystems.
+
+* **[du](https://man7.org/linux/man-pages/man1/du.1.html)** — a command used to estimate the amount of disk space consumed by files and directories.
+
+* **[chmod](https://man7.org/linux/man-pages/man1/chmod.1.html)** — a command used to change file and directory permissions.
+
+* **[chown](https://man7.org/linux/man-pages/man1/chown.1.html)** — a command used to change file and directory ownership.
+
+* **[systemctl](https://www.freedesktop.org/software/systemd/man/latest/systemctl.html)** — a command used to manage system services and other systemd resources on Linux.
+
+* **[journalctl](https://www.freedesktop.org/software/systemd/man/latest/journalctl.html)** — a command used to view and query systemd journal logs.
+
+**Archives**
+
+* **[tar](https://www.gnu.org/software/tar/)** — a command-line utility used to create, extract, and manage tar archives.
+
+* **[zip](https://infozip.sourceforge.net/)** — a command-line utility used to create and manage ZIP archives.
+
+* **[unzip](https://infozip.sourceforge.net/UnZip.html)** — a command-line utility used to extract files from ZIP archives.
+
+* **[7-Zip](https://www.7-zip.org/)** — a file archiving utility with command-line tools for creating and extracting various archive formats.
+
+**Build Tools**
+
+* **[Make](https://www.gnu.org/software/make/)** — a build automation tool used to compile programs and manage dependencies between source files.
+
+* **[CMake](https://cmake.org/download/)** — a cross-platform build system generator used to configure and manage software compilation.
+
+* **[Ninja](https://ninja-build.org/)** — a small and fast build system designed to execute build instructions efficiently.
+
+* **[Meson](https://mesonbuild.com/)** — a modern build system designed to provide fast and portable project configuration and compilation.

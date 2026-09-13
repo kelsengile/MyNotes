@@ -23,7 +23,7 @@ Here's a quick preview of the major branches you'll cover, and where you've prob
 | Computer Vision | Interprets images and video | Self-checkout cameras, photo tagging |
 | Reinforcement Learning | Learns by trial, error, and reward | Game-playing agents, robotics |
 
-## Artificial Intelligence:
+**## Artificial Intelligence:**
 
 The lessons above teach the fundamentals of artificial intelligence and machine learning. To see those concepts applied using popular, industry-standard tools, continue on to:
 
@@ -36,6 +36,38 @@ The lessons above teach the fundamentals of artificial intelligence and machine 
 * **[Hugging Face Transformers](https://huggingface.co/docs/transformers/installation)** — a popular library and platform for working with pretrained models for natural language processing, computer vision, audio, and multimodal AI.
 
 * **[OpenAI API](https://platform.openai.com/docs/quickstart)** — provides APIs for integrating AI capabilities such as text generation, reasoning, image understanding, and other AI features into applications.
+
+* **[Claude](https://www.anthropic.com/claude)** — an AI assistant and family of large language models developed by Anthropic, designed for tasks such as reasoning, coding, writing, analysis, and working with long-context information.
+
+* **[Keras](https://keras.io/)** — a high-level deep learning framework designed for building and training neural networks with a simple and flexible Python API.
+
+* **[JAX](https://docs.jax.dev/)** — a Python library for high-performance numerical computing and machine learning with automatic differentiation and accelerator support.
+
+* **[XGBoost](https://xgboost.readthedocs.io/)** — an optimized gradient-boosting library widely used for classification, regression, and structured or tabular data.
+
+* **[LightGBM](https://lightgbm.readthedocs.io/)** — a gradient-boosting framework designed for efficient and scalable machine learning on large datasets.
+
+* **[OpenCV](https://opencv.org/)** — an open-source computer vision library used for image processing, object detection, video analysis, and visual applications.
+
+* **[spaCy](https://spacy.io/)** — an industrial-strength Python library for natural language processing, including tokenization, named-entity recognition, and text classification.
+
+* **[NLTK](https://www.nltk.org/)** — a Python toolkit for natural language processing and linguistic analysis, commonly used for learning and research.
+
+* **[LangChain](https://www.langchain.com/)** — a framework for building applications powered by language models, including AI agents, retrieval-augmented generation, and tool-using workflows.
+
+* **[LlamaIndex](https://www.llamaindex.ai/)** — a framework for connecting large language models with external data sources and building retrieval-augmented AI applications.
+
+* **[ONNX](https://onnx.ai/)** — an open format and ecosystem for representing machine learning models and enabling interoperability between different AI frameworks and deployment environments.
+
+* **[MLflow](https://mlflow.org/)** — an open-source platform for managing the machine learning lifecycle, including experiment tracking, model evaluation, deployment, and model management.
+
+* **[Hugging Face Datasets](https://huggingface.co/docs/datasets/)** — a library for accessing, processing, and sharing machine learning datasets for AI and NLP workflows.
+
+* **[Hugging Face Diffusers](https://huggingface.co/docs/diffusers/)** — a library for working with diffusion models used for image, video, audio, and other generative AI applications.
+
+* **[Ollama](https://ollama.com/)** — a tool for running and managing large language models locally on personal computers.
+
+* **[NVIDIA CUDA](https://developer.nvidia.com/cuda-toolkit)** — a GPU computing platform and programming model widely used to accelerate machine learning and other computational workloads on NVIDIA GPUs.
 
 
 ## Table of Contents
