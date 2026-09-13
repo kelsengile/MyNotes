@@ -26,7 +26,8 @@ Here's a quick comparison of the two broad approaches to version control you'll 
 
 The lessons above introduce the fundamentals of version control, including tracking changes, managing different versions of files, and collaborating on software projects. To see these concepts applied to a widely-used version control system, continue on to:
 
-* **[Git](https://git-scm.com)** — a distributed version control system used to track changes in source code, manage project history, create branches, and support collaboration among developers.
+* **[Git](./Git/[0]-Introduction-to-Git.md)** — a distributed version control system used to track changes in source code, manage project history, create branches, and support collaboration among developers.Download Git: [https://git-scm.com](https://git-scm.com)
+
 
 ## Table of Contents
 
