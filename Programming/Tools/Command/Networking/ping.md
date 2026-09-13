@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # ping
 
@@ -47,4 +47,4 @@ ping -c 4 example.com
 
 Pinging a known-reliable IP address (Google's public DNS) first checks whether your own internet connection works. Pinging the domain afterward checks whether DNS resolution and the specific site are the actual problem.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

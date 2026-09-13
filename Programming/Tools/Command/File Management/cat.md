@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # cat (concatenate)
 
@@ -47,4 +47,4 @@ cat -n full_book.txt | head -20
 
 Joins three chapter files into one, then previews the first 20 numbered lines of the combined result.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

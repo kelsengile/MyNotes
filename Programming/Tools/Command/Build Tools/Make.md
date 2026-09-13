@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Make
 
@@ -62,4 +62,4 @@ make -j4
 
 Builds the project using the default target, removes the build output, then rebuilds it again using 4 parallel jobs for a faster compile.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

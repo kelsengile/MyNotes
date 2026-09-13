@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # cut
 
@@ -41,4 +41,4 @@ cut -d: -f1,3 /etc/passwd | head -5
 
 Extracts just the username and user ID fields from the system's password file and shows the first 5 entries — a quick way to see who has accounts on a Linux machine without the extra fields cluttering the view.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tail
 
@@ -43,4 +43,4 @@ tail -f -n 50 app.log
 
 Shows the last 50 lines of the application log immediately, then keeps the terminal open and prints each new line as the running application writes it — ideal for watching what happens as you reproduce a bug.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

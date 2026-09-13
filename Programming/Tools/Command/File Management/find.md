@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # find
 
@@ -47,4 +47,4 @@ find . -type f -name "*.log" -mtime +30 -delete
 
 Finds every `.log` file older than 30 days anywhere in the current directory tree and deletes them in one pass — a common log-cleanup command in maintenance scripts.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

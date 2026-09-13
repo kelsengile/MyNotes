@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # less
 
@@ -48,4 +48,4 @@ grep "ERROR" server.log | less
 
 Filters a log file down to error lines, then pipes the result into `less` so you can scroll through and search the filtered output at your own pace instead of it flying past on screen.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Zsh (Z Shell)
 
@@ -47,4 +47,4 @@ Documents
 
 Defines a shortcut for `git status`, enables typing a folder name to `cd` into it, then does exactly that — jumping into the `Documents` folder without typing `cd`.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

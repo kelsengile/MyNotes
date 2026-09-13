@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # dig (Domain Information Groper)
 
@@ -46,4 +46,4 @@ dig example.com MX +short
 
 Quickly checks a domain's IP address and its mail server records, using `+short` to skip the verbose header and footer output — handy when scripting or just want the answer fast.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

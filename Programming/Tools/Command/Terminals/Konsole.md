@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Konsole
 
@@ -38,4 +38,4 @@ Ctrl+Shift+W         Close current view
 
 Splitting a Konsole window with `Ctrl+(` gives two panes side by side — one running `top` to watch system resources, the other free for regular commands — without needing two separate terminal windows.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

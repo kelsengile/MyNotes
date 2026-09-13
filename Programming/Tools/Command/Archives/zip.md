@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # zip
 
@@ -47,4 +47,4 @@ unzip -l website.zip
 
 Zips the `site` folder recursively while excluding `node_modules`, then lists the archive's contents to confirm the exclusion worked.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

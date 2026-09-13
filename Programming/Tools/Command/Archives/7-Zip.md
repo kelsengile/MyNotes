@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # 7-Zip
 
@@ -44,4 +44,4 @@ Download: [https://www.7-zip.org/](https://www.7-zip.org/)
 
 Packages the `build` folder into a `.zip`, lists its contents, then extracts it into a new `extracted` folder while preserving the original structure.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals(../[0]-Introduction-to-Command.md)

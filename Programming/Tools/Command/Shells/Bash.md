@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Bash (Bourne Again SHell)
 
@@ -55,4 +55,4 @@ for i in 1 2 3; do echo "Count: $i"; done
 
 Sets an environment variable, prints a greeting using it, then loops through a small list of numbers — the same building blocks used in real Bash scripts.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

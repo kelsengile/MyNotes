@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # head
 
@@ -40,4 +40,4 @@ head -n 20 data.csv | column -s, -t
 
 Prints just the CSV's header row to see the column names, then previews the first 20 rows formatted as an aligned table.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

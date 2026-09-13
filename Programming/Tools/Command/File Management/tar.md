@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tar (Tape Archive)
 
@@ -33,4 +33,4 @@ tar -czvf project_snapshot.tar.gz project/
 
 Creates a single compressed file capturing the current state of a project folder — a quick, no-fuss way to back up or hand off a folder's contents.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

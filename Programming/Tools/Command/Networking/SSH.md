@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # SSH (Secure Shell)
 
@@ -48,4 +48,4 @@ ssh deploy@203.0.113.10 "sudo systemctl restart nginx"
 
 Generates a key pair, installs the public key on a server, then uses it to remotely restart a web server — all without ever typing a password.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

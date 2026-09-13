@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tracert
 
@@ -45,4 +45,4 @@ tracert -d example.com
 
 Traces the path to `example.com` with DNS lookups disabled for speed, letting you quickly spot which hop introduces a large jump in latency.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

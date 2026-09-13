@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # systemctl
 
@@ -48,4 +48,4 @@ sudo systemctl status nginx
 
 Checks whether a web server is running, restarts it after a config change, then checks its status again to confirm it came back up cleanly.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

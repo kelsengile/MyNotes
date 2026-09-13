@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # sort
 
@@ -53,4 +53,4 @@ sort -t, -k2 -nr sales.csv | head -5
 
 Sorts a CSV numerically by its second column in descending order, then shows just the top 5 rows — a quick way to find the highest values in a dataset from the command line.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

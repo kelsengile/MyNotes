@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # PowerShell
 
@@ -48,4 +48,4 @@ Get-ChildItem -Path C:\Logs -Filter *.log |
 
 Finds every `.log` file in `C:\Logs` older than 30 days and deletes them — a one-liner that would take a much longer batch script in CMD.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

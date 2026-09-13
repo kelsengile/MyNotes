@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # kill
 
@@ -43,4 +43,4 @@ kill -9 4821
 
 Finds a stuck application's PID, asks it to shut down gracefully, waits a few seconds, then force-kills it only if it's still running — the standard escalation pattern for stopping an unresponsive process.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

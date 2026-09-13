@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # grep (Global Regular Expression Print)
 
@@ -48,4 +48,4 @@ grep -rn "TODO" src/ --include="*.py"
 
 Recursively searches every `.py` file under `src/` for the word "TODO", printing the file name and line number for each match — a common way to track leftover work in a codebase.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

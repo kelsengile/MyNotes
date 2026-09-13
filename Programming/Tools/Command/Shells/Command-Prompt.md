@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Command Prompt (CMD)
 
@@ -46,4 +46,4 @@ type readme.txt
 
 Creates a new folder, moves into it, writes a line of text into a file using redirection, then displays the file's contents.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

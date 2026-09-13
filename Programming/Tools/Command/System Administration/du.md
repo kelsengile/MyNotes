@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # du (disk usage)
 
@@ -46,4 +46,4 @@ du -sh ~/Downloads/*  | sort -rh | head -5
 
 Shows the 5 largest items inside a Downloads folder, sorted biggest first — a quick way to reclaim space without manually clicking through folders in a file browser.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

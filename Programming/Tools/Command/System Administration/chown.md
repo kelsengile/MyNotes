@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # chown (change owner)
 
@@ -46,4 +46,4 @@ sudo chmod -R 750 /opt/app
 
 Hands an application folder over to a dedicated `deploy` user and group, then locks down permissions so only that user and group can access it — a typical setup step when deploying a new service.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

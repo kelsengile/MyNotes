@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # chmod (change mode)
 
@@ -47,4 +47,4 @@ chmod +x deploy.sh
 
 Adds execute permission to a shell script that was just downloaded or created, since scripts aren't executable by default — a step almost every new script needs before it can be run directly.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

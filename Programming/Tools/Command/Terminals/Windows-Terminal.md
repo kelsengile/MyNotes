@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Windows Terminal
 
@@ -42,4 +42,4 @@ Adding a profile like this to `settings.json` lets you open a dedicated tab that
 
 Opening Windows Terminal and pressing `Ctrl+Shift+D` splits the current pane, letting you run, say, a build command in one pane while tailing a log file in the other — without juggling separate windows.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

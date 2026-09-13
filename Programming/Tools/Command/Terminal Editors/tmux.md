@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tmux (Terminal Multiplexer)
 
@@ -58,4 +58,4 @@ tmux new -s deploy
 
 Starts a new named session and kicks off a deployment script inside it — if the SSH connection drops partway through, reconnecting and running `tmux attach -t deploy` picks the session back up mid-deployment.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

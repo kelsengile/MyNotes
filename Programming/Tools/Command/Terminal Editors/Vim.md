@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Vim
 
@@ -54,4 +54,4 @@ Esc
 
 Opens a file, switches to Insert mode to type a line of text, returns to Normal mode, then saves and quits — the basic loop behind every Vim editing session.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

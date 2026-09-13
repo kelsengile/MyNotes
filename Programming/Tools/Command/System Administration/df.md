@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # df (disk free)
 
@@ -47,4 +47,4 @@ df -h
 
 A single glance at every mounted filesystem's usage percentage — often enough on its own to identify which drive is close to full before diving deeper with `du` to find exactly what's taking up the space.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

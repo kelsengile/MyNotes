@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # sed (Stream Editor)
 
@@ -47,4 +47,4 @@ cat config.env
 
 Replaces every occurrence of "localhost" with a production hostname across a config file, keeping a backup first, then prints the result to confirm the change.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

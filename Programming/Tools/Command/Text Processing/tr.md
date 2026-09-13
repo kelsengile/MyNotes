@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tr (translate)
 
@@ -46,4 +46,4 @@ cat names.txt | tr 'a-z' 'A-Z' | tr -s ' '
 
 Converts a list of names to uppercase, then collapses any accidental double spaces into single spaces — a couple of small character-level fixes chained together in one pipeline.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

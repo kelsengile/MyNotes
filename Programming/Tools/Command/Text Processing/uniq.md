@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # uniq
 
@@ -43,4 +43,4 @@ awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -10
 
 Pulls the first column (commonly an IP address) from a log file, sorts it, counts how many times each value repeats, sorts those counts in descending order, and shows the top 10 — a classic one-liner for finding the most frequent visitors in a web server log.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

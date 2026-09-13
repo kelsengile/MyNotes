@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # awk
 
@@ -48,4 +48,4 @@ awk -F, 'NR==1 {next} {sum += $3} END {print "Total:", sum}' sales.csv
 
 Skips the CSV's header row (`NR==1 {next}`), adds up the third column across every remaining row, and prints the total — a one-liner replacement for opening the file in a spreadsheet just to sum a column.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

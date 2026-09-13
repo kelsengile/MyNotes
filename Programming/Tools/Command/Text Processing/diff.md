@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # diff
 
@@ -49,4 +49,4 @@ diff -u config.old.yaml config.new.yaml > changes.patch
 
 Generates a unified diff between an old and new config file and saves it as a patch file, which could later be shared with a teammate or applied elsewhere with the `patch` command.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

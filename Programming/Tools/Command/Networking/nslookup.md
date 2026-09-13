@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # nslookup
 
@@ -49,4 +49,4 @@ nslookup example.com 1.1.1.1
 
 Looks up a domain using your default DNS server, then repeats the lookup against Cloudflare's public resolver — useful for confirming whether a DNS issue is specific to your normal resolver.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

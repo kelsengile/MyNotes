@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # ip
 
@@ -44,4 +44,4 @@ ip link set wlan0 up
 
 Checks current IP addresses and routes, then power-cycles a Wi-Fi interface entirely from the command line — a quick fix for an adapter that's stopped responding.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

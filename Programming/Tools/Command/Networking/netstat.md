@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # netstat
 
@@ -48,4 +48,4 @@ netstat -tulnp | grep LISTEN
 
 Lists every port on the machine currently accepting incoming connections, along with the process behind each one — a quick way to audit what's exposed on a server.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

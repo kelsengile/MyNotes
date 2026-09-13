@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Ninja
 
@@ -43,4 +43,4 @@ ninja
 
 Uses CMake to generate a `build.ninja` file, then runs Ninja to compile the project — a common pairing in modern C/C++ projects.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

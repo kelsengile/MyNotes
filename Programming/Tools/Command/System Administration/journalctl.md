@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # journalctl
 
@@ -46,4 +46,4 @@ journalctl -u myapp -p err --since "1 hour ago"
 
 Shows only error-level log entries from a specific service over the last hour — a fast way to check whether anything's gone wrong recently without wading through routine informational log lines.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

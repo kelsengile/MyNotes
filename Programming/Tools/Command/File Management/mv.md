@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # mv (move)
 
@@ -46,4 +46,4 @@ mv *.log archive/
 
 Renames a draft file to reflect it's the first finished version, then sweeps every `.log` file in the current folder into a new `archive` subfolder.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

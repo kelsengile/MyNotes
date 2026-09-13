@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # touch
 
@@ -40,4 +40,4 @@ make
 
 Marks `main.c` as just modified even without editing it, so the next `make` run rebuilds it — useful when you know a dependency changed but the timestamp didn't update on its own.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

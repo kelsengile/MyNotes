@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # ipconfig
 
@@ -49,4 +49,4 @@ ipconfig /renew
 
 Reviews the full network configuration to spot anything unusual, clears any stale DNS entries, then requests a fresh IP address — a common troubleshooting sequence for flaky connections.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # mkdir (make directory)
 
@@ -48,4 +48,4 @@ ls my_app
 
 Creates a project skeleton with `src`, `tests`, and `docs` subfolders in a single command using brace expansion, then lists the result to confirm all three were created.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # cURL
 
@@ -44,4 +44,4 @@ curl -X GET https://api.github.com/users/octocat -H "Accept: application/json"
 
 The first command silently checks a site's HTTP status code without printing the page body — handy for uptime checks. The second fetches a public GitHub API endpoint and prints the JSON response.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # top
 
@@ -46,4 +46,4 @@ MiB Mem :   7938.4 total,   1204.2 free,   3891.0 used
 
 Running `top`, pressing `P` sorts the process list by CPU usage, instantly surfacing whichever process is responsible for a machine running hot — the fastest way to answer "what's eating my CPU?" without writing a single command-line flag.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

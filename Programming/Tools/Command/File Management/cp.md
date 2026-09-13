@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # cp (copy)
 
@@ -49,4 +49,4 @@ cp project/config.yaml project/config.yaml.bak
 
 Makes a full backup copy of an entire project folder, then separately backs up just one important config file with a `.bak` suffix before making risky changes to it.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

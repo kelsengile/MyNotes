@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # Nano
 
@@ -48,4 +48,4 @@ nano /etc/hosts
 
 Opens a system config file directly for editing; typing changes them immediately (no Insert mode needed), then `Ctrl+O` followed by Enter saves, and `Ctrl+X` exits back to the shell.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

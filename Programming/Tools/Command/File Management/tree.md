@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tree
 
@@ -51,4 +51,4 @@ tree -L 2 -I "node_modules|.git"
 
 Shows the project's structure two levels deep while hiding both `node_modules` and `.git` — the two folders that would otherwise clutter the output with noise nobody needs to see.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

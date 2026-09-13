@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # tar (Tape Archive)
 
@@ -49,4 +49,4 @@ tar -xzvf backup.tar.gz -C /tmp/restore/
 
 Compresses the `Documents` folder into `backup.tar.gz`, lists its contents to confirm everything's there, then extracts it into a separate restore folder.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

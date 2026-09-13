@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # ps (process status)
 
@@ -46,4 +46,4 @@ ps aux | grep python | grep -v grep
 
 Lists every running Python process while excluding the `grep` command itself from the results (which would otherwise show up as a false match, since it also contains the word "python" in its own command line).
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

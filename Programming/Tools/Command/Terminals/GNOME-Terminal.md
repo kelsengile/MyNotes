@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # GNOME Terminal
 
@@ -40,4 +40,4 @@ Ctrl+Shift+F   Find in scrollback
 
 Opening GNOME Terminal, pressing `Ctrl+Shift+T` twice gives three tabs in one window — one to edit code, one to run the app, and one to watch its logs — all without leaving the terminal.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)

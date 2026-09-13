@@ -1,4 +1,4 @@
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
 
 # unzip
 
@@ -43,4 +43,4 @@ ls ./data
 
 Previews what's inside `dataset.zip`, extracts it into a dedicated `data` folder, then confirms the files landed where expected.
 
-[⬅ Back to Command-Line Tools](../[0]-Introduction-to-Command.md)
+[⬅ Back to Command Fundamentals](../[0]-Introduction-to-Command.md)
