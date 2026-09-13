@@ -247,3 +247,11 @@ The lessons above teach the fundamentals of working with command-line interfaces
 * **[Ninja](https://ninja-build.org/)** — a small and fast build system designed to execute build instructions efficiently.
 
 * **[Meson](https://mesonbuild.com/)** — a modern build system designed to provide fast and portable project configuration and compilation.
+
+**Terminal Editors**
+
+* **[Vim](https://www.vim.org/)** — a powerful, highly configurable terminal-based text editor commonly used for editing code and configuration files.
+
+* **[Nano](https://www.nano-editor.org/)** — a simple and user-friendly terminal text editor designed for quickly editing files from the command line.
+
+* **[tmux](https://github.com/tmux/tmux)** — a terminal multiplexer that allows users to run multiple terminal sessions, windows, and panes within a single terminal.
