@@ -1,4 +1,4 @@
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
 # pnpm
 
@@ -51,4 +51,4 @@ pnpm install
 
 Creates a new project, adds Express as a dependency, adds Jest as a dev dependency, then installs everything.
 
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)

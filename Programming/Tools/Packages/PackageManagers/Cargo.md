@@ -1,4 +1,4 @@
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
 # Cargo
 
@@ -59,4 +59,4 @@ cargo run
 
 Creates a new project, adds the `rand` crate, compiles it, and runs the resulting binary.
 
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)

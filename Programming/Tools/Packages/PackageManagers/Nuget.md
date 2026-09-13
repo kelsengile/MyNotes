@@ -1,4 +1,4 @@
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
 # NuGet
 
@@ -51,4 +51,4 @@ dotnet build
 
 Creates a new console project, adds the Newtonsoft.Json library, then builds the project, restoring dependencies automatically.
 
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)

@@ -1,4 +1,4 @@
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
 # Homebrew
 
@@ -44,4 +44,4 @@ brew install --cask google-chrome
 
 Updates Homebrew, installs the `wget` command-line tool, then installs Google Chrome as a full application.
 
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)

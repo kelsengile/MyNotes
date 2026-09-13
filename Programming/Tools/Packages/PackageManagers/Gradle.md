@@ -1,4 +1,4 @@
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
 # Gradle
 
@@ -65,4 +65,4 @@ repositories {
 
 Downloads dependencies and compiles the project, runs its test suite, then runs the application.
 
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)

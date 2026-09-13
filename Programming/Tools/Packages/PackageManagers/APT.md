@@ -1,4 +1,4 @@
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
 # APT (Advanced Package Tool)
 
@@ -70,4 +70,4 @@ sudo apt autoremove
 
 This refreshes the package list, installs Git, confirms it's ready to use, then cleans up any leftover dependencies that are no longer needed.
 
-[⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
+[⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
