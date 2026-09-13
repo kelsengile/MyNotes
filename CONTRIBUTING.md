@@ -41,6 +41,7 @@ MyNotes/
    - Every Topic begins with a `[0]-Introduction-to-(Topic-Name).md` file.
    - This file contains a Table of Contents section linking to every lesson file inside the Topic, and the sub topics are listed under the redirect links in plain text
    - Introduction files carry no navigation links — the Table of Contents *is* their navigation, exept for a back to README navigation link at the very top of the introductory file.
+   - If a topic is something that can be downloaded, add a download link under the introduction paragraph structured as 'Download: [Sample.com/Sample](Sample.com/Sample)
 3. **Lesson Files**
    - Lesson files are numbered sequentially starting at `[1]`, directly following the `[0]` introduction file: `[1]`, `[2]`, `[3]`, ... up to `[x]`, the last lesson in the Topic.
    - Numbering must stay sequential with no gaps, regardless of how lessons are grouped under headers in the Table of Contents.

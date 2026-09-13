@@ -32,21 +32,31 @@ A quick look at how a few major ecosystems name the same core pieces:
 
 The lessons above introduce the fundamentals of software packages, package management, dependencies, and installing third-party libraries. To see those concepts applied to popular package managers and package ecosystems, continue on to:
 
-* **[npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)** — the default package manager for Node.js, widely used to install and manage JavaScript and web-development packages.
+* **[APT](./PackageManagers/APT.md)** — the default package manager for Debian-based Linux distributions, used to install, update, and remove software packages.
 
-* **[pip](https://pip.pypa.io/en/stable/installation/)** — Python's standard package installer for downloading and managing Python libraries and dependencies.
+* **[Homebrew](./PackageManagers/Homebrew.md)** — a popular package manager for macOS and Linux that simplifies the installation and management of command-line tools and applications.
 
-* **[Yarn](https://yarnpkg.com/getting-started/install)** — a fast package manager for JavaScript projects that provides dependency management and project tooling.
+* **[winget](./PackageManagers/Winget.md)** — the official Windows Package Manager, used to search for, install, upgrade, and remove applications from the command line.
 
-* **[pnpm](https://pnpm.io/installation)** — a fast and disk-efficient JavaScript package manager that uses a content-addressable store to manage dependencies.
+* **[Chocolatey](./PackageManagers/Chocolatey.md)** — a Windows package manager that provides command-line software installation, management, and automation.
 
-* **[Composer](https://getcomposer.org/download/)** — a dependency manager for PHP applications, commonly used to install and manage PHP libraries.
+* **[Cargo](./PackageManagers/Cargo.md)** — Rust's package manager and build system, used to manage Rust projects, dependencies, compilation, and packages.
 
-* **[NuGet](https://learn.microsoft.com/nuget/install-nuget-client-tools)** — the package manager for .NET, used to discover, install, and manage libraries and dependencies for .NET projects.
+* **[npm](./PackageManagers/npm.md)** — the default package manager for Node.js, widely used to install and manage JavaScript and web-development packages.
 
-* **[Maven](https://maven.apache.org/install.html)** — a build and dependency management tool widely used for Java projects.
+* **[pip](./PackageManagers/pip.md)** — Python's standard package installer for downloading and managing Python libraries and dependencies.
 
-* **[Gradle](https://gradle.org/install/)** — a flexible build automation and dependency management tool commonly used for Java, Kotlin, Android, and other JVM-based projects.
+* **[Yarn](./PackageManagers/Yarn.md)** — a fast package manager for JavaScript projects that provides dependency management and project tooling.
+
+* **[pnpm](./PackageManagers/pnpm.md)** — a fast and disk-efficient JavaScript package manager that uses a content-addressable store to manage dependencies.
+
+* **[Composer](./PackageManagers/Composer.md)** — a dependency manager for PHP applications, commonly used to install and manage PHP libraries.
+
+* **[NuGet](./PackageManagers/Nuget.md)** — the package manager for .NET, used to discover, install, and manage libraries and dependencies for .NET projects.
+
+* **[Maven](./PackageManagers/Maven.md)** — a build and dependency management tool widely used for Java projects.
+
+* **[Gradle](./PackageManagers/Gradle.md)** — a flexible build automation and dependency management tool commonly used for Java, Kotlin, Android, and other JVM-based projects.
 
 ## Table of Contents
 

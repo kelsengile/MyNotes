@@ -26,13 +26,13 @@ A quick look at how some popular engines differ, which you'll explore in depth l
 
 The lessons above introduce the fundamentals of game development and interactive applications. To see those concepts applied to specific, industry-standard game engines and development platforms, continue on to:
 
-* **[Godot](https://godotengine.org/download/)** — a free and open-source game engine known for its lightweight workflow and flexible 2D and 3D development capabilities.
+* **[Godot](./Godot/[0]-Introduction-to-Godot.md)** — a free and open-source game engine known for its lightweight workflow and flexible 2D and 3D development capabilities.
 
-* **[Roblox Studio](https://create.roblox.com/docs/studio/setup)** — Roblox's development environment for creating, scripting, testing, and publishing interactive experiences on the Roblox platform.
+* **[Roblox Studio](./Roblox%20Studio/[0]-Introduction-to-RobloxStudio.md)** — Roblox's development environment for creating, scripting, testing, and publishing interactive experiences on the Roblox platform.
 
-* **[Unity](https://docs.unity.com/en-us/hub/install-hub)** — a widely-used game engine supporting 2D and 3D development across multiple platforms.
+* **[Unity](./Unity/[0]-Introduction-to-Unity.md)** — a widely-used game engine supporting 2D and 3D development across multiple platforms.
 
-* **[Unreal Engine](https://www.unrealengine.com/download)** — a powerful game engine known for high-fidelity 3D graphics, advanced rendering, and large-scale game development.
+* **[Unreal Engine](./UnrealEngine/[0]-Introduction-to-UnrealEngine.md)** — a powerful game engine known for high-fidelity 3D graphics, advanced rendering, and large-scale game development.
 
 
 ## Table of Contents

@@ -25,11 +25,11 @@ A quick look at the major OS families you'll compare later in this course:
 
 The lessons above introduce the fundamentals of operating systems, including system resources, processes, memory management, file systems, and user interaction. To see these concepts applied to specific, widely-used operating systems, continue on to:
 
-* **[Linux](https://ubuntu.com/download)** — an open-source operating system known for its flexibility, security, customization, and widespread use in servers, development, and embedded systems.
+* **[Linux](./Linux/[0]-Introduction-to-Linux.md)** — an open-source operating system known for its flexibility, security, customization, and widespread use in servers, development, and embedded systems.
 
-* **[macOS](https://support.apple.com/en-us/109033)** — Apple's operating system designed for Mac computers, providing a polished user experience and strong integration with Apple's hardware and software ecosystem.
+* **[MacOS](./MacOS/[0]-Introduction-to-MacOS.md)** — Apple's operating system designed for Mac computers, providing a polished user experience and strong integration with Apple's hardware and software ecosystem.
 
-* **[Windows](https://www.microsoft.com/software-download/windows11)** — Microsoft's widely-used desktop operating system, known for broad hardware and software compatibility and its extensive use in personal, business, and gaming environments.
+* **[Windows](./Windows/[0]-Introduction-to-Windows.md))** — Microsoft's widely-used desktop operating system, known for broad hardware and software compatibility and its extensive use in personal, business, and gaming environments.
 
 
 ## Table of Contents

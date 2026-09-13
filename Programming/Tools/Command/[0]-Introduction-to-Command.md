@@ -1,6 +1,6 @@
 [⬅ Back to README](../../../README.md)
 
-# Command Prompt (CMD)
+# Command (CMD)
 
 Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a command-line interpreter built into Windows that lets you interact with your computer by typing text commands instead of clicking through menus and windows.
 
@@ -10,22 +10,6 @@ Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a comm
 - **Automation** — batch scripts let you chain commands together to automate repetitive work.
 - **Troubleshooting** — a huge number of Windows diagnostic and repair tools are CMD-only or CMD-first.
 - **Foundations** — understanding CMD makes it much easier to later pick up PowerShell, Linux shells, or scripting languages, since many concepts carry over.
-
-## Command-Line Tools:
-
-The lessons above teach the fundamentals of working with command-line interfaces and terminal environments. To see those fundamentals applied to popular, industry-standard command-line tools, continue on to:
-
-* **[Git](https://git-scm.com)** — a distributed version control tool used to track changes, manage code, and collaborate on software projects.
-
-* **[cURL](https://curl.se)** — a command-line tool for transferring data using HTTP, HTTPS, and other network protocols.
-
-* **[Wget](https://www.gnu.org)** — a command-line utility for downloading files and retrieving content from the web.
-
-* **[jq](https://jqlang.org)** — a lightweight command-line processor for parsing, filtering, and manipulating JSON data.
-
-* **[FFmpeg](https://ffmpeg.org)** — a powerful command-line tool for processing, converting, recording, and streaming audio and video.
-
-* **[PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
 
 ## Table of Contents
 
@@ -127,3 +111,147 @@ The lessons above teach the fundamentals of working with command-line interfaces
     14.8 Opening CMD in a specific folder quickly  
     14.9 Running a command as a one-off with elevated rights  
     14.10 Where to go from here  
+
+## Command-Line Tools:
+
+The lessons above teach the fundamentals of working with command-line interfaces and terminal environments. To see those fundamentals applied to popular, industry-standard command-line tools, continue on to:
+
+**Shells**
+
+* **[Bash](./Shells/Bash.md)** — a widely used Unix shell and scripting language commonly found on Linux and macOS systems.
+
+* **[Zsh](./Shells/Zsh.md)** — an interactive Unix shell with advanced features for command-line use, scripting, customization, and productivity.
+
+* **[Command Prompt](./Shells/Command-Prompt.md)** — the traditional Windows command-line shell used to execute commands, scripts, and system utilities.
+
+* **[PowerShell](./Shells/PowerShell.md)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
+
+**Terminal**
+
+* **[Windows Terminal](./Terminals/Windows-Terminal.md)** — a modern terminal application for Windows that supports multiple shells, tabs, profiles, and command-line environments.
+
+* **[GNOME Terminal](./Terminals/GNOME-Terminal.md)** — a terminal emulator commonly used on Linux systems for accessing shells and command-line tools.
+
+* **[Konsole](./Terminals/Konsole.md)** — a terminal emulator for KDE-based Linux desktop environments that provides tabs, profiles, and shell access.
+
+**Version Control**
+
+* **[Git](../VersionControl/Git/[0]-Introduction-to-Git.md)** — a distributed version control tool used to track changes, manage code, and collaborate on software projects.
+
+* **[GitHub CLI](https://cli.github.com/)** — GitHub's official command-line interface, used to manage repositories, issues, pull requests, releases, workflows, and other GitHub features directly from the terminal.
+
+**Networking**
+
+* **[SSH](./Networking/SSH.md)** — a secure protocol and command-line tool used to remotely access and manage computers over a network.
+
+* **[cURL](./Networking/cURL.md)** — a command-line tool for transferring data over network protocols such as HTTP, HTTPS, FTP, and SFTP.
+
+* **[Wget](./Networking/Wget.md)** — a command-line utility for downloading files and retrieving content from web servers.
+
+* **[ping](./Networking/ping.md)** — a network diagnostic command used to test connectivity and measure response times between devices.
+
+* **[ipconfig](./Networking/ipconfig.md)** — a Windows command used to display and manage network interface configuration information.
+
+* **[ip](./Networking/ip.md)** — a Linux command used to configure and inspect network interfaces, addresses, routes, and other networking components.
+
+* **[netstat](./Networking/netstat.md)** — a command used to display network connections, listening ports, routing information, and network statistics.
+
+* **[tracert](./Networking/tracert.md)** — a Windows command used to trace the network path packets take to a destination.
+
+* **[traceroute](./Networking/traceroute.md)** — a Unix and Linux utility used to trace the network path between a computer and a destination.
+
+* **[nslookup](./Networking/nslookup.md)** — a command-line tool used to query DNS records and troubleshoot domain name resolution.
+
+* **[dig](./Networking/dig.md)** — a DNS lookup utility used to query and troubleshoot domain name system records.
+
+**File Management**
+
+* **[cat](./File%20Management/cat.md)** — a command used to display and concatenate the contents of files.
+
+* **[less](./File%20Management/less.md)** — a terminal pager used to view large text files and command output interactively.
+
+* **[head](./File%20Management/head.md)** — a command used to display the beginning of a file or stream.
+
+* **[tail](./File%20Management/tail.md)** — a command used to display the end of a file or continuously monitor new output.
+
+* **[mkdir](./File%20Management/mkdir.md)** — a command used to create directories.
+
+* **[cp](./File%20Management/cp.md)** — a command used to copy files and directories.
+
+* **[mv](./File%20Management/mv.md)** — a command used to move or rename files and directories.
+
+* **[rm](./File%20Management/rm.md)** — a command used to remove files and directories.
+
+* **[touch](./File%20Management/touch.md)** — a command used to create empty files or update file timestamps.
+
+* **[find](./File%20Management/find.md)** — a command used to search for files and directories based on names, locations, attributes, and other conditions.
+
+* **[tar](./File%20Management/tar.md)** — a command-line utility used to create, extract, and manage archive files.
+
+* **[tree](./File%20Management/tree.md)** — a command-line utility that displays files and directories in a hierarchical tree structure.
+
+**Text Processing**
+
+* **[grep](./Text%20Processing/grep.md)** — a command used to search text for lines matching a specified pattern.
+
+* **[sed](./Text%20Processing/sed.md)** — a stream editor used to search, transform, replace, and manipulate text.
+
+* **[awk](./Text%20Processing/awk.md)** — a text-processing language commonly used for filtering, transforming, and analyzing structured text.
+
+* **[sort](./Text%20Processing/sort.md)** — a command used to sort lines of text.
+
+* **[uniq](./Text%20Processing/uniq.md)** — a command used to detect and filter repeated adjacent lines.
+
+* **[diff](./Text%20Processing/diff.md)** — a command used to compare files and identify differences between them.
+
+* **[cut](./Text%20Processing/cut.md)** — a command used to extract selected sections or columns from lines of text.
+
+* **[tr](./Text%20Processing/tr.md)** — a command used to translate, replace, or remove characters from text streams.
+
+**System Administration**
+
+* **[ps](./System%20Administration/ps.md)** — a command used to display information about currently running processes.
+
+* **[top](./System%20Administration/top.md)** — an interactive command-line utility for monitoring running processes and system resource usage.
+
+* **[kill](./System%20Administration/kill.md)** — a command used to send signals to running processes, including requests to terminate them.
+
+* **[df](./System%20Administration/df.md)** — a command used to display available and used disk space on mounted filesystems.
+
+* **[du](./System%20Administration/du.md)** — a command used to estimate the amount of disk space consumed by files and directories.
+
+* **[chmod](./System%20Administration/chmod.md)** — a command used to change file and directory permissions.
+
+* **[chown](./System%20Administration/chown.md)** — a command used to change file and directory ownership.
+
+* **[systemctl](./System%20Administration/systemctl.md)** — a command used to manage system services and other systemd resources on Linux.
+
+* **[journalctl](./System%20Administration/journalctl.md)** — a command used to view and query systemd journal logs.
+
+**Archives**
+
+* **[tar](./Archives/tar.md)** — a command-line utility used to create, extract, and manage tar archives.
+
+* **[zip](./Archives/zip.md)** — a command-line utility used to create and manage ZIP archives.
+
+* **[unzip](./Archives/unzip.md)** — a command-line utility used to extract files from ZIP archives.
+
+* **[7-Zip](./Archives/7-Zip.md)** — a file archiving utility with command-line tools for creating and extracting various archive formats.
+
+**Build Tools**
+
+* **[Make](./Build%20Tools/Make.md)** — a build automation tool used to compile programs and manage dependencies between source files.
+
+* **[CMake](./Build%20Tools/CMake.md)** — a cross-platform build system generator used to configure and manage software compilation.
+
+* **[Ninja](./Build%20Tools/Ninja.md)** — a small and fast build system designed to execute build instructions efficiently.
+
+* **[Meson](./Build%20Tools/Meson.md)** — a modern build system designed to provide fast and portable project configuration and compilation.
+
+**Terminal Editors**
+
+* **[Vim](./Terminal%20Editors/Vim.md)** — a powerful, highly configurable terminal-based text editor commonly used for editing code and configuration files.
+
+* **[Nano](./Terminal%20Editors/Nano.md)** — a simple and user-friendly terminal text editor designed for quickly editing files from the command line.
+
+* **[tmux](./Terminal%20Editors/tmux.md)** — a terminal multiplexer that allows users to run multiple terminal sessions, windows, and panes within a single terminal.
