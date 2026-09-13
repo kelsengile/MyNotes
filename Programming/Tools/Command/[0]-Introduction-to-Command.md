@@ -1,6 +1,6 @@
 [⬅ Back to README](../../../README.md)
 
-# Command Prompt (CMD)
+# Command (CMD)
 
 Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a command-line interpreter built into Windows that lets you interact with your computer by typing text commands instead of clicking through menus and windows.
 
@@ -118,21 +118,21 @@ The lessons above teach the fundamentals of working with command-line interfaces
 
 **Shells**
 
-* **[Bash](https://www.gnu.org/software/bash/)** — a widely used Unix shell and scripting language commonly found on Linux and macOS systems.
+* **[Bash](./Shells/Bash.md)** — a widely used Unix shell and scripting language commonly found on Linux and macOS systems.
 
-* **[Zsh](https://www.zsh.org/)** — an interactive Unix shell with advanced features for command-line use, scripting, customization, and productivity.
+* **[Zsh](./Shells/Zsh.md)** — an interactive Unix shell with advanced features for command-line use, scripting, customization, and productivity.
 
-* **[Command Prompt](https://learn.microsoft.com/windows-server/administration/windows-commands/windows-commands)** — the traditional Windows command-line shell used to execute commands, scripts, and system utilities.
+* **[Command Prompt](./Shells/Command-Prompt.md)** — the traditional Windows command-line shell used to execute commands, scripts, and system utilities.
 
-* **[PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
+* **[PowerShell](./Shells/PowerShell.md)** — a cross-platform command-line shell and scripting environment designed for automation and system administration.
 
 **Terminal**
 
-* **[Windows Terminal](https://learn.microsoft.com/windows/terminal/)** — a modern terminal application for Windows that supports multiple shells, tabs, profiles, and command-line environments.
+* **[Windows Terminal](./Terminals/Windows-Terminal.md)** — a modern terminal application for Windows that supports multiple shells, tabs, profiles, and command-line environments.
 
-* **[GNOME Terminal](https://help.gnome.org/users/gnome-terminal/stable/)** — a terminal emulator commonly used on Linux systems for accessing shells and command-line tools.
+* **[GNOME Terminal](./Terminals/GNOME-Terminal.md)** — a terminal emulator commonly used on Linux systems for accessing shells and command-line tools.
 
-* **[Konsole](https://konsole.kde.org/)** — a terminal emulator for KDE-based Linux desktop environments that provides tabs, profiles, and shell access.
+* **[Konsole](./Terminals/Konsole.md)** — a terminal emulator for KDE-based Linux desktop environments that provides tabs, profiles, and shell access.
 
 **Version Control**
 
@@ -142,116 +142,116 @@ The lessons above teach the fundamentals of working with command-line interfaces
 
 **Networking**
 
-* **[SSH](https://www.openssh.com/)** — a secure protocol and command-line tool used to remotely access and manage computers over a network.
+* **[SSH](./Networking/SSH.md)** — a secure protocol and command-line tool used to remotely access and manage computers over a network.
 
-* **[cURL](https://curl.se/download.html)** — a command-line tool for transferring data over network protocols such as HTTP, HTTPS, FTP, and SFTP.
+* **[cURL](./Networking/cURL.md)** — a command-line tool for transferring data over network protocols such as HTTP, HTTPS, FTP, and SFTP.
 
-* **[Wget](https://www.gnu.org/software/wget/)** — a command-line utility for downloading files and retrieving content from web servers.
+* **[Wget](./Networking/Wget.md)** — a command-line utility for downloading files and retrieving content from web servers.
 
-* **[ping](https://learn.microsoft.com/windows-server/administration/windows-commands/ping)** — a network diagnostic command used to test connectivity and measure response times between devices.
+* **[ping](./Networking/ping.md)** — a network diagnostic command used to test connectivity and measure response times between devices.
 
-* **[ipconfig](https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig)** — a Windows command used to display and manage network interface configuration information.
+* **[ipconfig](./Networking/ipconfig.md)** — a Windows command used to display and manage network interface configuration information.
 
-* **[ip](https://man7.org/linux/man-pages/man8/ip.8.html)** — a Linux command used to configure and inspect network interfaces, addresses, routes, and other networking components.
+* **[ip](./Networking/ip.md)** — a Linux command used to configure and inspect network interfaces, addresses, routes, and other networking components.
 
-* **[netstat](https://learn.microsoft.com/windows-server/administration/windows-commands/netstat)** — a command used to display network connections, listening ports, routing information, and network statistics.
+* **[netstat](./Networking/netstat.md)** — a command used to display network connections, listening ports, routing information, and network statistics.
 
-* **[tracert](https://learn.microsoft.com/windows-server/administration/windows-commands/tracert)** — a Windows command used to trace the network path packets take to a destination.
+* **[tracert](./Networking/tracert.md)** — a Windows command used to trace the network path packets take to a destination.
 
-* **[traceroute](https://man7.org/linux/man-pages/man8/traceroute.8.html)** — a Unix and Linux utility used to trace the network path between a computer and a destination.
+* **[traceroute](./Networking/traceroute.md)** — a Unix and Linux utility used to trace the network path between a computer and a destination.
 
-* **[nslookup](https://learn.microsoft.com/windows-server/administration/windows-commands/nslookup)** — a command-line tool used to query DNS records and troubleshoot domain name resolution.
+* **[nslookup](./Networking/nslookup.md)** — a command-line tool used to query DNS records and troubleshoot domain name resolution.
 
-* **[dig](https://bind9.readthedocs.io/en/latest/manpages.html)** — a DNS lookup utility used to query and troubleshoot domain name system records.
+* **[dig](./Networking/dig.md)** — a DNS lookup utility used to query and troubleshoot domain name system records.
 
 **File Management**
 
-* **[cat](https://man7.org/linux/man-pages/man1/cat.1.html)** — a command used to display and concatenate the contents of files.
+* **[cat](./File%20Management/cat.md)** — a command used to display and concatenate the contents of files.
 
-* **[less](https://man7.org/linux/man-pages/man1/less.1.html)** — a terminal pager used to view large text files and command output interactively.
+* **[less](./File%20Management/less.md)** — a terminal pager used to view large text files and command output interactively.
 
-* **[head](https://man7.org/linux/man-pages/man1/head.1.html)** — a command used to display the beginning of a file or stream.
+* **[head](./File%20Management/head.md)** — a command used to display the beginning of a file or stream.
 
-* **[tail](https://man7.org/linux/man-pages/man1/tail.1.html)** — a command used to display the end of a file or continuously monitor new output.
+* **[tail](./File%20Management/tail.md)** — a command used to display the end of a file or continuously monitor new output.
 
-* **[mkdir](https://man7.org/linux/man-pages/man1/mkdir.1.html)** — a command used to create directories.
+* **[mkdir](./File%20Management/mkdir.md)** — a command used to create directories.
 
-* **[cp](https://man7.org/linux/man-pages/man1/cp.1.html)** — a command used to copy files and directories.
+* **[cp](./File%20Management/cp.md)** — a command used to copy files and directories.
 
-* **[mv](https://man7.org/linux/man-pages/man1/mv.1.html)** — a command used to move or rename files and directories.
+* **[mv](./File%20Management/mv.md)** — a command used to move or rename files and directories.
 
-* **[rm](https://man7.org/linux/man-pages/man1/rm.1.html)** — a command used to remove files and directories.
+* **[rm](./File%20Management/rm.md)** — a command used to remove files and directories.
 
-* **[touch](https://man7.org/linux/man-pages/man1/touch.1.html)** — a command used to create empty files or update file timestamps.
+* **[touch](./File%20Management/touch.md)** — a command used to create empty files or update file timestamps.
 
-* **[find](https://man7.org/linux/man-pages/man1/find.1.html)** — a command used to search for files and directories based on names, locations, attributes, and other conditions.
+* **[find](./File%20Management/find.md)** — a command used to search for files and directories based on names, locations, attributes, and other conditions.
 
-* **[tar](https://www.gnu.org/software/tar/)** — a command-line utility used to create, extract, and manage archive files.
+* **[tar](./File%20Management/tar.md)** — a command-line utility used to create, extract, and manage archive files.
 
-* **[tree](https://mama.indstate.edu/users/ice/tree/)** — a command-line utility that displays files and directories in a hierarchical tree structure.
+* **[tree](./File%20Management/tree.md)** — a command-line utility that displays files and directories in a hierarchical tree structure.
 
 **Text Processing**
 
-* **[grep](https://man7.org/linux/man-pages/man1/grep.1.html)** — a command used to search text for lines matching a specified pattern.
+* **[grep](./Text%20Processing/grep.md)** — a command used to search text for lines matching a specified pattern.
 
-* **[sed](https://www.gnu.org/software/sed/)** — a stream editor used to search, transform, replace, and manipulate text.
+* **[sed](./Text%20Processing/sed.md)** — a stream editor used to search, transform, replace, and manipulate text.
 
-* **[awk](https://www.gnu.org/software/gawk/)** — a text-processing language commonly used for filtering, transforming, and analyzing structured text.
+* **[awk](./Text%20Processing/awk.md)** — a text-processing language commonly used for filtering, transforming, and analyzing structured text.
 
-* **[sort](https://man7.org/linux/man-pages/man1/sort.1.html)** — a command used to sort lines of text.
+* **[sort](./Text%20Processing/sort.md)** — a command used to sort lines of text.
 
-* **[uniq](https://man7.org/linux/man-pages/man1/uniq.1.html)** — a command used to detect and filter repeated adjacent lines.
+* **[uniq](./Text%20Processing/uniq.md)** — a command used to detect and filter repeated adjacent lines.
 
-* **[diff](https://man7.org/linux/man-pages/man1/diff.1.html)** — a command used to compare files and identify differences between them.
+* **[diff](./Text%20Processing/diff.md)** — a command used to compare files and identify differences between them.
 
-* **[cut](https://man7.org/linux/man-pages/man1/cut.1.html)** — a command used to extract selected sections or columns from lines of text.
+* **[cut](./Text%20Processing/cut.md)** — a command used to extract selected sections or columns from lines of text.
 
-* **[tr](https://man7.org/linux/man-pages/man1/tr.1.html)** — a command used to translate, replace, or remove characters from text streams.
+* **[tr](./Text%20Processing/tr.md)** — a command used to translate, replace, or remove characters from text streams.
 
 **System Administration**
 
-* **[ps](https://man7.org/linux/man-pages/man1/ps.1.html)** — a command used to display information about currently running processes.
+* **[ps](./System%20Administration/ps.md)** — a command used to display information about currently running processes.
 
-* **[top](https://man7.org/linux/man-pages/man1/top.1.html)** — an interactive command-line utility for monitoring running processes and system resource usage.
+* **[top](./System%20Administration/top.md)** — an interactive command-line utility for monitoring running processes and system resource usage.
 
-* **[kill](https://man7.org/linux/man-pages/man1/kill.1.html)** — a command used to send signals to running processes, including requests to terminate them.
+* **[kill](./System%20Administration/kill.md)** — a command used to send signals to running processes, including requests to terminate them.
 
-* **[df](https://man7.org/linux/man-pages/man1/df.1.html)** — a command used to display available and used disk space on mounted filesystems.
+* **[df](./System%20Administration/df.md)** — a command used to display available and used disk space on mounted filesystems.
 
-* **[du](https://man7.org/linux/man-pages/man1/du.1.html)** — a command used to estimate the amount of disk space consumed by files and directories.
+* **[du](./System%20Administration/du.md)** — a command used to estimate the amount of disk space consumed by files and directories.
 
-* **[chmod](https://man7.org/linux/man-pages/man1/chmod.1.html)** — a command used to change file and directory permissions.
+* **[chmod](./System%20Administration/chmod.md)** — a command used to change file and directory permissions.
 
-* **[chown](https://man7.org/linux/man-pages/man1/chown.1.html)** — a command used to change file and directory ownership.
+* **[chown](./System%20Administration/chown.md)** — a command used to change file and directory ownership.
 
-* **[systemctl](https://www.freedesktop.org/software/systemd/man/latest/systemctl.html)** — a command used to manage system services and other systemd resources on Linux.
+* **[systemctl](./System%20Administration/systemctl.md)** — a command used to manage system services and other systemd resources on Linux.
 
-* **[journalctl](https://www.freedesktop.org/software/systemd/man/latest/journalctl.html)** — a command used to view and query systemd journal logs.
+* **[journalctl](./System%20Administration/journalctl.md)** — a command used to view and query systemd journal logs.
 
 **Archives**
 
-* **[tar](https://www.gnu.org/software/tar/)** — a command-line utility used to create, extract, and manage tar archives.
+* **[tar](./Archives/tar.md)** — a command-line utility used to create, extract, and manage tar archives.
 
-* **[zip](https://infozip.sourceforge.net/)** — a command-line utility used to create and manage ZIP archives.
+* **[zip](./Archives/zip.md)** — a command-line utility used to create and manage ZIP archives.
 
-* **[unzip](https://infozip.sourceforge.net/UnZip.html)** — a command-line utility used to extract files from ZIP archives.
+* **[unzip](./Archives/unzip.md)** — a command-line utility used to extract files from ZIP archives.
 
-* **[7-Zip](https://www.7-zip.org/)** — a file archiving utility with command-line tools for creating and extracting various archive formats.
+* **[7-Zip](./Archives/7-Zip.md)** — a file archiving utility with command-line tools for creating and extracting various archive formats.
 
 **Build Tools**
 
-* **[Make](https://www.gnu.org/software/make/)** — a build automation tool used to compile programs and manage dependencies between source files.
+* **[Make](./Build%20Tools/Make.md)** — a build automation tool used to compile programs and manage dependencies between source files.
 
-* **[CMake](https://cmake.org/download/)** — a cross-platform build system generator used to configure and manage software compilation.
+* **[CMake](./Build%20Tools/CMake.md)** — a cross-platform build system generator used to configure and manage software compilation.
 
-* **[Ninja](https://ninja-build.org/)** — a small and fast build system designed to execute build instructions efficiently.
+* **[Ninja](./Build%20Tools/Ninja.md)** — a small and fast build system designed to execute build instructions efficiently.
 
-* **[Meson](https://mesonbuild.com/)** — a modern build system designed to provide fast and portable project configuration and compilation.
+* **[Meson](./Build%20Tools/Meson.md)** — a modern build system designed to provide fast and portable project configuration and compilation.
 
 **Terminal Editors**
 
-* **[Vim](https://www.vim.org/)** — a powerful, highly configurable terminal-based text editor commonly used for editing code and configuration files.
+* **[Vim](./Terminal%20Editors/Vim.md)** — a powerful, highly configurable terminal-based text editor commonly used for editing code and configuration files.
 
-* **[Nano](https://www.nano-editor.org/)** — a simple and user-friendly terminal text editor designed for quickly editing files from the command line.
+* **[Nano](./Terminal%20Editors/Nano.md)** — a simple and user-friendly terminal text editor designed for quickly editing files from the command line.
 
-* **[tmux](https://github.com/tmux/tmux)** — a terminal multiplexer that allows users to run multiple terminal sessions, windows, and panes within a single terminal.
+* **[tmux](./Terminal%20Editors/tmux.md)** — a terminal multiplexer that allows users to run multiple terminal sessions, windows, and panes within a single terminal.
