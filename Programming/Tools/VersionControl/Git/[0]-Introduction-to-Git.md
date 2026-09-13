@@ -5,6 +5,10 @@
 
 Welcome! This is a self-paced course for learning Git, the version control system used by most software teams to track changes to code and collaborate without stepping on each other's work.
 
+Download: [https://git-scm.com](https://git-scm.com)
+
+---
+
 ## What is Git?
 
 Git lets you:
