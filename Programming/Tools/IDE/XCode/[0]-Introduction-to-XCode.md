@@ -19,6 +19,7 @@ Download: [Xcode on the Mac App Store](https://apps.apple.com/us/app/xcode/id497
 ## Table of Contents
 
 **Getting Started**
+
    1. **[Installing Xcode](./[1]-Installing-Xcode.md)**  
        1.1 Xcode And The Mac App Store  
        1.2 Apple Developer Account Tiers  
@@ -31,6 +32,7 @@ Download: [Xcode on the Mac App Store](https://apps.apple.com/us/app/xcode/id497
        2.4 The Assistant Editor  
 
 **Interface And Project Structure**
+
    3. **[Swift And Project Structure Basics](./[3]-Swift-And-Project-Structure-Basics.md)**  
        3.1 Swift As Xcode's Primary Language  
        3.2 The App Entry Point (App Delegate/Scene Delegate vs SwiftUI's App Struct)  
@@ -43,6 +45,7 @@ Download: [Xcode on the Mac App Store](https://apps.apple.com/us/app/xcode/id497
        4.4 Choosing UIKit vs SwiftUI  
 
 **Building And Debugging Apps**
+
    5. **[Building, Running, And Debugging](./[5]-Building,-Running,-And-Debugging.md)**  
        5.1 Simulators vs Physical Devices  
        5.2 Build Configurations (Debug/Release) And Schemes  
@@ -55,6 +58,7 @@ Download: [Xcode on the Mac App Store](https://apps.apple.com/us/app/xcode/id497
        6.4 Code Coverage Reports  
 
 **Shipping**
+
    7. **[Archiving And Distributing An App](./[7]-Archiving-And-Distributing-An-App.md)**  
        7.1 Signing And Provisioning Profiles  
        7.2 Archiving A Build  

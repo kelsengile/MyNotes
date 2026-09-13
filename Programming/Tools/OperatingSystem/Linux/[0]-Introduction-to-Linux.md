@@ -19,6 +19,7 @@ Download: [ubuntu.com/download](https://ubuntu.com/download) (a common first dis
 ## Table of Contents
 
 **Getting Started**
+
    1. **[What Is Linux](./[1]-What-Is-Linux.md)**  
        1.1 The Linux Kernel vs A Distribution  
        1.2 Open Source Philosophy  
@@ -31,6 +32,7 @@ Download: [ubuntu.com/download](https://ubuntu.com/download) (a common first dis
        2.4 WSL (Windows Subsystem For Linux) As An Alternative  
 
 **The Command Line**
+
    3. **[The Linux File System](./[3]-The-Linux-File-System.md)**  
        3.1 The Directory Structure (/, /home, /etc, /var...)  
        3.2 File Permissions And Ownership  
@@ -43,6 +45,7 @@ Download: [ubuntu.com/download](https://ubuntu.com/download) (a common first dis
        4.4 Shell Script Basics  
 
 **System Administration**
+
    5. **[Package Management](./[5]-Package-Management.md)**  
        5.1 Package Managers (apt, dnf, pacman)  
        5.2 Installing, Updating, And Removing Software  
@@ -55,6 +58,7 @@ Download: [ubuntu.com/download](https://ubuntu.com/download) (a common first dis
        6.4 systemd And Services  
 
 **Using Linux Day To Day**
+
    7. **[Using Linux Day To Day](./[7]-Using-Linux-Day-To-Day.md)**  
        7.1 Desktop Environments (GNOME, KDE, XFCE)  
        7.2 Common Applications And Alternatives To Windows/Mac Software  

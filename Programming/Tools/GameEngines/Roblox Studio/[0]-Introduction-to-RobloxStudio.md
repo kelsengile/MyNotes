@@ -19,6 +19,7 @@ Download: [create.roblox.com/docs/studio/setup](https://create.roblox.com/docs/s
 ## Table of Contents
 
 **Getting Started**
+
    1. **[Getting Started With Roblox Studio](./[1]-Getting-Started-With-Roblox-Studio.md)**  
        1.1 Creating A Roblox Account And Installing Studio  
        1.2 Templates And Starting A New Place  
@@ -31,6 +32,7 @@ Download: [create.roblox.com/docs/studio/setup](https://create.roblox.com/docs/s
        2.4 Test Mode (Play, Run, Server/Client)  
 
 **Building And Scripting**
+
    3. **[The Roblox Instance Hierarchy](./[3]-The-Roblox-Instance-Hierarchy.md)**  
        3.1 Instances As Roblox's Building Block  
        3.2 Key Services (Workspace, Players, ReplicatedStorage, ServerScriptService)  
@@ -48,6 +50,7 @@ Download: [create.roblox.com/docs/studio/setup](https://create.roblox.com/docs/s
        5.4 Security: Why You Never Trust The Client  
 
 **Advanced Experience Design**
+
    6. **[Building Parts, Models, And Terrain](./[6]-Building-Parts,-Models,-And-Terrain.md)**  
        6.1 Parts And Basic Building Tools  
        6.2 Grouping Parts Into Models  
@@ -65,6 +68,7 @@ Download: [create.roblox.com/docs/studio/setup](https://create.roblox.com/docs/s
        8.4 Connecting UI To Scripts  
 
 **Publishing**
+
    9. **[Publishing And Monetizing A Roblox Experience](./[9]-Publishing-And-Monetizing-A-Roblox-Experience.md)**  
        9.1 Publishing A Place To Roblox  
        9.2 Configuring Experience Settings And Access  

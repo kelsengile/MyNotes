@@ -19,6 +19,7 @@ Download: [docs.unity.com/en-us/hub/install-hub](https://docs.unity.com/en-us/hu
 ## Table of Contents
 
 **Getting Started**
+
    1. **[Installing Unity And Unity Hub](./[1]-Installing-Unity-And-Unity-Hub.md)**  
        1.1 Unity Hub And Managing Editor Versions  
        1.2 LTS vs Tech Stream Releases  
@@ -31,6 +32,7 @@ Download: [docs.unity.com/en-us/hub/install-hub](https://docs.unity.com/en-us/hu
        2.4 Layouts And Customization  
 
 **Core Concepts And Scripting**
+
    3. **[GameObjects, Components, And Prefabs In Unity](./[3]-GameObjects,-Components,-And-Prefabs-In-Unity.md)**  
        3.1 GameObjects As Containers  
        3.2 Adding And Configuring Components  
@@ -48,6 +50,7 @@ Download: [docs.unity.com/en-us/hub/install-hub](https://docs.unity.com/en-us/hu
        5.4 Coroutines  
 
 **Building Features**
+
    6. **[Unity Physics And Colliders](./[6]-Unity-Physics-And-Colliders.md)**  
        6.1 Rigidbody And Rigidbody2D  
        6.2 Colliders And Collision Detection Modes  
@@ -65,6 +68,7 @@ Download: [docs.unity.com/en-us/hub/install-hub](https://docs.unity.com/en-us/hu
        8.4 Animation Events  
 
 **Shipping**
+
    9. **[Building And Exporting A Unity Project](./[9]-Building-And-Exporting-A-Unity-Project.md)**  
        9.1 Build Settings And Target Platforms  
        9.2 Player Settings  

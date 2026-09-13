@@ -19,6 +19,7 @@ Download: [godotengine.org/download](https://godotengine.org/download/)
 ## Table of Contents
 
 **Getting Started**
+
    1. **[Installing And Setting Up Godot](./[1]-Installing-And-Setting-Up-Godot.md)**  
        1.1 Downloading Godot (Standard vs .NET Builds)  
        1.2 First Launch And The Project Manager  
@@ -31,6 +32,7 @@ Download: [godotengine.org/download](https://godotengine.org/download/)
        2.4 Customizing The Workspace  
 
 **Core Concepts**
+
    3. **[Nodes And The Scene Tree](./[3]-Nodes-And-The-Scene-Tree.md)**  
        3.1 What Is A Node  
        3.2 Building A Scene Tree  
@@ -48,6 +50,7 @@ Download: [godotengine.org/download](https://godotengine.org/download/)
        5.4 Groups And Node Communication Patterns  
 
 **Building A Game**
+
    6. **[2D And 3D Workflows In Godot](./[6]-2D-And-3D-Workflows-In-Godot.md)**  
        6.1 Sprite2D, AnimatedSprite2D, And TileMaps  
        6.2 3D Meshes And The Node3D Hierarchy  
@@ -65,6 +68,7 @@ Download: [godotengine.org/download](https://godotengine.org/download/)
        8.4 Theming UI  
 
 **Shipping**
+
    9. **[Exporting And Publishing A Godot Project](./[9]-Exporting-And-Publishing-A-Godot-Project.md)**  
        9.1 Export Templates  
        9.2 Export Presets For Different Platforms  

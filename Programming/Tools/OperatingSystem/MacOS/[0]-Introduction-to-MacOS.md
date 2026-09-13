@@ -17,6 +17,7 @@ This Topic covers macOS's interface — the menu bar, Dock, and Finder — its f
 ## Table of Contents
 
 **Getting Started**
+
    1. **[What Is macOS](./[1]-What-Is-macOS.md)**  
        1.1 macOS And The Apple Ecosystem  
        1.2 macOS Version Naming And Releases  
@@ -29,6 +30,7 @@ This Topic covers macOS's interface — the menu bar, Dock, and Finder — its f
        2.4 Mission Control And Spaces  
 
 **The Interface And Finder**
+
    3. **[Files, Folders, And iCloud](./[3]-Files,-Folders,-And-iCloud.md)**  
        3.1 The Home Folder Structure  
        3.2 Tags, Smart Folders, And Quick Look  
@@ -41,6 +43,7 @@ This Topic covers macOS's interface — the menu bar, Dock, and Finder — its f
        4.4 Accessibility Features  
 
 **System Features**
+
    5. **[Built-In Apps And The App Ecosystem](./[5]-Built-In-Apps-And-The-App-Ecosystem.md)**  
        5.1 Default Apps (Safari, Mail, Notes, Preview)  
        5.2 The Mac App Store  
@@ -53,6 +56,7 @@ This Topic covers macOS's interface — the menu bar, Dock, and Finder — its f
        6.4 When Developers Need The Terminal  
 
 **Using macOS For Development**
+
    7. **[Using macOS For Development](./[7]-Using-macOS-For-Development.md)**  
        7.1 Xcode And Command Line Tools  
        7.2 Common Developer Setups On macOS  

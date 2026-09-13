@@ -19,6 +19,7 @@ Download: [jetbrains.com/toolbox-app](https://www.jetbrains.com/toolbox-app/)
 ## Table of Contents
 
 **Getting Started**
+
    1. **[Installing JetBrains IDEs And The Toolbox App](./[1]-Installing-JetBrains-IDEs-And-The-Toolbox-App.md)**  
        1.1 The JetBrains Toolbox App  
        1.2 Choosing The Right JetBrains IDE For Your Language  
@@ -31,6 +32,7 @@ Download: [jetbrains.com/toolbox-app](https://www.jetbrains.com/toolbox-app/)
        2.4 Navigating Between Files  
 
 **Core IDE Features**
+
    3. **[Code Intelligence And Navigation](./[3]-Code-Intelligence-And-Navigation.md)**  
        3.1 Code Completion And Suggestions  
        3.2 Go To Declaration/Usage/Implementation  
@@ -43,6 +45,7 @@ Download: [jetbrains.com/toolbox-app](https://www.jetbrains.com/toolbox-app/)
        4.4 The Built-In Terminal  
 
 **Customization And Productivity**
+
    5. **[Customizing The JetBrains Environment](./[5]-Customizing-The-JetBrains-Environment.md)**  
        5.1 Keymaps And Shortcuts  
        5.2 Themes And Editor Appearance  
@@ -55,6 +58,7 @@ Download: [jetbrains.com/toolbox-app](https://www.jetbrains.com/toolbox-app/)
        6.4 Local History As A Safety Net  
 
 **Working With Data And Tools**
+
    7. **[Databases And Built-In Tooling](./[7]-Databases-And-Built-In-Tooling.md)**  
        7.1 The Built-In Database Tool Window  
        7.2 The HTTP Client For API Testing  

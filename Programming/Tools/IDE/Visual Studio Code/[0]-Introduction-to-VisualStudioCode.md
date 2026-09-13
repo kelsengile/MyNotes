@@ -19,6 +19,7 @@ Download: [code.visualstudio.com/download](https://code.visualstudio.com/downloa
 ## Table of Contents
 
 **Getting Started**
+
    1. **[Installing Visual Studio Code](./[1]-Installing-Visual-Studio-Code.md)**  
        1.1 Downloading And Installing VS Code  
        1.2 VS Code vs Visual Studio (Naming Confusion)  
@@ -31,6 +32,7 @@ Download: [code.visualstudio.com/download](https://code.visualstudio.com/downloa
        2.4 The Status Bar  
 
 **Core Editor Features**
+
    3. **[Editing And Navigating Code](./[3]-Editing-And-Navigating-Code.md)**  
        3.1 IntelliSense And Autocomplete  
        3.2 Multi-Cursor Editing  
@@ -43,6 +45,7 @@ Download: [code.visualstudio.com/download](https://code.visualstudio.com/downloa
        4.4 Debugging Different Languages And Runtimes  
 
 **Extending And Customizing**
+
    5. **[Extensions And Customization](./[5]-Extensions-And-Customization.md)**  
        5.1 The Extensions Marketplace  
        5.2 Popular Extensions By Language  
@@ -50,6 +53,7 @@ Download: [code.visualstudio.com/download](https://code.visualstudio.com/downloa
        5.4 User And Workspace Settings (settings.json)  
 
 **Development Workflows**
+
    6. **[Source Control With Git In VS Code](./[6]-Source-Control-With-Git-In-VS-Code.md)**  
        6.1 The Source Control Panel  
        6.2 Staging, Committing, And Syncing  

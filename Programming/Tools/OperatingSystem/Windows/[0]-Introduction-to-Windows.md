@@ -19,6 +19,7 @@ Download: [microsoft.com/software-download/windows11](https://www.microsoft.com/
 ## Table of Contents
 
 **Getting Started**
+
    1. **[What Is Windows](./[1]-What-Is-Windows.md)**  
        1.1 Windows As An Operating System  
        1.2 Windows Version History (7, 10, 11...)  
@@ -31,6 +32,7 @@ Download: [microsoft.com/software-download/windows11](https://www.microsoft.com/
        2.4 Virtual Desktops And Task View  
 
 **The Interface And File System**
+
    3. **[Files, Folders, And Storage](./[3]-Files,-Folders,-And-Storage.md)**  
        3.1 The Drive Letter System  
        3.2 Common Folders (Program Files, Users, AppData)  
@@ -43,6 +45,7 @@ Download: [microsoft.com/software-download/windows11](https://www.microsoft.com/
        4.4 Windows Update  
 
 **System Features**
+
    5. **[The Command Line On Windows](./[5]-The-Command-Line-On-Windows.md)**  
        5.1 Command Prompt (cmd)  
        5.2 PowerShell  
@@ -55,6 +58,7 @@ Download: [microsoft.com/software-download/windows11](https://www.microsoft.com/
        6.4 Windows Security (Defender, Firewall)  
 
 **Using Windows For Development**
+
    7. **[Using Windows For Development](./[7]-Using-Windows-For-Development.md)**  
        7.1 Setting Up A Dev Environment On Windows  
        7.2 WSL2 For Linux-Based Development  
