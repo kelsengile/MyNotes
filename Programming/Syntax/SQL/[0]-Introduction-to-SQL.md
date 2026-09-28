@@ -1,7 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# SQL - Structured Query Language
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">SQL - Structured Query Language</h1>
+</div>
 
 Welcome! This is a self-paced course for learning SQL, the standard language used to store, query, and manage data in relational databases.
 

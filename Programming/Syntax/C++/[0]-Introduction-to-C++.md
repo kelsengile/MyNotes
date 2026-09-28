@@ -1,7 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# C++
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">C++</h1>
+</div>
 
 Welcome! This is a self-paced course for learning C++, a high-performance, multi-paradigm language combining low-level control with powerful abstractions, used in games, systems, finance, and embedded software.
 

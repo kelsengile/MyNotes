@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# TypeScript
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">TypeScript</h1>
+</div>
 
 
 Welcome! This is a self-paced course for learning TypeScript, the statically-typed superset of JavaScript that adds a powerful type system to the language of the web — catching bugs at compile time and powering most large-scale modern JavaScript codebases.

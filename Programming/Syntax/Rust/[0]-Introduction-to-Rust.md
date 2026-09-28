@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Rust
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Rust</h1>
+</div>
 
 
 Welcome! This is a self-paced course for learning Rust, the systems programming language built for performance, reliability, and memory safety — without a garbage collector — widely used for systems software, WebAssembly, embedded programming, and high-performance backend services.

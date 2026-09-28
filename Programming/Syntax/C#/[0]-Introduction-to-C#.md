@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# C#
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">C#</h1>
+</div>
 
 Welcome! This is a self-paced course for learning C#, a modern, object-oriented language from Microsoft used for web apps, desktop software, games, cloud services, and more via the .NET platform.
 

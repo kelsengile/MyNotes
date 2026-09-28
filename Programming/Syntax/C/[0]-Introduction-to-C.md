@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# C
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">C</h1>
+</div>
 
 Welcome! This is a self-paced course for learning C, a low-level, procedural programming language that underpins operating systems, embedded devices, compilers, and performance-critical software.
 

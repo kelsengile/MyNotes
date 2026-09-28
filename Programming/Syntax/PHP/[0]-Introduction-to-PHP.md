@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# PHP
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">PHP</h1>
+</div>
 
 Welcome! This is a self-paced course for learning PHP, the widely-used, server-side scripting language that powers a huge share of the web — from WordPress sites to large-scale applications built with Laravel and Symfony.
 

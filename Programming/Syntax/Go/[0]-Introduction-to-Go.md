@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Go
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Go</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Go (Golang), the statically-typed, compiled language from Google known for its simplicity, fast compilation, and first-class support for concurrency — widely used for backend services, cloud infrastructure, and CLI tools.
 

@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# CSS
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">CSS</h1>
+</div>
 
 Welcome! This is a self-paced course for learning CSS (Cascading Style Sheets), the language that styles and lays out every visual aspect of the web — from colors and typography to responsive, animated, production-grade interfaces.
 
