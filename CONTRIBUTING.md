@@ -10,7 +10,6 @@ MyNotes/
 │   ├── 📁 Specializations
 │   ├── 📁 Syntax
 │   └── 📁 Tools
-├── 📁 SandBoxes
 ├── 🚫 .gitignore
 ├── 📝 CONTRIBUTING.md
 ├── 📝 IDEAS.md
