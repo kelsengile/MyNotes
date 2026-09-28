@@ -1,7 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Data Science
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Data Science</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Data Science, the practice of extracting insight from data through statistics, visualization, and machine learning.
 

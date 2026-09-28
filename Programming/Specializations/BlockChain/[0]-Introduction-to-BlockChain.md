@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Blockchain Development
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f517.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Blockchain Development</h1>
+</div>
+
 
 Welcome! This is a self-paced course for learning Blockchain Development, the practice of building decentralized systems, smart contracts, and applications on top of distributed ledgers.
 

@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Cloud Development
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Cloud Development</h1>
+</div>
+
 
 Welcome! This is a self-paced course for learning Cloud Development, the practice of designing, deploying, and operating applications and infrastructure on cloud platforms like AWS, Azure, and GCP.
 

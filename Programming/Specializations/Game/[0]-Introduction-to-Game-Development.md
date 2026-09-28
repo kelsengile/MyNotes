@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Game Development
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Game Development</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Game Development, the practice of designing and building interactive games using modern engines, from small 2D prototypes to full 3D, multiplayer experiences.
 
