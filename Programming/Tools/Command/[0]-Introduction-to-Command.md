@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Command (CMD)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Command</h1>
+</div>
 
 Welcome to this lesson series on the Windows Command Prompt (CMD). CMD is a command-line interpreter built into Windows that lets you interact with your computer by typing text commands instead of clicking through menus and windows.
 

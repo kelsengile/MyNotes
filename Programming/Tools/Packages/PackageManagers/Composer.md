@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Composer
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Composer</h1>
+</div>
 
 Composer is the standard dependency manager for PHP. It installs libraries on a per-project basis, tracks them in a `composer.json` file, and generates an autoloader so your code can use them without manual `require` statements.
 

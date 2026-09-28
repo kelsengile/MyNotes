@@ -1,6 +1,9 @@
 [⬅ Back to Database Fundamentals](../[0]-Introduction-to-Databases.md)
 
-# Introduction to MySQL
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">MySQL</h1>
+</div>
 
 MySQL is one of the most widely used open-source relational database management systems in the world. It powers everything from small personal projects to some of the largest websites on the internet, and it's often the first "real" database many developers ever connect to. This Topic takes the relational concepts covered in Database Fundamentals — tables, keys, SQL, transactions — and shows exactly how they look in MySQL: how to install it, how its SQL dialect and storage engines behave, and how to keep a MySQL server fast, safe, and running smoothly.
 

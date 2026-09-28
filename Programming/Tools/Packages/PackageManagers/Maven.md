@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Maven
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Maven</h1>
+</div>
 
 Maven is a build tool and dependency manager for Java projects. Like Gradle, it doesn't install packages globally through a single command — instead, it reads a project configuration file and handles dependencies as part of building the project.
 

@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Winget
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows11/windows11-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Winget</h1>
+</div>
 
 Winget (Windows Package Manager) is Microsoft's official command-line package manager, built into Windows 10 and 11. It installs software directly from Microsoft's curated repository, without needing to install anything extra first.
 

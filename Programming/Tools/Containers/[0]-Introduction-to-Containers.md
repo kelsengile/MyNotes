@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to Containers
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Containers</h1>
+</div>
+
 
 Containers are a way of packaging an application together with everything it needs to run — code, runtime, system libraries, and configuration — so that it behaves the same way no matter where it's deployed. This Topic covers the fundamental, tool-agnostic concepts behind containers: what they are, how they differ from virtual machines, how container images work, and how containers are run and orchestrated in practice.
 

@@ -1,6 +1,9 @@
 [⬅ Back to IDE Fundamentals](../[0]-Introduction-to-IDEs.md)
 
-# Introduction to Visual Studio Code
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Visual Studio Code</h1>
+</div>
 
 Visual Studio Code (VS Code) is a free, lightweight source code editor developed by Microsoft. Unlike a full IDE that ships with everything built in for one language, VS Code starts minimal and becomes a fully-featured environment for almost any language or framework through its extensions marketplace — the same core editor can be turned into a Python IDE, a web development environment, or a C++ workspace depending on what you install.
 

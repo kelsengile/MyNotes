@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# pip
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">pip</h1>
+</div>
 
 pip is the standard package manager for Python. It installs libraries from the Python Package Index (PyPI) directly into your Python environment, and ships with Python itself.
 

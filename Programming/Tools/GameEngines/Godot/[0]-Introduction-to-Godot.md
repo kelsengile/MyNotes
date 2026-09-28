@@ -1,6 +1,9 @@
 [⬅ Back to Game Engine Fundamentals](../[0]-Introduction-to-GameEngines.md)
 
-# Introduction to Godot
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Godot</h1>
+</div>
 
 Godot is a free and open-source game engine built around a lightweight editor and a flexible **node** system, where every piece of a game — a sprite, a sound, a piece of UI, a physics body — is a node that can be composed into a tree of other nodes. It supports both 2D and 3D development, ships its own beginner-friendly scripting language (GDScript), and has no royalties, revenue splits, or paid tiers of any kind.
 

@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# JavaScript
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">JavaScript</h1>
+</div>
 
 Welcome! This is a self-paced course for learning JavaScript, the dynamic, multi-paradigm programming language of the web — running in every browser and, via Node.js, on servers, desktops, and mobile devices too.
 

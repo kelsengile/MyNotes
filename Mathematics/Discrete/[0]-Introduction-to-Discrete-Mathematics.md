@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Discrete Mathematics
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e9.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Discrete Mathematics</h1>
+</div>
 
 This note covers discrete math — the branch of mathematics dealing with countable, distinct values rather than continuous ones. It's arguably the most directly applicable math for computer science, underpinning logic, proofs, graph theory, and the analysis of algorithms.
 

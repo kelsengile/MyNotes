@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Cybersecurity
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Cybersecurity</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Cybersecurity, the practice of protecting systems, networks, and data from unauthorized access, misuse, and attack, from both an offensive and a defensive perspective.
 

@@ -1,6 +1,9 @@
 [⬅ Back to Operating Systems Fundamentals](../[0]-Introduction-to-OperatingSystems.md)
 
-# Introduction to Linux
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Linux</h1>
+</div>
 
 Linux is a free, open-source operating system kernel that, paired with a collection of surrounding software, forms complete operating systems called **distributions** (or "distros") — Ubuntu, Fedora, Debian, and Arch among the most common. Rather than being a single product controlled by one company, Linux is community-driven and endlessly customizable, which has made it the dominant operating system on servers, embedded devices, and much of the software development world, even though it holds a smaller share of everyday desktop computers.
 

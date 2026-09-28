@@ -1,7 +1,9 @@
 [⬅ Back to VersionControl](../VersionControl/[0]-Introduction-to-VersionControl.md)
 
-# Git
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Git</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Git, the version control system used by most software teams to track changes to code and collaborate without stepping on each other's work.
 

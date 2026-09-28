@@ -1,10 +1,15 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# NuGet
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuget/nuget-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">NuGet</h1>
+</div>
 
 NuGet is the official package manager for .NET. It installs libraries into a project, tracks them in the project file, and restores them automatically whenever the project is built.
 
 Download [https://learn.microsoft.com/nuget/install-nuget-client-tools](https://learn.microsoft.com/nuget/install-nuget-client-tools)
+
 ---
 
 ## What Is NuGet?

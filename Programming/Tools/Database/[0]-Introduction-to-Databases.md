@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to Databases
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Database</h1>
+</div>
+
 
 A database is an organized collection of data that can be stored, retrieved, updated, and managed reliably over time. Databases sit underneath almost every application you use — they remember your login, hold your shopping cart, store every message you've ever sent. This Topic builds up the fundamental, tool-agnostic concepts behind databases from the ground up: what they are, how data is modeled and queried, how systems keep that data safe and fast, and how databases scale in the real world.
 

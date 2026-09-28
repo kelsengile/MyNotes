@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Scripts
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Scripts</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Scripting, the practice of writing small, fast programs to automate tasks, glue systems together, and manage machines from the command line.
 

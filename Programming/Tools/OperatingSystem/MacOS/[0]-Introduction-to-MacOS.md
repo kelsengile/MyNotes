@@ -1,6 +1,9 @@
 [⬅ Back to Operating Systems Fundamentals](../[0]-Introduction-to-OperatingSystems.md)
 
-# Introduction to macOS
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">MacOSs</h1>
+</div>
 
 macOS is Apple's desktop and laptop operating system, built on a Unix foundation and designed to work exclusively on Apple's own Mac hardware. It's known for its polished, consistent interface, tight integration with other Apple devices (iPhone, iPad, Apple Watch), and a Unix-based terminal underneath that makes it a popular choice among software developers despite being a consumer-focused, closed-hardware system.
 

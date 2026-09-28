@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to Game Engines
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Game Engines</h1>
+</div>
+
 
 A game engine is a software framework that gives developers the tools to build games without reinventing the wheel every time — rendering, physics, input, audio, and scripting are all provided as reusable systems that a team builds their game logic on top of. This Topic builds up the fundamental, tool-agnostic concepts behind game engines from the ground up: what an engine actually is, how it organizes a game world, how it renders and simulates that world, and how real games are built, optimized, and shipped using one.
 

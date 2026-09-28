@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to Operating Systems
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Operating Systems</h1>
+</div>
+
 
 An operating system (OS) is the software layer that sits between raw computer hardware and the applications people actually use — it manages the CPU, memory, storage, and I/O devices, and gives programs a consistent, safe way to use them without every application having to speak directly to hardware. This Topic builds up the fundamental, system-agnostic concepts behind operating systems from the ground up: what an OS actually does, how it manages processes and memory, how it handles storage and devices, and how modern systems layer in security and virtualization.
 

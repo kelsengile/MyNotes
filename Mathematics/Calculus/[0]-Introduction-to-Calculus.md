@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Calculus
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4c8.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Calculus</h1>
+</div>
 
 This note covers the essentials of calculus — limits, derivatives, and integrals — along with a look at where calculus shows up directly in computer science, especially optimization and machine learning.
 

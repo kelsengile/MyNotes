@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Mobile Development
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Mobile Development</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Mobile Development, the practice of building apps that run on phones and tablets, whether natively per-platform or across platforms with a shared codebase.
 

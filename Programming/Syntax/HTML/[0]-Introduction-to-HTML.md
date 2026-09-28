@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# HTML
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">HTML</h1>
+</div>
 
 Welcome! This is a self-paced course for learning HTML (HyperText Markup Language), the foundational markup language that structures and gives meaning to every page on the web.
 

@@ -1,6 +1,9 @@
 [⬅ Back to Container Fundamentals](../[0]-Introduction-to-Containers.md)
 
-# Introduction to Kubernetes
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Kubernetes</h1>
+</div>
 
 Kubernetes (often abbreviated **K8s**) is the industry-standard tool for running containers in production, at scale, across many machines. Where Docker focuses on building and running a container on a single machine, Kubernetes focuses on a much harder problem: keeping hundreds or thousands of containers running reliably across a whole fleet of servers, automatically restarting them when they fail, scaling them up or down based on demand, and rolling out updates without downtime.
 

@@ -1,6 +1,9 @@
 [⬅ Back to Game Engine Fundamentals](../[0]-Introduction-to-GameEngines.md)
 
-# Introduction to Roblox Studio
+<div align="center">
+  <img src="https://cdn.simpleicons.org/robloxstudio" width="50"/><br>
+  <h1 style="margin-top: 0;">Roblox Studio</h1>
+</div>
 
 Roblox Studio is the development environment used to build, script, test, and publish experiences on the Roblox platform. Unlike a general-purpose engine you export a standalone game from, Roblox Studio is tied to a specific platform: everything you build runs inside the Roblox client, is scripted in **Luau** (Roblox's typed dialect of Lua), and is instantly reachable by Roblox's existing audience of players once published.
 

@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Web Development
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Web Development</h1>
+</div>
 
 Welcome! This is a self-paced course for learning Web Development, the practice of building websites and web applications that run in a browser and, often, talk to a server behind the scenes.
 

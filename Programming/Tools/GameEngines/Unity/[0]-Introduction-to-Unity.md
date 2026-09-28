@@ -1,6 +1,9 @@
 [⬅ Back to Game Engine Fundamentals](../[0]-Introduction-to-GameEngines.md)
 
-# Introduction to Unity
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Unity</h1>
+</div>
 
 Unity is a widely-used, general-purpose game engine built around a **GameObject + Component** architecture, where behavior is assembled by attaching small, reusable components to objects in a scene rather than writing one large class per object. It uses **C#** as its scripting language, supports both 2D and 3D development, and exports to more platforms than almost any other engine — desktop, mobile, console, and web among them.
 

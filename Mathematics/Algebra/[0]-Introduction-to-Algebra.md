@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Algebra
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f522.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Algebra</h1>
+</div>
 
 This note covers the algebra foundations that show up throughout computer science — from analyzing algorithms to understanding machine learning models. It starts with core equation-solving and builds up to matrices and vectors, the language of linear algebra.
 

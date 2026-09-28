@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Python
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Python</h1>
+</div>
 
 
 Welcome! This is a self-paced course for learning Python, a general-purpose programming language known for its readability and versatility across web development, automation, data science, and more.

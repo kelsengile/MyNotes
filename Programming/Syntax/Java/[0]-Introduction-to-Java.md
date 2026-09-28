@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Java
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Java</h1>
+</div>
 
 
 Welcome! This is a self-paced course for learning Java, a general-purpose, class-based, object-oriented programming language known for its "write once, run anywhere" portability, strong typing, and widespread use across enterprise systems, Android apps, and large-scale backend services.

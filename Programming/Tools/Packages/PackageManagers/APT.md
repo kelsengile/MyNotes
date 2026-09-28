@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# APT (Advanced Package Tool)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">APT (Advanced Package Tool)</h1>
+</div>
 
 APT is the default package manager for Debian, Ubuntu, and their derivatives. It manages `.deb` packages, resolves dependencies automatically, and talks to remote repositories so you don't have to track any of that by hand.
 

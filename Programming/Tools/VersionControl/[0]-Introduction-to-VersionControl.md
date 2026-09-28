@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to Version Control
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Version Control</h1>
+</div>
 
 Version control is the practice of tracking and managing changes to files over time, so that anyone can see what changed, when, why, and by whom — and, when needed, go back to any earlier state. This Topic builds up the fundamental, tool-agnostic concepts behind version control from the ground up: what a repository actually is, how changes are tracked and combined, how teams collaborate without stepping on each other's work, and how history is inspected, corrected, and maintained over the life of a project.
 

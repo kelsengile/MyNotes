@@ -1,6 +1,9 @@
 [⬅ Back to README](../README.md)
 
-# Introduction to Programming Fundamentals
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Programming Fundamentals</h1>
+</div>
 
 This note kicks off the "Programming Fundamentals" section — the core building blocks that show up in almost every language: variables, data types, control flow, functions, and basic problem-solving patterns.
 
