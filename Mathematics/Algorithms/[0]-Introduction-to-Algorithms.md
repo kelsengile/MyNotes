@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Algorithms
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9ee.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Algorithms</h1>
+</div>
 
 This note covers the major families of algorithms you'll reuse across almost every programming problem — sorting, searching, and the core problem-solving strategies (greedy, divide-and-conquer, dynamic programming, backtracking) built on top of them. It assumes familiarity with the Data Structures and Complexity topics.
 

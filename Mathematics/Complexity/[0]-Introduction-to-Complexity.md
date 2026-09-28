@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Complexity
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e0.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Complexity</h1>
+</div>
 
 This note covers how to measure and reason about the efficiency of an algorithm — independent of the machine it runs on. It builds directly on the DSA Fundamentals topic and is the toolkit you'll use to evaluate every data structure and algorithm that follows.
 

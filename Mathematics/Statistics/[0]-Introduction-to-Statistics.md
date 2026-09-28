@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Statistics
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4ca.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Statistics</h1>
+</div>
 
 This note covers statistics and probability from the ground up — how to describe data, reason about uncertainty, and draw conclusions from samples. It closes with a look at where statistics shows up directly in data science and machine learning.
 

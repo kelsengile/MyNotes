@@ -1,6 +1,9 @@
 [⬅ Back to README](../../README.md)
 
-# Introduction to Data Structures
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f5c2.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Introduction to Data Structures</h1>
+</div>
 
 This note walks through the core data structures every programmer should know — how each one organizes data in memory, what operations it supports, and what those operations cost. It assumes you're comfortable with the ideas from the DSA Fundamentals and Complexity topics.
 
