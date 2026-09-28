@@ -1,7 +1,9 @@
 [⬅ Back to Database Fundamentals](../[0]-Introduction-to-Databases.md)
 
-# Introduction to Redis
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Redis</h1>
+</div>
 Redis is an in-memory **key-value store**, prized for being extremely fast since it keeps its entire dataset in RAM rather than reading from disk on every request. It's rarely used as an application's only database — instead, it typically sits alongside one, handling caching, session storage, real-time counters, message queues, and anything else that needs sub-millisecond speed. This Topic builds on the key-value concepts from Database Fundamentals and covers Redis's data structures, persistence options, and the patterns that make it such a common companion to relational and document databases alike.
 
 Download: [redis.io/docs/latest/operate/oss_and_stack/install](https://redis.io/docs/latest/operate/oss_and_stack/install/)

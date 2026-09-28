@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Homebrew
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/homebrew/homebrew-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Homebrew</h1>
+</div>
 
 Homebrew ("brew") is a package manager for macOS and Linux. It installs software into its own directory rather than system folders, which keeps things tidy and means most installs don't need `sudo`.
 

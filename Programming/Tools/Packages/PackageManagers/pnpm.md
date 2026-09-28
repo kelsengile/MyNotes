@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# pnpm
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">pnpm</h1>
+</div>
 
 pnpm is a fast, disk-space-efficient package manager for JavaScript. It reads and writes the same `package.json` format as npm and Yarn, but installs dependencies differently under the hood to save space and enforce stricter dependency rules.
 

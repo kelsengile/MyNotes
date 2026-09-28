@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Chocolatey
+<div align="center">
+  <img src="https://cdn.simpleicons.org/chocolatey" width="50"/><br>
+  <h1 style="margin-top: 0;">Chocolatey</h1>
+</div>
 
 Chocolatey is a popular third-party package manager for Windows. It wraps installers (`.exe`, `.msi`) and scripts into a single package format, so software can be installed and updated from the command line like on Linux or macOS.
 

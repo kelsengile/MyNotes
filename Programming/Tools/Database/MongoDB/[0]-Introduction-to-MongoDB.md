@@ -1,6 +1,9 @@
 [⬅ Back to Database Fundamentals](../[0]-Introduction-to-Databases.md)
 
-# Introduction to MongoDB
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">MongoDB</h1>
+</div>
 
 MongoDB is the most widely used **document database**, storing data as flexible, JSON-like documents instead of rigid rows and columns. It's built for applications where the shape of the data changes over time, where nested and hierarchical structures are common, and where developers want their database records to look a lot like the objects their code already works with. This Topic applies the NoSQL concepts introduced in Database Fundamentals directly to MongoDB — its documents, queries, aggregation pipeline, and how it scales across servers.
 

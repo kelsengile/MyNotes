@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Packages
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Packages</h1>
+</div>
+
 
 Welcome! This is a self-paced course for learning packages and dependency management — the systems that let developers reuse, share, and install code instead of writing everything from scratch.
 

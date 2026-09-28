@@ -1,6 +1,9 @@
 [⬅ Back to Container Fundamentals](../[0]-Introduction-to-Containers.md)
 
-# Introduction to Docker
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Docker</h1>
+</div>
 
 Docker is the tool that made containers practical for everyday development. It provides everything needed to build a container image, run it as a container, and share it with others — all through a small set of commands and a simple text file called a `Dockerfile`. If the previous Topic taught you *what* a container is, this Topic teaches you how to actually build and run one using the industry's most common tool for doing so.
 

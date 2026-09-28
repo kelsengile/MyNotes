@@ -1,6 +1,10 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to IDEs
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">IDE (Integrated Development Environment)</h1>
+</div>
+
 
 An IDE (Integrated Development Environment) bundles the tools a developer needs to write, run, and debug code into a single application — a code editor, compiler or interpreter hooks, a debugger, and often build tools and version control, all working together instead of being stitched together by hand. This Topic builds up the fundamental, tool-agnostic concepts behind IDEs: what one actually is, how it's organized, how it helps you write and run code, and how to use one efficiently day to day.
 

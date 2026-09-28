@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Gradle
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Gradle</h1>
+</div>
 
 Gradle is a build automation tool for Java, Kotlin, and Android projects that also manages dependencies. Rather than a single command-line install, dependencies are declared in a build script and Gradle downloads and wires them up as part of building your project.
 

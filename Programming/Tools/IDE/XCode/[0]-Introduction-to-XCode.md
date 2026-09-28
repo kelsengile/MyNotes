@@ -1,7 +1,9 @@
 [⬅ Back to IDE Fundamentals](../[0]-Introduction-to-IDEs.md)
 
-# Introduction to Xcode
-
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">XCode</h1>
+</div>
 Xcode is Apple's official integrated development environment for building software across every Apple platform — iOS, iPadOS, macOS, watchOS, and tvOS. It bundles the Swift and Objective-C compilers, Interface Builder (for UIKit) and SwiftUI previews, simulators for every Apple device, and the signing and submission tools needed to ship an app to the App Store, all in one editor that only runs on macOS.
 
 This Topic covers Xcode's interface and project structure, how Swift-based projects are organized, the two ways of building UI (UIKit's Storyboards and the newer, declarative SwiftUI), and the build, debug, test, and distribution pipeline that's unique to developing for Apple's platforms.

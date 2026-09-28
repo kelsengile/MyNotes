@@ -1,6 +1,9 @@
 [⬅ Back to Game Engine Fundamentals](../[0]-Introduction-to-GameEngines.md)
 
-# Introduction to Unreal Engine
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Unreal Engine</h1>
+</div>
 
 Unreal Engine, developed by Epic Games, is known for its high-fidelity, high-performance rendering and is widely used in AAA game production as well as film and architectural visualization. It's built around an **Actor + Component** architecture, and uniquely offers two first-class ways to write behavior side by side: **C++** for performance-critical systems, and **Blueprints**, a visual scripting system that lets logic be built by connecting nodes instead of writing text-based code.
 

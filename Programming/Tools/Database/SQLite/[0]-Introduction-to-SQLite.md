@@ -1,6 +1,9 @@
 [⬅ Back to Database Fundamentals](../[0]-Introduction-to-Databases.md)
 
-# Introduction to SQLite
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">SQLite</h1>
+</div>
 
 SQLite is the world's most widely deployed database engine, even though most people never interact with it directly. It's not a server you install and connect to — it's a small C library that gets linked straight into an application, reading and writing an entire database to a single ordinary file on disk. That makes it the engine quietly running inside web browsers, mobile apps, and countless embedded devices. This Topic builds on the relational fundamentals from Database Fundamentals and shows how they look in SQLite: its file-based, serverless design, its unusually flexible type system, and the tools and PRAGMAs used to configure and tune it.
 

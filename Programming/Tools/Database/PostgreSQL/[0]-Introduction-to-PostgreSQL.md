@@ -1,6 +1,9 @@
 [⬅ Back to Database Fundamentals](../[0]-Introduction-to-Databases.md)
 
-# Introduction to PostgreSQL
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">PostgreSQL</h1>
+</div>
 
 PostgreSQL (often called "Postgres") is a powerful, open-source relational database known for strictly following the SQL standard while also extending it with advanced features rarely found elsewhere — native arrays, a rich JSON type, full-text search, and a plugin architecture that lets it be extended into new kinds of database entirely. This Topic builds on the relational fundamentals from Database Fundamentals and shows how they're expressed in PostgreSQL, along with the features that make it a favorite for developers who need more than basic tables and columns.
 

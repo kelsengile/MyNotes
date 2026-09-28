@@ -1,6 +1,9 @@
 [⬅ Back to README](../../../README.md)
 
-# Introduction to Artificial Intelligence
+<div align="center">
+  <img src="https://cdn.simpleicons.org/claudecode" width="50"/><br>
+  <h1 style="margin-top: 0;">Artificial Intelligence</h1>
+</div>
 
 Artificial Intelligence (AI) is the field of building systems that can perform tasks which normally require human intelligence — understanding language, recognizing patterns, making decisions, and learning from experience. This Topic builds up the fundamental, tool-agnostic concepts behind AI from the ground up: what intelligence means for a machine, how machines learn from data, how neural networks and deep learning work, and how these ideas power the modern AI applications we use today.
 

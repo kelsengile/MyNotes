@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Yarn
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Yarn</h1>
+</div>
 
 Yarn is a package manager for JavaScript, built as a faster and more reliable alternative to npm. It reads and writes the same `package.json` format, so most projects can switch between the two.
 

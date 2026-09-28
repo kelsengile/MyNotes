@@ -1,6 +1,10 @@
+
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
 
-# Cargo
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Cargo</h1>
+</div>
 
 Cargo is Rust's official package manager and build tool. It downloads dependencies ("crates"), compiles your project, and manages versioning through a lockfile — all from one command.
 

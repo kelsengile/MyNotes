@@ -1,6 +1,11 @@
+
 [⬅ Back to Package Managers](../[0]-Introduction-to-Packages.md)
 
-# npm
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">npm</h1>
+</div>
+
  Packages Fundamentals
 npm (Node Package Manager) is the default package manager for JavaScript and Node.js. It installs libraries into a project, tracks them in `package.json`, and ships bundled with Node itself.
 
@@ -62,3 +67,4 @@ npm run start
 Creates a new project, installs Express as a dependency, adds nodemon as a dev tool, then runs the project's start script.
 
 [⬅ Back to Packages Fundamentals](../[0]-Introduction-to-Packages.md)
+

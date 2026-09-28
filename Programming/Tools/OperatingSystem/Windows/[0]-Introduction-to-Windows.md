@@ -1,6 +1,9 @@
 [⬅ Back to Operating Systems Fundamentals](../[0]-Introduction-to-OperatingSystems.md)
 
-# Introduction to Windows
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows11/windows11-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">Windows</h1>
+</div>
 
 Windows is Microsoft's operating system and the most widely used desktop OS in the world, running on hardware from a huge range of manufacturers rather than a single vendor. Its broad hardware compatibility, long history of backward compatibility, and dominance in business and enterprise environments have made it the default choice for a large share of the world's PCs, gaming machines, and corporate workstations.
 

@@ -1,6 +1,9 @@
 [⬅ Back to IDE Fundamentals](../[0]-Introduction-to-IDEs.md)
 
-# Introduction to JetBrains IDEs
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" width="50"/><br>
+  <h1 style="margin-top: 0;">JetBrains IDE</h1>
+</div>
 
 JetBrains makes a family of language-specific integrated development environments — IntelliJ IDEA (Java/Kotlin), PyCharm (Python), WebStorm (JavaScript/TypeScript), Rider (.NET), CLion (C/C++), GoLand (Go), and others — that all share the same underlying platform, interface, and core feature set. Learning one JetBrains IDE transfers almost directly to the others, since the keymaps, tool windows, and refactoring engine look and behave the same regardless of which language you're working in.
 
