@@ -6,10 +6,24 @@ Thanks for your interest in contributing! This repository is for **educational p
 MyNotes/
 ├── 📁 Fundamentals
 ├── 📁 Mathematics
-├── 📁 Programmming
+│   ├── 📁 Algebra
+│   ├── 📁 Algorithms
+│   ├── 📁 Calculus
+│   ├── 📁 Complexity
+│   ├── 📁 Data Structures
+│   ├── 📁 Discrete
+│   └── 📁 Statistics
+├── 📁 Programming
 │   ├── 📁 Specializations
 │   ├── 📁 Syntax
 │   └── 📁 Tools
+├── 📁 Sandbox
+│   ├── 📁 Archive
+│   ├── 📁 Experiments
+│   ├── 📁 Prototypes
+│   ├── 📁 Snippets
+│   ├── 📁 Templates
+│   ├── 📁 Utilities
 ├── 🚫 .gitignore
 ├── 📝 CONTRIBUTING.md
 ├── 📝 IDEAS.md
