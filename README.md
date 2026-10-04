@@ -107,6 +107,8 @@ This repository is written for educational purposes and is open for anyone to re
 </tr>
 <tr>
 <td align="center" width="25%"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/><br>TypeScript</a></td>
+<td align="center" width="25%"><a href="./Programming/Syntax/GDScript/%5B0%5D-Introduction-to-GDScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="40" title="GDScript"/><br>GDScript</a></td>
+<td align="center" width="25%"><a href="./Programming/Syntax/Lua/%5B0%5D-Introduction-to-Lua.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" width="40" title="Lua"/><br>Lua</a></td>
 </tr>
 </table>
 
