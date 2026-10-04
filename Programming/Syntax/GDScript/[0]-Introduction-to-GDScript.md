@@ -399,9 +399,3 @@ GDScript lets you:
     46.4 Exporting for Android and iOS  
     46.5 Resource Packs and Updates  
     46.6 Publishing on itch.io and Steam  
-47. **[Project Walkthroughs (Capstones)](./[47]-Project-Walkthroughs.md)**  
-    47.1 Project 1: Pong  
-    47.2 Project 2: Top-Down Shooter  
-    47.3 Project 3: 2D Platformer with Collectibles  
-    47.4 Project 4: Menu, Settings, and Save System  
-    47.5 Project 5: Simple 3D Character Controller
