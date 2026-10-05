@@ -30,7 +30,7 @@ Lua lets you:
 
 **Getting Started**  
 
-1. **[Installing Lua & First-Time Setup](./[1]-Installation-and-Setup.md)**  
+1. **[Installing Lua & First-Time Setup](./[1]-Installation-And-Setup.md)**  
     1.1 What You Need Before You Start  
     1.2 Installing Lua on Windows  
     1.3 Installing Lua on macOS  
@@ -47,7 +47,7 @@ Lua lets you:
     2.5 Running Code Inside Other Programs (LÖVE, Neovim, Roblox)  
     2.6 Online Playgrounds  
     2.7 Which Should You Use?  
-3. **[Package Management with LuaRocks](./[3]-LuaRocks-and-Packages.md)**  
+3. **[Package Management with LuaRocks](./[3]-LuaRocks-And-Packages.md)**  
     3.1 Why Package Management Matters  
     3.2 Installing LuaRocks  
     3.3 Installing, Updating, and Removing Rocks  
@@ -57,7 +57,7 @@ Lua lets you:
 
 **Core Syntax**  
 
-4. **[Variables & Basic Data Types](./[4]-Variables-and-Data-Types.md)**  
+4. **[Variables & Basic Data Types](./[4]-Variables-And-Data-Types.md)**  
     4.1 What is a Variable?  
     4.2 Naming Rules, Reserved Words & Conventions  
     4.3 Comments (`--` and `--[[ ]]`)  
@@ -68,7 +68,7 @@ Lua lets you:
     4.8 Type Coercion and Conversion (`tonumber()`, `tostring()`)  
     4.9 Multiple Assignment and Swapping Values  
     4.10 Constants (`<const>`) and Attributes  
-5. **[Numbers, Strings & Booleans](./[5]-Numbers-Strings-and-Booleans.md)**  
+5. **[Numbers, Strings & Booleans](./[5]-Numbers-Strings-And-Booleans.md)**  
     5.1 Integers and Floats (Lua 5.3+)  
     5.2 Arithmetic with Numbers  
     5.3 Number Formats (Hex, Scientific Notation)  
@@ -77,7 +77,7 @@ Lua lets you:
     5.6 String Immutability and Interning  
     5.7 Booleans and Truthiness (Only `nil` and `false` are False)  
     5.8 `nil`: The Absence of a Value  
-6. **[Operators & Expressions](./[6]-Operators-and-Expressions.md)**  
+6. **[Operators & Expressions](./[6]-Operators-And-Expressions.md)**  
     6.1 Arithmetic Operators (`+ - * / // % ^`)  
     6.2 Relational Operators (`== ~= < > <= >=`)  
     6.3 Logical Operators (`and`, `or`, `not`) and Short-Circuiting  
@@ -115,7 +115,7 @@ Lua lets you:
     9.8 Anonymous Functions  
     9.9 Recursion and Proper Tail Calls  
     9.10 Method Syntax (`:` vs `.`)  
-10. **[Scope, Closures & Upvalues](./[10]-Scope-and-Closures.md)**  
+10. **[Scope, Closures & Upvalues](./[10]-Scope-And-Closures.md)**  
     10.1 Block Scope and `do ... end`  
     10.2 Lexical Scoping  
     10.3 Global Variables and the `_G` Table  
@@ -175,7 +175,7 @@ Lua lets you:
     15.5 Matrices and Grids  
     15.6 Sparse Arrays  
     15.7 String Buffers (`table.concat`)  
-16. **[Metatables & Metamethods](./[16]-Metatables-and-Metamethods.md)**  
+16. **[Metatables & Metamethods](./[16]-Metatables-And-Metamethods.md)**  
     16.1 What is a Metatable?  
     16.2 `setmetatable()` and `getmetatable()`  
     16.3 `__index` (Tables and Functions)  
@@ -190,7 +190,7 @@ Lua lets you:
 
 **Object-Oriented Programming**  
 
-17. **[Objects & Classes with Tables](./[17]-Objects-and-Classes.md)**  
+17. **[Objects & Classes with Tables](./[17]-Objects-And-Classes.md)**  
     17.1 Objects as Tables with Functions  
     17.2 The `self` Parameter and Colon Syntax  
     17.3 Building a Class with `__index`  
@@ -198,7 +198,7 @@ Lua lets you:
     17.5 Instance Fields vs Class Fields  
     17.6 Methods and Class-Level Functions  
     17.7 `__tostring` and Other Metamethods on Classes  
-18. **[Inheritance & Polymorphism](./[18]-Inheritance-and-Polymorphism.md)**  
+18. **[Inheritance & Polymorphism](./[18]-Inheritance-And-Polymorphism.md)**  
     18.1 What is Inheritance in Lua?  
     18.2 Prototype-Based Inheritance  
     18.3 Subclassing with Metatable Chains  
@@ -207,14 +207,14 @@ Lua lets you:
     18.6 Polymorphism and Duck Typing  
     18.7 A Reusable `class()` Helper  
     18.8 Popular Class Libraries (`middleclass`, `30log`, `classic`)  
-19. **[Encapsulation & Privacy](./[19]-Encapsulation-and-Privacy.md)**  
+19. **[Encapsulation & Privacy](./[19]-Encapsulation-And-Privacy.md)**  
     19.1 What is Encapsulation in Lua?  
     19.2 Naming Conventions (`_private`)  
     19.3 Privacy with Closures  
     19.4 Privacy with Proxy Tables  
     19.5 Read-Only Objects  
     19.6 Interfaces via Duck Typing  
-20. **[Multiple Inheritance & Mixins](./[20]-Multiple-Inheritance-and-Mixins.md)**  
+20. **[Multiple Inheritance & Mixins](./[20]-Multiple-Inheritance-And-Mixins.md)**  
     20.1 Multiple Inheritance with `__index` Functions  
     20.2 Method Lookup Order  
     20.3 Mixins and Composition  
