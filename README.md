@@ -116,10 +116,10 @@ This repository is written for educational purposes and is open for anyone to re
 
 ---
 
-**Contributing**
+### Contributing
  
 Contributions are welcome. Before opening a pull request, please read [CONTRIBUTING.md](./CONTRIBUTING.md) for file naming, structure, and content guidelines, and check existing lessons to avoid duplicating a topic that's already covered.
 
-**Why This Exists**
+### Why This Exists
  
 Notes scattered across apps, tabs, and notebooks are easy to lose. This repository keeps everything in one searchable, versioned, and backed-up place — structured enough to teach from, and personal enough to keep growing indefinitely.

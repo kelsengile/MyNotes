@@ -4,11 +4,11 @@ MyNotes is an educational repository that is open for anyone to read, use, or co
 
 ---
 
-**Our Pledge**
+### Our Pledge
 
 We pledge to make participation in this project a respectful, harassment-free experience for everyone, regardless of age, background, identity, experience level, nationality, or personal beliefs. Beginners are especially welcome, since this repository exists to help people learn.
 
-**Our Standards**
+### Our Standards
 
 Examples of behavior that contributes to a positive environment:
 - Being respectful and considerate toward others
@@ -26,19 +26,19 @@ Examples of unacceptable behavior:
 - Knowingly submitting false, misleading, or plagiarized content
 - Any other conduct that would reasonably be considered inappropriate in a professional or educational setting
 
-**Scope**
+### Scope
 
 This Code of Conduct applies in all project spaces, including issues, pull requests, discussions, and comments on the GitHub repository. It also applies when an individual is representing the project in public spaces.
 
-**Responsibilities of Maintainers**
+### Responsibilities of Maintainers
 
 Maintainers are responsible for clarifying and enforcing these standards. They have the right and responsibility to remove, edit, or reject comments, commits, lessons, issues, and other contributions that do not align with this Code of Conduct, and to temporarily or permanently ban any contributor for behavior they deem inappropriate, threatening, or harmful.
 
-**Reporting**
+### Reporting
 
 If you experience or witness unacceptable behavior, please report it to the maintainer at **[kelsengile.dev@gmail.com]**. Reports will be reviewed promptly and fairly, and the privacy of the reporter will be respected.
 
-**Enforcement**
+### Enforcement
 
 Depending on severity, maintainers may respond with one or more of the following:
 
@@ -46,7 +46,7 @@ Depending on severity, maintainers may respond with one or more of the following
 2. **Temporary Ban** — A temporary restriction from interacting with the project.
 3. **Permanent Ban** — A permanent removal from all project spaces.
 
-**Attribution**
+### Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
 

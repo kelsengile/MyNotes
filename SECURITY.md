@@ -4,11 +4,11 @@ MyNotes is a collection of Markdown lessons, notes, and exercise files for educa
 
 ---
 
-**Supported Versions**
+### Supported Versions
 
 This repository has no versioned releases. Security fixes are applied to the current `main` branch.
 
-**Scope**
+### Scope
 
 Please report issues such as:
 - **Exposed secrets** — API keys, passwords, tokens, or private credentials committed in lessons, exercises, or history
@@ -20,7 +20,7 @@ Please report issues such as:
 
 Ordinary mistakes such as typos, broken links, or incorrect explanations are not security issues and should be reported through a regular GitHub issue.
 
-**Reporting a Vulnerability**
+### Reporting a Vulnerability
 
 For anything sensitive, such as an exposed credential or personal information, **please do not open a public issue**. Instead:
 
@@ -34,14 +34,14 @@ Please include:
 
 For low-risk concerns, such as an insecure example in a lesson, a public issue or pull request is fine.
 
-**What to Expect**
+### What to Expect
 
 1. **Acknowledgment** — Reports are acknowledged within a few days.
 2. **Assessment** — The issue is reviewed to confirm its scope and severity.
 3. **Resolution** — The content is corrected or removed. Exposed credentials should also be revoked or rotated by their owner.
 4. **Credit** — You will be credited for the report if you wish.
 
-**Guidelines for Contributors**
+### Guidelines for Contributors
 
 - Never commit secrets, API keys, tokens, or real personal data. Use clearly fake placeholder values in examples.
 - Test code snippets and exercise files before submitting, and make sure they do nothing harmful.
@@ -49,7 +49,7 @@ For low-risk concerns, such as an insecure example in a lesson, a public issue o
 - Cite and verify external links, and prefer reputable sources.
 - If you accidentally commit a secret, report it right away so it can be removed and revoked. Deleting it in a later commit is not enough, because it remains in the Git history.
 
-**Responsible Disclosure**
+### Responsible Disclosure
 
 Please allow reasonable time for a fix before sharing a problem publicly, and act in good faith. Researchers who follow this policy will not face action from the maintainer.
 
