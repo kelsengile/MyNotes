@@ -10,7 +10,7 @@ An IDE (Integrated Development Environment) bundles the tools a developer needs 
 
 These lessons intentionally avoid tying the concepts to any single IDE. Once you understand the fundamentals here, you'll be equipped to pick up Visual Studio Code, IntelliJ IDEA, Visual Studio, PyCharm, Xcode, or any other IDE and recognize the same ideas under different menus and shortcuts.
 
-## Why Study IDEs?
+### Why Study IDEs?
 
 - **It's where you'll spend most of your time** — as a developer, the IDE is the single tool you interact with more than any other, so getting comfortable with it pays off constantly.
 - **It makes you dramatically faster** — features like autocomplete, go-to-definition, and integrated debugging replace slow manual searching and guesswork.
@@ -25,17 +25,15 @@ Here's how a few popular IDEs compare at a glance:
 | JetBrains IDEs | Deep, language-specific tooling | Java, Python, C#, and more | Powerful refactoring and code analysis |
 | Xcode | Apple platform development | Swift, Objective-C | Tight integration with iOS/macOS tooling |
 
-## IDE's:
+### IDE's:
 
 The lessons above introduce the fundamentals of software development, programming, and development workflows. To see those concepts applied to specific, widely-used integrated development environments (IDEs) and code editors, continue on to:
 
-* **[JetBrains IDEs](./JetBrains%20IDE/[0]-Introduction-to-JetBrainsIDE.md)** — a family of powerful IDEs designed for different programming languages, offering features such as intelligent code completion, debugging, refactoring, and project management.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="./JetBrains%20IDE/%5B0%5D-Introduction-to-JetBrainsIDE.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" width="40" title="JetBrains IDEs"/><br>JetBrains IDEs</a></td> <td align="left" width="75%">A family of powerful IDEs designed for different programming languages, offering features such as intelligent code completion, debugging, refactoring, and project management.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./Visual%20Studio%20Code/%5B0%5D-Introduction-to-VisualStudioCode.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" title="Visual Studio Code"/><br>Visual Studio Code</a></td> <td align="left" width="75%">A lightweight and highly customizable source-code editor with extensive support for programming languages, extensions, debugging, and development workflows.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./XCode/%5B0%5D-Introduction-to-XCode.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="40" title="Xcode"/><br>Xcode</a></td> <td align="left" width="75%">Apple's integrated development environment for developing applications for platforms such as macOS, iOS, iPadOS, watchOS, and tvOS.</td> </tr> </table>
 
-* **[Visual Studio Code](./Visual%20Studio%20Code/[0]-Introduction-to-VisualStudioCode.md))** — a lightweight and highly customizable source-code editor with extensive support for programming languages, extensions, debugging, and development workflows.
+---
 
-* **[Xcode](./XCode/[0]-Introduction-to-XCode.md)** — Apple's integrated development environment for developing applications for platforms such as macOS, iOS, iPadOS, watchOS, and tvOS.
-
-## Table of Contents
+### Table of Contents
 
 **IDE Foundations**
 
