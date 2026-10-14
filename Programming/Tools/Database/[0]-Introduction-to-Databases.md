@@ -10,7 +10,7 @@ A database is an organized collection of data that can be stored, retrieved, upd
 
 These lessons intentionally avoid tying the concepts to any single product. Once you understand the fundamentals here, head over to the tool-specific folders below to see how those concepts are put into practice with real, widely-used tools.
 
-## Why Study Databases?
+### Why Study Databases?
 
 - **Every real application needs one** — user accounts, orders, messages, and settings all have to live somewhere reliable, and that "somewhere" is almost always a database.
 - **Bad data handling is expensive** — poor schema design or missing indexes can turn a snappy app into an unusably slow one as data grows.
@@ -26,22 +26,15 @@ Here's a preview of the main database families you'll compare in this course:
 | Key-Value | Simple key → value pairs | Caching, fast lookups | Redis |
 | Embedded | Single-file relational database | Local apps, prototypes | SQLite |
 
-## Database Tools:
+### Database Tools:
 
 The lessons above introduce the fundamentals of databases, data storage, querying, and database management systems. To see those concepts applied to specific, widely-used database tools and platforms, continue on to:
 
-* **[MySQL](https://dev.mysql.com/downloads/)** — a popular open-source relational database management system widely used for web applications, business systems, and general-purpose data storage.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="https://dev.mysql.com/downloads/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="MySQL"/><br>MySQL</a></td> <td align="left" width="75%">A popular open-source relational database management system widely used for web applications, business systems, and general-purpose data storage.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="https://www.postgresql.org/download/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" title="PostgreSQL"/><br>PostgreSQL</a></td> <td align="left" width="75%">A powerful open-source relational database system known for its advanced SQL capabilities, reliability, extensibility, and standards compliance.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="https://www.mongodb.com/try/download/community"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" title="MongoDB"/><br>MongoDB</a></td> <td align="left" width="75%">A popular NoSQL document database designed for flexible, scalable applications that store data in JSON-like documents.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="https://redis.io/docs/latest/operate/oss_and_stack/install/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="40" title="Redis"/><br>Redis</a></td> <td align="left" width="75%">An in-memory data store commonly used for caching, session management, real-time applications, queues, and high-performance data access.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="https://www.sqlite.org/download.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" title="SQLite"/><br>SQLite</a></td> <td align="left" width="75%">A lightweight, serverless relational database engine that stores an entire database in a single file, making it useful for embedded applications, development, and small-scale projects.</td> </tr> </table>
 
-* **[PostgreSQL](https://www.postgresql.org/download/)** — a powerful open-source relational database system known for its advanced SQL capabilities, reliability, extensibility, and standards compliance.
+---
 
-* **[MongoDB](https://www.mongodb.com/try/download/community)** — a popular NoSQL document database designed for flexible, scalable applications that store data in JSON-like documents.
-
-* **[Redis](https://redis.io/docs/latest/operate/oss_and_stack/install/)** — an in-memory data store commonly used for caching, session management, real-time applications, queues, and high-performance data access.
-
-* **[SQLite](https://www.sqlite.org/download.html)** — a lightweight, serverless relational database engine that stores an entire database in a single file, making it useful for embedded applications, development, and small-scale projects.
-
-
-## Table of Contents
+### Table of Contents
 
 **Basics**
    1. **[What Are Databases?](./[1]-What-Are-Databases.md)**  
