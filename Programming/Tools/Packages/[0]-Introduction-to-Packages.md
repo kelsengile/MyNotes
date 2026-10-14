@@ -8,7 +8,7 @@
 
 Welcome! This is a self-paced course for learning packages and dependency management — the systems that let developers reuse, share, and install code instead of writing everything from scratch.
 
-## What are Packages?
+### What are Packages?
 
 Packages let you:
 - Reuse code written by others instead of reinventing the wheel
@@ -17,7 +17,7 @@ Packages let you:
 - Share your own code so other developers can install and use it
 - Keep dependencies consistent across machines and teammates
 
-## Why Study Packages?
+### Why Study Packages?
 
 - **Almost no project starts from scratch** — modern software is built on thousands of small, reusable packages, so knowing how to find, install, and manage them is a daily skill.
 - **Dependency problems are inevitable** — version conflicts, broken installs, and "it works on my machine" issues are far easier to debug once you understand how package managers actually resolve dependencies.
@@ -32,37 +32,15 @@ A quick look at how a few major ecosystems name the same core pieces:
 | Python | pip / poetry | PyPI | requirements.txt / poetry.lock |
 | Rust | cargo | crates.io | Cargo.lock |
 
-## Package Managers:
+### Package Managers:
 
 The lessons above introduce the fundamentals of software packages, package management, dependencies, and installing third-party libraries. To see those concepts applied to popular package managers and package ecosystems, continue on to:
 
-* **[APT](./PackageManagers/APT.md)** — the default package manager for Debian-based Linux distributions, used to install, update, and remove software packages.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/APT.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" width="40" title="APT"/><br>APT</a></td> <td align="left" width="75%">The default package manager for Debian-based Linux distributions, used to install, update, and remove software packages.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Homebrew.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/homebrew/homebrew-original.svg" width="40" title="Homebrew"/><br>Homebrew</a></td> <td align="left" width="75%">A popular package manager for macOS and Linux that simplifies the installation and management of command-line tools and applications.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Winget.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" title="winget"/><br>winget</a></td> <td align="left" width="75%">The official Windows Package Manager, used to search for, install, upgrade, and remove applications from the command line.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Chocolatey.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f36b.svg" width="40" title="Chocolatey"/><br>Chocolatey</a></td> <td align="left" width="75%">A Windows package manager that provides command-line software installation, management, and automation.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Cargo.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="40" title="Cargo"/><br>Cargo</a></td> <td align="left" width="75%">Rust's package manager and build system, used to manage Rust projects, dependencies, compilation, and packages.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/npm.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original.svg" width="40" title="npm"/><br>npm</a></td> <td align="left" width="75%">The default package manager for Node.js, widely used to install and manage JavaScript and web-development packages.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/pip.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="pip"/><br>pip</a></td> <td align="left" width="75%">Python's standard package installer for downloading and managing Python libraries and dependencies.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Yarn.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" width="40" title="Yarn"/><br>Yarn</a></td> <td align="left" width="75%">A fast package manager for JavaScript projects that provides dependency management and project tooling.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/pnpm.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pnpm/pnpm-original.svg" width="40" title="pnpm"/><br>pnpm</a></td> <td align="left" width="75%">A fast and disk-efficient JavaScript package manager that uses a content-addressable store to manage dependencies.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Composer.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" width="40" title="Composer"/><br>Composer</a></td> <td align="left" width="75%">A dependency manager for PHP applications, commonly used to install and manage PHP libraries.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Nuget.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuget/nuget-original.svg" width="40" title="NuGet"/><br>NuGet</a></td> <td align="left" width="75%">The package manager for .NET, used to discover, install, and manage libraries and dependencies for .NET projects.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Maven.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="40" title="Maven"/><br>Maven</a></td> <td align="left" width="75%">A build and dependency management tool widely used for Java projects.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./PackageManagers/Gradle.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" width="40" title="Gradle"/><br>Gradle</a></td> <td align="left" width="75%">A flexible build automation and dependency management tool commonly used for Java, Kotlin, Android, and other JVM-based projects.</td> </tr> </table>
 
-* **[Homebrew](./PackageManagers/Homebrew.md)** — a popular package manager for macOS and Linux that simplifies the installation and management of command-line tools and applications.
+---
 
-* **[winget](./PackageManagers/Winget.md)** — the official Windows Package Manager, used to search for, install, upgrade, and remove applications from the command line.
-
-* **[Chocolatey](./PackageManagers/Chocolatey.md)** — a Windows package manager that provides command-line software installation, management, and automation.
-
-* **[Cargo](./PackageManagers/Cargo.md)** — Rust's package manager and build system, used to manage Rust projects, dependencies, compilation, and packages.
-
-* **[npm](./PackageManagers/npm.md)** — the default package manager for Node.js, widely used to install and manage JavaScript and web-development packages.
-
-* **[pip](./PackageManagers/pip.md)** — Python's standard package installer for downloading and managing Python libraries and dependencies.
-
-* **[Yarn](./PackageManagers/Yarn.md)** — a fast package manager for JavaScript projects that provides dependency management and project tooling.
-
-* **[pnpm](./PackageManagers/pnpm.md)** — a fast and disk-efficient JavaScript package manager that uses a content-addressable store to manage dependencies.
-
-* **[Composer](./PackageManagers/Composer.md)** — a dependency manager for PHP applications, commonly used to install and manage PHP libraries.
-
-* **[NuGet](./PackageManagers/Nuget.md)** — the package manager for .NET, used to discover, install, and manage libraries and dependencies for .NET projects.
-
-* **[Maven](./PackageManagers/Maven.md)** — a build and dependency management tool widely used for Java projects.
-
-* **[Gradle](./PackageManagers/Gradle.md)** — a flexible build automation and dependency management tool commonly used for Java, Kotlin, Android, and other JVM-based projects.
-
-## Table of Contents
+### Table of Contents
 
 1. **[What Is A Package?](./%5B1%5D-What-Is-a-Package.md)**  
    1.1 Overview  

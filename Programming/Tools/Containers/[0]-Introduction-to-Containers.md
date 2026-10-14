@@ -10,7 +10,7 @@ Containers are a way of packaging an application together with everything it nee
 
 These lessons intentionally avoid tying the concepts to any single tool. Once you understand the fundamentals here, head over to the tool-specific folders below to see how those concepts are put into practice with real, widely-used tools.
 
-## Why Learn Containers?
+### Why Learn Containers?
 
 - **"Works on my machine" stops being an excuse** — a container packages the app with its exact dependencies, so it runs the same way on your laptop, a teammate's laptop, and a production server.
 - **It's the default way modern apps ship** — most cloud-native companies deploy software as containers, so the skill shows up in almost every backend, DevOps, or platform role.
@@ -27,15 +27,15 @@ A quick sense of how a container stacks up against the alternative you may alrea
 | Isolation level | Very strong (separate kernel) | Process-level (shared kernel) |
 | Best for | Running different OSes on one machine | Packaging and shipping apps consistently |
 
-## Containers:
+### Containers:
 
 The lessons above teach the fundamentals that apply across the whole container ecosystem. To see those fundamentals applied to specific, industry-standard tools, continue on to:
 
-* **[Docker](https://docs.docker.com)** — build and run individual containers on a single machine; the most common starting point for learning containers hands-on.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="https://docs.docker.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" title="Docker"/><br>Docker</a></td> <td align="left" width="75%">Build and run individual containers on a single machine; the most common starting point for learning containers hands-on.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="https://kubernetes.io"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg" width="40" title="Kubernetes"/><br>Kubernetes</a></td> <td align="left" width="75%">Orchestrate many containers across many machines; the industry-standard tool for running containers in production.</td> </tr> </table>
 
-* **[Kubernetes](https://kubernetes.io)** — orchestrate many containers across many machines; the industry-standard tool for running containers in production.
+---
 
-## Table of Contents
+### Table of Contents
 
 **Basics**
 

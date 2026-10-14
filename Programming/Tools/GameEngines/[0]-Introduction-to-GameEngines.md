@@ -10,7 +10,7 @@ A game engine is a software framework that gives developers the tools to build g
 
 These lessons intentionally avoid tying the concepts to any single engine. Once you understand the fundamentals here, you'll be equipped to pick up Unity, Unreal, Godot, or any other engine and recognize the same ideas under different names and menus.
 
-## Why Study Game Engines?
+### Why Study Game Engines?
 
 - **You skip reinventing the basics** — rendering, physics, and input handling are hard problems that engines have already solved, letting you focus on the game itself.
 - **The concepts transfer between engines** — scene graphs, components, and game loops appear under different names in Unity, Unreal, and Godot alike, so learning one deeply makes the next one easier.
@@ -26,20 +26,15 @@ A quick look at how some popular engines differ, which you'll explore in depth l
 | Godot | GDScript / C# | Lightweight, open-source | Indie and 2D-focused projects |
 | Roblox Studio | Lua | Built-in platform and audience | Social and multiplayer experiences |
 
-## Game Engines:
+### Game Engines:
 
 The lessons above introduce the fundamentals of game development and interactive applications. To see those concepts applied to specific, industry-standard game engines and development platforms, continue on to:
 
-* **[Godot](./Godot/[0]-Introduction-to-Godot.md)** — a free and open-source game engine known for its lightweight workflow and flexible 2D and 3D development capabilities.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="./Godot/%5B0%5D-Introduction-to-Godot.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="40" title="Godot"/><br>Godot</a></td> <td align="left" width="75%">A free and open-source game engine known for its lightweight workflow and flexible 2D and 3D development capabilities.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./Roblox%20Studio/%5B0%5D-Introduction-to-RobloxStudio.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9f1.svg" width="40" title="Roblox Studio"/><br>Roblox Studio</a></td> <td align="left" width="75%">Roblox's development environment for creating, scripting, testing, and publishing interactive experiences on the Roblox platform.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./Unity/%5B0%5D-Introduction-to-Unity.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40" title="Unity"/><br>Unity</a></td> <td align="left" width="75%">A widely-used game engine supporting 2D and 3D development across multiple platforms.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./UnrealEngine/%5B0%5D-Introduction-to-UnrealEngine.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="40" title="Unreal Engine"/><br>Unreal Engine</a></td> <td align="left" width="75%">A powerful game engine known for high-fidelity 3D graphics, advanced rendering, and large-scale game development.</td> </tr> </table>
 
-* **[Roblox Studio](./Roblox%20Studio/[0]-Introduction-to-RobloxStudio.md)** — Roblox's development environment for creating, scripting, testing, and publishing interactive experiences on the Roblox platform.
+---
 
-* **[Unity](./Unity/[0]-Introduction-to-Unity.md)** — a widely-used game engine supporting 2D and 3D development across multiple platforms.
-
-* **[Unreal Engine](./UnrealEngine/[0]-Introduction-to-UnrealEngine.md)** — a powerful game engine known for high-fidelity 3D graphics, advanced rendering, and large-scale game development.
-
-
-## Table of Contents
+### Table of Contents
 
 **Engine Foundations**
    1. **[What Is a Game Engine?](./[1]-What-Is-A-Game-Engine.md)**  

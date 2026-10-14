@@ -9,7 +9,7 @@ Version control is the practice of tracking and managing changes to files over t
 
 These lessons use Git — by far the most widely used version control system today — to illustrate the concepts concretely, but the underlying ideas (commits, branches, merging, conflict resolution) apply broadly across other version control systems as well. Once you understand the fundamentals here, you'll be equipped to work confidently with Git on any team, and to recognize the same ideas in other tools under different names.
 
-## Why Study Version Control?
+### Why Study Version Control?
 
 - **Mistakes become recoverable** — with a full history of changes, you can always go back to a working version instead of losing work or panicking over a bad edit.
 - **It's how teams collaborate without chaos** — branching and merging let multiple people work on the same codebase at once without overwriting each other's changes.
@@ -25,14 +25,15 @@ Here's a quick comparison of the two broad approaches to version control you'll 
 | Speed of commits | Depends on server connection | Instant (local) |
 | Single point of failure | Yes (the central server) | No (every clone is a backup) |
 
-## Version Control Tools:
+### Version Control Tools:
 
 The lessons above introduce the fundamentals of version control, including tracking changes, managing different versions of files, and collaborating on software projects. To see these concepts applied to a widely-used version control system, continue on to:
 
-* **[Git](./Git/[0]-Introduction-to-Git.md)** — a distributed version control system used to track changes in source code, manage project history, create branches, and support collaboration among developers.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="./Git/%5B0%5D-Introduction-to-Git.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" title="Git"/><br>Git</a></td> <td align="left" width="75%">A distributed version control system used to track changes in source code, manage project history, create branches, and support collaboration among developers.</td> </tr> </table>
 
+---
 
-## Table of Contents
+### Table of Contents
 
 **Foundations**
 
