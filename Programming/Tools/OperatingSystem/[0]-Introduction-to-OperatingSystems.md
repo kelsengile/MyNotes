@@ -10,7 +10,7 @@ An operating system (OS) is the software layer that sits between raw computer ha
 
 These lessons intentionally avoid tying the concepts to any single operating system. Once you understand the fundamentals here, you'll be equipped to reason about Linux, Windows, macOS, or any other OS and recognize the same ideas under different names and implementations.
 
-## Why Study Operating Systems?
+### Why Study Operating Systems?
 
 - **Everything you run sits on top of one** — every app, browser tab, and background service depends on the OS to schedule it, give it memory, and let it talk to hardware.
 - **It explains "why is my computer slow"** — concepts like scheduling, memory paging, and disk I/O are the real reasons behind sluggish performance and frozen programs.
@@ -25,18 +25,15 @@ A quick look at the major OS families you'll compare later in this course:
 | Windows | Hybrid | Personal computing, gaming, business | Broad hardware and software compatibility |
 | macOS | Hybrid (XNU) | Creative and development work | Polish, tight hardware integration |
 
-## Operating Systems:
+### Operating Systems:
 
 The lessons above introduce the fundamentals of operating systems, including system resources, processes, memory management, file systems, and user interaction. To see these concepts applied to specific, widely-used operating systems, continue on to:
 
-* **[Linux](./Linux/[0]-Introduction-to-Linux.md)** — an open-source operating system known for its flexibility, security, customization, and widespread use in servers, development, and embedded systems.
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;"> <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr> <tr> <td align="center" width="25%" height="100"><a href="./Linux/%5B0%5D-Introduction-to-Linux.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" title="Linux"/><br>Linux</a></td> <td align="left" width="75%">An open-source operating system known for its flexibility, security, customization, and widespread use in servers, development, and embedded systems.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./MacOS/%5B0%5D-Introduction-to-MacOS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="40" title="MacOS"/><br>MacOS</a></td> <td align="left" width="75%">Apple's operating system designed for Mac computers, providing a polished user experience and strong integration with Apple's hardware and software ecosystem.</td> </tr> <tr> <td align="center" width="25%" height="100"><a href="./Windows/%5B0%5D-Introduction-to-Windows.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" title="Windows"/><br>Windows</a></td> <td align="left" width="75%">Microsoft's widely-used desktop operating system, known for broad hardware and software compatibility and its extensive use in personal, business, and gaming environments.</td> </tr> </table>
 
-* **[MacOS](./MacOS/[0]-Introduction-to-MacOS.md)** — Apple's operating system designed for Mac computers, providing a polished user experience and strong integration with Apple's hardware and software ecosystem.
+---
 
-* **[Windows](./Windows/[0]-Introduction-to-Windows.md))** — Microsoft's widely-used desktop operating system, known for broad hardware and software compatibility and its extensive use in personal, business, and gaming environments.
-
-
-## Table of Contents
+### Table of Contents
 
 **Foundations**
 
