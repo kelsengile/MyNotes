@@ -17,15 +17,6 @@ These lessons intentionally avoid tying the concepts to any single engine. Once 
 - **Game engines are used beyond games** — architecture walkthroughs, training simulations, and film previsualization all run on the same engine concepts you'll learn here.
 - **It's hands-on and visual** — few areas of software let you see the direct result of a concept (like a physics tweak or a lighting change) as immediately as a game engine does.
 
-A quick look at how some popular engines differ, which you'll explore in depth later:
-
-| Engine | Primary Language | Known For | Best Fit For |
-|---|---|---|---|
-| Unity | C# | Flexibility, huge asset store | 2D and 3D, mobile and indie games |
-| Unreal Engine | C++ / Blueprints | High-fidelity 3D graphics | AAA and visually demanding games |
-| Godot | GDScript / C# | Lightweight, open-source | Indie and 2D-focused projects |
-| Roblox Studio | Lua | Built-in platform and audience | Social and multiplayer experiences |
-
 ### Game Engines:
 
 The lessons above introduce the fundamentals of game development and interactive applications. To see those concepts applied to specific, industry-standard game engines and development platforms, continue on to:
