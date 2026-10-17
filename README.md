@@ -33,87 +33,88 @@ This repository is written for educational purposes and is open for anyone to re
 </table>
 
 <br>
-
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<table align="center" width="100%" cellpadding="0" cellspacing="0">
 <tr><th colspan="2" align="center">Programming</th></tr>
 <tr>
 <td valign="top" width="50%">
 
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<table align="center" width="100%" cellpadding="0" cellspacing="0">
 <tr><th colspan="3" align="center">Specializations</th></tr>
 <tr>
-<td align="center" width="33%"><a href="./Programming/Specializations/BlockChain/%5B0%5D-Introduction-to-BlockChain.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f517.svg" width="40" title="BlockChain"/><br>BlockChain</a></td>
-<td align="center" width="33%"><a href="./Programming/Specializations/Cloud/%5B0%5D-Introduction.-to-Cloud-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" title="Cloud"/><br>Cloud</a></td>
-<td align="center" width="33%"><a href="./Programming/Specializations/Cybersecurity/%5B0%5D-Introduction-to-Cybersecurity.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="40" title="Cybersecurity"/><br>Cybersecurity</a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/BlockChain/%5B0%5D-Introduction-to-BlockChain.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f517.svg" width="32" title="BlockChain"/><br><sub>BlockChain</sub></a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Cloud/%5B0%5D-Introduction.-to-Cloud-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="32" title="Cloud"/><br><sub>Cloud</sub></a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Cybersecurity/%5B0%5D-Introduction-to-Cybersecurity.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="32" title="Cybersecurity"/><br><sub>Cybersecurity</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="./Programming/Specializations/DataScience/%5B0%5D-Introduction-to-DataScience.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" title="DataScience"/><br>DataScience</a></td>
-<td align="center" width="33%"><a href="./Programming/Specializations/Desktop/%5B0%5D-Introduction-to-Desktop-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" width="40" title="Desktop"/><br>Desktop</a></td>
-<td align="center" width="33%"><a href="./Programming/Specializations/Game/%5B0%5D-Introduction-to-Game-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40" title="Game"/><br>Game</a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/DataScience/%5B0%5D-Introduction-to-DataScience.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="32" title="DataScience"/><br><sub>DataScience</sub></a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Desktop/%5B0%5D-Introduction-to-Desktop-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" width="32" title="Desktop"/><br><sub>Desktop</sub></a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Game/%5B0%5D-Introduction-to-Game-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="32" title="Game"/><br><sub>Game</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="33%"><a href="./Programming/Specializations/Mobile/%5B0%5D-Introduction-to-Mobile-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="40" title="Mobile"/><br>Mobile</a></td>
-<td align="center" width="33%"><a href="./Programming/Specializations/Scripts/%5B0%5D-Introduction-to-Scripts.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" title="Scripts"/><br>Scripts</a></td>
-<td align="center" width="33%"><a href="./Programming/Specializations/Websites/%5B0%5D-Introduction-to-Website-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="40" title="Websites"/><br>Websites</a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Mobile/%5B0%5D-Introduction-to-Mobile-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="32" title="Mobile"/><br><sub>Mobile</sub></a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Scripts/%5B0%5D-Introduction-to-Scripts.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="32" title="Scripts"/><br><sub>Scripts</sub></a></td>
+<td align="center" width="33%"><a href="./Programming/Specializations/Websites/%5B0%5D-Introduction-to-Website-Development.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="32" title="Websites"/><br><sub>Websites</sub></a></td>
 </tr>
-
 </table>
 </td>
 <td valign="top" width="50%">
+
 <table align="center" width="100%" cellpadding="0" cellspacing="0">
 <tr><th colspan="4" align="center">Tools</th></tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Tools/ArtificialIntelligence/%5B0%5D-Introduction-to-ArtificialIntelligence.md"><img src="https://cdn.simpleicons.org/claudecode" width="24" title="Artificial Intelligence"/><br><sub>Artificial Intelligence</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="24" title="Command"/><br><sub>Command</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction-to-Containers.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24" title="Containers"/><br><sub>Containers</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/Database/%5B0%5D-Introduction-to-Databases.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="24" title="Database"/><br><sub>Database</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/ArtificialIntelligence/%5B0%5D-Introduction-to-ArtificialIntelligence.md"><img src="https://cdn.simpleicons.org/claudecode" width="32" title="Artificial Intelligence"/><br><sub>Artificial Intelligence</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="32" title="Command"/><br><sub>Command</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction-to-Containers.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="32" title="Containers"/><br><sub>Containers</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/Database/%5B0%5D-Introduction-to-Databases.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="32" title="Database"/><br><sub>Database</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Tools/Frameworks/%5B0%5D-Introduction-to-Frameworks.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="24" title="Frameworks"/><br><sub>Frameworks</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/GameEngines/%5B0%5D-Introduction-to-GameEngines.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="24" title="Game Engines"/><br><sub>Game Engines</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction-to-IDE's.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="24" title="IDE"/><br><sub>IDE</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/OperatingSystem/%5B0%5D-Introduction-to-OperatingSystems.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="24" title="Operating System"/><br><sub>Operating System</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/Frameworks/%5B0%5D-Introduction-to-Frameworks.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="32" title="Frameworks"/><br><sub>Frameworks</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/GameEngines/%5B0%5D-Introduction-to-GameEngines.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="32" title="Game Engines"/><br><sub>Game Engines</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction-to-IDE's.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="32" title="IDE"/><br><sub>IDE</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/OperatingSystem/%5B0%5D-Introduction-to-OperatingSystems.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="32" title="Operating System"/><br><sub>Operating System</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="25%"><a href="./Programming/Tools/Packages/%5B0%5D-Introduction-to-Packages.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="24" title="Package"/><br><sub>Packages</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/VersionControl/%5B0%5D-Introduction-to-VersionControl.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24" title="Version Control"/><br><sub>Version Control</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/Packages/%5B0%5D-Introduction-to-Packages.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="32" title="Package"/><br><sub>Packages</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/VersionControl/%5B0%5D-Introduction-to-VersionControl.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="32" title="Version Control"/><br><sub>Version Control</sub></a></td>
 </tr>
 </table>
-
 </td>
 </tr>
 <tr>
 <td colspan="2">
 
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<table align="center" width="100%" cellpadding="0" cellspacing="0">
 <tr><th colspan="5" align="center">Syntax</th></tr>
 <tr>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Assembly/%5B0%5D-Introduction-to-Assembly.md"><img src="https://api.iconify.design/vscode-icons/file-type-assembly.svg" width="40" title="Assembly"/><br>Assembly</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/C/%5B0%5D-Introduction-to-C.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" title="C"/><br>C</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/C%23/%5B0%5D-Introduction-to-C%23.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" title="C#"/><br>C#</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/C++/%5B0%5D-Introduction-to-C++.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++"/><br>C++</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/COBOL/%5B0%5D-Introduction-to-COBOL.md"><img src="https://api.iconify.design/vscode-icons/file-type-cobol.svg" width="40" title="COBOL"/><br>COBOL</a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Assembly/%5B0%5D-Introduction-to-Assembly.md"><img src="https://api.iconify.design/vscode-icons/file-type-assembly.svg" width="32" title="Assembly"/><br><sub>Assembly</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/C/%5B0%5D-Introduction-to-C.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="32" title="C"/><br><sub>C</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/C%23/%5B0%5D-Introduction-to-C%23.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="32" title="C#"/><br><sub>C#</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/C++/%5B0%5D-Introduction-to-C++.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="32" title="C++"/><br><sub>C++</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/COBOL/%5B0%5D-Introduction-to-COBOL.md"><img src="https://api.iconify.design/vscode-icons/file-type-cobol.svg" width="32" title="COBOL"/><br><sub>COBOL</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/CSS/%5B0%5D-Introduction-to-CSS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS"/><br>CSS</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Dart/%5B0%5D-Introduction-to-Dart.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="40" title="Dart"/><br>Dart</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Fortran/%5B0%5D-Introduction-to-Fortran.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fortran/fortran-original.svg" width="40" title="Fortran"/><br>Fortran</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/GDScript/%5B0%5D-Introduction-to-GDScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="40" title="GDScript"/><br>GDScript</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Go/%5B0%5D-Introduction-to-Go.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="40" title="Go"/><br>Go</a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/CSS/%5B0%5D-Introduction-to-CSS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="32" title="CSS"/><br><sub>CSS</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Dart/%5B0%5D-Introduction-to-Dart.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="32" title="Dart"/><br><sub>Dart</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Fortran/%5B0%5D-Introduction-to-Fortran.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fortran/fortran-original.svg" width="32" title="Fortran"/><br><sub>Fortran</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/GDScript/%5B0%5D-Introduction-to-GDScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="32" title="GDScript"/><br><sub>GDScript</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Go/%5B0%5D-Introduction-to-Go.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" width="32" title="Go"/><br><sub>Go</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/HTML/%5B0%5D-Introduction-to-HTML.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML"/><br>HTML</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Java/%5B0%5D-Introduction-to-Java.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" title="Java"/><br>Java</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/JavaScript/%5B0%5D-Introduction-to-JavaScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript"/><br>JavaScript</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Lua/%5B0%5D-Introduction-to-Lua.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" width="40" title="Lua"/><br>Lua</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/PHP/%5B0%5D-Introduction-to-PHP.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" title="PHP"/><br>PHP</a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/HTML/%5B0%5D-Introduction-to-HTML.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="32" title="HTML"/><br><sub>HTML</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Java/%5B0%5D-Introduction-to-Java.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="32" title="Java"/><br><sub>Java</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/JavaScript/%5B0%5D-Introduction-to-JavaScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="32" title="JavaScript"/><br><sub>JavaScript</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Lua/%5B0%5D-Introduction-to-Lua.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" width="32" title="Lua"/><br><sub>Lua</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/PHP/%5B0%5D-Introduction-to-PHP.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="32" title="PHP"/><br><sub>PHP</sub></a></td>
 </tr>
 <tr>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Python/%5B0%5D-Introduction-to-Python.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python"/><br>Python</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Ruby/%5B0%5D-Introduction-to-Ruby.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="40" title="Ruby"/><br>Ruby</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/Rust/%5B0%5D-Introduction-to-Rust.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="40" title="Rust"/><br>Rust</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/SQL/%5B0%5D-Introduction-to-SQL.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="SQL"/><br>SQL</a></td>
-<td align="center" width="20%" height="100"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" title="TypeScript"/><br>TypeScript</a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Python/%5B0%5D-Introduction-to-Python.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="32" title="Python"/><br><sub>Python</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Ruby/%5B0%5D-Introduction-to-Ruby.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" width="32" title="Ruby"/><br><sub>Ruby</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/Rust/%5B0%5D-Introduction-to-Rust.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f980.svg" width="32" title="Rust"/><br><sub>Rust</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/SQL/%5B0%5D-Introduction-to-SQL.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="32" title="SQL"/><br><sub>SQL</sub></a></td>
+<td align="center" width="20%"><a href="./Programming/Syntax/TypeScript/%5B0%5D-Introduction-to-TypeScript.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="32" title="TypeScript"/><br><sub>TypeScript</sub></a></td>
+</tr>
+</table>
+</td>
 </tr>
 </table>
 </td>
