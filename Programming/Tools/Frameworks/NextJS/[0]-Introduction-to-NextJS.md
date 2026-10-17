@@ -1,2 +1,1 @@
-# [0]-Introduction-to-NextJS
-
+[⬅ Go to Frameworks](../[0]-Introduction-to-Frameworks.md) or [⬅ Go to TypeScript](/Programming/Syntax/TypeScript/[0]-Introduction-to-TypeScript.md)
