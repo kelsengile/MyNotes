@@ -104,33 +104,33 @@ This repository is written for educational purposes and is open for anyone to re
 
 <tr>
 
-<td align="center" width="25%"><a href="./Programming/Tools/ArtificialIntelligence/%5B0%5D-Introduction-to-ArtificialIntelligence.md"><img src="https://cdn.simpleicons.org/claudecode" width="28" title="Artificial Intelligence"/><br>Artificial Intelligence</a></td>
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/ArtificialIntelligence/%5B0%5D-Introduction-to-ArtificialIntelligence.md"><img src="https://cdn.simpleicons.org/claudecode" width="28" title="Artificial Intelligence"/><br>Artificial Intelligence</a></td>
 
-<td align="center" width="25%"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="28" title="Command"/><br>Command</a></td>
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/Command/%5B0%5D-Introduction-to-Command.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="28" title="Command"/><br>Command</a></td>
 
-<td align="center" width="25%"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction-to-Containers.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="28" title="Containers"/><br>Containers</a></td>
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/Containers/%5B0%5D-Introduction-to-Containers.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="28" title="Containers"/><br>Containers</a></td>
 
-<td align="center" width="25%"><a href="./Programming/Tools/Database/%5B0%5D-Introduction-to-Databases.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="28" title="Database"/><br>Database</a></td>
-
-</tr>
-
-<tr>
-
-<td align="center" width="25%"><a href="./Programming/Tools/Frameworks/%5B0%5D-Introduction-to-Frameworks.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="28" title="Frameworks"/><br>Frameworks</a></td>
-
-<td align="center" width="25%"><a href="./Programming/Tools/GameEngines/%5B0%5D-Introduction-to-GameEngines.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="28" title="Game Engines"/><br>Game Engines</a></td>
-
-<td align="center" width="25%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction-to-IDE's.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="28" title="IDE"/><br>IDE</a></td>
-
-<td align="center" width="25%"><a href="./Programming/Tools/OperatingSystem/%5B0%5D-Introduction-to-OperatingSystems.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="28" title="Operating System"/><br>Operating System</a></td>
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/Database/%5B0%5D-Introduction-to-Databases.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="28" title="Database"/><br>Database</a></td>
 
 </tr>
 
 <tr>
 
-<td align="center" width="25%"><a href="./Programming/Tools/Packages/%5B0%5D-Introduction-to-Packages.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="28" title="Package"/><br>Packages</a></td>
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/Frameworks/%5B0%5D-Introduction-to-Frameworks.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="28" title="Frameworks"/><br>Frameworks</a></td>
 
-<td align="center" width="25%"><a href="./Programming/Tools/VersionControl/%5B0%5D-Introduction-to-VersionControl.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="28" title="Version Control"/><br>Version Control</a></td>
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/GameEngines/%5B0%5D-Introduction-to-GameEngines.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="28" title="Game Engines"/><br>Game Engines</a></td>
+
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction-to-IDE's.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="28" title="IDE"/><br>IDE</a></td>
+
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/OperatingSystem/%5B0%5D-Introduction-to-OperatingSystems.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="28" title="Operating System"/><br>Operating System</a></td>
+
+</tr>
+
+<tr>
+
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/Packages/%5B0%5D-Introduction-to-Packages.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="28" title="Package"/><br>Packages</a></td>
+
+<td align="center" width="25%" style="padding:0; margin:0;"><a href="./Programming/Tools/VersionControl/%5B0%5D-Introduction-to-VersionControl.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="28" title="Version Control"/><br>Version Control</a></td>
 
 </tr>
 
