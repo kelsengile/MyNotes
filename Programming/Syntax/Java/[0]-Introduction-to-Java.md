@@ -35,7 +35,7 @@ The lessons above introduce the fundamentals of Java, including its syntax, obje
 <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="./SpringBoot/[0]-Introduction-to-SpringBoot.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" title="Spring Boot"/><br>Spring Boot</a></td>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/SpringBoot/[0]-Introduction-to-SpringBoot.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" title="Spring Boot"/><br>Spring Boot</a></td>
 <td align="left" width="75%">A Java framework that simplifies building production-ready, stand-alone applications and microservices, widely used in enterprise environments.</td>
 </tr>
 

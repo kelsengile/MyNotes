@@ -31,7 +31,7 @@ The lessons above introduce the fundamentals of PHP, including its syntax, serve
 <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="./Laravel/[0]-Introduction-to-Laravel.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" title="Laravel"/><br>Laravel</a></td>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Laravel/[0]-Introduction-to-Laravel.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" title="Laravel"/><br>Laravel</a></td>
 <td align="left" width="75%">An expressive PHP framework with elegant syntax, built-in tooling for routing, queues, and authentication, and a large ecosystem for modern web applications.</td>
 </tr>
 

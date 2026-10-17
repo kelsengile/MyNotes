@@ -72,6 +72,11 @@ The lessons above introduce the fundamentals of JavaScript, including its syntax
 <td align="left" width="75%">A framework for building native iOS and Android apps using React and JavaScript, letting web developers reuse their skills on mobile.</td>
 </tr>
 
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Electron/[0]-Introduction-to-Electron.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" width="40" title="Electron"/><br>Electron</a></td>
+<td align="left" width="75%">An open-source framework for building cross-platform desktop apps with JavaScript, HTML, and CSS, powered by Chromium and Node.js.</td>
+</tr>
+
 </table>
 
 ## Table of Contents
