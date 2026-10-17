@@ -25,6 +25,21 @@ TypeScript lets you:
 - Gradually adopt types into existing JavaScript codebases
 - Compile down to clean, compatible JavaScript for any target environment
 
+### Framework Tools:
+
+The lessons above introduce the fundamentals of TypeScript, including its syntax, static typing, interfaces, and type system built on JavaScript. To explore how TypeScript is used to build scalable web applications, maintainable codebases, and full-stack solutions, continue on to:
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./NextJS/[0]-Introduction-to-NextJS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="40" title="NestJS"/><br>NestJS</a></td>
+<td align="left" width="75%">An opinionated, TypeScript-first Node.js framework with a modular architecture inspired by Angular, designed for scalable and maintainable server-side applications.</td>
+</tr>
+
+</table>
+
+
 ## Table of Contents
 
 **Getting Started**  

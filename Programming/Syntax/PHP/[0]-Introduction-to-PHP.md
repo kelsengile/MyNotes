@@ -23,6 +23,20 @@ PHP lets you:
 - Process forms, uploads, and user input securely
 - Build, test, and deploy production-ready web applications
 
+### Framework Tools:
+
+The lessons above introduce the fundamentals of PHP, including its syntax, server-side programming, and interaction with databases. To explore how PHP is used to build dynamic websites, web applications, and backend services, continue on to:
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./Laravel/[0]-Introduction-to-Laravel.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" title="Laravel"/><br>Laravel</a></td>
+<td align="left" width="75%">An expressive PHP framework with elegant syntax, built-in tooling for routing, queues, and authentication, and a large ecosystem for modern web applications.</td>
+</tr>
+
+</table>
+
 ## Table of Contents
 
 **Getting Started**  

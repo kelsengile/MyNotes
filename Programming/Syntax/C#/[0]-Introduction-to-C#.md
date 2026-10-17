@@ -25,6 +25,20 @@ C# lets you:
 - Package, test, and deploy production-ready cloud-native services
 - Interoperate with other languages and native code
 
+### Framework Tools:
+
+The lessons above introduce the fundamentals of C#, including its syntax, core concepts, object-oriented programming, and role in application and game development. To explore how C# is used to build desktop applications, web services, and interactive games, continue on to:
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./ASP.NETCore/[0]-Introduction-to-ASP.NETCore.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" title="ASP.NET Core"/><br>ASP.NET Core</a></td>
+<td align="left" width="75%">Microsoft's cross-platform, high-performance framework for building web apps, APIs, and cloud services with C#.</td>
+</tr>
+
+</table>
+
 ## Table of Contents
 
 **Getting Started**  

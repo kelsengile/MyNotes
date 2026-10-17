@@ -26,6 +26,20 @@ Ruby lets you:
 - Write concurrent programs with threads, fibers, and ractors
 - Test your code thoroughly with Minitest and RSpec
 
+### Framework Tools:
+
+The lessons above introduce the fundamentals of Ruby, including its syntax, object-oriented programming, and dynamic features. To explore how Ruby is used to develop web applications, automate tasks, and build backend services with frameworks such as Ruby on Rails, continue on to:
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./RubyonRails/[0]-Introduction-to-RubyonRails.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" width="40" title="Ruby on Rails"/><br>Ruby on Rails</a></td>
+<td align="left" width="75%">A convention-over-configuration Ruby framework that favors rapid development, known for powering many startups and full-stack web products.</td>
+</tr>
+
+</table>
+
 ## Table of Contents
 
 
