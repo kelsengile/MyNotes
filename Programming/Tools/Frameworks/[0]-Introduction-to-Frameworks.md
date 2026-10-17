@@ -27,6 +27,7 @@ Here's a preview of the main framework families you'll compare in this course:
 | Full-Stack (Meta-Frameworks) | Frontend + server rendering + routing in one | SEO-friendly sites, full web apps | Next.js |
 | Backend (JavaScript) | Servers, APIs, and business logic | REST APIs, real-time services | Node.js, Express, NestJS |
 | Backend (Other Languages) | Servers, APIs, and web apps | Rapid development, enterprise systems | Django, Flask, FastAPI, Spring Boot, Laravel, Ruby on Rails, ASP.NET Core |
+| Styling (CSS) | The look and layout of user interfaces | Fast, consistent, responsive designs without writing much custom CSS | Tailwind CSS |
 | Mobile / Cross-Platform | iOS and Android apps from one codebase | Mobile apps without maintaining two separate codebases | Flutter, React Native |
 
 ### Framework Tools:
@@ -37,87 +38,92 @@ The lessons above introduce the fundamentals of frameworks, application structur
 <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://react.dev/learn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React"/><br>React</a></td>
+<td align="center" width="25%" height="100"><a href="./React/[0]-Introduction-to-React.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React"/><br>React</a></td>
 <td align="left" width="75%">A popular JavaScript library for building user interfaces out of reusable components, widely used for single-page applications and the foundation of many larger frameworks.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://nodejs.org/en/download"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js"/><br>Node.js</a></td>
+<td align="center" width="25%" height="100"><a href="./Node.js/[0]-Introduction-to-Node.js.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js"/><br>Node.js</a></td>
 <td align="left" width="75%">A JavaScript runtime that lets you run JavaScript outside the browser, making it possible to build servers, APIs, command-line tools, and real-time applications with a single language.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://docs.flutter.dev/get-started"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" title="Flutter"/><br>Flutter</a></td>
+<td align="center" width="25%" height="100"><a href="./Flutter/[0]-Introduction-to-Flutter.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" title="Flutter"/><br>Flutter</a></td>
 <td align="left" width="75%">Google's open-source UI framework that uses the Dart language to build natively compiled mobile, web, and desktop applications from a single codebase.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://angular.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" width="40" title="Angular"/><br>Angular</a></td>
+<td align="center" width="25%" height="100"><a href="./Angular/[0]-Introduction-to-Angular.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" width="40" title="Angular"/><br>Angular</a></td>
 <td align="left" width="75%">A full-featured, TypeScript-based frontend framework maintained by Google, offering built-in routing, forms, and dependency injection for large-scale applications.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://vuejs.org/guide/introduction.html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" title="Vue.js"/><br>Vue.js</a></td>
+<td align="center" width="25%" height="100"><a href="./Vue.js/[0]-Introduction-to-Vue.js.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" title="Vue.js"/><br>Vue.js</a></td>
 <td align="left" width="75%">A progressive JavaScript framework known for its gentle learning curve and flexibility, suitable for anything from small widgets to full single-page applications.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://nextjs.org/docs"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" title="Next.js"/><br>Next.js</a></td>
+<td align="center" width="25%" height="100"><a href="./Next.js/[0]-Introduction-to-Next.js.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" title="Next.js"/><br>Next.js</a></td>
 <td align="left" width="75%">A React-based full-stack framework that adds file-based routing, server-side rendering, and API routes, commonly used for SEO-friendly and production-grade web apps.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://expressjs.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express"/><br>Express</a></td>
+<td align="center" width="25%" height="100"><a href="./Express/[0]-Introduction-to-Express.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express"/><br>Express</a></td>
 <td align="left" width="75%">A minimal and flexible Node.js web framework for building REST APIs and web servers, and the foundation for much of the Node.js ecosystem.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://nestjs.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="40" title="NestJS"/><br>NestJS</a></td>
+<td align="center" width="25%" height="100"><a href="./NextJS/[0]-Introduction-to-NextJS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="40" title="NestJS"/><br>NestJS</a></td>
 <td align="left" width="75%">An opinionated, TypeScript-first Node.js framework with a modular architecture inspired by Angular, designed for scalable and maintainable server-side applications.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://svelte.dev/docs"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="40" title="Svelte"/><br>Svelte</a></td>
+<td align="center" width="25%" height="100"><a href="./Svelte/[0]-Introduction-to-Svelte.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="40" title="Svelte"/><br>Svelte</a></td>
 <td align="left" width="75%">A frontend framework that compiles components into small, fast vanilla JavaScript at build time, resulting in less code and no heavy runtime in the browser.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://reactnative.dev/docs/getting-started"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React Native"/><br>React Native</a></td>
+<td align="center" width="25%" height="100"><a href="./TailwindCSS/[0]-Introduction-to-TailwindCSS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" title="Tailwind CSS"/><br>Tailwind CSS</a></td>
+<td align="left" width="75%">A utility-first CSS framework that provides small, single-purpose classes you combine directly in your markup to build custom designs quickly, and pairs well with React, Next.js, Vue, and Svelte.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./ReactNative/[0]-Introduction-to-ReactNative.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React Native"/><br>React Native</a></td>
 <td align="left" width="75%">A framework for building native iOS and Android apps using React and JavaScript, letting web developers reuse their skills on mobile.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://docs.djangoproject.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" title="Django"/><br>Django</a></td>
+<td align="center" width="25%" height="100"><a href="./Django/[0]-Introduction-to-Django.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" title="Django"/><br>Django</a></td>
 <td align="left" width="75%">A "batteries-included" Python web framework with a built-in ORM, admin panel, and authentication, designed for rapid development of secure, maintainable websites.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://flask.palletsprojects.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" title="Flask"/><br>Flask</a></td>
+<td align="center" width="25%" height="100"><a href="./Flask/[0]-Introduction-to-Flask.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" title="Flask"/><br>Flask</a></td>
 <td align="left" width="75%">A lightweight Python micro-framework that gives you the essentials for web apps and APIs and lets you add only the extensions you need.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://fastapi.tiangolo.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" title="FastAPI"/><br>FastAPI</a></td>
+<td align="center" width="25%" height="100"><a href="./FastAPI/[0]-Introduction-to-FastAPI.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" title="FastAPI"/><br>FastAPI</a></td>
 <td align="left" width="75%">A modern, high-performance Python framework for building APIs, using type hints to provide automatic validation and interactive documentation.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://spring.io/projects/spring-boot"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" title="Spring Boot"/><br>Spring Boot</a></td>
+<td align="center" width="25%" height="100"><a href="./SpringBoot/[0]-Introduction-to-SpringBoot.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" title="Spring Boot"/><br>Spring Boot</a></td>
 <td align="left" width="75%">A Java framework that simplifies building production-ready, stand-alone applications and microservices, widely used in enterprise environments.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://laravel.com/docs"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" title="Laravel"/><br>Laravel</a></td>
+<td align="center" width="25%" height="100"><a href="./Laravel/[0]-Introduction-to-Laravel.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" title="Laravel"/><br>Laravel</a></td>
 <td align="left" width="75%">An expressive PHP framework with elegant syntax, built-in tooling for routing, queues, and authentication, and a large ecosystem for modern web applications.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://guides.rubyonrails.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" width="40" title="Ruby on Rails"/><br>Ruby on Rails</a></td>
+<td align="center" width="25%" height="100"><a href="./RubyonRails/[0]-Introduction-to-RubyonRails.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" width="40" title="Ruby on Rails"/><br>Ruby on Rails</a></td>
 <td align="left" width="75%">A convention-over-configuration Ruby framework that favors rapid development, known for powering many startups and full-stack web products.</td>
 </tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="https://dotnet.microsoft.com/en-us/apps/aspnet"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" title="ASP.NET Core"/><br>ASP.NET Core</a></td>
+<td align="center" width="25%" height="100"><a href="./ASP.NETCore/[0]-Introduction-to-ASP.NETCore.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" title="ASP.NET Core"/><br>ASP.NET Core</a></td>
 <td align="left" width="75%">Microsoft's cross-platform, high-performance framework for building web apps, APIs, and cloud services with C#.</td>
 </tr>
 
