@@ -106,6 +106,7 @@ Every lesson file (excluding introduction files) must include navigation links a
 ```
 
 - **Introduction files** are exempt — their Table of Contents section serves as navigation.
+- **THe first file in a Topic** omits `Previous`, keeping only  `Table of Contents` and `Next`.
 - **The last file in a Topic** omits `Next`, keeping only `Previous` and `Table of Contents`.
 - Links must always point to the correct, currently-valid files — double check these after any renumbering.
 
