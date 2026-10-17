@@ -26,6 +26,30 @@ Python lets you:
 - Build GUIs, test and package software, and optimize performance
 - Build and deploy production-ready, cloud-native software
 
+### Framework Tools:
+
+The lessons above introduce the fundamentals of Python, including its syntax, core data structures, functions, and object-oriented programming. To explore how Python is used in web development, automation, data analysis, artificial intelligence, and application development, continue on to:
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./Django/[0]-Introduction-to-Django.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" title="Django"/><br>Django</a></td>
+<td align="left" width="75%">A "batteries-included" Python web framework with a built-in ORM, admin panel, and authentication, designed for rapid development of secure, maintainable websites.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./Flask/[0]-Introduction-to-Flask.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" title="Flask"/><br>Flask</a></td>
+<td align="left" width="75%">A lightweight Python micro-framework that gives you the essentials for web apps and APIs and lets you add only the extensions you need.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="./FastAPI/[0]-Introduction-to-FastAPI.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="40" title="FastAPI"/><br>FastAPI</a></td>
+<td align="left" width="75%">A modern, high-performance Python framework for building APIs, using type hints to provide automatic validation and interactive documentation.</td>
+</tr>
+
+</table>
+
 ## Table of Contents
 
 **Getting Started**  

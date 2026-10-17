@@ -25,6 +25,55 @@ JavaScript lets you:
 - Communicate over networks with WebSockets, HTTP, and messaging systems
 - Test, bundle, optimize, and deploy production-ready web applications
 
+### Framework Tools:
+
+The lessons above introduce the fundamentals of JavaScript, including its syntax, core concepts, and role in web development and application programming. To explore how JavaScript is used to build interactive websites, dynamic applications, and full-stack solutions, continue on to:
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;table-layout:fixed;">
+<tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/React/[0]-Introduction-to-React.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React"/><br>React</a></td>
+<td align="left" width="75%">A popular JavaScript library for building user interfaces out of reusable components, widely used for single-page applications and the foundation of many larger frameworks.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Node.js/[0]-Introduction-to-Node.js.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js"/><br>Node.js</a></td>
+<td align="left" width="75%">A JavaScript runtime that lets you run JavaScript outside the browser, making it possible to build servers, APIs, command-line tools, and real-time applications with a single language.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Angular/[0]-Introduction-to-Angular.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" width="40" title="Angular"/><br>Angular</a></td>
+<td align="left" width="75%">A full-featured, TypeScript-based frontend framework maintained by Google, offering built-in routing, forms, and dependency injection for large-scale applications.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Vue.js/[0]-Introduction-to-Vue.js.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" title="Vue.js"/><br>Vue.js</a></td>
+<td align="left" width="75%">A progressive JavaScript framework known for its gentle learning curve and flexibility, suitable for anything from small widgets to full single-page applications.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Next.js/[0]-Introduction-to-Next.js.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" title="Next.js"/><br>Next.js</a></td>
+<td align="left" width="75%">A React-based full-stack framework that adds file-based routing, server-side rendering, and API routes, commonly used for SEO-friendly and production-grade web apps.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Express/[0]-Introduction-to-Express.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express"/><br>Express</a></td>
+<td align="left" width="75%">A minimal and flexible Node.js web framework for building REST APIs and web servers, and the foundation for much of the Node.js ecosystem.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/Svelte/[0]-Introduction-to-Svelte.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="40" title="Svelte"/><br>Svelte</a></td>
+<td align="left" width="75%">A frontend framework that compiles components into small, fast vanilla JavaScript at build time, resulting in less code and no heavy runtime in the browser.</td>
+</tr>
+
+<tr>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/ReactNative/[0]-Introduction-to-ReactNative.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React Native"/><br>React Native</a></td>
+<td align="left" width="75%">A framework for building native iOS and Android apps using React and JavaScript, letting web developers reuse their skills on mobile.</td>
+</tr>
+
+</table>
+
 ## Table of Contents
 
 **Getting Started**  
