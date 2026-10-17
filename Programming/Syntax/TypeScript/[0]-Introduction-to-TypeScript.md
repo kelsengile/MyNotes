@@ -33,7 +33,7 @@ The lessons above introduce the fundamentals of TypeScript, including its syntax
 <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="./NextJS/[0]-Introduction-to-NextJS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="40" title="NestJS"/><br>NestJS</a></td>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/NextJS/[0]-Introduction-to-NextJS.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="40" title="NestJS"/><br>NestJS</a></td>
 <td align="left" width="75%">An opinionated, TypeScript-first Node.js framework with a modular architecture inspired by Angular, designed for scalable and maintainable server-side applications.</td>
 </tr>
 

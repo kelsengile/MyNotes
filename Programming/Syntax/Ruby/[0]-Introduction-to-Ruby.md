@@ -34,7 +34,7 @@ The lessons above introduce the fundamentals of Ruby, including its syntax, obje
 <tr><th align="center" width="25%">Tool</th><th align="center" width="75%">Description</th></tr>
 
 <tr>
-<td align="center" width="25%" height="100"><a href="./RubyonRails/[0]-Introduction-to-RubyonRails.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" width="40" title="Ruby on Rails"/><br>Ruby on Rails</a></td>
+<td align="center" width="25%" height="100"><a href="/Programming/Tools/Frameworks/RubyonRails/[0]-Introduction-to-RubyonRails.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" width="40" title="Ruby on Rails"/><br>Ruby on Rails</a></td>
 <td align="left" width="75%">A convention-over-configuration Ruby framework that favors rapid development, known for powering many startups and full-stack web products.</td>
 </tr>
 
