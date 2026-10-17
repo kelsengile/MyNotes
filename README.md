@@ -7,23 +7,17 @@ This repository is written for educational purposes and is open for anyone to re
 ---
 
 
-<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
-
-<tr><th colspan="1" align="center">Fundamentals</th></tr>
+<table align="center" width="100%">
 
 <tr>
+<th align="center">Fundamentals</th>
+</tr>
 
-<td align="center" width="100%">
-
-<a href="./Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="28" title="Fundamentals"/>
-<sub>Introduction</sub></a>
-</td>
-
+<tr>
+<td align="center"><a href="./Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="28" title="Fundamentals" alt="Fundamentals"><br>Introduction</a></td>
 </tr>
 
 </table>
-
-
 
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
