@@ -1,6 +1,8 @@
 <br><br>
 <p align="center">
-  <img src="title.png" alt="MyNotes" height="70">
+  <a href="https://github.com/kelsengile/MyNotes">
+    <img src="title.png" alt="MyNotes" height="70">
+  </a>
 </p>
 
 <p align="center">
