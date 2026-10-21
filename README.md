@@ -2,7 +2,9 @@
   <img src="Assets/Images/spongebob.png" width="250" style="display: block; margin: 0;"/>
 </div>
 
-<h1 align="center" style="font-size: 40px;">MyNotes</h1>
+<p align="center">
+  <img src="Assets/Images/title.png" alt="MyNotes" height="70">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Markdown-111111?style=flat-square&logo=markdown&logoColor=FFFFFF" alt="Markdown">
