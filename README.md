@@ -1,4 +1,4 @@
-<br><br><br>
+<br><br>
 <p align="center">
   <img src="title.png" alt="MyNotes" height="70">
 </p>
