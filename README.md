@@ -1,5 +1,6 @@
+<br><br><br>
 <p align="center">
-  <img src="Assets/Images/title.png" alt="MyNotes" height="70">
+  <img src="title.png" alt="MyNotes" height="70">
 </p>
 
 <p align="center">
