@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="spongebob.png" width="250" style="display: block; margin: 0;"/>
+  <img src="assets/images/spongebob.png" width="250" style="display: block; margin: 0;"/>
 </div>
 
 <h1 align="center" style="font-size: 40px;">MyNotes</h1>
