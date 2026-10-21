@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="Assets/Images/spongebob.png" width="250" style="display: block; margin: 0;"/>
-</div>
-
 <p align="center">
   <img src="Assets/Images/title.png" alt="MyNotes" height="70">
 </p>
