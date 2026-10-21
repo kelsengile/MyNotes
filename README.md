@@ -1,4 +1,4 @@
-<br><br>
+<br>
 <p align="center">
   <a href="https://github.com/kelsengile/MyNotes">
     <img src="title.png" alt="MyNotes" height="70">
