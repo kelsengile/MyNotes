@@ -1,88 +1,50 @@
-# Security Policy
+# Laboratory 9: Building a Basic XAMPP Web Server with a Browser Input Form
 
-MyNotes is a collection of Markdown lessons, notes, and exercise files for educational purposes. It is not a deployed application and does not collect user data, but security still matters here: lessons should teach safe practices, and the repository should never contain harmful code or exposed secrets.
+**All code in one file** · Original concept: *Gadget Inventory*
 
----
-
-### Supported Versions
-
-This repository has no versioned releases. Security fixes are applied to the current `main` branch.
-
-### Scope
-
-Please report issues such as:
-- **Exposed secrets** — API keys, passwords, tokens, or private credentials committed in lessons, exercises, or history
-- **Malicious or unsafe code** — Exercise files or snippets that run harmful commands, hide payloads, or could damage a learner's system when executed
-- **Dangerous links** — Links in lessons, the README, or RESOURCES.md that point to malware, phishing pages, or compromised sites
-- **Insecure teaching** — Lessons that present insecure practices (for example, hard-coded credentials or SQL built from raw user input) as recommended or correct
-- **Personal information** — Private data about any individual included in the repository
-- **Compromised external assets** — Image or icon sources used in the README that have been taken over or altered
-
-Ordinary mistakes such as typos, broken links, or incorrect explanations are not security issues and should be reported through a regular GitHub issue.
-
-### Reporting a Vulnerability
-
-For anything sensitive, such as an exposed credential or personal information, **please do not open a public issue**. Instead:
-
-- Use GitHub's **private vulnerability reporting** under the repository's *Security* tab, if enabled, or
-- Email the maintainer at **[kelsengile.dev@gmail.com]**
-
-Please include:
-- A description of the problem and where it is located (file and line, if possible)
-- Why it is a concern
-- Any suggested fix
-
-For low-risk concerns, such as an insecure example in a lesson, a public issue or pull request is fine.
-
-### What to Expect
-
-1. **Acknowledgment** — Reports are acknowledged within a few days.
-2. **Assessment** — The issue is reviewed to confirm its scope and severity.
-3. **Resolution** — The content is corrected or removed. Exposed credentials should also be revoked or rotated by their owner.
-4. **Credit** — You will be credited for the report if you wish.
-
-### Guidelines for Contributors
-
-- Never commit secrets, API keys, tokens, or real personal data. Use clearly fake placeholder values in examples.
-- Test code snippets and exercise files before submitting, and make sure they do nothing harmful.
-- Lessons on security topics (such as those in `Cybersecurity`) must stay educational and defensive in focus. Do not submit working malware or step-by-step guides for attacking systems you do not own.
-- Cite and verify external links, and prefer reputable sources.
-- If you accidentally commit a secret, report it right away so it can be removed and revoked. Deleting it in a later commit is not enough, because it remains in the Git history.
-
-### Responsible Disclosure
-
-Please allow reasonable time for a fix before sharing a problem publicly, and act in good faith. Researchers who follow this policy will not face action from the maintainer.
+> Your instructor said the sample is a guide only, so this uses its own concept (gadget inventory) with the same structure and safety practices.
 
 ---
 
-*Thanks for helping keep this resource safe and trustworthy.*
+## Contents
 
+1. [Setup notes](#setup-notes)
+2. [Part B: Database (SQL)](#part-b-database-sql)
+3. [Problem 2: `test.php`](#problem-2-testphp)
+4. [Problem 4: `config.php`](#problem-4-configphp)
+5. [Problem 5: `form.php`](#problem-5-formphp)
+6. [Problem 6: `save.php`](#problem-6-savephp)
+7. [Problem 7: `records.php`](#problem-7-recordsphp)
+8. [Problem 8: Test inputs](#problem-8-test-inputs)
+9. [Answers to the explain tasks](#answers-to-the-explain-tasks)
+10. [Run order](#run-order)
 
+---
 
-==========================================================================
-LABORATORY 9 - BUILDING A BASIC XAMPP WEB SERVER WITH A BROWSER INPUT FORM
-ALL CODE IN ONE FILE  (original concept: "Gadget Inventory")
-==========================================================================
-Your instructor said the sample is a guide only, so this uses its own
-concept (gadget inventory) with the same structure and safety practices.
+## Setup notes
 
-FOLDER:  C:\xampp\htdocs\lab_xampp\
-FILES:   test.php, config.php, form.php, save.php, records.php
-Save each file with the exact name shown, using a code editor
-(VS Code / Notepad++), NOT MS Word (curly quotes break PHP).
+**Project folder:** `C:\xampp\htdocs\lab_xampp\`
 
-NOTE: Default MySQL port in XAMPP is 3306. The sample used 3307 - only
-use 3307 if your own MySQL is really running on that port (check the
-XAMPP Control Panel). Also the sample's index.php required "db.php" but
-the connection file was named config.php - here every page uses
-config.php so the names match.
+| File | Purpose |
+|---|---|
+| `test.php` | Confirms PHP is working |
+| `config.php` | Database connection (reused by other pages) |
+| `form.php` | Browser input form |
+| `save.php` | Validates and saves form data |
+| `records.php` | Displays saved records |
 
+- Use a **code editor** (VS Code / Notepad++), **not MS Word**. Word replaces quotes with curly quotes that break PHP.
+- Save each file with the **exact name** shown.
+- The default MySQL port in XAMPP is **3306**. The sample used 3307; only use 3307 if your MySQL really runs on that port (check the XAMPP Control Panel).
+- The sample's `index.php` loaded `db.php` while the connection file was named `config.php`. Here every page uses `config.php` so the names match.
 
-##########################################################################
-PART B - DATABASE  (phpMyAdmin > SQL tab > paste > Go)
-http://localhost/phpmyadmin/
-##########################################################################
+---
 
+## Part B: Database (SQL)
+
+Open `http://localhost/phpmyadmin/`, click the **SQL** tab, paste the code, then click **Go**.
+
+```sql
 -- GADGET INVENTORY LAB
 CREATE DATABASE IF NOT EXISTS gadget_inventory_lab
   CHARACTER SET utf8mb4
@@ -107,25 +69,29 @@ INSERT INTO gadgets (gadget_name, category, quantity, price) VALUES
 
 -- Verify the records
 SELECT * FROM gadgets;
+```
 
+---
 
-##########################################################################
-PROBLEM 2 - TEST PHP
-File: lab_xampp/test.php
-URL:  http://localhost/lab_xampp/test.php
-##########################################################################
+## Problem 2: `test.php`
 
+**File:** `lab_xampp/test.php`
+**URL:** `http://localhost/lab_xampp/test.php`
+
+```php
 <?php
 echo "<h1>My XAMPP server is working!</h1>";
 echo "<p>Server time: " . date("Y-m-d H:i:s") . "</p>";
 echo "<p>PHP version: " . phpversion() . "</p>";
+```
 
+---
 
-##########################################################################
-PROBLEM 4 - DATABASE CONNECTION FILE
-File: lab_xampp/config.php
-##########################################################################
+## Problem 4: `config.php`
 
+**File:** `lab_xampp/config.php`
+
+```php
 <?php
 // Database connection for local XAMPP practice.
 $host     = '127.0.0.1';
@@ -151,14 +117,16 @@ try {
     exit('Database connection failed. Check that MySQL is running '
        . 'and that config.php contains the correct settings.');
 }
+```
 
+---
 
-##########################################################################
-PROBLEM 5 - THE INPUT FORM
-File: lab_xampp/form.php
-URL:  http://localhost/lab_xampp/form.php
-##########################################################################
+## Problem 5: `form.php`
 
+**File:** `lab_xampp/form.php`
+**URL:** `http://localhost/lab_xampp/form.php`
+
+```php
 <?php
 // Fixed messages only (never echo raw text from the URL).
 $messages = [
@@ -208,13 +176,17 @@ $error = $messages[$_GET['error'] ?? ''] ?? '';
     <p><a href="records.php">View all records</a></p>
 </body>
 </html>
+```
 
+---
 
-##########################################################################
-PROBLEM 6 - SAVE THE FORM DATA (validation + prepared statement)
-File: lab_xampp/save.php
-##########################################################################
+## Problem 6: `save.php`
 
+**File:** `lab_xampp/save.php`
+
+Validation plus a prepared statement.
+
+```php
 <?php
 require 'config.php';
 
@@ -254,14 +226,16 @@ try {
 
 header('Location: records.php?saved=1');
 exit;
+```
 
+---
 
-##########################################################################
-PROBLEM 7 - DISPLAY THE RECORDS
-File: lab_xampp/records.php
-URL:  http://localhost/lab_xampp/records.php
-##########################################################################
+## Problem 7: `records.php`
 
+**File:** `lab_xampp/records.php`
+**URL:** `http://localhost/lab_xampp/records.php`
+
+```php
 <?php
 require 'config.php';
 
@@ -311,48 +285,49 @@ $gadgets = $pdo->query(
     </table>
 </body>
 </html>
+```
 
+---
 
-##########################################################################
-PROBLEM 8 - TEST INPUTS (type these into form.php)
-##########################################################################
+## Problem 8: Test inputs
 
-Record 1:  Bluetooth Speaker | Audio | 15 | 1250.00
-Record 2:  Webcam 1080p      | Peripherals | 8 | 980.50
-Record 3:  Power Bank 10000  | Power | 20 | 699.00
+Type these into `form.php`:
 
-Harmful-input test (should display as plain text, NOT run):
-  Gadget Name:  <script>alert('XSS')</script>
-  Category:     Test'); DROP TABLE gadgets;--
-  -> The page must show the text as-is, and the table must still exist.
+| # | Gadget Name | Category | Quantity | Price |
+|---|---|---|---|---|
+| 1 | Bluetooth Speaker | Audio | 15 | 1250.00 |
+| 2 | Webcam 1080p | Peripherals | 8 | 980.50 |
+| 3 | Power Bank 10000 | Power | 20 | 699.00 |
 
+**Harmful-input test.** It should display as plain text and **not** run:
 
-##########################################################################
-ANSWERS TO THE EXPLAIN TASKS (put in your own words)
-##########################################################################
+- **Gadget Name:** `<script>alert('XSS')</script>`
+- **Category:** `Test'); DROP TABLE gadgets;--`
 
-Problem 2 (why does the time change?):
-  PHP runs on the server every time the page is requested, and
-  date() returns the current time, so each refresh generates new output
-  even though the file was not edited.
+The page must show the text as-is, and the `gadgets` table must still exist.
 
-Problem 4 (why one config.php with require?):
-  The connection settings are written once, so a change (password, port,
-  database name) is made in one place instead of every page. It also
-  reduces typing mistakes and keeps pages shorter and consistent.
+---
 
-Problem 7 (safe display function):
-  htmlspecialchars() converts characters like < > " ' & into HTML
-  entities so they show as text instead of running as code. It helps
-  prevent Cross-Site Scripting (XSS) attacks.
-  (Prepared statements, used in save.php, prevent SQL injection.)
+## Answers to the explain tasks
 
-##########################################################################
-RUN ORDER
-##########################################################################
-1. Start Apache and MySQL in XAMPP Control Panel.
+*(Put these in your own words.)*
+
+**Problem 2: Why does the time change?**
+PHP runs on the server every time the page is requested, and `date()` returns the current time, so each refresh generates new output even though the file was not edited.
+
+**Problem 4: Why one `config.php` loaded with `require`?**
+The connection settings are written once, so a change (password, port, database name) is made in one place instead of every page. It also reduces typing mistakes and keeps pages shorter and consistent.
+
+**Problem 7: Which function displays values safely?**
+`htmlspecialchars()` converts characters like `<`, `>`, `"`, `'` and `&` into HTML entities so they show as text instead of running as code. It helps prevent **Cross-Site Scripting (XSS)** attacks. (Prepared statements, used in `save.php`, prevent **SQL injection**.)
+
+---
+
+## Run order
+
+1. Start **Apache** and **MySQL** in the XAMPP Control Panel.
 2. Run the SQL in phpMyAdmin.
-3. Create the 5 files in C:\xampp\htdocs\lab_xampp\
-4. Open http://localhost/lab_xampp/test.php
-5. Open http://localhost/lab_xampp/form.php, add 3 records
-6. Open http://localhost/lab_xampp/records.php to see them
+3. Create the 5 files in `C:\xampp\htdocs\lab_xampp\`.
+4. Open `http://localhost/lab_xampp/test.php`.
+5. Open `http://localhost/lab_xampp/form.php` and add 3 records.
+6. Open `http://localhost/lab_xampp/records.php` to see them.
