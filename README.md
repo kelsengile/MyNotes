@@ -30,18 +30,16 @@ This repository is written for educational purposes and is open for anyone to re
 
 ---
 
-
 <table align="center" width="100%">
 <tr>
 <th align="center">Fundamentals</th>
 </tr>
 <tr>
 
-<td align="center"><a href="./Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="28" title="Fundamentals" alt="Fundamentals"><br><sub>Introduction</sub></a></td>
+<td align="center"><a href="./Fundamentals/%5B0%5D-Introduction.md"><img src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d6.svg" width="28" title="Fundamentals" alt="Fundamentals"/><br><sub>Introduction</sub></a></td>
 
 </tr>
 </table>
-
 
 <table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
 <tr><th colspan="4" align="center">Mathematics</th></tr>
@@ -60,6 +58,7 @@ This repository is written for educational purposes and is open for anyone to re
 </tr>
 
 </table>
+
 <table align="center" width="100%" cellpadding="0" cellspacing="0">
 <tr><th colspan="2" align="center">Programming</th></tr>
 
@@ -156,7 +155,24 @@ This repository is written for educational purposes and is open for anyone to re
 </td>
 </tr>
 </table>
-</td>
+
+<table align="center" width="100%" style="margin-left:auto;margin-right:auto;">
+<tr><th colspan="4" align="center">Creative</th></tr>
+
+<tr>
+<td align="center" width="25%"><a href="Creative/2D Graphics/Introduction-to-2DGraphics.md"><img src="https://cdn.simpleicons.org/inkscape" width="28" height="28" title="2D Graphics"/><br><sub>2D Graphics</sub></a></td>
+<td align="center" width="25%"><a href="Creative/3D Modeling/[0]-Introduction-to-3DGraphics.md"><img src="https://cdn.simpleicons.org/blender" width="28" height="28" title="3D Modeling"/><br><sub>3D Modeling</sub></a></td>
+<td align="center" width="25%"><a href="Creative/Interfaces/[0]-Introduction-to-Interfaces.md"><img src="https://cdn.simpleicons.org/figma" width="28" height="28" title="Interface Design"/><br><sub>Interface</sub></a></td>
+<td align="center" width="25%"><a href="Creative/Motion Graphics/[0]-Introduction-to-MotionGraphics.md"><img src="https://cdn.simpleicons.org/lottiefiles" width="28" height="28" title="Motion Graphics"/><br><sub>Motion Graphics</sub></a></td>
+</tr>
+
+<tr>
+<td align="center" width="25%"><a href="Creative/Siulation/[0]-Introduction-to-Simulations.md"><img src="https://cdn.simpleicons.org/houdini" width="28" height="28" title="Simulation"/><br><sub>Simulation</sub></a></td>
+<td align="center" width="25%"><a href="Creative/Sound Production/[0]-Introduction-to-SoundProduction.md"><img src="https://cdn.simpleicons.org/audacity" width="28" height="28" title="Sound Production"/><br><sub>Sound Production</sub></a></td>
+<td align="center" width="25%"><a href="Creative/Video Production/[0]-Introduction-to-VideoProduction.md"><img src="https://cdn.simpleicons.org/davinciresolve" width="28" height="28" title="Video Production"/><br><sub>Video Production</sub></a></td>
+</tr>
+</table>
+
 </tr>
 </table>
 
