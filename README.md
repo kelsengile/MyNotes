@@ -160,8 +160,8 @@ This repository is written for educational purposes and is open for anyone to re
 <tr><th colspan="4" align="center">Creative</th></tr>
 
 <tr>
-<td align="center" width="25%"><a href="Creative/2D Graphics/Introduction-to-2DGraphics.md"><img src="https://cdn.simpleicons.org/inkscape" width="28" height="28" title="2D Graphics"/><br><sub>2D Graphics</sub></a></td>
-<td align="center" width="25%"><a href="Creative/3D Modeling/[0]-Introduction-to-3DGraphics.md"><img src="https://cdn.simpleicons.org/blender" width="28" height="28" title="3D Modeling"/><br><sub>3D Modeling</sub></a></td>
+<td align="center" width="25%"><a href="Creative/2D Graphics/[0]-Introduction-to-2DGraphics.md"><img src="https://cdn.simpleicons.org/inkscape" width="28" height="28" title="2D Graphics"/><br><sub>2D Graphics</sub></a></td>
+<td align="center" width="25%"><a href="Creative/3D Modeling/[0]-Introduction-to-3DModeling.md"><img src="https://cdn.simpleicons.org/blender" width="28" height="28" title="3D Modeling"/><br><sub>3D Modeling</sub></a></td>
 <td align="center" width="25%"><a href="Creative/Interfaces/[0]-Introduction-to-Interfaces.md"><img src="https://cdn.simpleicons.org/figma" width="28" height="28" title="Interface Design"/><br><sub>Interface</sub></a></td>
 <td align="center" width="25%"><a href="Creative/Motion Graphics/[0]-Introduction-to-MotionGraphics.md"><img src="https://cdn.simpleicons.org/lottiefiles" width="28" height="28" title="Motion Graphics"/><br><sub>Motion Graphics</sub></a></td>
 </tr>
