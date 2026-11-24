@@ -101,7 +101,7 @@ This repository is written for educational purposes and is open for anyone to re
 
 <tr>
 <td align="center" width="25%"><a href="./Programming/Tools/Frameworks/%5B0%5D-Introduction-to-Frameworks.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="28" title="Frameworks"/><br><sub>Frameworks</sub></a></td>
-<td align="center" width="25%"><a href="./Programming/Tools/GameEngines/%5B0%5D-Introduction-to-GameEngines.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="28" title="Game Engines"/><br><sub>Game Engines</sub></a></td>
+<td align="center" width="25%"><a href="./Programming/Tools/GameEngines/%5B0%5D-Introduction-to-GameEngines.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" width="28" title="Game Engines"/><br><sub>Game Engines</sub></a></td>
 <td align="center" width="25%"><a href="./Programming/Tools/IDE/%5B0%5D-Introduction-to-IDE's.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="28" title="IDE"/><br><sub>IDE</sub></a></td>
 <td align="center" width="25%"><a href="./Programming/Tools/OperatingSystem/%5B0%5D-Introduction-to-OperatingSystems.md"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="28" title="Operating System"/><br><sub>Operating System</sub></a></td>
 </tr>
